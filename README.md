@@ -6,7 +6,7 @@
 
 | 模块 | 内容 |
 | --- | --- |
-| 图标包 | 深海 v0.40、浅海 v0.38。覆盖 1,041 个应用包、2,841 个启动入口。[图标预览](<coloros-findn-v01/Find N 图标预览.html>) |
+| 图标包 | 深海 v0.40、浅海 v0.38。覆盖 1,041 个应用包、2,841 个启动入口。[图标在线预览](icon-gallery/README.md) |
 | 时钟组件 | v0.8.6，含深海动态全宽、静态全宽和 2×2，可读取原生天气。[时钟组件](<coloros-findn-v01/壁纸与组件-v02/README.md>) |
 | 锁屏视频 | 外屏 1440 × 2560、内屏 1440 × 1344，均为静音 MP4。[锁屏视频与构建](<coloros-findn-v01/锁屏视频-v01/README.md>) |
 | 壁纸 | 深海蓝釉 v04，包含内外屏桌面 PNG。[壁纸](<coloros-findn-v01/深海桌面-v04/README.md>) |
@@ -15,6 +15,12 @@
 | 控制中心图标 | 深海 SVG 图稿，以及适用已验收 Find N 固件的 Root 覆盖模块源码。[图稿](<coloros-findn-v01/控制中心/深海图稿-v01/README.md>) · [覆盖包](<coloros-findn-v01/控制中心/覆盖包-v01/README.md>) |
 
 ![Find N 外屏动态锁屏与深海桌面](<coloros-findn-v01/锁屏视频-v01/验收/外屏新版-锁屏与解锁.png>)
+
+## 图标在线预览
+
+[![深海蓝釉常用应用图标](icon-gallery/daily-01.png)](icon-gallery/README.md)
+
+[查看全部 1,041 款应用图标](icon-gallery/README.md)
 
 ## 构建图标包
 
