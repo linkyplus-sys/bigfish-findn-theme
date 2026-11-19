@@ -14,6 +14,22 @@
 | 输入法 | 百度输入法定制版 V2.2 玻璃键帽、浪纹和原创按键音的本机复现流程。[输入法](<coloros-findn-v01/输入法深海-v01/README.md>) |
 | 控制中心图标 | 深海 SVG 图稿，以及适用已验收 Find N 固件的 Root 覆盖模块源码。[图稿](<coloros-findn-v01/控制中心/深海图稿-v01/README.md>) · [覆盖包](<coloros-findn-v01/控制中心/覆盖包-v01/README.md>) |
 
+## 直接安装图标包
+
+只想更换桌面图标，下载任意一个 APK，安装后在 ColorOS 桌面应用即可。这个流程无需 Root、ADB 或其他主题模块。
+
+| 版本 | 下载 |
+| --- | --- |
+| 深海蓝釉 v0.40 | [下载深海 APK](https://github.com/linkyplus-sys/bigfish-findn-theme/releases/download/findn-icons-v0.40/bigfish-findn-deep-v0.40.apk) |
+| 浅海 v0.38 | [下载浅海 APK](https://github.com/linkyplus-sys/bigfish-findn-theme/releases/download/findn-icons-v0.40/bigfish-findn-shallow-v0.38.apk) |
+
+1. 在手机上打开下载的 APK 并安装。两套可以同时安装，桌面一次应用一套。
+2. 长按桌面空白处，进入「图标」，选择「大肥鱼深海」或「大肥鱼浅海」并应用。
+
+国行 OPPO Find N 的 ColorOS 14 原生桌面已实测。其他 OPPO 机型或 ColorOS 版本需支持选择第三方图标包。若能选中图标包，但部分应用仍显示原图标，先核对该应用的**包名和启动 Activity**。不同机型、系统版本或应用版本可能需要更新对应映射，再重新构建。常用应用的映射在 [入口映射.json](<coloros-findn-v01/入口映射.json>)，扩容应用的映射在 [扩容目录](<coloros-findn-v01/扩容/>)。
+
+[Release 与文件校验值](https://github.com/linkyplus-sys/bigfish-findn-theme/releases/tag/findn-icons-v0.40)
+
 ![Find N 外屏动态锁屏与深海桌面](<coloros-findn-v01/锁屏视频-v01/验收/外屏新版-锁屏与解锁.png>)
 
 ## 图标在线预览
