@@ -1,0 +1,1359 @@
+{
+  "name": "1,040 款扩容 · 第二批 · 游戏",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "doodlejump2",
+      "name": "Doodle Jump 2",
+      "packageId": "com.limasky.doodlejump2",
+      "category": "游戏",
+      "tone": "orange",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 99 L 62 99 L 62 88 L 76 88 L 76 108 L 49 108 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 65 74 C 63 57 75 51 88 52 C 101 53 110 61 109 74 L 121 75 L 121 86 L 104 89 L 103 99 L 72 99 L 72 88 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 74 C 75 67 80 66 87 72 L 91 85 L 83 98 L 71 98 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            89,
+            66,
+            12,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            69,
+            5,
+            5
+          ],
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 102 L 76 113 M 96 100 L 101 109 M 50 74 L 57 70",
+          "color": "dark",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.limasky.doodlejump2/com.limasky.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "csr2",
+      "name": "CSR 2",
+      "packageId": "com.naturalmotion.customstreetracer2",
+      "category": "游戏",
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 96 L 54 78 L 65 74 L 72 58 L 97 56 L 106 72 L 118 76 L 124 98 L 117 110 L 53 111 Z",
+          "color": "paper",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 73 62 L 94 60 L 102 73 L 66 75 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 50 90 L 69 91 L 70 100 L 53 98 Z M 99 89 L 118 85 L 119 95 L 101 98 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 73 91 L 96 88 L 95 103 L 74 104 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 95 L 91 93 M 78 99 L 91 97",
+          "color": "white",
+          "width": 2.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 114 L 64 114 M 105 114 L 122 111",
+          "color": "white",
+          "width": 4.2
+        }
+      ],
+      "components": [
+        "com.naturalmotion.customstreetracer2/com.bossalien.racer02.CSRPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "gtavc",
+      "name": "GTA: Vice City",
+      "packageId": "com.rockstargames.gtavc",
+      "category": "游戏",
+      "tone": "coral",
+      "form": "tile",
+      "previewName": "GTA: Vice City",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 101 L 48 85 L 60 76 L 69 84 L 69 72 L 82 63 L 93 72 L 93 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 104 L 120 104 L 115 112 L 53 112 Z",
+          "color": "ice",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 104 60 C 112 53 120 60 123 67 L 114 66 L 120 73 L 110 74 L 104 68 L 101 106 L 92 106 L 99 69 L 90 76 L 84 73 L 94 64 L 88 65 L 87 59 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            53,
+            12,
+            12
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 93 L 62 93 M 75 82 L 84 82 M 75 92 L 83 92",
+          "color": "coral",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.rockstargames.gtavc/com.d.a",
+        "com.rockstargames.gtavc/com.fastman92.main_activity_launcher.MainActivity",
+        "com.rockstargames.gtavc/com.gamein.i.a.WelcomeActivity",
+        "com.rockstargames.gtavc/com.rockstargames.gtavc.DownloaderActivity",
+        "com.rockstargames.gtavc/com.rockstargames.gtavc.GTAVC",
+        "com.rockstargames.gtavc/com.rockstargames.gtavc.GameActivity",
+        "com.rockstargames.gtavc/com.ty.rolling_2.proxys.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "dls",
+      "name": "Dream League Soccer",
+      "packageId": "com.firsttouchgames.dls7",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "tile",
+      "previewName": "Dream League",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 56 L 120 56 L 120 111 L 48 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 61 L 115 61 L 115 106 L 53 106 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 62 L 84 106 M 55 74 L 67 74 L 67 93 L 55 93 M 113 74 L 100 74 L 100 93 L 113 93",
+          "color": "white",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            73,
+            23,
+            23
+          ],
+          "color": "white"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 77 L 91 83 L 88 91 L 80 91 L 77 83 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.firsttouchgames.dls7/com.firsttouchgames.dls7.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "goodcoffee",
+      "name": "美味的咖啡",
+      "packageId": "com.tapblaze.coffeebusiness",
+      "category": "游戏",
+      "tone": "sand",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 70 L 103 70 L 103 91 C 102 105 91 113 77 113 C 62 113 51 104 51 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 102 76 L 111 76 C 124 76 123 94 103 96",
+          "color": "white",
+          "width": 5.4
+        },
+        {
+          "type": "path",
+          "shape": "M 53 78 C 67 72 86 77 101 78 L 100 87 C 84 92 67 89 53 84 Z",
+          "color": "sand",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 57 C 65 51 71 48 76 46 M 84 61 C 79 55 85 50 89 46",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 119 L 98 119",
+          "color": "white",
+          "width": 4.3
+        }
+      ],
+      "components": [
+        "com.tapblaze.coffeebusiness/com.tapblaze.coffeebusiness.MyUnityActivity",
+        "com.tapblaze.coffeebusiness/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "kingdomrush",
+      "name": "Kingdom Rush",
+      "packageId": "com.ironhidegames.android.kingdomrush",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 68 L 61 58 L 70 65 L 79 53 L 89 65 L 98 53 L 108 63 L 117 57 L 118 86 L 107 94 L 107 110 L 60 110 L 60 94 L 51 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 79 L 106 79 L 106 105 L 62 105 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 76 106 L 76 93 C 76 83 92 83 92 93 L 92 106 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 112 L 114 112 M 68 69 L 68 78 M 99 67 L 99 77",
+          "color": "white",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            49,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.ironhidegames.android.kingdomrush/com.ironhidegames.android.kr.act_game.KRGameActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "angela2",
+      "name": "我的安吉拉 2",
+      "packageId": "com.outfit7.mytalkingangela2",
+      "category": "游戏",
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 81 L 53 54 L 76 64 C 81 61 89 61 95 64 L 117 54 L 111 81 C 117 102 104 113 85 114 C 66 113 52 102 58 81 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 60 L 72 68 L 60 77 Z M 112 60 L 99 68 L 110 77 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            79,
+            15,
+            14
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            79,
+            15,
+            14
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            80,
+            7,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            80,
+            7,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 80 94 L 90 94 L 85 99 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 104 C 82 107 88 107 93 103",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "path",
+          "shape": "M 103 57 L 105 49 L 112 54 L 121 48 L 120 62 L 113 58 L 106 63 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.outfit7.mytalkingangela2?version=latest",
+      "components": [
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityChangeableIcon",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityEight",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityFive",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityFour",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityNine",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityOne",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivitySeven",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivitySix",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityTen",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityThree",
+        "com.outfit7.mytalkingangela2/com.outfit7.felis.SplashActivityTwo"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.outfit7.mytalkingangela2?version=latest",
+        "version": "26.6.1.45566",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "angryfriends",
+      "name": "Angry Birds Friends",
+      "packageId": "com.rovio.angrybirdsfriends",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "orb",
+      "previewName": "Angry Birds Friends",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            66,
+            61,
+            46
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 61 98 C 66 88 96 87 107 96 C 98 111 74 114 61 98 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 64 74 L 66 57 L 76 63 L 82 54 L 91 67 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 77 91 L 89 85 L 105 92 L 91 100 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 77 L 77 82 M 94 82 L 105 75",
+          "color": "ink",
+          "width": 4.4
+        },
+        {
+          "type": "path",
+          "shape": "M 105 62 L 110 51 L 116 60 L 124 64 L 116 69 L 113 76 L 109 69 L 101 65 Z",
+          "color": "white",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.rovio.angrybirdsfriends/com.amazon.securebrowser.SecureBrowserActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "ctr2",
+      "name": "Cut the Rope 2",
+      "packageId": "com.zeptolab.ctr2.f2p.google",
+      "category": "游戏",
+      "tone": "lime",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 86 C 59 72 107 72 116 85 C 119 107 103 114 84 114 C 65 114 49 106 51 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 86 C 69 81 96 81 114 87 C 115 101 101 109 84 109 C 67 109 54 101 53 86 Z",
+          "color": "lime",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            81,
+            11,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            81,
+            11,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 99 C 78 104 90 104 95 98",
+          "color": "dark",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            52,
+            18,
+            17
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 92 53 L 99 48 M 77 48 L 76 57 M 101 51 L 109 53",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.zeptolab.ctr2.f2p.google/com.byfen.archiver.MainActivity",
+        "com.zeptolab.ctr2.f2p.google/com.zeptolab.ctr2.CTR2Activity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "ctrcats",
+      "name": "CATS",
+      "packageId": "com.zeptolab.cats.google",
+      "category": "游戏",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 88 L 52 62 L 69 71 L 84 63 L 105 71 L 117 61 L 120 91 L 108 109 L 62 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 87 L 113 87 L 107 104 L 62 105 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 81 L 70 82 M 97 82 L 105 81 M 79 90 L 87 95 L 94 90",
+          "color": "dark",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            98,
+            16,
+            16
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            98,
+            16,
+            16
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            102,
+            8,
+            8
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            102,
+            8,
+            8
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.zeptolab.cats.google/com.zeptolab.cats.CATSActivity"
+      ],
+      "sourceKeys": [
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "kingofthieves",
+      "name": "King of Thieves",
+      "packageId": "com.zeptolab.thieves.google",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 96 C 57 73 66 64 84 53 C 100 61 113 76 120 96 L 105 107 L 64 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 96 C 62 78 75 67 84 61 C 94 67 107 78 114 95 L 103 103 L 66 103 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 85 L 76 86 M 93 86 L 103 84",
+          "color": "white",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 93 L 96 103 L 84 115 L 73 104 Z",
+          "color": "gold",
+          "width": 1
+        }
+      ],
+      "components": [
+        "com.zeptolab.thieves.google/com.zeptolab.thieves.ThievesActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "shadowfight3",
+      "name": "Shadow Fight 3",
+      "packageId": "com.nekki.shadowfight3",
+      "category": "游戏",
+      "tone": "sand",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 91 C 56 68 72 55 84 54 C 99 56 113 72 121 91 L 107 94 L 102 111 L 67 111 L 60 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 90 C 67 72 75 67 84 64 C 94 67 104 75 113 90 L 101 86 L 96 97 L 72 97 L 67 87 Z",
+          "color": "sand",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 67 85 L 82 89 L 82 98 L 68 95 Z M 101 85 L 87 89 L 87 98 L 100 95 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 102 L 92 102 M 70 113 L 99 113",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            58,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.nekki.shadowfight3/com.nekki.unityplugins.NekkiNativeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "shadowarena",
+      "name": "Shadow Fight 4: Arena",
+      "packageId": "com.nekki.shadowfightarena",
+      "category": "游戏",
+      "tone": "crimson",
+      "form": "shield",
+      "previewName": "Shadow Fight Arena",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 58 L 81 66 L 81 96 L 68 111 L 55 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 117 59 L 87 67 L 87 97 L 100 112 L 113 100 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 79 L 73 83 M 94 83 L 110 79",
+          "color": "ink",
+          "width": 4.6
+        },
+        {
+          "type": "path",
+          "shape": "M 83 73 L 93 86 L 85 105 L 75 90 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 116 L 114 116",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.nekki.shadowfightarena/com.nekki.unityplugins.Nekki",
+        "com.nekki.shadowfightarena/com.nekki.unityplugins.NekkiNativeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "danman",
+      "name": "Dan the Man",
+      "packageId": "com.halfbrick.dantheman",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 59 L 110 59 L 110 71 L 120 71 L 120 103 L 102 103 L 102 113 L 58 113 L 58 102 L 49 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 61 L 108 61 L 108 73 L 118 73 L 118 82 L 52 82 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 85 L 103 85 L 103 103 L 61 103 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 68 83 L 79 83 L 79 94 L 68 94 Z M 91 83 L 101 83 L 101 94 L 91 94 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 91 61 L 108 61 L 108 70 L 96 70 L 96 78 L 90 78 Z",
+          "color": "crimson",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.halfbrick.dantheman/com.halfbrick.mortar.MortarGameLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "falloutshelter",
+      "name": "Fallout Shelter",
+      "packageId": "com.bethsoft.falloutshelter",
+      "category": "游戏",
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            48,
+            48,
+            72,
+            72
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            54,
+            60,
+            60
+          ],
+          "color": "teal"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            62,
+            44,
+            44
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            69,
+            30,
+            30
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 74 L 91 79 L 92 88 L 84 94 L 76 88 L 77 79 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 84 L 68 84 M 101 84 L 114 84 M 84 55 L 84 67 M 84 101 L 84 113",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.bethsoft.falloutshelter/com.bhvr.MainActivity",
+        "com.bethsoft.falloutshelter/com.bhvr.Prime31MainActivityWithMemoryWarning",
+        "com.bethsoft.falloutshelter/com.me.game.pmupdatesdk.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "egginc",
+      "name": "Egg, Inc.",
+      "packageId": "com.auxbrain.egginc",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 45 C 100 48 111 74 111 92 C 111 109 101 117 84 117 C 66 117 56 108 56 92 C 56 75 67 47 83 45 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 93 L 67 87 L 75 94 L 85 85 L 94 94 L 104 87 L 110 93 C 113 109 101 118 84 117 C 67 117 55 108 55 93 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            70,
+            8,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            70,
+            8,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 80 81 L 89 81 L 84 86 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            58,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.auxbrain.egginc/com.auxbrain.egginc.EggIncActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "mindustry",
+      "name": "Mindustry",
+      "packageId": "io.anuke.mindustry",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 50 L 116 67 L 116 102 L 84 119 L 51 102 L 51 67 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 60 L 107 72 L 107 95 L 84 108 L 61 95 L 61 72 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 67 93 L 84 71 L 96 71 L 84 86 L 102 86 L 97 95 L 67 95 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            66,
+            8,
+            8
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            97,
+            9,
+            9
+          ],
+          "color": "azure"
+        }
+      ],
+      "components": [
+        "io.anuke.mindustry/io.anuke.mindustry.AndroidLauncher",
+        "io.anuke.mindustry/mindustry.android.AndroidLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "unciv",
+      "name": "Unciv",
+      "packageId": "com.unciv.app",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 104 L 71 104 L 71 91 L 96 91 L 96 78 L 121 78 L 121 111 L 46 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 105 L 72 105 L 72 96 L 97 96 L 97 84 L 119 84 L 119 107 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 87 L 77 55",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 78 58 L 100 58 L 110 66 L 101 72 L 78 72 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 115 L 117 115",
+          "color": "ice",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.unciv.app/com.unciv.app.AndroidLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "pool8",
+      "name": "8 Ball Pool",
+      "packageId": "com.miniclip.eightballpool",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            53,
+            62,
+            62
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            59,
+            59,
+            50,
+            50
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            66,
+            34,
+            34
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 85 81 C 74 82 75 72 84 72 C 93 72 94 82 85 81 C 96 83 95 93 84 93 C 74 93 74 83 85 81 Z",
+          "color": "ink",
+          "width": 3.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            51,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 113 L 62 103",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity",
+        "com.miniclip.eightballpool/n8ae02937.g7462ad39.b3cc55929.h661283e0",
+        "com.miniclip.eightballpool/t56087fdc.ad4e5b84d.k0c85e5d1.v8b183d61",
+        "com.miniclip.eightballpool/wa22751fd.e9bc845dd.j3b2598d4.zb77b41c6",
+        "com.miniclip.eightballpool/zf235d911.x76eca624.k16362b0b.k7549afdc"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "basketballstars",
+      "name": "Basketball Stars",
+      "packageId": "com.miniclip.basketballstars",
+      "category": "游戏",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            51,
+            66,
+            66
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            58,
+            52,
+            52
+          ],
+          "color": "orange"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 82 L 109 82 M 83 58 L 84 110 M 61 69 C 83 72 88 91 106 99 M 104 64 C 90 68 83 88 66 101",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 109 53 L 113 60 L 122 62 L 114 65 L 111 73 L 108 66 L 101 62 L 107 60 Z",
+          "color": "gold",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.miniclip.basketballstars/com.miniclip.basketballstars.BasketballStarsActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "taptitans2",
+      "name": "Tap Titans 2",
+      "packageId": "com.gamehivecorp.taptitans2",
+      "category": "游戏",
+      "tone": "iris",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 104 L 78 65 L 91 59 L 104 77 L 96 95 L 109 105 L 97 114 L 84 104 L 69 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 76 97 L 93 72 L 97 77 L 91 93 L 98 101 L 88 107 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 82 52 L 88 61 L 100 62 L 91 69 L 93 82 L 83 75 L 72 82 L 75 70 L 66 62 L 78 61 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 80 L 65 75 M 47 99 L 57 93",
+          "color": "mint",
+          "width": 4.1
+        }
+      ],
+      "components": [
+        "com.gamehivecorp.taptitans2/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "pvzheroes",
+      "name": "Plants vs. Zombies Heroes",
+      "packageId": "com.ea.gp.pvzheroes",
+      "category": "游戏",
+      "tone": "lime",
+      "form": "shield",
+      "previewName": "PvZ Heroes",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 52 L 117 65 L 114 97 L 84 114 L 55 97 L 51 65 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 60 L 108 69 L 106 94 L 84 106 L 62 94 L 60 69 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 83 97 C 64 88 68 75 75 72 C 83 69 87 77 87 79 C 87 70 98 69 102 76 C 105 87 93 95 83 97 Z",
+          "color": "lime",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 83 C 83 81 89 84 95 78",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.ea.gp.pvzheroes?version=latest",
+      "components": [
+        "com.ea.gp.pvzheroes/com.ea.nimble.plugin.NimbleActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.ea.gp.pvzheroes?version=latest",
+        "version": "1.67.8",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "lifeisstrange",
+      "name": "Life is Strange",
+      "packageId": "com.squareenix.lis",
+      "category": "游戏",
+      "tone": "cobalt",
+      "form": "card",
+      "previewName": "Life is Strange",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 64 L 117 56 L 122 103 L 56 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 70 L 112 63 L 118 90 L 60 97 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 68 87 C 64 79 69 72 76 74 L 85 81 L 94 71 C 101 69 107 75 102 83 L 94 91 L 85 88 L 76 93 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 79 L 83 85 L 96 77",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            63,
+            99,
+            7,
+            7
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 102 L 109 98",
+          "color": "dark",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.squareenix.lis/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    }
+  ]
+}

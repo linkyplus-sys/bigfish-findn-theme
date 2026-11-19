@@ -1,0 +1,1164 @@
+{
+  "name": "1,040 款扩容 · 第三批 · 游戏",
+  "status": "图稿待入包",
+  "activitySources": {
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "fancypants",
+      "name": "The Fancy Pants Adventures",
+      "packageId": "com.overthetopgames.fancypants",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "orb",
+      "previewName": "Fancy Pants",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 61 86 L 74 68 L 87 71 L 95 65 L 108 78 L 98 87 L 90 92 L 108 111 L 99 119 L 80 104 L 69 119 L 59 114 L 68 96 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            49,
+            20,
+            19
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 52 L 69 46 M 80 51 L 84 44 M 49 88 L 61 83 M 43 99 L 56 94",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            54,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.overthetopgames.fancypants/com.overthetopgames.fancypants.LoadActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "krfrontiers",
+      "name": "Kingdom Rush Frontiers",
+      "packageId": "com.ironhidegames.android.kingdomrushfrontiers",
+      "category": "游戏",
+      "tone": "sand",
+      "form": "shield",
+      "previewName": "KR Frontiers",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 96 L 71 59 L 96 59 L 121 96 L 109 112 L 60 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 91 L 72 64 L 95 64 L 112 91 Z",
+          "color": "sand",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 70 112 L 73 93 L 96 93 L 99 112 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 74 80 L 84 67 L 94 80 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 116 L 113 116",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            55,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.ironhidegames.android.kingdomrushfrontiers/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity",
+        "com.ironhidegames.android.kingdomrushfrontiers/com.ironhidegames.android.kr.act_game.KRGameActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "krorigins",
+      "name": "Kingdom Rush Origins",
+      "packageId": "com.ironhidegames.android.kingdomrushorigins",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "shield",
+      "previewName": "KR Origins",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 100 L 61 77 L 84 51 L 107 77 L 121 100 L 84 119 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 98 L 84 59 L 107 98 L 84 111 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 74 C 88 63 101 60 104 68 C 105 77 94 91 84 94 C 75 91 64 83 66 74 C 68 66 78 67 84 74 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 84 L 84 107",
+          "color": "dark",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.ironhidegames.android.kingdomrushorigins/com.byfen.archiver.MainActivity",
+        "com.ironhidegames.android.kingdomrushorigins/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity",
+        "com.ironhidegames.android.kingdomrushorigins/com.ironhidegames.android.kr.act_game.KRGameActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "ironmarines",
+      "name": "Iron Marines",
+      "packageId": "com.ironhidegames.android.ironmarines",
+      "category": "游戏",
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 98 C 56 75 69 59 83 54 C 100 58 113 74 120 98 L 108 110 L 60 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 87 L 75 72 L 92 72 L 109 87 L 102 100 L 65 100 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 84 L 101 84",
+          "color": "mint",
+          "width": 6.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 106 L 101 106",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            53,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.ironhidegames.android.ironmarines/com.google.firebase.MessagingUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "tomgoldrun",
+      "name": "汤姆猫跑酷",
+      "packageId": "com.outfit7.talkingtomgoldrun",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 80 L 54 57 L 73 66 C 79 63 88 63 94 66 L 114 57 L 111 81 C 118 98 106 111 84 111 C 63 111 50 99 58 80 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            77,
+            12,
+            13
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            77,
+            12,
+            13
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            80,
+            6,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            80,
+            6,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 77 94 L 89 94 L 83 100 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 98 91 L 116 84 L 125 94 L 107 102 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 108 L 62 108",
+          "color": "white",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.outfit7.talkingtomgoldrun/com.outfit7.felis.SplashActivity",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.felis.SplashActivityChangeableIcon",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.felis.SplashActivityFive",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.felis.SplashActivityFour",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.felis.SplashActivityTwo",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.sabretooth.MainActivity",
+        "com.outfit7.talkingtomgoldrun/com.outfit7.talkingtomgoldrun.TalkingHankRunNativeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "angrytransformers",
+      "name": "Angry Birds Transformers",
+      "packageId": "com.rovio.angrybirdstransformers",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "tile",
+      "previewName": "Angry Birds TF",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 67 L 68 58 L 108 58 L 119 73 L 115 102 L 84 117 L 54 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 70 L 72 63 L 106 63 L 112 74 L 108 98 L 84 109 L 61 99 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 64 76 L 84 82 L 105 75 L 96 88 L 73 89 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 72 93 L 85 86 L 101 93 L 85 103 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 111 L 94 111",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.rovio.angrybirdstransformers/com.rovio.angrybirdstransformers.AngryBirdsTransformersActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "royalkingdom",
+      "name": "Royal Kingdom",
+      "packageId": "com.dreamgames.royalkingdom",
+      "category": "游戏",
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 67 L 69 79 L 85 59 L 101 79 L 118 67 L 111 103 L 58 103 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 91 L 108 91 L 108 103 L 61 103 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            76,
+            10,
+            10
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 111 L 108 111",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            50,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.dreamgames.royalkingdom/com.dreamgames.library.DreamUnityPlayerActivity",
+        "com.dreamgames.royalkingdom/com.dreamgames.library.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "marvelcontest",
+      "name": "Marvel Contest of Champions",
+      "packageId": "com.kabam.marvelbattle",
+      "category": "游戏",
+      "tone": "crimson",
+      "form": "shield",
+      "previewName": "MARVEL Contest",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 71 L 77 56 L 81 83 L 64 107 L 48 98 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 121 71 L 91 56 L 87 83 L 104 107 L 121 98 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 73 L 89 85 L 101 89 L 90 94 L 84 109 L 78 95 L 65 90 L 78 85 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 111 L 113 111",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.kabam.marvelbattle/com.explodingbarrel.Activity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "futurefight",
+      "name": "MARVEL Future Fight",
+      "packageId": "com.netmarble.mherosgb",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "shield",
+      "previewName": "MARVEL Future Fight",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 88 L 68 70 L 84 57 L 100 70 L 121 88 L 111 102 L 84 118 L 57 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 89 L 72 77 L 84 65 L 96 77 L 111 89 L 105 98 L 84 109 L 63 98 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 72 L 88 83 L 103 85 L 91 92 L 96 104 L 84 98 L 72 104 L 76 93 L 64 85 L 79 83 Z",
+          "color": "paper",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.netmarble.mherosgb/com.netmarble.mherosgb.SRNativeActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "swgoh",
+      "name": "Star Wars: Galaxy of Heroes",
+      "packageId": "com.ea.game.starwarscapital_row",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "shield",
+      "previewName": "Galaxy of Heroes",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 95 L 65 64 L 84 74 L 103 64 L 120 95 L 103 109 L 84 100 L 66 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 51 L 93 68 L 84 88 L 75 68 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 94 L 70 78 L 78 86 L 72 97 Z M 112 94 L 98 78 L 90 86 L 96 97 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            79,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 113 L 97 113",
+          "color": "white",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.ea.game.starwarscapital_row/com.ea.games.capitalgames.CapitalGamesActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "emoji",
+      "name": "Disney Emoji Blitz",
+      "packageId": "com.disney.emojimatch_goo",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            55,
+            24,
+            26
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            55,
+            24,
+            26
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            62,
+            55,
+            54
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            78,
+            8,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            78,
+            8,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 72 92 C 77 103 91 105 99 92 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            97,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.disney.emojimatch_goo/com.disney.glendale.launchpadframework.LaunchPadFrameworkActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "mortal",
+      "name": "Mortal Kombat",
+      "packageId": "com.wb.goog.mkx",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            52,
+            64,
+            64
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            58,
+            52,
+            52
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "path",
+          "shape": "M 61 90 C 74 90 73 70 88 65 L 104 69 L 97 78 L 104 85 L 93 91 L 80 87 C 84 103 70 107 61 102 L 70 97 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            69,
+            6,
+            6
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 109 L 64 106",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.wb.goog.mkx/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "summonerswar",
+      "name": "Summoners War",
+      "packageId": "com.com2us.smon.normal.freefull.google.kr.android.common",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 80 L 76 80 L 84 53 L 92 80 L 118 80 L 102 95 L 108 112 L 84 105 L 60 112 L 66 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 69 L 92 84 L 104 86 L 94 93 L 98 101 L 84 97 L 70 101 L 75 93 L 63 86 L 77 84 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            85,
+            8,
+            8
+          ],
+          "color": "ink"
+        }
+      ],
+      "components": [
+        "com.com2us.smon.normal.freefull.google.kr.android.common/com.com2us.smon.normal.freefull.google.kr.android.common.SubActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "epicseven",
+      "name": "Epic Seven",
+      "packageId": "com.stove.epic7.google",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 103 L 69 55 L 120 55 L 111 66 L 84 66 L 79 78 L 101 78 L 94 89 L 74 89 L 63 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 109 L 102 109",
+          "color": "white",
+          "width": 4.4
+        },
+        {
+          "type": "path",
+          "shape": "M 103 76 L 108 83 L 118 86 L 109 91 L 107 100 L 102 92 L 95 88 L 102 83 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.stove.epic7.google/kr.supercreative.epic7.AppActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "browndust",
+      "name": "BrownDust2",
+      "packageId": "com.neowizgames.game.browndust2",
+      "category": "游戏",
+      "tone": "sand",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 68 C 63 62 77 64 84 73 C 95 64 107 62 120 68 L 117 105 C 102 102 92 107 84 115 C 75 106 61 103 49 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 77 L 84 110",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 86 79 L 111 63 L 116 72 L 93 91 L 86 96 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 80 L 72 86 M 57 91 L 70 96",
+          "color": "dark",
+          "width": 3.6
+        }
+      ],
+      "components": [
+        "com.neowizgames.game.browndust2/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "badnorth",
+      "name": "Bad North",
+      "packageId": "com.PlausibleConcept.BadNorthFull",
+      "category": "游戏",
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 94 L 64 70 L 84 74 L 104 59 L 120 93 L 108 107 L 60 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 95 L 70 86 L 84 91 L 106 78 L 115 94 L 104 105 L 59 106 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 114 C 72 109 88 117 108 110",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 91 61 L 102 51 L 113 61 Z",
+          "color": "gold",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.PlausibleConcept.BadNorthFull/com.amberstudio.mylibrary.UnityPlayerActivity_Fullscreen",
+        "com.PlausibleConcept.BadNorthFull/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "kingdomtwo",
+      "name": "Kingdom Two Crowns",
+      "packageId": "com.rawfury.kingdom2crowns",
+      "category": "游戏",
+      "tone": "iris",
+      "form": "tile",
+      "previewName": "Kingdom Two Crowns",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 81 L 59 86 L 69 74 L 78 84 L 83 78 L 80 105 L 51 105 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 86 71 L 95 78 L 103 64 L 111 76 L 119 70 L 115 101 L 89 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            51,
+            9,
+            9
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 113 L 115 113",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.rawfury.kingdom2crowns/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "pocketcity2",
+      "name": "Pocket City 2",
+      "packageId": "com.codebrewgames.pocketcity2",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 84 L 69 67 L 116 61 L 120 101 L 56 113 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 88 L 74 80 L 91 86 L 104 74 L 111 96 L 65 106 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 76 86 L 76 62 L 92 56 L 94 82 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 96 93 L 96 61 L 111 56 L 113 88 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 102 L 72 95 L 83 98 L 106 92",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.codebrewgames.pocketcity2/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "theotown",
+      "name": "TheoTown",
+      "packageId": "info.flowersoft.theotown.theotown",
+      "category": "游戏",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 105 L 46 78 L 60 78 L 60 63 L 77 68 L 77 83 L 91 83 L 91 57 L 113 64 L 113 80 L 123 85 L 123 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 101 L 54 80 L 71 74 L 71 101 Z M 96 101 L 96 61 L 110 67 L 110 101 Z",
+          "color": "blue",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 110 L 112 110 M 62 88 L 68 88 M 100 76 L 107 76 M 100 88 L 107 88",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            53,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "info.flowersoft.theotown.theotown/com.google.android.gms.security.ProviderInstall",
+        "info.flowersoft.theotown.theotown/info.flowersoft.theotown.theotown.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "openttd",
+      "name": "OpenTTD",
+      "packageId": "org.openttd.sdl",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 97 L 55 78 L 68 74 L 68 64 L 103 64 L 103 77 L 120 81 L 120 100 L 47 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 71 69 L 96 69 L 96 82 L 71 82 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            93,
+            15,
+            15
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            93,
+            15,
+            15
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 113 L 119 113 M 56 58 L 73 58",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            63,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.openttd.sdl/org.openttd.sdl.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "polytopia",
+      "name": "The Battle of Polytopia",
+      "packageId": "air.com.midjiwan.polytopia",
+      "category": "游戏",
+      "tone": "mint",
+      "form": "hex",
+      "previewName": "Polytopia",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 77 L 84 56 L 118 77 L 118 102 L 84 119 L 50 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 78 L 84 95 L 117 78 L 84 57 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 95 L 117 80 L 117 101 L 85 118 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 70 77 L 84 62 L 98 77 L 95 88 L 73 88 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 82 L 91 82",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "air.com.midjiwan.polytopia/com.aiwu.agree.AiwuAgreementActivity",
+        "air.com.midjiwan.polytopia/com.google.firebase.MessagingUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "antiyoy",
+      "name": "Antiyoy",
+      "packageId": "yio.tro.antiyoy.android",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 103 L 48 82 L 69 82 L 69 65 L 90 65 L 90 81 L 115 81 L 115 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 100 L 53 88 L 74 88 L 74 70 L 85 70 L 85 88 L 110 88 L 110 100 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 95 64 L 95 50 L 114 55 L 114 65 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 112 L 113 112",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "yio.tro.antiyoy.android/yio.tro.antiyoy.AndroidLauncher",
+        "yio.tro.antiyoy.android/yio.tro.antiyoy.android.AndroidLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "pixelshattered",
+      "name": "Shattered Pixel Dungeon",
+      "packageId": "com.shatteredpixel.shatteredpixeldungeon",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "shield",
+      "previewName": "Shattered Dungeon",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 70 L 64 70 L 64 57 L 102 57 L 102 70 L 115 70 L 115 99 L 102 99 L 102 113 L 64 113 L 64 99 L 52 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 74 L 72 74 L 72 63 L 96 63 L 96 77 L 108 77 L 108 97 L 97 97 L 97 106 L 71 106 L 71 93 L 59 93 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 70 81 L 79 81 L 79 91 L 70 91 Z M 90 81 L 99 81 L 99 91 L 90 91 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 99 L 91 99",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.shatteredpixel.shatteredpixeldungeon/com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon",
+        "com.shatteredpixel.shatteredpixeldungeon/com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

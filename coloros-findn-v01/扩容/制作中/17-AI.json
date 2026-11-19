@@ -1,0 +1,482 @@
+{
+  "name": "AI · 500 款扩容",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "appchinaApk": "https://www.appchina.com/"
+  },
+  "apps": [
+    {
+      "art": "spark",
+      "name": "讯飞星火",
+      "category": "AI",
+      "packageId": "com.iflytek.spark",
+      "packageSource": "https://app.mi.com/details?id=com.iflytek.spark",
+      "components": [
+        "com.iflytek.spark/com.iflytek.spark.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 33 C 78 52 69 60 56 74 C 39 94 53 122 81 127 C 108 132 129 111 124 90 C 121 80 113 71 104 68 C 106 81 99 85 94 81 C 88 74 98 59 84 33 Z",
+          "color": "gold",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 82 77 C 86 90 101 96 100 108 C 99 120 88 125 80 123 C 66 120 62 106 68 96 C 74 90 79 89 82 77 Z",
+          "color": "paper",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 58 L 57 45 M 43 69 L 51 67",
+          "color": "ice",
+          "width": 3.4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.iflytek.spark?version=latest",
+        "version": "5.10.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "ernie",
+      "name": "文心",
+      "category": "AI",
+      "packageId": "com.baidu.newapp",
+      "packageSource": "https://app.mi.com/details?id=com.baidu.newapp",
+      "components": [
+        "com.baidu.newapp/com.baidu.newapp.splash.SplashActivity",
+        "com.baidu.newapp/com.baidu.newapp.splash.VipSplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "blue",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 86 C 47 68 63 51 84 51 C 105 51 121 68 121 86 C 121 103 104 115 84 115 C 64 115 47 103 47 86 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            78,
+            13,
+            16
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            78,
+            13,
+            16
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 101 C 79 106 89 106 95 101",
+          "color": "blue",
+          "width": 3.6
+        },
+        {
+          "type": "path",
+          "shape": "M 89 35 L 95 47 L 109 52 L 95 57 L 89 70 L 83 57 L 69 52 L 83 47 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.baidu.newapp",
+        "version": "5.22.0.10",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "metaso",
+      "name": "秘塔 AI 搜索",
+      "category": "AI",
+      "packageId": "com.metaso",
+      "packageSource": "https://app.mi.com/details?id=com.metaso",
+      "components": [
+        "com.metaso/com.metaso.main.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            42,
+            35,
+            66,
+            66
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            43,
+            50,
+            50
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 95 92 L 128 125",
+          "color": "ink",
+          "width": 16
+        },
+        {
+          "type": "stroke",
+          "shape": "M 95 89 L 129 122",
+          "color": "paper",
+          "width": 9
+        },
+        {
+          "type": "path",
+          "shape": "M 75 51 L 82 61 L 93 68 L 82 74 L 75 85 L 69 74 L 57 68 L 69 61 Z",
+          "color": "gold",
+          "width": 1.6
+        }
+      ]
+    },
+    {
+      "art": "dreamina",
+      "name": "即梦 AI",
+      "category": "AI",
+      "packageId": "com.bytedance.dreamina",
+      "packageSource": "https://app.mi.com/details?id=com.bytedance.dreamina",
+      "components": [
+        "com.bytedance.dreamina/com.bytedance.dreamina.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "sunset",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 33 84 C 51 62 70 51 91 51 C 105 50 126 53 137 62 C 128 86 109 111 80 119 C 63 123 46 116 39 106 C 33 98 35 87 45 81 C 56 75 67 79 67 87 C 67 94 62 96 56 94 C 64 103 77 103 88 95 C 99 87 101 75 92 69 C 80 60 66 64 56 71 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 108 41 L 114 52 L 126 57 L 114 62 L 108 73 L 102 62 L 90 57 L 102 52 Z",
+          "color": "gold",
+          "width": 1.6
+        }
+      ]
+    },
+    {
+      "art": "photodirector",
+      "name": "PhotoDirector",
+      "category": "AI",
+      "packageId": "com.cyberlink.photodirector",
+      "components": [
+        "com.cyberlink.photodirector/com.cyberlink.photodirector.SplashActivity",
+        "com.cyberlink.photodirector/com.cyberlink.photodirector.activity.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            43,
+            47,
+            82,
+            77,
+            18
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            57,
+            58,
+            58
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 61 L 101 72 L 101 92 L 84 108 L 67 92 L 67 72 Z M 84 76 L 78 86 L 84 97 L 90 86 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            50,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "prisma",
+      "name": "Prisma",
+      "category": "AI",
+      "packageId": "com.neuralprisma",
+      "components": [
+        "com.neuralprisma/com.prisma.starter.StarterActivity",
+        "com.neuralprisma/com.prisma.ui.starter.StarterActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "iris",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 16 L 152 136 L 16 136 Z M 84 59 L 112 111 L 56 111 Z",
+          "color": "iris",
+          "width": 2.7
+        },
+        {
+          "type": "path",
+          "shape": "M 84 16 L 152 136 L 112 111 L 84 59 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 16 136 L 56 111 L 112 111 L 152 136 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 26 129 L 82 29",
+          "color": "paper",
+          "width": 3.4
+        }
+      ]
+    },
+    {
+      "art": "askai",
+      "name": "Ask AI",
+      "category": "AI",
+      "packageId": "com.codeway.chatapp",
+      "components": [
+        "com.codeway.chatapp/com.codeway.chatapp.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 93 C 43 84 44 72 53 67 C 60 62 67 66 73 72 C 80 59 94 58 103 64 C 110 69 112 75 111 80 C 123 78 127 88 121 97 C 116 105 102 108 89 106 L 75 117 L 77 104 C 66 106 56 101 51 93 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 86 L 73 86 M 82 86 L 91 86 M 100 86 L 109 86",
+          "color": "teal",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            51,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "cici",
+      "name": "Cici",
+      "category": "AI",
+      "packageId": "com.larus.wolf",
+      "components": [
+        "com.larus.wolf/com.larus.home.impl.MainActivity",
+        "com.larus.wolf/com.larus.home.impl.alias.AliasActivity1"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "mint",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 85 C 46 62 61 44 84 44 C 107 44 122 62 121 85 C 120 106 105 122 84 122 C 63 122 48 106 47 85 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 53 72 C 55 56 68 46 84 45 C 102 45 111 55 115 67 C 100 66 90 62 85 56 C 76 68 66 73 53 72 Z",
+          "color": "jade",
+          "width": 1.9
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            78,
+            12,
+            14
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            78,
+            12,
+            14
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 100 C 80 105 89 105 94 100",
+          "color": "coral",
+          "width": 3.4
+        },
+        {
+          "type": "path",
+          "shape": "M 118 36 L 123 46 L 133 50 L 123 54 L 118 64 L 113 54 L 103 50 L 113 46 Z",
+          "color": "gold",
+          "width": 1.4
+        }
+      ]
+    },
+    {
+      "art": "youchat",
+      "name": "You.com",
+      "category": "AI",
+      "packageId": "com.you.browser",
+      "components": [
+        "com.you.browser/com.you.browser.App",
+        "com.you.browser/com.you.chat.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 49 55 L 75 85 M 102 55 L 75 85 L 75 111",
+          "color": "white",
+          "width": 10.5
+        },
+        {
+          "type": "path",
+          "shape": "M 103 101 C 103 89 111 81 121 81 C 132 81 139 89 139 101 C 139 113 132 121 121 121 C 111 121 103 113 103 101 Z M 121 91 C 116 91 113 95 113 101 C 113 107 116 111 121 111 C 126 111 129 107 129 101 C 129 95 126 91 121 91 Z",
+          "color": "ice",
+          "width": 1.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            42,
+            99,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "superimage",
+      "name": "SuperImage",
+      "category": "AI",
+      "packageId": "com.zhenxiang.superimage",
+      "components": [
+        "com.zhenxiang.superimage/com.zhenxiang.superimage.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            49,
+            80,
+            73,
+            14
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 50 98 L 66 78 L 80 93 L 98 69 L 118 94 L 118 116 L 50 116 Z",
+          "color": "azure",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 106 74 L 122 58 M 108 58 L 124 58 L 124 74",
+          "color": "ink",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            60,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "name": "游戏 · 800 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "miStoreApk": "https://app.mi.com/"
+  },
+  "apps": [
+    {
+      "art": "worldbeyond",
+      "name": "世界之外",
+      "category": "游戏",
+      "packageId": "com.netease.sjzw",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 111 L 55 72 C 59 58 72 49 84 49 C 97 49 109 58 113 72 L 113 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 108 L 62 73 C 65 62 77 57 84 57 C 92 57 104 62 106 73 L 106 108 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 63 L 89 76 L 101 81 L 89 86 L 84 99 L 79 86 L 66 81 L 79 76 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 117 C 66 109 76 124 90 121 C 105 119 114 112 122 113",
+          "color": "azure",
+          "width": 4.3
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.netease.sjzw",
+      "components": [
+        "com.netease.sjzw/com.netease.sjzw.ic_launcher",
+        "com.netease.sjzw/com.netease.sjzw.icon_1",
+        "com.netease.sjzw/com.netease.sjzw.icon_2",
+        "com.netease.sjzw/com.netease.sjzw.icon_3",
+        "com.netease.sjzw/com.netease.sjzw.icon_4"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.sjzw",
+        "version": "1.0.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "forallt",
+      "name": "时空中的绘旅人",
+      "category": "游戏",
+      "packageId": "com.netease.skzdhlr",
+      "tone": "iris",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 61 L 111 57 L 114 115 L 48 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 99 C 63 93 82 110 97 103 L 113 97 L 114 114 L 49 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 102 L 97 54 L 110 52 L 111 66 L 71 110 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 54 L 110 52 L 111 66 L 102 75 L 90 63 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            70,
+            11,
+            11
+          ],
+          "color": "azure"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.netease.skzdhlr?version=latest",
+      "components": [
+        "com.netease.skzdhlr/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.netease.skzdhlr?version=latest",
+        "version": "1.0.27",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "miraclenikki",
+      "name": "奇迹暖暖",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.qjnn",
+      "tone": "coral",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 74 C 53 61 63 55 71 60 L 84 68 L 98 59 C 106 55 116 60 111 74 L 100 86 L 114 109 C 95 118 72 118 54 109 L 68 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 103 C 73 99 86 114 104 104 L 114 109 C 95 118 72 118 54 109 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 74 L 90 84 L 84 93 L 78 84 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            51,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.tencent.tmgp.qjnn?version=latest",
+      "components": [
+        "com.tencent.tmgp.qjnn/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.tmgp.qjnn?version=latest",
+        "version": "12.8.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "mrlove",
+      "name": "恋与制作人",
+      "category": "游戏",
+      "packageId": "com.papegames.evol.mi",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 79 C 49 68 62 58 73 63 C 79 65 82 70 84 73 C 89 66 94 62 102 62 C 116 62 123 71 120 82 C 117 96 100 109 84 118 C 67 109 51 94 49 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 91 C 72 82 83 105 114 92 C 107 103 96 111 84 118 C 71 111 61 102 52 91 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 87 L 78 87 L 82 78 L 88 97 L 93 86 L 103 86",
+          "color": "plum",
+          "width": 4.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            56,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.papegames.evol.mi",
+      "components": [
+        "com.papegames.evol.mi/com.papegames.androidplugin.PluginActivity",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias1",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias10",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias11",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias12",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias13",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias14",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias15",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias16",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias17",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias18",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias19",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias2",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias20",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias21",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias22",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias23",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias24",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias25",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias26",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias27",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias28",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias29",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias3",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias30",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias31",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias32",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias33",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias34",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias35",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias36",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias37",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias38",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias39",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias4",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias40",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias41",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias42",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias43",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias44",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias45",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias46",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias47",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias48",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias49",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias5",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias50",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias51",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias52",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias53",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias54",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias55",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias56",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias57",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias58",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias59",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias6",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias60",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias61",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias62",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias63",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias64",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias65",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias66",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias67",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias68",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias69",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias7",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias70",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias71",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias72",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias73",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias74",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias75",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias76",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias77",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias8",
+        "com.papegames.evol.mi/com.papegames.evol.mi.Alias9"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.papegames.evol.mi",
+        "version": "1.41.1028",
+        "channel": "小米应用商店渠道 APK"
+      }
+    },
+    {
+      "art": "zhuxian",
+      "name": "诛仙手游",
+      "category": "游戏",
+      "packageId": "com.wanmei.zhuxian.mi",
+      "tone": "mint",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 105 C 62 92 71 70 82 58 C 87 52 100 51 108 54 C 98 70 96 83 81 95 C 68 105 59 111 46 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 103 C 71 99 81 79 102 65 C 95 81 93 86 82 95 C 69 106 60 111 53 112 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 117 C 66 111 79 122 91 121 C 108 119 115 110 121 106",
+          "color": "jade",
+          "width": 4.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            77,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.wanmei.zhuxian.mi",
+      "components": [
+        "com.wanmei.zhuxian.mi/com.wanmei.zhuxian.GameActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.wanmei.zhuxian.mi",
+        "version": "2.1168.1",
+        "channel": "小米应用商店渠道 APK"
+      }
+    },
+    {
+      "art": "dragonraja",
+      "name": "龙族幻想",
+      "category": "游戏",
+      "packageId": "com.tencent.lzhx",
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 49 C 95 56 107 59 119 60 L 116 88 C 111 108 99 119 84 125 C 68 119 56 107 52 88 L 49 60 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 64 L 84 59 L 110 65 L 108 87 C 104 103 96 113 84 117 C 72 112 65 102 61 88 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 67 72 L 82 81 L 100 70 C 94 87 94 100 83 108 C 76 99 78 91 67 72 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            83,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.tencent.lzhx",
+      "components": [
+        "com.tencent.lzhx/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.lzhx",
+        "version": "1.5.352",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "narutons",
+      "name": "火影忍者：忍者新世代",
+      "previewName": "忍者新世代",
+      "category": "游戏",
+      "packageId": "com.tencent.hyrzol",
+      "tone": "orange",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 69 C 68 65 99 65 116 71 L 120 103 C 101 112 68 112 49 103 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 78 C 68 73 100 73 112 78 L 112 99 C 98 103 70 104 56 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 79 C 79 76 70 89 80 94 C 86 98 97 92 93 86 C 90 82 84 85 85 89 M 91 79 L 102 73",
+          "color": "cobalt",
+          "width": 4.2
+        },
+        {
+          "type": "path",
+          "shape": "M 112 91 C 126 85 131 91 129 99 L 119 102 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.tencent.hyrzol",
+      "components": [
+        "com.tencent.hyrzol/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.hyrzol",
+        "version": "3.85.92",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "poketcg",
+      "name": "Pokémon TCG Pocket",
+      "previewName": "Pokémon TCGP",
+      "category": "游戏",
+      "packageId": "jp.pokemon.pokemontcgp",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 53 L 106 47 L 113 110 L 60 119 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 65 52 L 119 58 L 112 120 L 59 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            70,
+            39,
+            39
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "path",
+          "shape": "M 72 90 C 71 79 80 72 89 72 C 98 72 105 78 106 87 L 90 93 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 91 L 104 89",
+          "color": "paper",
+          "width": 4.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            84,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "jp.pokemon.pokemontcgp/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "marvelsnap",
+      "name": "MARVEL SNAP",
+      "category": "游戏",
+      "packageId": "com.nvsgames.snap",
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 105 L 63 58 L 92 58 L 88 71 L 72 71 L 66 84 L 84 84 L 67 118 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 92 109 L 105 88 L 93 87 L 108 53 L 124 56 L 112 78 L 127 79 L 109 111 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            117,
+            104,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 115 L 61 116",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.nvsgames.snap/com.appboy.unity.AppboyUnityPlayerActivity",
+        "com.nvsgames.snap/com.nvgames.snap.player.CubePlayerActivity",
+        "com.nvsgames.snap/com.seconddinner.snap.player.CubePlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "bloonstd6",
+      "name": "Bloons TD 6",
+      "category": "游戏",
+      "packageId": "com.ninjakiwi.bloonstd6",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 67 55 C 84 55 94 67 94 79 C 94 92 83 103 74 107 L 68 115 L 62 107 C 54 103 43 92 43 79 C 43 65 53 55 67 55 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 101 49 C 117 49 124 60 124 72 C 124 85 114 95 104 99 L 100 107 L 95 98 C 86 92 83 79 84 71 C 85 59 90 49 101 49 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 46 87 C 63 82 76 102 93 83 C 91 94 81 103 74 107 L 68 115 L 62 107 C 56 103 49 97 46 87 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 118 L 74 125 M 101 110 L 98 121",
+          "color": "ice",
+          "width": 4.1
+        }
+      ],
+      "components": [
+        "com.ninjakiwi.bloonstd6/com.unity.android.sdk.PlayerLauncher",
+        "com.ninjakiwi.bloonstd6/com.unity.android.sdk.UnityLauncher",
+        "com.ninjakiwi.bloonstd6/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "warrobots",
+      "name": "War Robots",
+      "category": "游戏",
+      "packageId": "com.pixonic.wwr",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 67 L 72 53 L 97 53 L 115 68 L 115 100 L 102 115 L 66 115 L 54 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 74 L 108 74 L 108 93 L 60 93 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 86 C 77 80 91 96 107 83 L 107 92 L 62 92 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 105 L 79 105 M 91 105 L 101 105",
+          "color": "dark",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            61,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.pixonic.wwr/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "pokemonunite",
+      "name": "Pokémon UNITE",
+      "category": "游戏",
+      "packageId": "jp.pokemon.pokemonunite",
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 83 C 48 68 60 56 75 56 C 90 56 101 68 101 83 C 101 100 88 110 75 110 C 60 110 48 100 48 83 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 67 64 C 77 54 86 48 97 50 L 119 53 L 112 73 L 81 81 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 114 L 106 90 L 118 90 L 121 105 L 111 118 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 88 C 67 80 78 106 100 88 C 98 100 89 109 75 109 C 64 109 54 100 50 88 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            76,
+            13,
+            13
+          ],
+          "color": "iris"
+        }
+      ],
+      "components": [
+        "jp.pokemon.pokemonunite/com.nishiki.pgame.n.PGameActivity",
+        "jp.pokemon.pokemonunite/com.nishiki.pgame.n.PGameLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "name": "AI · 500 款扩容第四批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "photomath",
+      "name": "Photomath",
+      "category": "AI",
+      "packageId": "com.microblink.photomath",
+      "components": [
+        "com.microblink.photomath/com.microblink.photomath.main.LauncherActivity",
+        "com.microblink.photomath/com.microblink.photomath.main.MainActivity",
+        "com.microblink.photomath/com.microblink.photomath.main.activity.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 75 L 57 66 L 71 66 L 76 57 L 94 57 L 99 66 L 114 66 L 121 75 L 121 101 C 121 108 116 112 109 112 L 63 112 C 55 112 50 108 50 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 69 L 69 69 M 107 76 L 111 76",
+          "color": "crimson",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 62 92 L 73 92 L 80 103 L 90 78 L 111 78 L 111 84 L 95 84 L 83 114 L 77 114 L 69 98 L 62 98 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 96 96 L 110 96 M 96 102 L 110 102",
+          "color": "azure",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "brainly",
+      "name": "Brainly",
+      "category": "AI",
+      "packageId": "co.brainly",
+      "components": [
+        "co.brainly/co.brainly.feature.splash.impl.SplashActivity",
+        "co.brainly/com.brainly.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 85 C 50 74 61 66 72 66 C 75 57 92 53 101 61 C 112 59 121 68 120 78 C 125 91 115 103 103 105 L 77 105 L 62 118 L 64 103 C 55 100 50 94 50 85 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 90 C 70 82 93 105 117 90 C 116 99 111 103 102 104 L 76 104 L 63 115 L 65 102 C 60 100 57 96 55 90 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 83 L 73 83 L 77 77 L 83 92 L 90 76 L 97 83 L 104 83",
+          "color": "dark",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            66,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "quillbot",
+      "name": "QuillBot",
+      "category": "AI",
+      "packageId": "com.quillbot.mobile",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.quillbot.mobile",
+      "components": [
+        "com.quillbot.mobile/com.quillbot.mobile.hostApp.QuillBotFlutterActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 97 C 59 67 80 49 121 52 C 120 76 107 95 83 100 C 75 101 68 104 61 117 L 54 117 L 57 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 105 C 72 82 92 71 109 65 C 106 82 93 96 78 100 C 71 102 67 105 64 112 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 110 C 77 91 89 85 106 77",
+          "color": "jade",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 117 C 94 116 102 110 115 109",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "grammarly",
+      "name": "Grammarly",
+      "category": "AI",
+      "packageId": "com.grammarly.android.keyboard",
+      "components": [
+        "com.grammarly.android.keyboard/com.grammarly.android.keyboard.welcome.GetStartedActivity",
+        "com.grammarly.android.keyboard/com.grammarly.common.launcher.LauncherActivity",
+        "com.grammarly.android.keyboard/com.grammarly.host.SplashActivity",
+        "com.grammarly.android.keyboard/com.grammarly.keyboard.host.SplashActivity",
+        "com.grammarly.android.keyboard/com.grammarly.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 105 71 C 99 57 73 56 61 74 C 48 92 60 116 84 116 C 97 116 107 111 113 100 L 113 84 L 85 84 L 85 94 L 102 94 L 102 98 C 93 110 78 108 70 100 C 59 87 71 72 84 72 C 90 72 96 75 99 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 70 104 C 81 103 86 110 95 105 C 100 102 104 98 106 92 L 113 92 L 113 100 C 107 111 97 116 84 116 C 79 116 73 113 70 110 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            115,
+            62,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "picsart",
+      "name": "Picsart",
+      "category": "AI",
+      "packageId": "com.picsart.studio",
+      "components": [
+        "com.picsart.studio/com.d.a",
+        "com.picsart.studio/com.socialin.android.photo.picsinphoto.MainActivity",
+        "com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity",
+        "com.picsart.studio/com.socialin.android.photo.picsinphoto.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 63 117 L 63 58 L 94 58 C 114 58 122 78 114 92 C 110 102 99 106 82 103 L 82 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 81 72 L 93 72 C 104 72 105 91 93 91 L 81 91 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 101 C 71 96 75 97 82 102 L 82 117 L 63 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            51,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "adobeexpress",
+      "name": "Adobe Express",
+      "category": "AI",
+      "packageId": "com.adobe.spark.post",
+      "components": [
+        "com.adobe.spark.post/com.adobe.express.app.view.RoutingActivity",
+        "com.adobe.spark.post/com.adobe.spark.view.main.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 105 L 71 54 L 95 54 L 120 105 L 108 117 L 85 71 L 60 117 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 103 L 56 94 L 89 94 L 101 82 L 109 98 C 103 108 96 113 87 113 L 53 113 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 107 55 L 114 67 L 125 74 L 114 79 L 108 91 L 103 80 L 92 74 L 103 68 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "pixa",
+      "name": "Pixelcut",
+      "category": "AI",
+      "packageId": "com.circular.pixels",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.circular.pixels",
+      "components": [
+        "com.circular.pixels/com.circular.pixels.MainActivity",
+        "com.circular.pixels/com.circular.pixels.ToastActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 88 L 76 62 L 95 62 L 119 85 L 93 113 L 73 113 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 89 C 66 79 80 102 96 94 C 104 90 111 87 118 88 L 94 113 L 73 113 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 95 50 L 101 63 L 114 68 L 101 74 L 95 88 L 89 75 L 76 69 L 89 63 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            112,
+            48,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "AI",
+      "packageId": "io.elevenlabs.coreapp",
+      "packageSource": "https://play.google.com/store/apps/details?id=io.elevenlabs.coreapp",
+      "components": [
+        "io.elevenlabs.coreapp/io.elevenlabs.coreapp.MainActivity",
+        "io.elevenlabs.coreapp/io.elevenlabs.mobile.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            58,
+            52,
+            17,
+            60,
+            4
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            85,
+            52,
+            17,
+            60,
+            4
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 95 C 74 88 92 108 112 94 L 112 112 C 92 125 75 104 57 113 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 73 L 45 92 M 119 65 L 119 98",
+          "color": "mint",
+          "width": 5
+        }
+      ]
+    }
+  ]
+}

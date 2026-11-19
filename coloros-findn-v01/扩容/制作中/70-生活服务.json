@@ -1,0 +1,405 @@
+{
+  "name": "1,040 款扩容 · 第三批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "meteoblue",
+      "name": "meteoblue",
+      "packageId": "com.meteoblue.droid",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            52,
+            64,
+            64
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 56 91 C 64 79 76 77 83 83 C 94 87 104 80 112 80 L 112 96 C 96 109 67 107 56 91 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 72 C 71 65 91 67 106 75",
+          "color": "azure",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            57,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.meteoblue.droid/com.meteoblue.droid.view.MainActivity",
+        "com.meteoblue.droid/crc64759a0cf6dda89994.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "outdooractive",
+      "name": "Outdooractive",
+      "packageId": "com.outdooractive.Outdooractive",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 99 L 69 67 L 78 78 L 98 55 L 122 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 76 L 98 55 L 112 77 L 102 73 L 97 79 L 92 72 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 110 C 69 109 72 98 86 94 C 98 91 107 93 116 83",
+          "color": "mint",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            54,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.outdooractive.Outdooractive/com.outdooractive.showcase.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "polarflow",
+      "name": "Polar Flow",
+      "packageId": "fi.polar.polarflow",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 47 88 L 61 88 L 71 63 L 82 107 L 94 70 L 103 88 L 121 88",
+          "color": "paper",
+          "width": 6.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 112 C 73 116 100 115 113 103",
+          "color": "coral",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            54,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "fi.polar.polarflow/fi.polar.polarflow.activity.login.LoginActivity",
+        "fi.polar.polarflow/fi.polar.polarflow.activity.login.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "suunto",
+      "name": "Suunto",
+      "packageId": "com.stt.android.suunto",
+      "category": "生活服务",
+      "tone": "onyx",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            49,
+            70,
+            70
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            55,
+            58,
+            58
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "path",
+          "shape": "M 98 61 L 89 91 L 68 107 L 76 79 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 98 61 L 89 91 L 76 79 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 57 L 83 65 M 109 83 L 103 83 M 63 83 L 57 83 M 84 105 L 84 112",
+          "color": "white",
+          "width": 3.1
+        }
+      ],
+      "components": [
+        "com.stt.android.suunto/com.stt.android.launcher.ProxyActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "aeroplan",
+      "name": "Air Canada + Aeroplan",
+      "packageId": "com.aircanada",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "ticket",
+      "previewName": "Air Canada",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 49 L 94 70 L 106 64 L 105 77 L 124 80 L 108 95 L 114 102 L 90 105 L 84 118 L 78 105 L 54 101 L 60 94 L 45 79 L 63 77 L 62 65 L 74 70 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 92 L 109 80 L 107 89 L 91 94 L 82 108 L 77 103 L 82 96 L 65 99 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            54,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.aircanada/com.aircanada.mobile.activity.OnBoardingActivity",
+        "com.aircanada/com.aircanada.mobile.ui.activity.MainActivity.DarkIconLauncher",
+        "com.aircanada/com.aircanada.mobile.ui.activity.MainActivity.PrideIconLauncher",
+        "com.aircanada/com.aircanada.mobile.ui.activity.OnBoardingActivity",
+        "com.aircanada/com.aircanada.mobile.ui.activity.OnBoardingActivity.DarkIconLauncher",
+        "com.aircanada/com.aircanada.mobile.ui.activity.OnBoardingActivity.OlympicsIconLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "lufthansa",
+      "name": "Lufthansa",
+      "packageId": "com.lufthansa.android.lufthansa",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            52,
+            64,
+            64
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 55 88 C 69 88 78 75 90 71 L 112 63 L 107 74 L 94 81 L 88 96 L 74 97 L 77 89 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 107 C 76 103 91 108 105 102",
+          "color": "gold",
+          "width": 4.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            56,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.lufthansa.android.lufthansa/com.lhgroup.lhgroupapp.MainActivity",
+        "com.lufthansa.android.lufthansa/com.lhgroup.lhgroupapp.activity.MainActivity",
+        "com.lufthansa.android.lufthansa/com.lufthansa.android.lufthansa.ui.activity.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "klm",
+      "name": "KLM",
+      "packageId": "com.afklm.mobile.android.gomobile.klm",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 71 L 62 77 L 72 67 L 84 76 L 96 67 L 106 77 L 120 71 L 112 99 L 56 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 90 L 112 90 L 110 97 L 58 97 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            62,
+            10,
+            10
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            54,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            62,
+            10,
+            10
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 109 L 104 109",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.afklm.mobile.android.gomobile.klm/com.airfrance.android.totoro.homepage.activity.MainActivity",
+        "com.afklm.mobile.android.gomobile.klm/com.klm.mobile.android.core.activity.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "britishairways",
+      "name": "British Airways",
+      "packageId": "com.ba.mobile",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 81 C 62 61 90 82 121 60 C 115 83 101 89 82 85 L 54 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 92 C 76 75 93 103 121 74 C 117 92 100 103 84 102 L 54 108 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 112 C 83 111 102 112 114 101",
+          "color": "ice",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.ba.mobile/com.ba.mobile.splash.SplashActivity",
+        "com.ba.mobile/com.britishairways.nexusbaflights.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

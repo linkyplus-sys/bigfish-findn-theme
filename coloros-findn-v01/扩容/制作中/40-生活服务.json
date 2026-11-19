@@ -1,0 +1,1099 @@
+{
+  "name": "生活服务 · 800 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "pizzahut",
+      "name": "必胜客",
+      "category": "生活服务",
+      "packageId": "com.yumc.phsuperapp",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 81 L 63 60 L 106 60 L 125 81 L 116 89 L 51 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 91 L 113 91 L 106 114 L 64 114 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 66 93 L 102 93 L 84 110 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            97,
+            6,
+            6
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            89,
+            97,
+            6,
+            6
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 119 C 71 114 84 125 104 118",
+          "color": "ice",
+          "width": 4.3
+        }
+      ],
+      "components": [
+        "com.yumc.phsuperapp/com.yum.ph.SplashAct"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "burgerking",
+      "name": "汉堡王",
+      "category": "生活服务",
+      "packageId": "cn.atpchina.mobileapp",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 73 C 52 58 67 51 84 51 C 102 51 116 59 121 73 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 95 L 121 95 C 118 113 105 120 84 120 C 63 120 50 113 47 95 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 82 C 62 75 77 90 91 84 C 104 79 111 81 120 80 L 120 89 L 48 89 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            59,
+            7,
+            4
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            60,
+            7,
+            4
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 102 L 65 103 M 102 104 L 111 101",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=cn.atpchina.mobileapp",
+      "components": [
+        "cn.atpchina.mobileapp/io.dcloud.PandoraEntry"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "hrss12333",
+      "name": "掌上 12333",
+      "category": "生活服务",
+      "packageId": "com.ylzinfo.chinahrss",
+      "tone": "azure",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            54,
+            74,
+            60,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            64,
+            21,
+            21
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "path",
+          "shape": "M 54 99 C 54 83 80 83 80 101 L 80 105 L 54 105 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 90 70 L 108 70 M 90 81 L 109 81",
+          "color": "blue",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 93 91 L 110 91 L 110 103 L 102 109 L 93 103 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 97 98 L 100 101 L 106 95",
+          "color": "dark",
+          "width": 3.1
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.ylzinfo.chinahrss",
+      "components": [
+        "com.ylzinfo.chinahrss/com.ylzinfo.chinahrss.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.ylzinfo.chinahrss",
+        "version": "2.2.35",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "sgcc",
+      "name": "网上国网",
+      "category": "生活服务",
+      "packageId": "com.sgcc.wsgw.cn",
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 78 L 83 49 L 121 77 L 112 87 L 112 116 L 55 116 L 55 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 99 C 70 91 91 111 112 98 L 112 116 L 55 116 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 80 65 L 97 65 L 89 83 L 103 82 L 76 109 L 81 90 L 68 91 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            65,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.sgcc.wsgw.cn/com.sgcc.wsgw.cn.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "csg",
+      "name": "南网在线",
+      "category": "生活服务",
+      "packageId": "com.csg.palmhall",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 109 L 77 53 L 94 53 L 123 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 104 C 72 96 80 101 88 106 L 101 106 L 84 70 L 67 104 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 115 C 61 111 73 125 90 119 C 103 115 113 108 122 111",
+          "color": "mint",
+          "width": 4.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            63,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.csg.palmhall?version=latest",
+      "components": [
+        "com.csg.palmhall/com.csg.palmhall.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.csg.palmhall?version=latest",
+        "version": "4.3.149",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "jdhealth",
+      "name": "京东健康",
+      "category": "生活服务",
+      "packageId": "com.jd.jdhealth",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 61 C 66 54 78 61 84 71 C 90 60 105 54 116 61 C 130 70 124 92 112 103 C 101 113 94 116 84 121 C 68 116 45 96 44 82 C 42 73 48 64 54 61 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 92 C 64 89 75 105 89 103 C 101 101 114 94 121 89 C 113 108 98 116 84 121 C 68 116 55 106 47 92 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 79 73 L 89 73 L 89 84 L 100 84 L 100 94 L 89 94 L 89 105 L 79 105 L 79 94 L 68 94 L 68 84 L 79 84 Z",
+          "color": "crimson",
+          "width": 1.8
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.jd.jdhealth",
+      "components": [
+        "com.jd.jdhealth/com.jd.jdhealth.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.jd.jdhealth?version=latest",
+        "version": "9.2.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "pahealth",
+      "name": "平安好医生",
+      "category": "生活服务",
+      "packageId": "com.pingan.papd",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            62,
+            72,
+            53,
+            12
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 64 L 70 56 C 70 45 97 45 97 56 L 97 64",
+          "color": "paper",
+          "width": 5.2
+        },
+        {
+          "type": "path",
+          "shape": "M 49 95 C 66 87 88 111 119 93 L 119 106 C 118 112 114 114 106 114 L 61 114 C 54 114 50 109 49 105 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 85 L 69 85 L 76 75 L 85 96 L 93 80 L 101 85 L 110 85",
+          "color": "orange",
+          "width": 4.5
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.pingan.papd",
+      "components": [
+        "com.pingan.papd/com.pingan.papd.logo_company",
+        "com.pingan.papd/com.pingan.papd.logo_default"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.pingan.papd",
+        "version": "9.51.0",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "haodf",
+      "name": "好大夫在线",
+      "category": "生活服务",
+      "packageId": "com.haodf.android",
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 61 L 108 61 C 117 61 125 70 125 80 L 125 96 C 125 105 117 112 105 112 L 77 112 L 55 123 L 59 110 C 50 106 45 102 45 94 L 45 72 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 94 C 62 88 83 110 106 99 C 114 95 119 94 124 94 C 124 105 117 111 104 111 L 77 111 L 55 122 L 59 110 C 51 106 47 101 47 94 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 82 L 64 92 C 64 103 86 103 86 91 L 86 75 C 86 67 97 67 97 75 L 97 84",
+          "color": "cobalt",
+          "width": 5.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            79,
+            12,
+            12
+          ],
+          "color": "teal"
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.haodf.android",
+      "components": [
+        "com.haodf.android/com.haodf.android.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.haodf.android",
+        "version": "9.4.7",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "mybus",
+      "name": "掌上公交",
+      "category": "生活服务",
+      "packageId": "com.mygolbs.mybus",
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            49,
+            50,
+            70,
+            65,
+            13
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            57,
+            60,
+            54,
+            26,
+            5
+          ],
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 78 C 72 70 87 89 111 73 L 111 85 L 57 85 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            59,
+            94,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            94,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 113 L 56 120 M 110 113 L 110 120",
+          "color": "paper",
+          "width": 5
+        }
+      ],
+      "components": [
+        "com.mygolbs.mybus/com.mygolbs.mybus.LoginActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "chelaile",
+      "name": "车来了",
+      "category": "生活服务",
+      "packageId": "com.ygkj.chelaile.standard",
+      "tone": "orange",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 69 47 C 87 47 107 52 110 72 C 114 90 100 101 83 121 C 67 103 52 89 54 73 C 56 58 60 50 69 47 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 83 C 72 76 89 99 107 81 C 102 99 92 110 83 120 C 75 111 65 100 59 83 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            65,
+            62,
+            36,
+            27,
+            7
+          ],
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            70,
+            66,
+            26,
+            10,
+            3
+          ],
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            79,
+            6,
+            6
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            79,
+            6,
+            6
+          ],
+          "color": "paper"
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.ygkj.chelaile.standard",
+      "components": [
+        "com.ygkj.chelaile.standard/dev.xesam.chelaile.app.module.func.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.ygkj.chelaile.standard",
+        "version": "7.6.9",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "tuhu",
+      "name": "途虎养车",
+      "category": "生活服务",
+      "packageId": "cn.TuHu.android",
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 72 L 52 54 L 68 59 C 80 53 94 53 103 59 L 119 54 L 115 76 C 118 94 103 112 85 120 C 66 113 52 96 53 72 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 95 C 70 89 84 110 114 95 C 108 105 98 114 85 119 C 72 114 62 105 57 95 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 73 L 74 78 L 62 82 Z M 108 74 L 96 78 L 108 82 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 91 L 78 88 M 92 88 L 100 91",
+          "color": "onyx",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            95,
+            9,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=cn.TuHu.android",
+      "components": [
+        "cn.TuHu.android/cn.TuHu.Activity.Welcome"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.TuHu.android",
+        "version": "7.80.5",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "autohome",
+      "name": "汽车之家",
+      "category": "生活服务",
+      "packageId": "com.cubic.autohome",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 77 L 84 46 L 126 77 L 114 87 L 114 113 L 53 113 L 53 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 97 C 71 87 90 108 114 94 L 114 113 L 53 113 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 93 L 68 82 L 100 82 L 107 93 L 107 105 L 61 105 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 96 L 75 96 M 93 96 L 100 96",
+          "color": "paper",
+          "width": 4.4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.cubic.autohome",
+      "components": [
+        "com.cubic.autohome/com.cubic.autohome.LogoActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "dongchedi",
+      "name": "懂车帝",
+      "category": "生活服务",
+      "packageId": "com.ss.android.auto",
+      "tone": "gold",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 89 C 53 66 68 56 85 56 C 104 56 119 70 120 88 C 120 107 105 116 85 116 C 65 116 48 109 49 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 92 C 67 85 78 111 108 95 L 119 89 C 119 108 104 116 85 116 C 67 116 56 109 53 92 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 88 C 68 72 101 72 104 88",
+          "color": "orange",
+          "width": 6.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 91 L 99 77",
+          "color": "crimson",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            86,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.ss.android.auto/com.ss.android.auto.policy.AutoPrivacyActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "yiche",
+      "name": "易车",
+      "category": "生活服务",
+      "packageId": "com.yiche.autoeasy",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 92 L 56 70 C 62 63 69 63 75 63 L 97 63 C 105 64 110 67 113 73 L 122 92 L 122 108 L 45 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 84 L 69 72 L 100 72 L 108 84 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 46 98 C 61 95 70 107 87 104 C 101 101 109 96 121 98 L 121 108 L 46 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            91,
+            11,
+            9
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            91,
+            11,
+            9
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 119 L 84 117 M 100 116 L 114 111",
+          "color": "mint",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "com.yiche.autoeasy/com.yiche.autoeasy.ADActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "walmart",
+      "name": "Walmart",
+      "category": "生活服务",
+      "packageId": "com.walmart.android",
+      "tone": "cobalt",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 78 L 122 78 L 117 117 L 50 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 101 C 66 91 85 113 105 103 C 111 100 115 96 120 96 L 118 117 L 50 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 56 L 84 70 M 84 90 L 84 104 M 62 64 L 73 73 M 96 86 L 106 94 M 61 94 L 73 85 M 96 73 L 107 64",
+          "color": "gold",
+          "width": 5.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            75,
+            12,
+            12
+          ],
+          "color": "cobalt"
+        }
+      ],
+      "components": [
+        "com.walmart.android/com.walmart.android.app.HomeActivity",
+        "com.walmart.android/com.walmart.android.app.main.LaunchActivity",
+        "com.walmart.android/com.walmart.android.app.main.MainActivity",
+        "com.walmart.android/com.walmart.glass.integration.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "transit",
+      "name": "Transit",
+      "category": "生活服务",
+      "packageId": "com.thetransitapp.droid",
+      "tone": "jade",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 86 C 61 71 69 69 83 76 C 92 80 100 80 119 60 L 119 76 C 107 91 94 93 85 89 C 72 84 64 87 49 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 107 C 65 99 74 108 86 109 C 99 111 111 99 120 102 L 120 111 C 106 113 99 120 86 119 C 74 119 63 112 50 119 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            65,
+            12,
+            12
+          ],
+          "color": "paper"
+        }
+      ],
+      "components": [
+        "com.thetransitapp.droid/com.thetransitapp.droid.SplashActivity",
+        "com.thetransitapp.droid/com.thetransitapp.droid.TransitActivity",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnbrown",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahngreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnlightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnolive",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnpurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnred",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityberlinubahnyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybostontblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybostontgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybostontorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybostontpurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybostontred",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubteblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubtegreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubtelightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubteorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubtepurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubtered",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitybuenosairessubteyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagoblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagobrown",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagogreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagoorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagopink",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagopurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagored",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitychicagoyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetroblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetrogray",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetrogreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetroorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetrored",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitydcmetroyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconfrozen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconmanifesto",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconneon",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconpace",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconpride09",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconslm",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityicontenyears",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconuta",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityiconxmas",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityknittedgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityknittedpink",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametroblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametrogreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametroorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametropurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametrored",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametrosilver",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitylametroyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodemontrealblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodemontrealgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodemontrealorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodemontrealyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisbrown",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparislightgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparislightolive",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparislightorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparismidgreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisolive",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparispink",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparispurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparispurple2",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparispurple3",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisteal",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitymetrodeparisyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwayblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwaybrown",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwaygray",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwaygreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwayolive",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwayorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwaypurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwayred",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwaysilver",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitynycsubwayyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityoctranspoblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityoctranspogreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityoctranspored",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityoctranspoyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityseptagreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityseptalightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityseptaorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityseptapurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytorontosubwaygreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytorontosubwaylightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytorontosubwaypurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytorontosubwayyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonblack",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonbrown",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondongreen",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonlightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonlightteal",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonolive",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonpink",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonpurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonred",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonsilver",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonteal",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivitytransportforlondonyellow",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinkblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinkgray",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinklightblue",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinkorange",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinkpurple",
+        "com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivityvancouvertranslinkyellow"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "osmand",
+      "name": "OsmAnd",
+      "category": "生活服务",
+      "packageId": "net.osmand",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 100 L 70 60 L 96 60 L 117 101 L 85 119 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 99 L 72 90 L 94 91 L 115 101 L 85 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 90 L 80 65 L 85 80 L 98 71 L 108 96 L 85 108 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 95 L 80 88 L 91 95 L 104 85",
+          "color": "paper",
+          "width": 4.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            48,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "net.osmand/net.osmand.activities.MainMenuActivity",
+        "net.osmand/net.osmand.plus.activities.MainMenuActivity",
+        "net.osmand/net.osmand.plus.activities.MapActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "organicmaps",
+      "name": "Organic Maps",
+      "category": "生活服务",
+      "packageId": "app.organicmaps",
+      "tone": "jade",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 85 48 C 107 48 119 64 116 84 C 114 99 102 109 85 122 C 68 109 56 99 53 84 C 50 65 63 48 85 48 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 87 C 68 75 90 103 114 83 C 113 99 102 109 85 121 C 70 110 60 101 56 87 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 81 84 C 76 66 95 59 105 62 C 104 73 95 84 81 84 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 98 C 78 89 85 81 96 70",
+          "color": "dark",
+          "width": 4.6
+        }
+      ],
+      "components": [
+        "app.organicmaps/app.organicmaps.DownloadResourcesActivity",
+        "app.organicmaps/com.mapswithme.maps.DownloadResourcesActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

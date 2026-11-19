@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/full_clock_width" android:minHeight="130dp"
+    android:minResizeHeight="112dp" android:targetCellHeight="2"
+    android:initialLayout="@layout/widget_wide"
+    android:previewLayout="@layout/widget_wide"
+    android:updatePeriodMillis="0" android:resizeMode="vertical"
+    android:widgetCategory="home_screen" />

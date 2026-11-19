@@ -1,0 +1,1067 @@
+{
+  "name": "800 款扩容 · 第三批 · 日常应用",
+  "status": "图稿待入包",
+  "activitySources": {
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "sohunews",
+      "name": "搜狐新闻",
+      "category": "日常应用",
+      "packageId": "com.sohu.newsclient",
+      "tone": "gold",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 56 L 109 56 L 117 67 L 117 113 L 49 113 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 95 C 64 89 81 104 95 100 C 104 97 110 94 116 95 L 116 113 L 50 113 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 67 L 111 67 L 111 78 L 55 78 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 90 L 78 90 M 59 101 L 79 101",
+          "color": "dark",
+          "width": 4.2
+        },
+        {
+          "type": "path",
+          "shape": "M 90 91 L 107 91 L 107 105 L 90 105 Z",
+          "color": "coral",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.sohu.newsclient/com.sohu.newsclient.app.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "sinanews",
+      "name": "新浪新闻",
+      "category": "日常应用",
+      "packageId": "com.sina.news",
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 53 L 102 53 L 118 69 L 118 114 L 50 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 103 53 L 118 69 L 103 69 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 87 C 68 74 89 73 102 82 L 111 78 L 109 91 C 99 103 68 107 56 95 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            81,
+            13,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            84,
+            7,
+            7
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 110 L 109 110",
+          "color": "coral",
+          "width": 3.9
+        }
+      ],
+      "components": [
+        "com.sina.news/com.sina.news.ui.PowerOnScreen"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "douyulive",
+      "name": "斗鱼",
+      "category": "日常应用",
+      "packageId": "air.tv.douyu.android",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 87 C 52 65 77 59 97 68 L 121 56 L 120 78 L 129 88 L 120 98 L 122 114 L 97 104 C 73 116 49 110 43 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 46 94 C 64 91 80 106 98 96 L 122 93 L 119 97 L 121 112 L 97 104 C 79 114 54 110 46 94 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 67 72 L 94 87 L 68 102 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            77,
+            9,
+            9
+          ],
+          "color": "cobalt"
+        }
+      ],
+      "components": [
+        "air.tv.douyu.android/tv.douyu.view.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "huyalive",
+      "name": "虎牙直播",
+      "category": "日常应用",
+      "packageId": "com.duowan.kiwi",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 70 L 53 54 C 66 53 74 62 76 64 L 93 64 C 99 58 108 54 117 55 L 122 73 L 118 101 L 99 114 L 69 114 L 48 101 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 96 C 65 91 82 110 99 101 C 109 95 115 94 119 96 L 117 102 L 99 114 L 69 114 L 48 101 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 77 73 L 103 85 L 77 99 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 68 L 67 72 L 64 77 L 52 73 Z M 116 67 L 101 72 L 105 78 L 118 73 Z",
+          "color": "onyx",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.duowan.kiwi/com.duowan.kiwi.simpleactivity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "kuaiying",
+      "name": "快影",
+      "category": "日常应用",
+      "packageId": "com.kwai.videoeditor",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 57 L 109 57 L 119 69 L 119 111 L 49 111 L 49 71 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 92 C 62 85 78 108 95 101 C 106 96 111 92 118 92 L 119 111 L 49 111 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 63 L 101 63 L 90 80 L 105 78 L 75 109 L 81 89 L 67 90 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 118 L 82 118",
+          "color": "sand",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.kwai.videoeditor",
+      "components": [
+        "com.kwai.videoeditor/com.kwai.videoeditor.activity.MainActivity",
+        "com.kwai.videoeditor/com.kwai.videoeditor.activity.MainActivityAlias",
+        "com.kwai.videoeditor/com.kwai.videoeditor.icon.MainActivityAlias1"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.kwai.videoeditor",
+        "version": "8.20.0.820003",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "vneditor",
+      "name": "VN",
+      "category": "日常应用",
+      "packageId": "com.frontrow.vlog",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 62 L 62 62 L 75 96 L 91 62 L 107 62 L 83 111 L 68 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 111 L 104 68 L 116 62 L 123 62 L 123 111 L 110 111 L 110 83 L 98 109 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 119 C 63 112 79 126 98 122 C 110 119 115 115 121 115",
+          "color": "mint",
+          "width": 4.3
+        }
+      ],
+      "components": [
+        "com.frontrow.vlog/com.frontrow.vlog.ui.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "inshot",
+      "name": "InShot",
+      "category": "日常应用",
+      "packageId": "com.camerasideas.instashot",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            55,
+            71,
+            60,
+            17
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            54,
+            61,
+            59,
+            48,
+            13
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            67,
+            33,
+            33
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            73,
+            21,
+            21
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            63,
+            7,
+            7
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 115 C 68 107 82 126 103 117",
+          "color": "ice",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "com.camerasideas.instashot/com.camerasideas.instashot.DummyActivity",
+        "com.camerasideas.instashot/com.camerasideas.instashot.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "kinemaster",
+      "name": "KineMaster",
+      "category": "日常应用",
+      "packageId": "com.nexstreaming.app.kinemasterfree",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            48,
+            48,
+            73,
+            73
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            55,
+            59,
+            59
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 72 65 L 82 65 L 82 83 L 99 65 L 110 65 L 90 84 L 110 105 L 97 105 L 82 90 L 82 105 L 72 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            62,
+            6,
+            6
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            103,
+            6,
+            6
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.nexstreaming.app.kinemasterfree/com.kinemaster.app.screen.splash.SplashActivity",
+        "com.nexstreaming.app.kinemasterfree/com.nexstreaming.kinemaster.ui.splash.SplashActivity",
+        "com.nexstreaming.app.kinemasterfree/com.nextreaming.nexeditorui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "alight",
+      "name": "Alight Motion",
+      "category": "日常应用",
+      "packageId": "com.alightcreative.motion",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 53 99 C 45 79 65 56 89 59 C 106 61 114 74 109 88 C 105 100 92 105 79 99 C 69 95 67 86 73 79 C 80 71 93 76 92 84",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 112 C 72 123 100 123 117 106",
+          "color": "mint",
+          "width": 5.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            117,
+            67,
+            9,
+            9
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.alightcreative.motion/com.alightcreative.app.motion.activities.ProjectListActivity",
+        "com.alightcreative.motion/com.alightcreative.app.motion.activities.main.MainActivity",
+        "com.alightcreative.motion/com.alightcreative.app.motion.activities.main.SetupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "blackmagic",
+      "name": "Blackmagic Camera",
+      "category": "日常应用",
+      "packageId": "com.blackmagicdesign.android.blackmagiccam",
+      "tone": "onyx",
+      "form": "tile",
+      "previewName": "Blackmagic",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 71 L 62 71 L 70 57 L 101 57 L 109 71 L 122 71 L 122 111 L 47 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 100 C 62 92 76 110 90 106 C 101 104 111 98 121 99 L 121 111 L 48 111 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            69,
+            43,
+            43
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            70,
+            77,
+            27,
+            27
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            83,
+            13,
+            13
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            78,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.blackmagicdesign.android.blackmagiccam/com.blackmagicdesign.android.blackmagiccam.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "krita",
+      "name": "Krita",
+      "category": "日常应用",
+      "packageId": "org.krita",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 89 C 41 71 62 51 83 51 C 104 51 125 66 122 86 C 120 100 111 103 101 100 C 94 98 88 103 86 111 C 83 125 58 113 48 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 96 C 68 90 82 105 100 99 C 95 99 88 104 86 111 C 83 124 63 116 54 96 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            68,
+            13,
+            13
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            57,
+            14,
+            14
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            60,
+            13,
+            13
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 97 L 107 59 L 116 65 L 96 99 Z",
+          "color": "iris",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "org.krita/org.krita.android.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "infinitepainter",
+      "name": "Infinite Painter",
+      "category": "日常应用",
+      "packageId": "com.brakefield.painter",
+      "tone": "azure",
+      "form": "orb",
+      "previewName": "Infinite Painter",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 101 C 56 62 83 48 119 52 C 113 74 105 95 78 104 C 69 107 56 110 47 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 99 C 72 86 94 74 112 59 C 106 80 99 92 78 103 C 70 107 65 107 59 107 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 111 C 64 96 85 88 103 72",
+          "color": "cobalt",
+          "width": 5.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            105,
+            11,
+            11
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.brakefield.painter/com.brakefield.painter.activities.ActivityStartup"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "ibispaint",
+      "name": "ibis Paint X",
+      "category": "日常应用",
+      "packageId": "jp.ne.ibis.ibispaintx.app",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 54 87 C 54 69 65 58 79 55",
+          "color": "coral",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 101 60 C 111 68 115 79 114 89",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 112 95 C 109 105 99 112 89 114 M 68 110 C 62 106 58 101 57 97",
+          "color": "azure",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 85 53 L 101 59 L 85 100 L 69 112 L 68 92 Z",
+          "color": "paper",
+          "width": 2.6
+        },
+        {
+          "type": "path",
+          "shape": "M 85 53 L 101 59 L 96 71 L 80 65 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 78 73 L 92 79 L 85 100 L 69 112 L 68 92 Z",
+          "color": "ice",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 109 L 79 92",
+          "color": "ink",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            76,
+            87,
+            8,
+            8
+          ],
+          "color": "ink"
+        }
+      ],
+      "components": [
+        "jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity",
+        "jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.market.MarketAuthenticationActivity",
+        "jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.title.TitleActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "concepts",
+      "name": "Concepts",
+      "category": "日常应用",
+      "packageId": "com.tophatch.concepts",
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 110 L 84 51 L 117 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 65 103 L 84 70 L 104 103 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 108 C 66 98 80 118 100 112 C 108 109 115 103 123 104",
+          "color": "ice",
+          "width": 5.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            66,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            70,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.tophatch.concepts/com.tophatch.concepts.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "word",
+      "name": "Microsoft Word",
+      "category": "日常应用",
+      "packageId": "com.microsoft.office.word",
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            58,
+            73,
+            56,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 94 C 61 85 76 104 94 101 C 105 99 113 94 118 95 L 118 105 C 117 110 114 113 109 113 L 55 113 C 51 113 48 110 48 105 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "W",
+          "size": 38,
+          "x": 84,
+          "y": 63,
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 104 L 62 103 M 109 102 L 115 101",
+          "color": "azure",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity",
+        "com.microsoft.office.word/com.microsoft.office.word.WordActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "excel",
+      "name": "Microsoft Excel",
+      "category": "日常应用",
+      "packageId": "com.microsoft.office.excel",
+      "tone": "jade",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            58,
+            73,
+            56,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 69 L 84 108 M 96 69 L 96 108 M 84 77 L 111 77 M 84 89 L 111 89 M 84 100 L 111 100",
+          "color": "jade",
+          "width": 3.2
+        },
+        {
+          "type": "round",
+          "box": [
+            47,
+            65,
+            45,
+            41,
+            5
+          ],
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "X",
+          "size": 29,
+          "x": 69,
+          "y": 71,
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 86 101 C 97 99 108 104 118 96 L 118 113 L 87 113 Z",
+          "color": "mint",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity",
+        "com.microsoft.office.excel/com.microsoft.office.excel.excelMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "powerpoint",
+      "name": "PowerPoint",
+      "category": "日常应用",
+      "packageId": "com.microsoft.office.powerpoint",
+      "tone": "orange",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            49,
+            57,
+            72,
+            57,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            66,
+            30,
+            30
+          ],
+          "color": "orange"
+        },
+        {
+          "type": "path",
+          "shape": "M 98 66 L 98 82 L 111 82 C 111 74 105 68 98 66 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 86 105 L 111 105",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "round",
+          "box": [
+            47,
+            64,
+            44,
+            43,
+            6
+          ],
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "P",
+          "size": 29,
+          "x": 68,
+          "y": 72,
+          "color": "paper"
+        }
+      ],
+      "components": [
+        "com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity",
+        "com.microsoft.office.powerpoint/com.microsoft.office.powerpoint.PPTActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "onenote",
+      "name": "OneNote",
+      "category": "日常应用",
+      "packageId": "com.microsoft.office.onenote",
+      "tone": "plum",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            56,
+            71,
+            59,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            102,
+            63,
+            16,
+            13,
+            4
+          ],
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            102,
+            81,
+            16,
+            14,
+            4
+          ],
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            102,
+            99,
+            16,
+            9,
+            3
+          ],
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            47,
+            63,
+            51,
+            46,
+            6
+          ],
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "N",
+          "size": 29,
+          "x": 72,
+          "y": 72,
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 114 C 64 109 77 121 91 115",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity",
+        "com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

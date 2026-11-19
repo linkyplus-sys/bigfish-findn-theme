@@ -1,0 +1,875 @@
+{
+  "name": "日常应用 · 800 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "thepaper",
+      "name": "澎湃新闻",
+      "category": "日常应用",
+      "packageId": "com.wondertek.paper",
+      "tone": "blue",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 55 L 114 55 L 118 112 L 50 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 100 C 67 91 82 112 101 101 L 117 94 L 118 111 L 50 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 89 L 64 68 L 77 68 L 74 74 L 71 89 Z M 81 89 L 88 67 L 104 67 L 102 73 L 94 73 L 93 78 L 101 78 L 99 84 L 91 84 L 89 90 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 103 L 76 101 M 84 99 L 108 96",
+          "color": "cobalt",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.wondertek.paper/com.eris.activity.AppFakeActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "ifeng",
+      "name": "凤凰新闻",
+      "category": "日常应用",
+      "packageId": "com.ifeng.news2",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 101 C 61 83 64 71 84 69 C 108 67 111 55 120 53 C 122 74 110 92 91 95 C 73 96 68 109 48 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 104 C 70 92 73 83 92 82 C 101 81 108 78 116 71 C 109 86 104 92 91 95 C 74 97 64 108 53 109 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 75 C 72 53 86 48 106 51 C 93 62 78 62 60 75 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 116 C 78 115 89 121 104 112",
+          "color": "ice",
+          "width": 4.6
+        }
+      ],
+      "components": [
+        "com.ifeng.news2/com.ifeng.news2.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "jiemian",
+      "name": "界面新闻",
+      "category": "日常应用",
+      "packageId": "com.jiemian.news",
+      "tone": "onyx",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 61 L 84 54 L 119 61 L 119 107 L 84 116 L 49 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 91 C 63 88 73 100 84 102 C 95 99 107 91 117 91 L 117 106 L 84 114 L 51 106 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 59 L 84 108 M 59 73 L 75 70 M 59 84 L 75 81 M 94 72 L 108 76 M 94 83 L 108 87",
+          "color": "onyx",
+          "width": 3.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            96,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.jiemian.news",
+      "components": [
+        "com.jiemian.news/com.jiemian.news.DefaultActivity",
+        "com.jiemian.news/com.jiemian.news.module.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.jiemian.news",
+        "version": "10.4.0.8",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "kr36",
+      "name": "36 氪",
+      "category": "日常应用",
+      "packageId": "com.android36kr.app",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 88 C 59 66 73 63 94 74 C 104 80 113 76 124 65 L 124 102 C 109 117 96 112 84 104 C 64 93 55 102 44 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "36",
+          "size": 40,
+          "x": 84,
+          "y": 61,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 115 C 64 107 71 116 85 119 C 99 123 108 115 119 114",
+          "color": "mint",
+          "width": 4.3
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.android36kr.app",
+      "components": [
+        "com.android36kr.app/com.android36kr.app.ui.LogoActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.android36kr.app",
+        "version": "11.6.6",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "xhey",
+      "name": "今日水印相机",
+      "category": "日常应用",
+      "packageId": "com.xhey.xcamera",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 71 L 62 71 L 69 58 L 100 58 L 105 71 L 123 71 L 123 111 L 45 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            70,
+            40,
+            40
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            71,
+            77,
+            26,
+            26
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "path",
+          "shape": "M 52 105 C 69 100 85 115 101 110 L 123 104 L 123 116 L 52 116 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            78,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.xhey.xcamera/com.xhey.xcamera.ui.camera.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "kdocs",
+      "name": "金山文档",
+      "category": "日常应用",
+      "packageId": "cn.wps.yun",
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 49 L 98 49 L 118 69 L 118 115 L 51 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 49 L 118 69 L 98 69 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 97 C 72 87 92 109 117 95 L 117 114 L 52 114 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 69 L 73 91 L 84 67 M 73 91 L 94 91 L 106 77",
+          "color": "crimson",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            98,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "cn.wps.yun/cn.wps.yun.start.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "ilovepdf",
+      "name": "iLovePDF",
+      "category": "日常应用",
+      "packageId": "com.ilovepdf.www",
+      "tone": "coral",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 50 L 99 50 L 114 65 L 114 115 L 55 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 99 50 L 114 65 L 99 65 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 67 78 C 74 71 81 76 84 81 C 89 73 99 73 103 78 C 108 88 94 99 84 104 C 71 97 60 88 67 78 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 109 L 104 109",
+          "color": "coral",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.ilovepdf.www/com.android.ilovepdf.ui.activity.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "mobioffice",
+      "name": "MobiOffice",
+      "category": "日常应用",
+      "packageId": "com.mobisystems.office",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 110 L 48 61 L 64 56 L 84 83 L 104 56 L 120 61 L 120 110 L 105 110 L 105 82 L 84 104 L 63 82 L 63 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 95 L 63 91 L 63 110 L 48 110 Z M 84 104 L 105 82 L 105 97 L 91 112 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 119 C 76 113 92 125 105 117",
+          "color": "sand",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.mobisystems.office/com.mobisystems.office.splashScreen.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "onepassword",
+      "name": "1Password",
+      "category": "日常应用",
+      "packageId": "com.onepassword.android",
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            49,
+            70,
+            70
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            57,
+            54,
+            54
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "path",
+          "shape": "M 77 65 L 90 65 L 91 103 L 77 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 97 C 87 93 92 96 91 103 L 77 103 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            58,
+            9,
+            9
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 116 C 64 119 68 123 77 124",
+          "color": "azure",
+          "width": 4.4
+        }
+      ],
+      "components": [
+        "com.onepassword.android/com.onepassword.android.app.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "aegis",
+      "name": "Aegis Authenticator",
+      "category": "日常应用",
+      "packageId": "com.beemdevelopment.aegis",
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 70 L 84 49 L 119 70 L 113 98 L 84 120 L 55 98 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 90 C 72 83 84 100 96 92 C 105 88 111 89 116 86 L 113 98 L 84 120 L 55 98 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 68 99 L 84 63 L 100 99 L 91 99 L 84 81 L 76 99 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 92 L 92 92",
+          "color": "jade",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.AuthActivity",
+        "com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "protondrive",
+      "name": "Proton Drive",
+      "category": "日常应用",
+      "packageId": "me.proton.android.drive",
+      "tone": "iris",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 32 99 C 32 85 45 75 56 77 C 66 48 105 44 121 69 C 128 75 128 84 127 88 C 148 89 146 116 129 121 L 56 121 C 42 121 32 113 32 99 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 39 100 C 58 94 78 115 103 104 C 117 98 128 97 141 101 C 144 111 137 119 129 121 L 56 121 C 45 121 40 114 39 100 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 110 L 80 70 C 82 66 86 66 89 70 L 107 110 L 95 110 L 84 86 L 72 110 Z",
+          "color": "paper",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "me.proton.android.drive/me.proton.android.drive.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "joplin",
+      "name": "Joplin",
+      "category": "日常应用",
+      "packageId": "net.cozic.joplin",
+      "tone": "azure",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            52,
+            53,
+            65,
+            64,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 65 L 96 65 L 96 96 C 96 108 79 110 72 100",
+          "color": "cobalt",
+          "width": 6.6
+        },
+        {
+          "type": "path",
+          "shape": "M 53 99 C 66 91 72 109 84 109 C 96 109 104 101 116 99 L 116 108 C 115 114 113 117 107 117 L 61 117 C 56 117 53 113 53 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 68 L 59 97",
+          "color": "azure",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "net.cozic.joplin/net.cozic.joplin.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "zotero",
+      "name": "Zotero",
+      "category": "日常应用",
+      "packageId": "org.zotero.android",
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 56 L 111 56 L 112 69 L 76 101 L 114 101 L 114 113 L 55 113 L 55 102 L 91 69 L 55 69 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 109 C 74 103 86 117 103 108 L 114 104 L 114 113 L 55 113 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            51,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.zotero.android/org.zotero.android.screens.root.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "nextcloud",
+      "name": "Nextcloud",
+      "category": "日常应用",
+      "packageId": "com.nextcloud.client",
+      "tone": "azure",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 46 84 L 64 84 M 104 84 L 122 84",
+          "color": "cobalt",
+          "width": 9
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            25,
+            65,
+            40,
+            40
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            65,
+            40,
+            40
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            53,
+            62,
+            62
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            65,
+            38,
+            38
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            33,
+            73,
+            24,
+            24
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            73,
+            24,
+            24
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "path",
+          "shape": "M 67 91 C 74 83 87 99 100 84 C 99 96 93 103 84 103 C 77 103 70 98 67 91 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.nextcloud.client/com.nmc.android.ui.LauncherActivity",
+        "com.nextcloud.client/com.owncloud.android.ui.activity.FileDisplayActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "session",
+      "name": "Session",
+      "category": "日常应用",
+      "packageId": "network.loki.messenger",
+      "tone": "jade",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 84 C 47 64 65 54 86 54 C 107 54 122 67 122 85 C 122 101 109 112 89 112 L 71 110 L 54 119 L 57 102 C 50 97 47 91 47 84 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 66 86 C 70 73 76 68 85 68 C 94 68 102 74 103 86 C 103 98 95 105 85 105 C 74 105 65 97 66 86 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 97 L 97 77 M 72 86 L 92 86",
+          "color": "ice",
+          "width": 4.3
+        }
+      ],
+      "components": [
+        "network.loki.messenger/network.loki.messenger.Meetings",
+        "network.loki.messenger/network.loki.messenger.Notes",
+        "network.loki.messenger/network.loki.messenger.RoutingActivity",
+        "network.loki.messenger/network.loki.messenger.Stocks",
+        "network.loki.messenger/network.loki.messenger.Weather"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "element",
+      "name": "Element",
+      "category": "日常应用",
+      "packageId": "im.vector.app",
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 69 54 C 48 57 44 80 57 90 C 69 99 84 90 84 77 M 111 64 C 112 45 89 43 79 56 C 71 67 79 83 92 85 M 107 108 C 125 104 129 82 116 74 C 103 66 91 74 89 87 M 61 112 C 60 127 81 132 92 119 C 101 107 93 92 80 91",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            75,
+            77,
+            17,
+            17
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "im.vector.app/im.vector.app.features.Alias",
+        "im.vector.app/im.vector.app.features.MainActivity",
+        "im.vector.app/im.vector.application.features.Alias",
+        "im.vector.app/im.vector.riotx.features.Alias"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "line",
+      "name": "LINE",
+      "category": "日常应用",
+      "packageId": "jp.naver.line.android",
+      "tone": "jade",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 79 C 45 63 63 51 84 51 C 105 51 123 63 123 81 C 123 99 106 111 83 111 L 58 121 L 62 109 C 50 102 45 95 45 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "LINE",
+          "size": 20,
+          "x": 84,
+          "y": 72,
+          "color": "dark"
+        },
+        {
+          "type": "path",
+          "shape": "M 49 93 C 61 91 75 105 91 101 C 104 98 111 91 121 91 C 116 104 104 110 83 111 L 58 121 L 62 109 C 55 104 52 100 49 93 Z",
+          "color": "mint",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "jp.naver.line.android/jp.naver.line.android.activity.SplashActivity",
+        "jp.naver.line.android/jp.naver.line.android.basic_1",
+        "jp.naver.line.android/jp.naver.line.android.collaboration_chiikawa_2",
+        "jp.naver.line.android/jp.naver.line.android.collaboration_dragon_quest_2",
+        "jp.naver.line.android/jp.naver.line.android.collaboration_minini_1",
+        "jp.naver.line.android/jp.naver.line.android.collaboration_mrs_green_apple_1",
+        "jp.naver.line.android/jp.naver.line.android.design_7",
+        "jp.naver.line.android/jp.naver.line.android.design_8",
+        "jp.naver.line.android/jp.naver.line.android.design_aqua_green",
+        "jp.naver.line.android/jp.naver.line.android.design_black_pearl",
+        "jp.naver.line.android/jp.naver.line.android.design_cherry_blossom",
+        "jp.naver.line.android/jp.naver.line.android.design_christmas_2",
+        "jp.naver.line.android/jp.naver.line.android.design_green_bubble",
+        "jp.naver.line.android/jp.naver.line.android.design_mondrian",
+        "jp.naver.line.android/jp.naver.line.android.promotion_cherry_blossom",
+        "jp.naver.line.android/jp.naver.line.android.special_glass_4"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "kakao",
+      "name": "KakaoTalk",
+      "category": "日常应用",
+      "packageId": "com.kakao.talk",
+      "tone": "gold",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 84 C 44 66 63 53 84 53 C 106 53 124 67 124 85 C 124 102 106 114 84 114 L 65 112 L 54 122 L 58 107 C 50 102 44 94 44 84 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "TALK",
+          "size": 19,
+          "x": 84,
+          "y": 75,
+          "color": "sand"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 102 C 61 98 77 118 93 109 C 102 105 110 104 117 105",
+          "color": "ice",
+          "width": 4.1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            60,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.kakao.talk/com.kakao.talk.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "name": "金融 · 500 款扩容第三批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "bankbeijing",
+      "name": "北京银行",
+      "category": "金融",
+      "packageId": "com.bankofbeijing.mobilebanking",
+      "packageSource": "https://app.mi.com/details?id=com.bankofbeijing.mobilebanking",
+      "components": [
+        "com.bankofbeijing.mobilebanking/com.yitong.mobile.biz.launcher.app.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 71 C 62 60 75 55 84 52 C 94 55 108 60 116 71 L 110 77 L 58 77 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 59 83 L 109 83 L 109 105 L 59 105 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 53 110 L 115 110 L 120 118 L 48 118 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 71 106 L 71 92 C 71 81 96 81 96 92 L 96 106 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 71 L 101 71",
+          "color": "coral",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            94,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "bankshanghai",
+      "name": "上海银行",
+      "category": "金融",
+      "packageId": "cn.com.shbank.mper",
+      "packageSource": "https://app.mi.com/details?id=cn.com.shbank.mper",
+      "components": [
+        "cn.com.shbank.mper/com.yitong.mobile.biz.launcher.app.splash.Splashactivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "cobalt",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 103 C 59 89 70 95 83 100 C 99 106 106 95 124 92 L 123 107 C 110 113 96 115 83 108 C 69 103 58 102 44 111 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 68 100 L 73 70 L 82 70 L 82 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 88 100 L 89 53 L 94 48 L 99 54 L 101 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 101 L 59 81 M 110 101 L 110 75",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            56,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 119 C 63 113 73 120 88 121 C 102 122 109 116 119 115",
+          "color": "mint",
+          "width": 4.3
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.com.shbank.mper?version=latest",
+        "version": "10.1.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "banknanjing",
+      "name": "南京银行",
+      "category": "金融",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "plum",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 105 L 56 66 L 64 66 L 64 59 L 74 59 L 74 67 L 94 67 L 94 59 L 104 59 L 104 66 L 112 66 L 117 105 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 53 88 C 64 82 75 88 84 91 C 95 94 104 88 115 88 L 117 105 L 51 105 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 74 105 L 74 91 C 74 78 94 78 94 91 L 94 105 Z",
+          "color": "plum",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 113 C 66 109 78 116 87 118 C 98 119 106 113 113 111",
+          "color": "mint",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            57,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "bankjiangsu",
+      "name": "江苏银行",
+      "category": "金融",
+      "packageId": "cn.jsb.china",
+      "packageSource": "https://app.mi.com/details?id=cn.jsb.china",
+      "components": [
+        "cn.jsb.china/com.yitong.mobile.biz.launcher.app.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "azure",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 99 C 59 92 70 89 82 93 C 99 100 107 93 121 83 L 121 106 C 115 112 104 116 91 114 C 78 112 65 104 47 112 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 47 83 C 56 71 73 64 84 66 C 95 64 113 72 121 83 L 121 91 C 105 80 94 77 84 79 C 72 78 60 81 47 93 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 84 L 57 102 M 74 78 L 74 96 M 94 78 L 94 99 M 111 83 L 111 96",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            49,
+            13,
+            13
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.jsb.china?version=latest",
+        "version": "10.3.6",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "bankningbo",
+      "name": "宁波银行",
+      "category": "金融",
+      "packageId": "com.nbbank",
+      "packageSource": "https://app.mi.com/details?id=com.nbbank",
+      "components": [
+        "com.nbbank/com.yitong.mbank.app.android.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 49 L 113 78 L 84 110 L 55 78 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 61 L 101 78 L 84 97 L 66 78 Z",
+          "color": "orange",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 68 80 L 84 75 L 100 80 L 84 97 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 105 C 63 104 73 113 84 116 C 97 114 105 106 117 105",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            70,
+            8,
+            8
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "czbank",
+      "name": "浙商银行",
+      "category": "金融",
+      "packageId": "com.czbank.mbank",
+      "packageSource": "https://app.mi.com/details?id=com.czbank.mbank",
+      "components": [
+        "com.czbank.mbank/com.zsbank.emp.activity.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 63 L 119 63 L 119 75 L 71 104 L 119 104 L 119 115 L 50 115 L 50 104 L 96 75 L 50 75 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 87 83 C 94 76 101 72 112 71 L 119 75 L 71 104 L 50 104 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 53 C 68 47 81 57 94 53 C 103 50 110 47 118 50",
+          "color": "sand",
+          "width": 4.3
+        }
+      ]
+    },
+    {
+      "art": "bankhangzhou",
+      "name": "杭州银行",
+      "category": "金融",
+      "packageId": "cn.com.hzb.mobilebank.per",
+      "packageSource": "https://app.mi.com/details?id=cn.com.hzb.mobilebank.per",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 90 L 116 90 L 116 101 C 96 99 71 112 52 105 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 61 83 L 84 65 L 107 83 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 68 66 L 84 53 L 100 66 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 83 L 72 90 M 96 83 L 96 90",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            59,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 114 C 66 108 80 118 94 113 C 104 110 112 109 120 111",
+          "color": "mint",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "hxb",
+      "name": "华夏银行",
+      "category": "金融",
+      "packageId": "com.hxb.mobile.client",
+      "packageSource": "https://app.mi.com/details?id=com.hxb.mobile.client",
+      "components": [
+        "com.hxb.mobile.client/com.yt.hxmb50.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "crimson",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 48 C 89 62 107 62 113 74 C 121 91 104 103 90 104 C 82 109 82 115 84 122 C 72 118 68 109 70 101 C 56 97 51 90 55 79 C 59 67 78 63 83 48 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 63 C 88 74 101 75 101 85 C 101 94 90 94 84 99 C 79 95 67 93 67 85 C 67 75 80 74 83 63 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 75 L 91 85 L 83 93 L 75 85 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 104 C 62 104 67 111 70 116 M 101 103 C 109 101 116 96 118 89",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.hxb.mobile.client?version=latest",
+        "version": "7.0.4.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "zhaolian",
+      "name": "招联金融",
+      "category": "金融",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "azure",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 70 C 50 64 61 65 66 70 L 86 89 L 103 72 C 111 65 122 66 126 73 C 130 79 124 87 119 92 L 101 109 C 95 115 88 115 84 109 L 67 94 C 60 96 52 95 46 89 C 41 84 41 76 45 70 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 44 79 C 53 84 57 83 66 75 L 84 90 L 75 99 L 67 94 C 59 97 51 94 46 89 C 44 86 43 83 44 79 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 84 C 91 77 97 74 104 81 L 119 94 L 105 107 L 95 98 C 90 100 84 98 80 93 Z",
+          "color": "blue",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 91 L 90 95 L 99 88",
+          "color": "ice",
+          "width": 3.6
+        }
+      ]
+    },
+    {
+      "art": "duxiaoman",
+      "name": "度小满",
+      "category": "金融",
+      "packageId": "com.duxiaoman.wallet",
+      "packageSource": "https://app.mi.com/details?id=com.duxiaoman.wallet",
+      "components": [
+        "com.duxiaoman.wallet/com.duxiaoman.wallet.home.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "cobalt",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 67 L 70 67 L 84 86 L 98 67 L 116 67 L 116 102 L 102 102 L 102 84 L 84 107 L 66 84 L 66 102 L 52 102 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 52 90 C 66 88 74 97 84 99 C 95 101 104 89 116 91 L 116 102 L 102 102 L 102 96 L 84 107 L 67 96 L 66 102 L 52 102 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            52,
+            12,
+            12
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 112 C 69 109 78 117 86 117 C 96 117 101 112 111 110",
+          "color": "mint",
+          "width": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "name": "1,040 款扩容 · 第三批 · 金融",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "metatrader5",
+      "name": "MetaTrader 5",
+      "packageId": "net.metaquotes.metatrader5",
+      "category": "金融",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            49,
+            30,
+            30
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            89,
+            49,
+            30,
+            30
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            83,
+            30,
+            30
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 73 L 83 88 L 103 73",
+          "color": "white",
+          "width": 4.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 64 L 72 64 M 96 64 L 109 64 M 78 98 L 90 98",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            95,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "net.metaquotes.metatrader5/net.metaquotes.metatrader5.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "starling",
+      "name": "Starling Bank",
+      "packageId": "com.starlingbank.android",
+      "category": "金融",
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 91 C 55 76 67 71 84 75 C 100 77 110 69 122 55 C 121 76 111 92 96 100 C 75 112 55 104 45 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 92 C 70 93 79 83 87 83 C 103 85 113 75 120 64 C 115 82 107 94 94 100 C 78 108 63 103 51 92 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            57,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 114 C 73 117 92 113 109 102",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.starlingbank.android/com.starlingbank.android.BLACKHISTORY",
+        "com.starlingbank.android/com.starlingbank.android.BLACKHISTORYS",
+        "com.starlingbank.android/com.starlingbank.android.DEFAULT",
+        "com.starlingbank.android/com.starlingbank.android.FOREST_GREEN",
+        "com.starlingbank.android/com.starlingbank.android.HALLOWEEN",
+        "com.starlingbank.android/com.starlingbank.android.HAT",
+        "com.starlingbank.android/com.starlingbank.android.LOGO_2025",
+        "com.starlingbank.android/com.starlingbank.android.NAVY",
+        "com.starlingbank.android/com.starlingbank.android.PRIDEFLAG",
+        "com.starlingbank.android/com.starlingbank.android.PRIDESTRIPES",
+        "com.starlingbank.android/com.starlingbank.android.SNOW",
+        "com.starlingbank.android/com.starlingbank.android.TEAL",
+        "com.starlingbank.android/com.starlingbank.startup.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "revolutbiz",
+      "name": "Revolut Business",
+      "packageId": "com.revolut.business",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 60 L 88 60 C 111 60 119 81 101 91 L 116 108 L 99 108 L 83 92 L 68 92 L 68 109 L 51 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 68 L 88 68 C 99 68 101 82 89 83 L 69 83 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 43 102 L 68 102 L 68 112 L 43 112 Z",
+          "color": "mint",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            58,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.revolut.business/com.revolut.business.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "nubank",
+      "name": "Nubank",
+      "packageId": "com.nu.production",
+      "category": "金融",
+      "tone": "iris",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 88 L 60 69 L 76 69 L 76 95 C 78 102 85 102 92 97 L 92 69 L 111 69 L 111 105 L 94 105 L 94 98 C 79 115 62 109 60 97 L 60 85 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 82 L 57 72 L 63 78 L 55 88 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 113 L 108 113",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            55,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.nu.production/br.com.nubank.app.LegacyNubankCromaSplashActivity",
+        "com.nu.production/br.com.nubank.app.LegacySplashActivity",
+        "com.nu.production/br.com.nubank.app.LegacyUvSplashActivity",
+        "com.nu.production/br.com.nubank.app.MainFlutterActivity",
+        "com.nu.production/br.com.nubank.app.ProxyActivity",
+        "com.nu.production/br.com.nubank.app.SplashScreenActivity",
+        "com.nu.production/br.com.nubank.app.valhalla.ValhallaBaseSplashActivity",
+        "com.nu.production/br.com.nubank.app.valhalla.ValhallaSplashScreenActivity",
+        "com.nu.production/br.com.nubank.shell.screens.splash.SplashActivity",
+        "com.nu.production/com.nu.activity.main.InitialActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

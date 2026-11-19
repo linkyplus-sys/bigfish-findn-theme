@@ -1,0 +1,753 @@
+{
+  "name": "游戏 · 500 款扩容",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "idv",
+      "name": "第五人格",
+      "category": "游戏",
+      "packageId": "com.netease.dwrg",
+      "components": [
+        "com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "plum",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 35 C 105 35 118 51 124 72 C 130 92 124 108 112 122 C 103 118 94 112 84 109 C 74 112 65 118 56 122 C 44 108 38 92 44 72 C 50 51 63 35 84 35 Z",
+          "color": "ink",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 49 C 102 49 114 63 113 82 C 112 103 99 114 84 114 C 69 114 56 103 55 82 C 54 63 66 49 84 49 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            68,
+            19,
+            19
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 73 L 75 82 M 75 73 L 66 82",
+          "color": "white",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            70,
+            12,
+            14
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 98 L 95 97 M 80 93 L 81 102 M 89 93 L 90 102",
+          "color": "ink",
+          "width": 2.4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.dwrg",
+        "version": "2026.1105.2156",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "eggy",
+      "name": "蛋仔派对",
+      "category": "游戏",
+      "packageId": "com.netease.party",
+      "components": [
+        "com.netease.party/com.netease.party.unisdk.switchlaunchicon.alias_App3AnniversaryIcon",
+        "com.netease.party/com.netease.party.unisdk.switchlaunchicon.alias_App3AnniversaryIconThree",
+        "com.netease.party/com.netease.party.unisdk.switchlaunchicon.alias_App3AnniversaryIconTwo",
+        "com.netease.party/com.netease.party.unisdk.switchlaunchicon.alias_default"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "gold",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 16 C 111 16 136 39 143 71 C 150 105 132 145 84 149 C 36 145 18 105 25 71 C 32 39 57 16 84 16 Z",
+          "color": "gold",
+          "width": 2.8
+        },
+        {
+          "type": "path",
+          "shape": "M 29 111 C 47 122 64 118 84 125 C 104 118 121 122 139 111 C 130 134 112 147 84 149 C 56 147 38 134 29 111 Z",
+          "color": "mint",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 45 84 C 45 65 61 55 84 55 C 107 55 123 65 123 84 C 123 103 107 112 84 112 C 61 112 45 103 45 84 Z",
+          "color": "paper",
+          "width": 2.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            75,
+            14,
+            17
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            75,
+            14,
+            17
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 56 C 52 42 67 36 84 36 C 101 36 116 42 124 56",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "round",
+          "box": [
+            33,
+            65,
+            16,
+            35,
+            7
+          ],
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            119,
+            65,
+            16,
+            35,
+            7
+          ],
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 98 C 82 101 87 101 91 97",
+          "color": "coral",
+          "width": 3.4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.party",
+        "version": "1.0.306",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "nishuihan",
+      "name": "逆水寒",
+      "category": "游戏",
+      "packageId": "com.netease.nshm",
+      "components": [
+        "com.netease.nshm/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "teal",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 41 51 C 52 42 68 35 84 35 C 100 35 117 42 128 51 L 91 111 C 88 116 81 116 77 111 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 48 62 C 59 59 67 65 74 72 C 81 80 93 80 105 72 L 111 79 L 91 110 C 86 116 80 115 77 110 Z",
+          "color": "teal",
+          "width": 1.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 54 L 84 112 M 83 44 L 84 112 M 108 54 L 84 112 M 83 117 L 82 132",
+          "color": "azure",
+          "width": 3.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            50,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.nshm",
+        "version": "2.1.10756519",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "lads",
+      "name": "恋与深空",
+      "category": "游戏",
+      "packageId": "com.papegames.lysk.en",
+      "components": [
+        "com.papegames.lysk.en/com.paper.x3.RYIcon1",
+        "com.papegames.lysk.en/com.paper.x3.STIcon1",
+        "com.papegames.lysk.en/com.paper.x3.YSIcon1",
+        "com.papegames.lysk.en/com.paper.x3.icon60000",
+        "com.papegames.lysk.en/com.paper.x3.icon60001",
+        "com.papegames.lysk.en/com.paper.x3.icon60002",
+        "com.papegames.lysk.en/com.paper.x3.icon60003",
+        "com.papegames.lysk.en/com.paper.x3.icon60004",
+        "com.papegames.lysk.en/com.paper.x3.icon60005",
+        "com.papegames.lysk.en/com.paper.x3.icon60006",
+        "com.papegames.lysk.en/com.paper.x3.icon60007",
+        "com.papegames.lysk.en/com.paper.x3.icon60008",
+        "com.papegames.lysk.en/com.paper.x3.icon60009",
+        "com.papegames.lysk.en/com.paper.x3.icon60010",
+        "com.papegames.lysk.en/com.paper.x3.icon60011",
+        "com.papegames.lysk.en/com.paper.x3.icon60012",
+        "com.papegames.lysk.en/com.paper.x3.icon60013",
+        "com.papegames.lysk.en/com.paper.x3.icon60014",
+        "com.papegames.lysk.en/com.paper.x3.icon60015",
+        "com.papegames.lysk.en/com.paper.x3.icon60016",
+        "com.papegames.lysk.en/com.paper.x3.icon60017",
+        "com.papegames.lysk.en/com.paper.x3.icon60018",
+        "com.papegames.lysk.en/com.paper.x3.icon60019",
+        "com.papegames.lysk.en/com.paper.x3.icon60020",
+        "com.papegames.lysk.en/com.paper.x3.icon60021",
+        "com.papegames.lysk.en/com.paper.x3.icon60022",
+        "com.papegames.lysk.en/com.paper.x3.icon60023",
+        "com.papegames.lysk.en/com.paper.x3.icon60024",
+        "com.papegames.lysk.en/com.paper.x3.icon60025",
+        "com.papegames.lysk.en/com.paper.x3.icon60026",
+        "com.papegames.lysk.en/com.paper.x3.icon60027",
+        "com.papegames.lysk.en/com.paper.x3.icon60028",
+        "com.papegames.lysk.en/com.paper.x3.icon60029",
+        "com.papegames.lysk.en/com.paper.x3.icon60030",
+        "com.papegames.lysk.en/com.paper.x3.icon60031",
+        "com.papegames.lysk.en/com.paper.x3.icon60032",
+        "com.papegames.lysk.en/com.paper.x3.icon60033",
+        "com.papegames.lysk.en/com.paper.x3.icon60034",
+        "com.papegames.lysk.en/com.paper.x3.icon60035",
+        "com.papegames.lysk.en/com.paper.x3.icon60036",
+        "com.papegames.lysk.en/com.paper.x3.icon60037",
+        "com.papegames.lysk.en/com.paper.x3.icon60038",
+        "com.papegames.lysk.en/com.paper.x3.icon60039",
+        "com.papegames.lysk.en/com.paper.x3.icon60040",
+        "com.papegames.lysk.en/com.paper.x3.icon60041",
+        "com.papegames.lysk.en/com.paper.x3.icon60042",
+        "com.papegames.lysk.en/com.paper.x3sdk.X3UnityPlayerActivityForPaperSDK"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 58 C 65 40 43 53 45 76 C 47 99 72 111 84 127 C 96 111 121 99 123 76 C 125 53 103 40 84 58 Z",
+          "color": "sunset",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 60 L 98 84 L 84 110 L 70 84 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 35 81 C 54 70 104 70 131 84 C 152 95 140 106 120 107 M 49 103 C 35 97 28 90 35 81",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            58,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageCandidate": "com.papegames.lysk.cn",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.papegames.lysk.en",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.papegames.lysk.en?version=latest",
+        "version": "6.5.0",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "crossfire",
+      "name": "穿越火线手游",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.cf",
+      "components": [
+        "com.tencent.tmgp.cf/com.tencent.tmgp.cf.AFMainActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 39 72 L 59 52 L 91 70 L 101 58 L 127 75 L 101 105 L 87 98 L 63 118 L 44 108 L 66 86 Z",
+          "color": "gold",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 46 76 L 62 62 L 83 76 L 74 86 Z M 99 73 L 116 79 L 99 100 L 91 96 Z",
+          "color": "paper",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 126 L 111 126",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.cf",
+        "version": "1.0.580.880",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "qqspeed",
+      "name": "QQ 飞车",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.speedmobile",
+      "packageSource": "https://app.mi.com/details?id=com.tencent.tmgp.speedmobile",
+      "components": [
+        "com.tencent.tmgp.speedmobile/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            37,
+            34,
+            94,
+            94
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            45,
+            43,
+            78,
+            78
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            54,
+            54,
+            54
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 82 L 60 68 M 83 82 L 106 68 M 83 82 L 83 105",
+          "color": "paper",
+          "width": 9
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            72,
+            22,
+            22
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "path",
+          "shape": "M 103 38 L 126 37 L 127 49 L 117 49 L 117 61 L 105 61 Z",
+          "color": "paper",
+          "width": 1.1
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.speedmobile",
+        "version": "1.59.0.56365",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "fortnite",
+      "name": "Fortnite",
+      "category": "游戏",
+      "packageId": "com.epicgames.fortnite",
+      "components": [
+        "com.epicgames.fortnite/com.epicgames.ue4.SplashActivity",
+        "com.epicgames.fortnite/com.epicgames.unreal.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "iris",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 118 L 42 75 L 56 75 L 56 58 L 69 58 L 69 66 L 84 66 L 84 48 L 100 48 L 100 60 L 114 60 L 114 79 L 126 79 L 126 118 Z",
+          "color": "cobalt",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 53 L 103 53 L 103 68 L 70 68 L 70 79 L 94 79 L 94 93 L 70 93 L 70 116 L 56 116 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            112,
+            42,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "diablo",
+      "name": "暗黑破坏神：不朽",
+      "category": "游戏",
+      "packageId": "com.blizzard.diablo.immortal",
+      "components": [
+        "com.blizzard.diablo.immortal/com.netease.game.MessiahNativeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 120 L 49 82 C 49 66 61 57 68 55 L 68 45 L 84 35 L 100 45 L 100 55 C 107 57 119 66 119 82 L 119 120 Z",
+          "color": "ink",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 66 119 L 66 84 C 66 73 74 64 84 59 C 94 64 102 73 102 84 L 102 119 Z",
+          "color": "crimson",
+          "width": 2.1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 111 C 70 101 82 95 79 82 C 94 90 95 103 87 111 M 51 126 L 118 126",
+          "color": "gold",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "chess",
+      "name": "Chess.com",
+      "category": "游戏",
+      "packageId": "com.chess",
+      "components": [
+        "com.chess/com.chess.splash.SplashActivity",
+        "com.chess/com.chess.ui.activities.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 57 124 C 60 113 65 109 74 105 L 74 92 C 65 89 64 80 70 76 C 62 71 61 59 68 51 C 76 42 92 42 100 51 C 107 59 106 71 98 76 C 104 80 103 89 94 92 L 94 105 C 103 109 108 113 111 124 Z",
+          "color": "paper",
+          "width": 2.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 123 L 104 123 M 74 91 L 94 91",
+          "color": "ice",
+          "width": 3.6
+        }
+      ]
+    },
+    {
+      "art": "monopoly",
+      "name": "MONOPOLY GO!",
+      "category": "游戏",
+      "packageId": "com.scopely.monopolygo",
+      "components": [
+        "com.scopely.monopolygo/com.scopely.unity.MoGoUnityPlayerActivity",
+        "com.scopely.monopolygo/com.scopely.unity.ScopelyUnityActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 61 L 83 47 L 117 61 L 117 108 L 83 125 L 49 108 Z",
+          "color": "paper",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 49 61 L 83 47 L 117 61 L 83 77 Z",
+          "color": "sand",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 78 L 83 124",
+          "color": "ink",
+          "width": 2.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            76,
+            57,
+            14,
+            9
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            76,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            98,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            82,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            99,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 33 107 L 40 119 L 54 124 L 40 130 L 33 140 L 26 130 L 13 124 L 26 119 Z",
+          "color": "gold",
+          "width": 1.5
+        }
+      ]
+    },
+    {
+      "art": "hillclimb",
+      "name": "登山赛车",
+      "category": "游戏",
+      "packageId": "com.fingersoft.hillclimb",
+      "components": [
+        "com.fingersoft.hillclimb/com.fingersoft.game.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 15 116 C 41 93 54 108 71 116 C 91 125 105 111 120 97 C 134 84 144 90 153 96 L 153 144 L 15 144 Z",
+          "color": "jade",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 47 89 L 47 77 L 57 73 L 71 51 L 100 51 L 113 69 L 130 74 L 137 95 L 47 95 Z",
+          "color": "orange",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 78 57 L 98 57 L 109 71 L 71 71 Z",
+          "color": "ice",
+          "width": 1.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            84,
+            27,
+            27
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            84,
+            27,
+            27
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            92,
+            11,
+            11
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            92,
+            11,
+            11
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 21 127 C 43 116 58 123 73 129",
+          "color": "paper",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "honkai3",
+      "name": "崩坏3",
+      "category": "游戏",
+      "packageId": "com.miHoYo.bh3global",
+      "components": [
+        "com.miHoYo.bh3global/com.miHoYo.overridenativeactivity.OverrideNativeActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "azure",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 37 77 C 37 70 42 65 49 62 L 75 52 L 84 40 L 93 52 L 119 62 C 126 65 131 70 131 77 L 113 89 L 103 113 L 84 124 L 65 113 L 55 89 Z",
+          "color": "ice",
+          "width": 2.4
+        },
+        {
+          "type": "path",
+          "shape": "M 47 74 L 77 68 L 84 87 L 91 68 L 121 74 L 111 84 L 97 87 L 84 113 L 71 87 L 57 84 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 60 L 95 74 L 84 90 L 73 74 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 123 L 105 123",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "packageCandidate": "com.miHoYo.bh3",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.miHoYo.bh3global",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.miHoYo.bh3global?version=latest",
+        "version": "5.3.0c",
+        "channel": "国际版 · APKPure 分发"
+      }
+    }
+  ]
+}

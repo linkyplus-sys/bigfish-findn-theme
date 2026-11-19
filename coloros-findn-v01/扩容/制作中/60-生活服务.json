@@ -1,0 +1,622 @@
+{
+  "name": "1,040 款扩容 · 第一批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "etao",
+      "name": "一淘",
+      "packageId": "com.taobao.etao",
+      "category": "生活服务",
+      "tone": "coral",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 66 L 93 54 L 119 81 L 106 107 L 60 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 71 L 87 64 L 110 85 L 98 103 L 63 109 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 85 C 78 75 92 77 103 87 M 67 97 C 77 91 92 93 96 97",
+          "color": "white",
+          "width": 4.9
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            71,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.taobao.etao",
+      "components": [
+        "com.taobao.etao/com.taobao.sns.activity.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.taobao.etao",
+        "version": "10.7.4",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "dxyhelper",
+      "name": "用药助手",
+      "packageId": "cn.dxy.medicinehelper",
+      "category": "生活服务",
+      "tone": "teal",
+      "form": "card",
+      "previewName": "用药助手",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            50,
+            55,
+            68,
+            57,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 75 61 L 91 61 L 91 75 L 105 75 L 105 90 L 91 90 L 91 104 L 75 104 L 75 90 L 61 90 L 61 75 L 75 75 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 87 L 75 87 L 81 78 L 86 93 L 92 84 L 101 84",
+          "color": "white",
+          "width": 4.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            62,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=cn.dxy.medicinehelper",
+      "components": [
+        "cn.dxy.medicinehelper/cn.dxy.medicinehelper.activity.DrugLaunchActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.dxy.medicinehelper?version=latest",
+        "version": "15.4.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "dailyyoga",
+      "name": "每日瑜伽",
+      "packageId": "com.dailyyoga.cn",
+      "category": "生活服务",
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            49,
+            12,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 85 68 L 85 91 M 59 63 C 67 71 77 72 85 74 C 98 70 104 68 110 62",
+          "color": "white",
+          "width": 6
+        },
+        {
+          "type": "path",
+          "shape": "M 84 87 C 72 83 59 91 49 103 C 66 115 76 111 84 104 C 92 111 107 113 120 102 C 111 92 99 85 84 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 99 C 66 96 72 95 77 97 L 84 103 L 91 97 C 98 95 103 96 112 100 C 103 109 93 107 84 104 C 77 108 67 107 60 99 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            49,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.dailyyoga.cn",
+      "components": [
+        "com.dailyyoga.cn/com.dailyyoga.cn.module.welcome.AdvertActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.dailyyoga.cn?version=latest",
+        "version": "9.84.3.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "codoon",
+      "name": "咕咚",
+      "packageId": "com.codoon.gps",
+      "category": "生活服务",
+      "tone": "lime",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 102 L 61 74 L 78 94 L 93 65 L 117 64 L 107 73 L 97 75 L 78 111 L 62 91 L 54 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 113 C 70 117 99 109 118 91",
+          "color": "mint",
+          "width": 4.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            50,
+            12,
+            12
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            66,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.codoon.gps",
+      "components": [
+        "com.codoon.gps/com.codoon.gps.ui.login.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.codoon.gps",
+        "version": "10.82.3",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "joyrun",
+      "name": "悦跑圈",
+      "packageId": "co.runner.app",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 96 C 63 93 68 86 73 72 C 80 60 88 63 96 69 C 101 61 112 62 118 69 C 125 83 112 99 98 109 L 78 110 C 64 107 55 104 48 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 97 L 76 89 L 88 80 L 96 86 L 112 75 C 114 85 104 98 95 104 L 78 106 C 67 105 58 102 53 97 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 79 L 62 76 M 48 113 L 70 112",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=co.runner.app",
+      "components": [
+        "co.runner.app/co.runner.app.home_v4.activity.HomeActivityV5"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/co.runner.app",
+        "version": "5.47.15",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "yahooweather",
+      "name": "Yahoo Weather",
+      "packageId": "com.yahoo.mobile.client.android.weather",
+      "category": "生活服务",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 78 51 C 72 66 79 79 95 82 C 103 83 110 78 113 72 C 118 89 106 106 89 108 C 68 111 52 99 52 82 C 51 66 62 55 78 51 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 97 C 52 87 61 81 69 85 C 75 74 88 77 95 85 C 105 82 114 89 116 97 C 115 106 110 109 103 109 L 67 109 C 58 109 54 105 54 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            51,
+            9,
+            9
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            59,
+            7,
+            7
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.MainActivity",
+        "com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.ui.WeatherMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "weawow",
+      "name": "Weawow",
+      "packageId": "com.weawow",
+      "category": "生活服务",
+      "tone": "blue",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 81 C 59 66 70 60 85 60 C 100 60 111 67 122 81 L 122 104 L 46 104 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 98 L 65 77 L 81 96 L 99 77 L 116 101 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            63,
+            14,
+            14
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 110 C 77 104 91 115 110 109",
+          "color": "mint",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "com.weawow/com.weawow.CherryIcon",
+        "com.weawow/com.weawow.DarkIcon",
+        "com.weawow/com.weawow.DefaultIcon",
+        "com.weawow/com.weawow.GoldenIcon",
+        "com.weawow/com.weawow.MainActivity",
+        "com.weawow/com.weawow.SnowIcon"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "royalcaribbean",
+      "name": "Royal Caribbean",
+      "packageId": "com.rccl.royalcaribbean",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "ticket",
+      "previewName": "Royal Caribbean",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 88 L 121 88 L 108 106 L 60 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 83 L 61 72 L 105 72 L 105 83 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 74 68 L 74 58 L 82 63 L 89 56 L 97 63 L 102 57 L 102 68 Z",
+          "color": "gold",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 78 L 96 78",
+          "color": "cobalt",
+          "width": 3.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 113 C 66 107 80 118 94 112 C 101 109 108 112 117 108",
+          "color": "white",
+          "width": 4.4
+        }
+      ],
+      "components": [
+        "com.rccl.royalcaribbean/com.rcl.excalibur.activity.AppSplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "jetblue",
+      "name": "JetBlue",
+      "packageId": "com.jetblue.JetBlueAndroid",
+      "category": "生活服务",
+      "tone": "blue",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 102 L 77 70 L 96 60 L 119 60 L 109 89 L 71 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 77 70 L 119 60 L 109 89 L 70 105 L 63 99 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 96 L 112 68 M 83 100 L 113 79",
+          "color": "white",
+          "width": 4.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            63,
+            10,
+            10
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 112 L 97 112",
+          "color": "ice",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.jetblue.JetBlueAndroid/com.jetblue.android.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "bringlist",
+      "name": "Bring!",
+      "packageId": "ch.publisheria.bring",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 75 C 53 62 64 53 71 54 C 78 59 75 70 68 79 C 63 87 59 93 60 105 L 50 107 C 46 96 45 86 49 75 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 78 L 113 78 L 119 107 L 54 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 94 L 78 101 L 96 85",
+          "color": "dark",
+          "width": 6.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            64,
+            13,
+            13
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "usps",
+      "name": "USPS Mobile",
+      "packageId": "com.usps",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 85 L 75 60 L 113 61 L 122 72 L 107 73 L 118 81 L 101 88 L 83 87 L 70 102 L 47 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 86 L 76 72 L 100 72 L 110 79 L 88 79 L 70 93 L 52 100 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 112 L 111 112 M 49 72 L 61 72",
+          "color": "white",
+          "width": 4.1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            64,
+            7,
+            7
+          ],
+          "color": "crimson"
+        }
+      ],
+      "components": [
+        "com.usps/com.usps.mobile.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "wanderlog",
+      "name": "Wanderlog",
+      "packageId": "com.wanderlog.android",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 64 L 71 70 L 92 62 L 118 69 L 117 105 L 94 98 L 73 107 L 50 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 73 L 73 102 M 94 67 L 94 95",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 90 C 68 84 80 97 90 85 C 98 76 106 80 113 76",
+          "color": "crimson",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            85,
+            8,
+            8
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            71,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.wanderlog.android/com.wanderlog.android.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    }
+  ]
+}

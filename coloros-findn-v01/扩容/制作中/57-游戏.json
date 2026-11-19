@@ -1,0 +1,928 @@
+{
+  "name": "800 款扩容 · 第五批 · 游戏",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "snakeio",
+      "name": "Snake.io",
+      "packageId": "com.amelosinteractive.snake",
+      "category": "游戏",
+      "tone": "teal",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 51 100 C 59 83 83 111 93 101 C 103 92 93 81 79 81 C 60 81 60 63 77 59 C 88 56 99 61 105 64",
+          "color": "paper",
+          "width": 12
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            52,
+            27,
+            26
+          ],
+          "color": "lime"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            58,
+            8,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            59,
+            7,
+            7
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 111 74 L 113 82 L 120 82",
+          "color": "coral",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            104,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.amelosinteractive.snake/com.kooapps.unity.CustomUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "needforspeednl",
+      "name": "Need for Speed No Limits",
+      "packageId": "com.ea.game.nfs14_row",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "tile",
+      "previewName": "NFS No Limits",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 98 L 53 80 L 78 73 L 90 58 L 106 61 L 113 80 L 125 87 L 119 104 L 48 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 85 74 L 93 63 L 103 65 L 109 77 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 47 94 L 118 90 L 119 102 L 48 105 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            92,
+            16,
+            16
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            91,
+            17,
+            17
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 68 L 72 68 M 43 77 L 60 77",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            95,
+            7,
+            7
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.ea.game.nfs14_row/com.byfen.archiver.MainActivity",
+        "com.ea.game.nfs14_row/com.ea.game.nfs14_row.NFSActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "geometryl",
+      "name": "Geometry Dash Lite",
+      "packageId": "com.robtopx.geometryjumplite",
+      "category": "游戏",
+      "tone": "lime",
+      "form": "tile",
+      "previewName": "Geometry Dash Lite",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 67 L 80 53 L 114 65 L 117 104 L 83 118 L 51 104 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 67 L 83 80 L 83 116 L 52 104 Z",
+          "color": "lime",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 83 80 L 114 65 L 117 104 L 83 116 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 85 L 69 88 L 69 96 L 61 93 Z M 72 90 L 79 93 L 79 100 L 72 98 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 96 84 L 106 80 M 98 97 L 108 93",
+          "color": "white",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            52,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.robtopx.geometryjumplite/com.robtopx.geometryjumplite.GeometryDashLite"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "jetpack",
+      "name": "Jetpack Joyride",
+      "packageId": "com.halfbrick.jetpackjoyride",
+      "category": "游戏",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 95 C 55 75 69 64 84 65 L 99 68 L 110 57 L 116 71 L 108 81 L 114 94 L 93 96 L 75 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 94 L 48 107 L 60 104 L 55 115 C 69 113 76 105 77 95 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 73 79 C 71 70 79 60 88 60 C 99 60 105 70 101 78 L 95 85 L 81 86 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 88 73 L 100 73",
+          "color": "dark",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 74 L 66 69 M 53 88 L 58 83",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.halfbrick.jetpackjoyride/com.halfbrick.mortar.MortarGameActivityFacebook",
+        "com.halfbrick.jetpackjoyride/com.halfbrick.mortar.MortarGameLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "hillclimb2",
+      "name": "Hill Climb Racing 2",
+      "packageId": "com.fingersoft.hcr2",
+      "category": "游戏",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 108 L 62 95 L 88 93 L 117 75 L 124 84 L 92 105 L 55 115 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 87 L 64 75 L 78 73 L 86 60 L 104 60 L 111 75 L 118 82 L 105 90 L 56 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 82 73 L 90 63 L 102 63 L 107 73 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            86,
+            18,
+            17
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            79,
+            19,
+            19
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            91,
+            7,
+            7
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            85,
+            7,
+            7
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.fingersoft.hcr2/com.fingersoft.hcr2.AppActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "doodlejump",
+      "name": "Doodle Jump",
+      "packageId": "com.lima.doodlejump",
+      "category": "游戏",
+      "tone": "lime",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 57 80 C 57 66 68 58 82 58 C 93 58 105 64 105 76 L 118 83 L 113 92 L 100 92 L 98 104 L 66 104 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 79 C 70 68 82 69 90 76 C 97 83 93 98 85 103 L 66 103 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            71,
+            11,
+            12
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 108 L 68 116 M 86 107 L 88 115",
+          "color": "dark",
+          "width": 4.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 86 L 54 86 M 49 72 L 57 69 M 100 112 L 114 112",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.lima.doodlejump/com.limasky.doodlejumpandroid.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "cuttherope",
+      "name": "Cut the Rope",
+      "packageId": "com.zeptolab.ctr.ads",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            65,
+            62,
+            48
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 53 82 C 67 71 99 71 115 82 C 120 102 106 111 84 114 C 62 112 48 103 53 82 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            79,
+            11,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            79,
+            11,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 69 97 C 77 102 89 102 99 96 C 98 108 73 110 69 97 Z",
+          "color": "dark",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            49,
+            16,
+            15
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 51 L 101 44",
+          "color": "white",
+          "width": 3.2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 88 58 C 91 53 98 55 96 60",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.zeptolab.ctr.ads/com.unity3d.player.UnityPlayerActivity",
+        "com.zeptolab.ctr.ads/com.zeptolab.ctr.CtrApp"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "wherewater",
+      "name": "Where’s My Water? 2",
+      "packageId": "com.disney.wheresmywater2_goo",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "orb",
+      "previewName": "鳄鱼小顽皮 2",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 85 50 C 92 64 113 83 114 93 C 114 108 100 116 85 116 C 69 116 54 108 54 92 C 55 82 76 62 85 50 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 100 L 66 84 L 77 80 L 83 89 L 102 88 L 105 100 C 95 112 73 110 62 100 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            87,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 86 100 C 94 101 100 98 103 95",
+          "color": "white",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            62,
+            11,
+            11
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.disney.wheresmywater2_goo/com.disney.wheresmywater2_goo.ActivitySkuGoogle"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "badland",
+      "name": "BADLAND",
+      "packageId": "com.frogmind.badland",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            50,
+            68,
+            68
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "path",
+          "shape": "M 52 99 C 62 86 67 90 73 74 C 77 61 87 67 91 73 C 105 62 109 71 108 81 L 120 75 L 115 96 L 111 104 L 85 111 L 65 107 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            83,
+            10,
+            10
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            82,
+            11,
+            10
+          ],
+          "color": "white"
+        },
+        {
+          "type": "path",
+          "shape": "M 65 88 L 57 71 L 67 80 L 73 62 L 78 77 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 104 L 68 109 M 101 106 L 112 102",
+          "color": "ink",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.frogmind.badland/com.frogmind.badland.Badland"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "vectorrun",
+      "name": "Vector",
+      "packageId": "com.nekki.vector",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 107 L 68 89 L 67 76 L 81 64 L 98 68 L 114 60 L 121 67 L 103 80 L 88 77 L 83 85 L 100 91 L 111 109 L 101 115 L 89 101 L 77 96 L 58 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            50,
+            14,
+            14
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 84 L 59 78 M 47 97 L 54 91",
+          "color": "azure",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "com.nekki.vector/com.byfen.archiver.MainActivity",
+        "com.nekki.vector/com.nekki.vector.Main",
+        "com.nekki.vector/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "shadowfight2",
+      "name": "Shadow Fight 2",
+      "packageId": "com.nekki.shadowfight",
+      "category": "游戏",
+      "tone": "orange",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 84 C 60 66 68 62 85 57 C 104 61 112 68 122 84 L 108 84 L 99 96 L 97 105 L 71 105 L 67 96 L 59 85 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 81 C 66 70 77 65 84 63 C 95 66 104 73 111 81 L 102 80 L 101 89 L 65 89 L 63 80 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 94 L 79 96 M 90 96 L 100 93",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 102 60 L 110 53 L 118 57 L 114 64 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 111 L 112 111",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.nekki.shadowfight/com.nekki.shadowfight.Main",
+        "com.nekki.shadowfight/com.nekki.utils.activity.FCMNekkiUnityPlayerActivity",
+        "com.nekki.shadowfight/com.nekki.utils.activity.FCMUnityPlayerActivity",
+        "com.nekki.shadowfight/com.nekki.utils.activity.UnityPlayerActivityWithPermissionRequests",
+        "com.nekki.shadowfight/com.unity.android.sdk.UnityLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "brainout",
+      "name": "Brain Out",
+      "packageId": "com.mind.quiz.brain.out",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 89 C 47 77 56 66 66 68 C 66 58 79 53 87 60 C 97 56 110 62 110 73 C 124 75 123 90 113 95 C 112 105 105 112 94 107 C 86 116 76 111 71 103 C 62 105 53 99 52 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 82 63 L 82 99 M 62 82 L 73 82 L 77 73 M 91 76 L 97 84 L 111 84 M 92 102 L 99 94",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 116 54 L 120 61 L 128 64 L 120 67 L 116 75 L 112 67 L 105 64 L 112 61 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.mind.quiz.brain.out/com.brainout.customnative.CustomUnityPlayerActivity",
+        "com.mind.quiz.brain.out/com.eyewind.tj.brain.MainActivity",
+        "com.mind.quiz.brain.out/com.mind.quiz.brain.out.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "flowfree",
+      "name": "Flow Free",
+      "packageId": "com.bigduckgames.flow",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 60 63 L 60 86 L 78 86 L 78 109",
+          "color": "coral",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 62 L 111 62 L 111 86 L 97 86 L 97 104",
+          "color": "mint",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 69 L 79 77 L 98 77",
+          "color": "gold",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            57,
+            11,
+            11
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            102,
+            11,
+            11
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            57,
+            10,
+            10
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            99,
+            11,
+            11
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            72,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.bigduckgames.flow/com.bigduckgames.flow.flow"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "nonogram",
+      "name": "Nonogram.com",
+      "packageId": "com.easybrain.nonogram",
+      "category": "游戏",
+      "tone": "iris",
+      "form": "tile",
+      "previewName": "Nonogram.com",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            52,
+            53,
+            64,
+            62,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 72 L 109 72 M 58 89 L 109 89 M 73 58 L 73 108 M 92 58 L 92 108",
+          "color": "iris",
+          "width": 3.5
+        },
+        {
+          "type": "path",
+          "shape": "M 59 58 L 71 58 L 71 71 L 59 71 Z M 75 74 L 91 74 L 91 87 L 75 87 Z M 94 91 L 109 91 L 109 108 L 94 108 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 94 58 L 109 58 L 109 71 L 94 71 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 59 91 L 71 91 L 71 108 L 59 108 Z",
+          "color": "mint",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.easybrain.nonogram/com.easybrain.nonogram.SplashActivity",
+        "com.easybrain.nonogram/com.easybrain.template.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "lichess",
+      "name": "Lichess",
+      "packageId": "org.lichess.mobileapp",
+      "category": "游戏",
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 97 L 70 83 L 66 73 L 90 56 L 106 66 L 113 91 L 101 99 L 101 109 L 56 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 73 73 L 87 65 L 96 68 L 85 75 L 83 86 L 72 91 L 71 83 L 62 83 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            72,
+            8,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 114 L 104 114",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 103 58 L 111 49 L 116 58 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "org.lichess.mobileapp/org.lichess.mobileapp.MainActivity",
+        "org.lichess.mobileapp/org.lichess.mobileapp.lichess"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

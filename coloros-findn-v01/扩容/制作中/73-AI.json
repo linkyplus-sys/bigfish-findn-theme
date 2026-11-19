@@ -1,0 +1,141 @@
+{
+  "name": "1,040 款扩容 · 第三批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "coursera",
+      "name": "Coursera",
+      "packageId": "org.coursera.android",
+      "category": "AI",
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 111 68 C 96 52 67 55 54 71 C 42 85 48 105 67 112 C 83 118 103 111 113 94 L 101 87 C 94 100 78 104 68 97 C 59 91 60 81 68 74 C 77 65 96 67 103 77 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 112 L 110 112",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.coursera.android/org.coursera.android.MainActivity",
+        "org.coursera.android/org.coursera.android.launcher.DefaultIcon",
+        "org.coursera.android/org.coursera.android.splash.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "udemy",
+      "name": "Udemy",
+      "packageId": "com.udemy.android",
+      "category": "AI",
+      "tone": "plum",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 77 L 84 54 L 117 77 L 108 86 L 84 70 L 61 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 85 L 84 70 L 108 85 L 108 102 L 84 114 L 60 102 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 86 L 70 93 C 70 107 98 107 98 93 L 98 86",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.udemy.android/com.udemy.android.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "edx",
+      "name": "edX",
+      "packageId": "org.edx.mobile",
+      "category": "AI",
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 64 L 79 64 L 79 73 L 57 73 L 57 79 L 76 79 L 76 88 L 57 88 L 57 98 L 80 98 L 80 107 L 47 107 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 68 L 96 68 L 103 81 L 111 68 L 123 68 L 110 88 L 123 107 L 110 107 L 102 95 L 94 107 L 82 107 L 95 87 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            54,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.edx.mobile/org.edx.mobile.view.MainDashboardActivity",
+        "org.edx.mobile/org.edx.mobile.view.SplashActivity",
+        "org.edx.mobile/org.openedx.app.AppActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

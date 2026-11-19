@@ -1,0 +1,35 @@
+# Local builds and signing material
+.build/
+*.apk
+*.aab
+*.apks
+*.mtz
+*.bda
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Generated archives and local tooling
+*.zip
+*.7z
+*.log
+*.class
+*.dex
+.env
+.env.*
+.agents/
+.codex/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local editing exports and voice recordings
+/大肥鱼深海主题-视频素材/
+/语音/
+
+# Local resource compilation
+*.mkv
+/coloros-findn-v01/锁屏视频-v01/应用/res/drawable-xxhdpi/

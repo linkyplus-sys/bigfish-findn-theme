@@ -1,0 +1,489 @@
+{
+  "name": "800 款扩容 · 第四批 · 金融",
+  "status": "图稿待入包",
+  "activitySources": {
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "moomoo",
+      "name": "moomoo",
+      "packageId": "com.moomoo.trade",
+      "category": "金融",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 67 C 63 68 69 73 73 76 C 79 70 88 70 94 76 C 100 71 107 67 115 67 L 115 78 C 112 92 106 108 85 111 C 67 108 56 94 53 67 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 71 L 44 63 L 61 64 L 68 77 L 63 82 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 116 71 L 124 63 L 107 64 L 100 77 L 105 82 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            72,
+            91,
+            25,
+            12,
+            6
+          ],
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            83,
+            7,
+            7
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            83,
+            7,
+            7
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 98 L 80 98 M 89 98 L 92 98",
+          "color": "dark",
+          "width": 2.6
+        }
+      ],
+      "components": [
+        "com.moomoo.trade/cn.futu.trader.launch.activity.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "thinkorswim",
+      "name": "thinkorswim",
+      "packageId": "com.devexperts.tdmobile.platform.android.thinkorswim",
+      "category": "金融",
+      "tone": "lime",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 94 C 59 86 71 91 79 77 C 87 63 103 60 120 69 L 112 80 L 121 92 C 105 100 97 96 84 96 C 71 98 66 110 52 109 L 59 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 98 L 73 94 L 83 84 L 96 89 L 110 76",
+          "color": "jade",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            75,
+            7,
+            7
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 113 C 72 116 92 108 108 109",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.devexperts.tdmobile.platform.android.thinkorswim",
+      "components": [
+        "com.devexperts.tdmobile.platform.android.thinkorswim/com.devexperts.tdmobile.android.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "etoro",
+      "name": "eToro",
+      "packageId": "com.etoro.openbook",
+      "category": "金融",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 62 C 55 67 66 70 76 69 L 76 78 C 69 82 61 79 56 76 C 60 92 71 99 84 99 C 97 99 108 92 112 76 C 105 81 98 82 91 78 L 91 69 C 101 69 114 67 120 62 C 120 87 110 108 84 113 C 58 108 48 88 48 62 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 95 L 95 95 M 76 85 L 90 85",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            58,
+            8,
+            8
+          ],
+          "color": "lime"
+        }
+      ],
+      "components": [
+        "com.etoro.openbook/com.etoro.openbook.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "toshl",
+      "name": "Toshl Finance",
+      "packageId": "com.thirdframestudios.android.expensoor",
+      "category": "金融",
+      "tone": "coral",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 82 C 55 65 71 54 86 54 C 107 54 117 71 114 88 C 110 104 94 112 80 111 C 65 110 56 102 56 82 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 84 C 49 79 43 79 43 87 C 43 97 52 102 59 98 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 110 89 C 118 82 125 87 124 94 C 122 101 114 104 108 100 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            74,
+            13,
+            16
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            74,
+            13,
+            16
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            77,
+            4,
+            4
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            77,
+            4,
+            4
+          ],
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 97 C 82 99 88 99 91 96",
+          "color": "crimson",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            54,
+            13,
+            13
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.thirdframestudios.android.expensoor",
+      "components": [
+        "com.thirdframestudios.android.expensoor/com.thirdframestudios.android.expensoor.Expensoor"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.thirdframestudios.android.expensoor?version=latest",
+        "version": "3.5.24",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "spendee",
+      "name": "Spendee",
+      "packageId": "com.cleevio.spendee",
+      "category": "金融",
+      "tone": "mint",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 91 L 68 60 L 83 69 L 99 56 L 117 85 L 115 108 L 51 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 86 L 71 66 L 83 74 L 99 63 L 111 85 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 53 88 L 115 88 L 109 105 L 59 105 Z",
+          "color": "mint",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 97 L 94 97",
+          "color": "teal",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            91,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.cleevio.spendee/com.cleevio.spendee.MainActivity",
+        "com.cleevio.spendee/com.cleevio.spendee.screens.dashboard.main.DashboardActivity",
+        "com.cleevio.spendee/com.cleevio.spendee.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "vanguard",
+      "name": "Vanguard",
+      "packageId": "com.vanguard",
+      "category": "金融",
+      "tone": "coral",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 60 L 68 60 L 84 91 L 100 60 L 123 60 L 84 116 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 62 L 67 62 L 84 94 L 100 62 L 113 62 L 84 105 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 111 L 84 119 L 98 111",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.vanguard/com.vanguard.shared.PromoActivity",
+        "com.vanguard/com.vanguard.vanguard.activity.impl.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "walletbudget",
+      "name": "Wallet by BudgetBakers",
+      "packageId": "com.droid4you.application.wallet",
+      "category": "金融",
+      "tone": "teal",
+      "form": "wallet",
+      "previewName": "Wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 78 L 72 54 L 110 63 L 116 80 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            49,
+            76,
+            70,
+            35,
+            10
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            96,
+            86,
+            24,
+            18,
+            6
+          ],
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            90,
+            8,
+            8
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 63 L 105 72",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 100 L 84 100",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.droid4you.application.wallet/com.droid4you.application.wallet.DispatcherActivity",
+        "com.droid4you.application.wallet/com.droid4you.application.wallet.SplashScreenActivity",
+        "com.droid4you.application.wallet/com.droid4you.application.wallet.activity.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "bluecoins",
+      "name": "Bluecoins",
+      "packageId": "com.rammigsoftware.bluecoins",
+      "category": "金融",
+      "tone": "azure",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            67,
+            53,
+            45
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            53,
+            51,
+            48
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            59,
+            39,
+            36
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 94 65 L 94 91 M 103 70 C 94 64 83 69 86 74 C 89 79 102 75 102 82 C 102 88 91 89 85 85",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 91 C 66 100 82 103 97 99",
+          "color": "cobalt",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.MainActivity",
+        "com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.activities.StartActivity",
+        "com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.activities.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

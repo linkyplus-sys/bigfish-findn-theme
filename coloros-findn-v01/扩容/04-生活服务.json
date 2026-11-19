@@ -1,0 +1,73 @@
+{
+  "name": "生活服务",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    {
+      "art": "taobaofood",
+      "name": "淘宝闪购",
+      "category": "生活服务",
+      "components": [
+        "me.ele/me.ele.Launcher"
+      ]
+    },
+    {
+      "art": "traffic12123",
+      "name": "交管 12123",
+      "category": "生活服务",
+      "components": [
+        "com.tmri.app.main/com.tmri.app.ui.activity.main.TmriNewActivity"
+      ]
+    },
+    {
+      "art": "baidumaps",
+      "name": "百度地图",
+      "category": "生活服务",
+      "components": [
+        "com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen",
+        "com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen.Alias0"
+      ]
+    },
+    {
+      "art": "tencentmaps",
+      "name": "腾讯地图",
+      "category": "生活服务",
+      "components": [
+        "com.tencent.map/com.tencent.map.AppIcon",
+        "com.tencent.map/com.tencent.map.WelcomeActivity"
+      ]
+    },
+    {
+      "art": "chinamobile",
+      "name": "中国移动",
+      "category": "生活服务",
+      "components": [
+        "com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.base.StartPageActivity"
+      ]
+    },
+    {
+      "art": "chinatelecom",
+      "name": "中国电信",
+      "category": "生活服务",
+      "components": [
+        "com.ct.client/com.ct.client.SplashActivity",
+        "com.ct.client/com.ct.client.activity.SplashActivity"
+      ]
+    },
+    {
+      "art": "chinaunicom",
+      "name": "中国联通",
+      "category": "生活服务",
+      "components": [
+        "com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient"
+      ]
+    },
+    {
+      "art": "hema",
+      "name": "盒马",
+      "category": "生活服务",
+      "components": [
+        "com.wudaokou.hippo/com.wudaokou.hippo.launcher.splash.SplashActivity"
+      ]
+    }
+  ]
+}

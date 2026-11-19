@@ -1,0 +1,964 @@
+{
+  "name": "1,040 款扩容 · 第三批 · 日常应用",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "jami",
+      "name": "Jami",
+      "packageId": "cx.ring",
+      "category": "日常应用",
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 65 L 103 65 L 103 96 L 81 96 L 66 108 L 66 96 L 52 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 72 54 L 117 54 L 117 83 L 107 83 L 97 95 L 97 83 L 72 83 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 81 L 69 81 M 79 70 L 91 70 M 99 70 L 109 70",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            53,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "cx.ring/cx.ring.client.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fairemail",
+      "name": "FairEmail",
+      "packageId": "eu.faircode.email",
+      "category": "日常应用",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            62,
+            74,
+            44,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 69 L 84 90 L 120 69 L 119 80 L 84 99 L 48 81 Z",
+          "color": "blue",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 92 96 L 100 103 L 116 85 L 120 91 L 101 112 L 86 101 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            60,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "eu.faircode.email/eu.faircode.email.ActivityMain"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "connectbot",
+      "name": "ConnectBot",
+      "packageId": "org.connectbot",
+      "category": "日常应用",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 72 L 79 72 L 79 58 L 93 58 L 93 73 L 120 73 L 120 107 L 48 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            55,
+            77,
+            58,
+            23,
+            5
+          ],
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            83,
+            10,
+            10
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            83,
+            10,
+            10
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 112 L 94 112",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            56,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.connectbot/org.connectbot.ConsoleActivity",
+        "org.connectbot/org.connectbot.HostListActivity",
+        "org.connectbot/org.connectbot.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "retromusic",
+      "name": "Retro Music Player",
+      "packageId": "code.name.monkey.retromusic",
+      "category": "日常应用",
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            52,
+            64,
+            64
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            60,
+            48,
+            48
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 75 92 L 75 69 L 96 65 L 96 91 C 89 102 76 98 81 90 L 88 87 L 88 74 L 81 76 L 81 96 C 76 104 65 101 68 95 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity",
+        "code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.MainActivity",
+        "code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "vinylmusic",
+      "name": "Vinyl Music Player",
+      "packageId": "com.poupa.vinylmusicplayer",
+      "category": "日常应用",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            52,
+            64,
+            64
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            58,
+            52,
+            52
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            72,
+            24,
+            24
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            80,
+            8,
+            8
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 90 C 61 80 66 66 77 63 M 93 104 C 103 101 108 88 106 81",
+          "color": "white",
+          "width": 3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 112 56 L 102 70 L 94 73",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.poupa.vinylmusicplayer/com.poupa.vinylmusicplayer.ui.activities.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "wavlet",
+      "name": "Wavelet",
+      "packageId": "com.pittvandewitt.wavelet",
+      "category": "日常应用",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 47 83 L 59 83 L 65 68 L 74 101 L 84 56 L 93 107 L 103 72 L 109 84 L 121 84",
+          "color": "paper",
+          "width": 5.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 112 C 69 107 92 115 110 110",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            58,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.pittvandewitt.wavelet/com.pittvandewitt.wavelet.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "tachiyomi",
+      "name": "Mihon",
+      "packageId": "app.mihon",
+      "category": "日常应用",
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 67 L 79 58 L 94 65 L 117 61 L 120 103 L 93 109 L 80 102 L 48 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 65 L 80 102 M 94 69 L 94 103",
+          "color": "cobalt",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 54 77 L 73 70 L 73 94 L 55 100 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 89 L 64 80 L 70 86",
+          "color": "white",
+          "width": 3.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            74,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "app.mihon/eu.kanade.tachiyomi.ui.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "animeanilist",
+      "name": "AL-chan",
+      "packageId": "com.zen.alchan",
+      "category": "日常应用",
+      "tone": "azure",
+      "form": "chat",
+      "previewName": "AL-chan",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 75 L 73 57 L 98 62 L 120 78 L 119 102 L 90 102 L 76 113 L 76 102 L 48 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 88 L 79 67 L 98 91 L 89 91 L 79 79 L 68 91 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 103 80 L 103 95 L 113 95",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            61,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.zen.alchan/com.zen.alchan.ui.auth.SplashActivity",
+        "com.zen.alchan/com.zen.alchan.ui.launch.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "macrodroid",
+      "name": "MacroDroid",
+      "packageId": "com.arlosoft.macrodroid",
+      "category": "日常应用",
+      "tone": "crimson",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            57,
+            72,
+            51,
+            10
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 65 L 114 65 L 114 99 L 54 99 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 88 L 72 75 L 81 92 L 92 75 L 105 88",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            57,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 115 L 108 115",
+          "color": "white",
+          "width": 3.8
+        }
+      ],
+      "components": [
+        "com.arlosoft.macrodroid/com.arlosoft.macrodroid.LauncherActivity",
+        "com.arlosoft.macrodroid/com.arlosoft.macrodroid.MacroDroidActivity",
+        "com.arlosoft.macrodroid/com.arlosoft.macrodroid.homescreen.MacroDroidActivity",
+        "com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity",
+        "com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.ToastActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fooview",
+      "name": "fooView",
+      "packageId": "com.fooview.android.fooview",
+      "category": "日常应用",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 85 C 56 63 80 51 103 58 C 123 64 126 93 105 108 C 85 121 51 111 51 85 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 84 C 68 68 91 63 105 72 C 117 78 111 99 94 102 C 78 106 61 99 61 84 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            75,
+            23,
+            21
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 86 78 L 86 91",
+          "color": "teal",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.fooview.android.fooview/com.fooview.android.fooview.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "audiobooklibrivox",
+      "name": "LibriVox Audio Books",
+      "packageId": "biz.bookdesign.librivox",
+      "category": "日常应用",
+      "tone": "sand",
+      "form": "page",
+      "previewName": "LibriVox",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 64 C 62 59 76 60 84 72 C 95 61 107 59 119 63 L 118 105 C 105 102 96 105 84 112 C 75 105 63 103 50 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 74 L 84 109 M 57 76 L 74 80 M 58 86 L 71 90",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 95 81 L 95 94 M 103 77 L 103 98 M 111 82 L 111 93",
+          "color": "orange",
+          "width": 4.2
+        }
+      ],
+      "components": [
+        "biz.bookdesign.librivox/biz.bookdesign.librivox.LibriVoxActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "fluxreader",
+      "name": "ReadEra",
+      "packageId": "org.readera",
+      "category": "日常应用",
+      "tone": "orange",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 58 L 115 58 L 115 102 L 90 102 L 77 114 L 77 102 L 52 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 70 L 102 70 M 62 80 L 99 80 M 62 90 L 83 90",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 93 91 L 104 91 L 104 112 L 98 108 L 93 113 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            55,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.readera/com.readera.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "librera",
+      "name": "Librera Reader",
+      "packageId": "com.foobnix.pdf.reader",
+      "category": "日常应用",
+      "tone": "jade",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 62 L 65 62 L 65 109 L 50 109 Z M 71 56 L 85 56 L 85 109 L 71 109 Z M 91 59 L 102 57 L 119 105 L 108 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 75 L 60 75 M 75 68 L 81 68 M 97 73 L 103 71",
+          "color": "dark",
+          "width": 3.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 114 L 119 114",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            50,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.foobnix.pdf.reader/com.foobnix.ui2.MainTabs2"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fbreader",
+      "name": "FBReader",
+      "packageId": "org.geometerplus.zlibrary.ui.android",
+      "category": "日常应用",
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 65 C 66 59 76 64 85 72 C 95 63 108 59 121 65 L 119 100 C 105 100 94 105 85 114 C 76 104 63 102 50 104 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 68 69 L 88 73 L 88 92 L 79 88 L 69 93 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 84 L 70 87 M 96 80 L 112 76 M 96 91 L 112 87",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.geometerplus.zlibrary.ui.android/org.geometerplus.android.fbreader.FBReader"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "fossifycalendar",
+      "name": "Fossify Calendar",
+      "packageId": "org.fossify.calendar",
+      "category": "日常应用",
+      "tone": "jade",
+      "form": "card",
+      "previewName": "Fossify 日历",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            51,
+            56,
+            66,
+            56,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 62 L 116 62 L 116 75 L 52 75 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 51 L 65 65 M 103 51 L 103 65",
+          "color": "white",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 76 102 C 77 88 90 81 108 84 C 104 100 90 106 76 102 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 81 100 L 101 87",
+          "color": "dark",
+          "width": 3.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            85,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Amber",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue_grey",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Brown",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Cyan",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_orange",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_purple",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Green",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Grey_black",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Indigo",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_blue",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_green",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Lime",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Orange",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Pink",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Purple",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Red",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Teal",
+        "org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Yellow"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fossifydraw",
+      "name": "Fossify Draw",
+      "packageId": "org.fossify.draw",
+      "category": "日常应用",
+      "tone": "gold",
+      "form": "tile",
+      "previewName": "Fossify 画板",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 91 C 54 72 70 56 90 55 C 106 56 113 70 105 80 C 99 89 86 83 87 94 C 88 105 77 113 66 108 C 56 105 51 98 52 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            70,
+            10,
+            10
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            61,
+            10,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "path",
+          "shape": "M 90 100 C 91 84 104 77 117 78 C 113 95 101 105 90 100 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 104 L 109 84",
+          "color": "dark",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Amber",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Blue",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Blue_grey",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Brown",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Cyan",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Deep_orange",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Deep_purple",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Green",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Grey_black",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Indigo",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Light_blue",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Light_green",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Lime",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Orange",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Pink",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Purple",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Red",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Teal",
+        "org.fossify.draw/org.fossify.draw.activities.SplashActivity.Yellow"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fossifyvoicerec",
+      "name": "Fossify Voice Recorder",
+      "packageId": "org.fossify.voicerecorder",
+      "category": "日常应用",
+      "tone": "coral",
+      "form": "orb",
+      "previewName": "Fossify 录音",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            69,
+            51,
+            30,
+            51,
+            13
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 78 L 59 83 C 59 101 68 108 84 108 C 101 108 109 99 109 84 L 109 77 M 84 109 L 84 118 M 73 118 L 96 118",
+          "color": "white",
+          "width": 4.7
+        },
+        {
+          "type": "path",
+          "shape": "M 77 86 C 75 76 85 67 95 67 C 94 79 87 88 77 86 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 87 L 91 73",
+          "color": "dark",
+          "width": 3.2
+        }
+      ],
+      "components": [
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Amber",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue_grey",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Brown",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Cyan",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_orange",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_purple",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Green",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Grey_black",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Indigo",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_blue",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_green",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Lime",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Orange",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Pink",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Purple",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Red",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Teal",
+        "org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Yellow"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

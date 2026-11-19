@@ -1,0 +1,241 @@
+{
+  "name": "AI · 800 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "lens",
+      "name": "Google Lens",
+      "category": "AI",
+      "packageId": "com.google.ar.lens",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 48 76 L 48 62 C 48 56 52 52 58 52 L 74 52 M 95 52 L 111 52 C 117 52 121 56 121 62 L 121 76 M 121 95 L 121 111 C 121 117 116 120 110 120 L 96 120 M 74 120 L 58 120 C 52 120 48 116 48 110 L 48 96",
+          "color": "paper",
+          "width": 6.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            68,
+            39,
+            39
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            76,
+            23,
+            23
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            87,
+            69,
+            9,
+            9
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            114,
+            99,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "seeingai",
+      "name": "Seeing AI",
+      "category": "AI",
+      "packageId": "com.microsoft.seeingai",
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 41 86 C 54 64 70 59 84 59 C 99 59 116 66 127 86 C 114 103 99 111 84 111 C 69 111 53 105 41 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 44 89 C 59 80 75 104 96 97 C 108 93 118 88 124 89 C 114 105 99 111 84 111 C 70 111 54 103 44 89 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            71,
+            31,
+            31
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            78,
+            16,
+            16
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            73,
+            9,
+            9
+          ],
+          "color": "white"
+        }
+      ],
+      "components": [
+        "com.microsoft.seeingai/crc64a8457ff90b487ee0.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "bemyeyes",
+      "name": "Be My Eyes",
+      "category": "AI",
+      "packageId": "com.bemyeyes.bemyeyes",
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 82 C 47 64 62 52 85 52 C 105 52 122 64 122 82 C 122 100 107 112 85 112 L 72 110 L 55 120 L 59 108 C 51 102 47 92 47 82 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 84 C 67 70 82 67 95 72 C 104 74 109 77 113 83 C 107 92 96 99 85 99 C 73 99 63 93 57 84 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            76,
+            23,
+            22
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            80,
+            13,
+            13
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            76,
+            7,
+            7
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.bemyeyes.bemyeyes/com.bemyeyes.ui.BootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "aidungeon",
+      "name": "AI Dungeon",
+      "category": "AI",
+      "packageId": "com.aidungeon",
+      "tone": "plum",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 114 L 52 79 C 52 62 66 50 84 50 C 101 50 116 63 116 79 L 116 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 113 L 61 82 C 61 68 70 60 84 60 C 98 60 107 68 107 82 L 107 113 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 92 C 75 86 86 103 104 92 L 106 113 L 62 113 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 67 L 89 77 L 100 81 L 89 85 L 84 95 L 80 85 L 69 81 L 80 77 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 121 C 63 113 78 127 96 122 C 105 119 111 116 122 118",
+          "color": "ice",
+          "width": 4.6
+        }
+      ],
+      "components": [
+        "com.aidungeon/com.aidungeon.MainActivity",
+        "com.aidungeon/com.aidungeon.app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

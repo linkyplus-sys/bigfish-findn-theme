@@ -1,0 +1,167 @@
+{
+  "name": "1,040 款扩容 · 第一批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "hellotalk",
+      "name": "HelloTalk",
+      "packageId": "com.hellotalk",
+      "category": "AI",
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 65 L 107 65 L 107 97 L 88 97 L 74 111 L 72 97 L 47 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 76 53 L 120 53 L 120 81 L 111 81 L 105 91 L 101 81 L 76 81 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 80 L 68 80 M 58 88 L 71 88 M 88 66 L 108 66 M 98 62 L 98 75",
+          "color": "dark",
+          "width": 4.1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            55,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.hellotalk/com.hellotalk.lib.main.launch.ui.LaunchActivity",
+        "com.hellotalk/com.hellotalk.lib.temp.htx.modules.sign.ui.LaunchActivity",
+        "com.hellotalk/com.hellotalk.ui.LoginAnim",
+        "com.hellotalk/com.hellotalkx.modules.sign.ui.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "sololearn",
+      "name": "Sololearn",
+      "packageId": "com.sololearn",
+      "category": "AI",
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 70 63 L 51 84 L 70 104 M 99 63 L 118 84 L 99 104",
+          "color": "paper",
+          "width": 7.9
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 60 L 78 109",
+          "color": "white",
+          "width": 5.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            79,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            74,
+            8,
+            8
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            105,
+            8,
+            8
+          ],
+          "color": "azure"
+        }
+      ],
+      "components": [
+        "com.sololearn/com.sololearn.app.activities.LauncherActivity",
+        "com.sololearn/com.sololearn.app.ui.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "speakenglish",
+      "name": "Speak",
+      "packageId": "com.selabs.speak",
+      "category": "AI",
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 64 C 51 56 59 51 66 51 L 106 51 C 114 51 121 58 121 65 L 121 96 C 121 104 114 110 106 110 L 78 110 L 63 121 L 63 108 C 56 106 51 101 51 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 82 L 72 82 L 78 67 L 85 96 L 92 73 L 97 85 L 108 85",
+          "color": "dark",
+          "width": 5.1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            57,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.selabs.speak",
+      "components": [
+        "com.selabs.speak/com.selabs.speak.SpeakActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.selabs.speak?version=latest",
+        "version": "4.74.0",
+        "channel": "APKPure 分发"
+      }
+    }
+  ]
+}

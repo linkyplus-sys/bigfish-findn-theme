@@ -1,0 +1,545 @@
+{
+  "name": "800 款扩容 · 第五批 · 金融",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "talicai",
+      "name": "Timi记账",
+      "packageId": "com.talicai.timiclient",
+      "category": "金融",
+      "tone": "coral",
+      "form": "wallet",
+      "previewName": "Timi记账",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 71 C 67 65 74 60 84 53 C 94 60 101 65 120 71 L 117 107 L 50 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 76 L 70 72 L 84 67 L 104 73 L 116 79 L 116 103 L 53 103 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 97 L 61 84 L 69 84 M 80 98 L 80 75 L 91 75 M 101 98 L 101 87 L 109 87",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            57,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://m.app.mi.com/details?id=com.talicai.timiclient",
+      "components": [
+        "com.talicai.timiclient/com.talicai.timiclient.ui.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.talicai.timiclient",
+        "version": "6.5.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "bunq",
+      "name": "bunq",
+      "packageId": "com.bunq.android",
+      "category": "金融",
+      "tone": "iris",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 97 L 61 63 L 121 63 L 109 103 L 52 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 94 L 58 77 L 66 77 L 61 101 L 52 101 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 62 102 L 68 76 L 76 76 L 72 102 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 73 102 L 81 77 L 88 77 L 83 102 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 102 L 92 77 L 99 77 L 94 102 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 95 102 L 103 77 L 114 77 L 107 102 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            67,
+            8,
+            7
+          ],
+          "color": "iris"
+        }
+      ],
+      "components": [
+        "com.bunq.android/com.bunq.android.ui.activity.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "cashew",
+      "name": "Cashew",
+      "packageId": "com.budget.tracker_app",
+      "category": "金融",
+      "tone": "gold",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 86 53 C 107 56 118 67 116 82 C 115 91 109 98 100 100 C 92 103 84 98 76 107 C 66 116 55 110 52 99 C 47 85 53 72 64 72 C 75 72 80 76 88 72 C 93 69 93 61 86 53 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 86 C 66 79 76 88 86 84 C 99 81 104 73 101 66 C 118 72 115 88 105 93 C 97 98 84 90 75 101 C 71 106 63 106 60 100 Z",
+          "color": "sand",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 91 C 75 87 83 93 89 89",
+          "color": "dark",
+          "width": 3.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            62,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.budget.tracker_app/com.budget.tracker_app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "monefy",
+      "name": "Monefy",
+      "packageId": "com.monefy.app.lite",
+      "category": "金融",
+      "tone": "lime",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            53,
+            63,
+            63
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            59,
+            49,
+            49
+          ],
+          "color": "lime"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 59 C 98 60 109 69 109 82 L 84 82 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 85 L 108 85 C 108 98 99 106 84 108 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 63 L 84 83 L 105 83",
+          "color": "white",
+          "width": 4.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            71,
+            80,
+            9,
+            9
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            101,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.monefy.app.lite/com.monefy.activities.main.MainActivity_"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "tricount",
+      "name": "Tricount",
+      "packageId": "com.tribab.tricount.android",
+      "category": "金融",
+      "tone": "blue",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            74,
+            33,
+            33
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            83,
+            74,
+            33,
+            33
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            51,
+            32,
+            32
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            82,
+            19,
+            17
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            90,
+            82,
+            19,
+            17
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            58,
+            20,
+            18
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 92 L 71 92 M 97 92 L 102 92 M 82 68 L 87 68",
+          "color": "white",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            95,
+            11,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.tribab.tricount.android/com.bunq.tricount.android.ui.activity.LoadingTricountStartupInfoActivity",
+        "com.tribab.tricount.android/com.tribab.tricount.android.view.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "settlup",
+      "name": "Settle Up",
+      "packageId": "cz.destil.settleup",
+      "category": "金融",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 87 L 70 64 L 91 64 L 91 55 L 115 72 L 91 89 L 91 80 L 75 80 L 56 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 122 82 L 99 104 L 77 104 L 77 113 L 54 96 L 77 78 L 77 87 L 94 87 L 113 69 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            80,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "cz.destil.settleup/cz.destil.settleup.gui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "investing",
+      "name": "Investing.com",
+      "packageId": "com.fusionmedia.investing",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 105 L 47 62 L 56 62 L 56 98 L 120 98 L 120 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 89 L 76 74 L 89 79 L 108 57 L 117 63 L 92 89 L 77 84 L 63 97 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            52,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 113 L 104 113",
+          "color": "azure",
+          "width": 3.7
+        }
+      ],
+      "components": [
+        "com.fusionmedia.investing/com.fusionmedia.investing.feature.splash.screen.ui.StartActivity",
+        "com.fusionmedia.investing/com.fusionmedia.investing.features.splash.activity.SplashSplitter",
+        "com.fusionmedia.investing/com.fusionmedia.investing.ui.activities.SplashSplitter",
+        "com.fusionmedia.investing/com.fusionmedia.investing.view.activities.SplashSplitter"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "stockevents",
+      "name": "Stock Events",
+      "packageId": "app.stockevents.android",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "card",
+      "previewName": "Stock Events",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            50,
+            56,
+            68,
+            57,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 62 L 117 62 L 117 75 L 51 75 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 53 L 65 65 M 103 53 L 103 65",
+          "color": "white",
+          "width": 4.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 99 L 73 89 L 82 94 L 99 82 L 109 87",
+          "color": "dark",
+          "width": 4.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            78,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "app.stockevents.android/app.stockevents.android.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "barclays",
+      "name": "Barclays",
+      "packageId": "com.barclays.android.barclaysmobilebanking",
+      "category": "金融",
+      "tone": "blue",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 64 C 58 66 68 74 79 73 L 84 63 L 90 72 C 102 74 111 66 122 64 L 113 88 L 103 89 L 105 97 L 94 97 L 91 107 L 77 107 L 72 97 L 62 97 L 64 90 L 53 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 76 C 71 84 85 82 110 75 L 102 87 L 93 90 L 84 104 L 75 91 L 64 88 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 81 72 L 87 72 L 92 81 L 84 81 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            56,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.barclays.android.barclaysmobilebanking/cf.IEi",
+        "com.barclays.android.barclaysmobilebanking/com.barclays.android.barclaysmobilebanking.FW",
+        "com.barclays.android.barclaysmobilebanking/com.barclays.android.barclaysmobilebanking.af",
+        "com.barclays.android.barclaysmobilebanking/com.barclays.android.registration.NRegSplashActivity",
+        "com.barclays.android.barclaysmobilebanking/com.barclays.android.registration.TbaSplashActivity",
+        "com.barclays.android.barclaysmobilebanking/cr.Itr",
+        "com.barclays.android.barclaysmobilebanking/fi.GkD",
+        "com.barclays.android.barclaysmobilebanking/kj.ZCn",
+        "com.barclays.android.barclaysmobilebanking/ls.CH",
+        "com.barclays.android.barclaysmobilebanking/oh.NtS"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1247 @@
+{
+  "name": "500 款扩容 · 补充覆盖",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "gdocs",
+      "name": "Google 文档",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.docs.editors.docs",
+      "components": [
+        "com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity",
+        "com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixEditorActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "azure",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            50,
+            49,
+            67,
+            71,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 99 C 66 89 79 107 95 104 C 104 102 111 98 117 96 L 117 111 C 117 117 113 120 108 120 L 59 120 C 54 120 50 116 50 111 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 66 L 104 66 M 62 79 L 100 79 M 62 91 L 89 91",
+          "color": "dark",
+          "width": 4.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            103,
+            8,
+            8
+          ],
+          "color": "azure"
+        }
+      ]
+    },
+    {
+      "art": "gsheets",
+      "name": "Google 表格",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.docs.editors.sheets",
+      "components": [
+        "com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "jade",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            49,
+            55,
+            70,
+            59,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 73 L 118 73 L 118 61 C 116 56 113 56 109 56 L 59 56 C 53 56 50 59 50 64 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 73 L 117 73 M 51 87 L 117 87 M 51 100 L 117 100 M 73 74 L 73 112 M 96 74 L 96 112",
+          "color": "jade",
+          "width": 3.7
+        },
+        {
+          "type": "round",
+          "box": [
+            77,
+            90,
+            15,
+            7,
+            1.5
+          ],
+          "color": "gold",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "gslides",
+      "name": "Google 幻灯片",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.docs.editors.slides",
+      "components": [
+        "com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity",
+        "com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.editors.punch.PunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "gold",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            55,
+            74,
+            55,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 92 C 63 83 75 98 89 97 C 102 96 109 87 120 89 L 120 103 C 116 109 114 109 109 109 L 56 109 C 51 109 48 107 48 102 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 94 L 78 76 L 91 86 L 103 70 L 111 94 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            65,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 112 L 83 119 M 72 121 L 95 121",
+          "color": "dark",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "github",
+      "name": "GitHub",
+      "category": "日常应用",
+      "packageId": "com.github.android",
+      "components": [
+        "com.github.android/com.github.android.activities.MainActivity",
+        "com.github.android/com.github.android.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 76 L 55 58 C 60 54 69 57 78 63 C 83 62 90 62 95 63 C 103 57 112 55 117 58 L 116 77 C 123 89 117 104 102 109 C 97 110 97 117 97 121 L 72 121 C 72 114 70 110 64 108 C 49 104 46 90 55 76 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 113 C 65 119 53 114 50 104",
+          "color": "ice",
+          "width": 5.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            83,
+            10,
+            10
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            83,
+            10,
+            10
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 101 C 82 103 88 103 92 100",
+          "color": "azure",
+          "width": 3.6
+        }
+      ]
+    },
+    {
+      "art": "vivaldi",
+      "name": "Vivaldi",
+      "category": "日常应用",
+      "packageId": "com.vivaldi.browser",
+      "components": [
+        "com.vivaldi.browser/com.google.android.apps.chrome.Main",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt0",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt1",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt10",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt11",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt12",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt13",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt14",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt15",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt16",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt17",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt18",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt19",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt2",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt20",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt3",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt4",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt5",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt6",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt7",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt8",
+        "com.vivaldi.browser/com.vivaldi.browser.IconAlt9"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 83 C 46 61 65 47 84 47 C 104 47 122 61 122 83 C 122 106 104 121 84 121 C 64 121 46 108 46 83 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 72 C 71 66 78 84 84 96 C 88 84 96 68 111 69 L 89 109 L 78 109 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 113 C 56 116 67 123 79 126",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "opera",
+      "name": "Opera",
+      "category": "日常应用",
+      "packageId": "com.opera.browser",
+      "components": [
+        "com.opera.browser/com.opera.Launcher1",
+        "com.opera.browser/com.opera.Launcher10",
+        "com.opera.browser/com.opera.Launcher11",
+        "com.opera.browser/com.opera.Launcher2",
+        "com.opera.browser/com.opera.Launcher3",
+        "com.opera.browser/com.opera.Launcher4",
+        "com.opera.browser/com.opera.Launcher5",
+        "com.opera.browser/com.opera.Launcher6",
+        "com.opera.browser/com.opera.Launcher7",
+        "com.opera.browser/com.opera.Launcher8",
+        "com.opera.browser/com.opera.Launcher9",
+        "com.opera.browser/com.opera.Opera"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 46 C 106 46 121 64 121 84 C 121 107 104 124 84 124 C 63 124 47 108 47 84 C 47 64 62 46 84 46 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 58 C 70 58 65 71 65 84 C 65 97 72 109 84 109 C 96 109 104 98 104 84 C 104 71 97 58 84 58 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 100 51 C 115 59 122 72 121 86 C 104 70 108 58 100 51 Z",
+          "color": "coral",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "protonvpn",
+      "name": "Proton VPN",
+      "category": "日常应用",
+      "packageId": "ch.protonvpn.android",
+      "components": [
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingActivity",
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingCalculator",
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingDark",
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingNotes",
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingRetro",
+        "ch.protonvpn.android/ch.protonvpn.android.RoutingWeather",
+        "ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "iris",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 106 L 78 54 C 80 49 87 49 90 54 L 117 106 C 120 112 114 116 108 116 L 61 116 C 53 116 50 111 52 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 105 C 73 101 89 92 104 82 L 117 106 C 120 112 114 116 108 116 L 61 116 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 70 101 L 84 69 L 102 101 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            112,
+            61,
+            9,
+            9
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "msauth",
+      "name": "微软验证器",
+      "category": "日常应用",
+      "packageId": "com.azure.authenticator",
+      "components": [
+        "com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity",
+        "com.azure.authenticator/com.azure.authenticator.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 58 L 84 47 L 116 59 L 113 86 C 110 105 97 116 85 122 C 70 115 57 103 54 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 82 L 69 72 C 69 55 99 55 99 72 L 99 82",
+          "color": "cobalt",
+          "width": 5
+        },
+        {
+          "type": "round",
+          "box": [
+            61,
+            80,
+            47,
+            29,
+            7
+          ],
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 76 103 L 81 94 L 78 89 L 89 89 L 86 94 L 92 103 Z",
+          "color": "paper",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "gauthenticator",
+      "name": "Google 验证器",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.authenticator2",
+      "components": [
+        "com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity",
+        "com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 60 L 108 60 L 119 79 L 110 108 L 84 123 L 59 108 L 49 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 95 C 69 88 83 105 99 98 C 104 96 110 93 114 89 L 110 108 L 84 123 L 59 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 72 L 84 87 L 96 93",
+          "color": "dark",
+          "width": 5.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            76,
+            6,
+            6
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            70,
+            6,
+            6
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            102,
+            6,
+            6
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "tumblr",
+      "name": "Tumblr",
+      "category": "日常应用",
+      "packageId": "com.tumblr",
+      "components": [
+        "com.tumblr/com.tumblr.ui.activity.JumpoffActivity",
+        "com.tumblr/com.tumblr.ui.activity.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 75 48 L 91 48 L 91 68 L 110 68 L 110 79 L 91 79 L 91 103 C 91 111 101 111 110 106 L 110 116 C 92 128 73 118 73 103 L 73 80 L 60 80 L 60 70 C 69 67 74 59 75 48 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 119 C 74 116 86 125 98 124 C 108 124 116 117 123 116",
+          "color": "azure",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "tasker",
+      "name": "Tasker",
+      "category": "日常应用",
+      "packageId": "net.dinglisch.android.taskerm",
+      "components": [
+        "net.dinglisch.android.taskerm/net.dinglisch.android.taskerm.Tasker"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 86 47 L 109 49 L 95 79 L 119 77 L 76 123 L 81 92 L 53 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 95 79 L 119 77 L 76 123 L 81 92 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 75 L 56 71 M 43 109 L 60 104 M 106 112 L 122 105",
+          "color": "sand",
+          "width": 4.7
+        }
+      ]
+    },
+    {
+      "art": "termux",
+      "name": "Termux",
+      "category": "日常应用",
+      "packageId": "com.termux",
+      "components": [
+        "com.termux/com.termux.app.TermuxActivity",
+        "com.termux/com.termux.app.TermuxFailsafeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            55,
+            80,
+            61,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            51,
+            62,
+            66,
+            46,
+            5
+          ],
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 73 L 74 83 L 62 93 M 84 94 L 105 94",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 53 100 C 67 91 83 113 115 101 L 115 108 L 53 108 Z",
+          "color": "azure",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "homeassistant",
+      "name": "Home Assistant",
+      "category": "生活服务",
+      "packageId": "io.homeassistant.companion.android",
+      "components": [
+        "io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 80 L 84 47 L 124 80 L 113 87 L 113 117 L 55 117 L 55 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 68 L 84 108 M 70 83 L 84 95 L 101 82",
+          "color": "cobalt",
+          "width": 5.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            77,
+            11,
+            11
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            76,
+            11,
+            11
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "path",
+          "shape": "M 55 105 C 68 100 81 116 95 110 C 102 106 109 104 113 105 L 113 117 L 55 117 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "garminconnect",
+      "name": "Garmin Connect",
+      "category": "生活服务",
+      "packageId": "com.garmin.android.apps.connectmobile",
+      "components": [
+        "com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.GCMActivityStartup"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 107 L 78 56 L 90 56 L 121 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 101 L 83 68 L 106 101 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 116 C 66 112 74 120 86 121 C 100 122 111 116 118 115",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            54,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "fitbit",
+      "name": "Fitbit",
+      "category": "生活服务",
+      "packageId": "com.fitbit.FitbitMobile",
+      "components": [
+        "com.fitbit.FitbitMobile/com.fitbit.FirstActivity",
+        "com.fitbit.FitbitMobile/com.fitbit.FitbitBrandedAlias",
+        "com.fitbit.FitbitMobile/com.fitbit.HealthBrandedAlias",
+        "com.fitbit.FitbitMobile/com.fitbit.onboarding.landing.LandingActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            48,
+            75,
+            13,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            75,
+            14,
+            14
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            75,
+            16,
+            16
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            75,
+            18,
+            18
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            57,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            87,
+            56,
+            13,
+            13
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            70,
+            96,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            95,
+            14,
+            14
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 112 C 62 110 76 123 93 119",
+          "color": "white",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "windy",
+      "name": "Windy.com",
+      "category": "生活服务",
+      "packageId": "com.windyty.android",
+      "components": [
+        "com.windyty.android/com.windyty.android.MainActivity",
+        "com.windyty.android/com.windyty.android.Premium",
+        "com.windyty.android/com.windyty.android.Standard",
+        "com.windyty.android/com.windyty.android.default",
+        "com.windyty.android/com.windyty.android.running",
+        "com.windyty.android/com.windyty.android.scientist"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 43 71 C 59 62 75 69 91 67 C 111 65 121 53 118 47 M 43 87 C 66 79 81 96 103 91 C 124 87 128 79 125 72 M 49 105 C 72 97 89 118 112 109",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            49,
+            8,
+            8
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "flightradar24",
+      "name": "Flightradar24",
+      "category": "生活服务",
+      "packageId": "com.flightradar24free",
+      "components": [
+        "com.flightradar24free/com.flightradar24free.FreeSplashActivity",
+        "com.flightradar24free/com.flightradar24free.MainActivity",
+        "com.flightradar24free/com.flightradar24free.SplashActivity",
+        "com.flightradar24free/com.flightradar24free.feature.splash.SplashActivity",
+        "com.flightradar24free/com.flightradar24free.feature.splash.view.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "gold",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 44 100 C 38 76 51 52 74 46 M 56 108 C 47 89 54 68 73 61 M 80 120 C 102 121 121 105 125 85",
+          "color": "paper",
+          "width": 5.5
+        },
+        {
+          "type": "path",
+          "shape": "M 57 96 L 121 51 L 127 54 L 102 106 L 88 89 L 69 105 L 73 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            105,
+            12,
+            12
+          ],
+          "color": "azure"
+        }
+      ]
+    },
+    {
+      "art": "googleearth",
+      "name": "Google 地球",
+      "category": "生活服务",
+      "packageId": "com.google.earth",
+      "components": [
+        "com.google.earth/com.google.android.apps.earth.EarthActivity",
+        "com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity",
+        "com.google.earth/com.google.earth.EarthActivity",
+        "com.google.earth/com.google.earth.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            47,
+            47,
+            74,
+            74
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 49 72 C 63 59 79 68 93 73 C 105 78 111 76 118 73 L 120 84 C 102 91 95 89 79 82 C 66 77 58 79 48 88 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 106 C 70 97 82 102 95 102 C 104 102 111 98 117 95 C 110 111 98 118 85 120 C 76 121 65 115 58 106 Z",
+          "color": "cobalt",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "splitwise",
+      "name": "Splitwise",
+      "category": "金融",
+      "packageId": "com.Splitwise.SplitwiseMobile",
+      "components": [
+        "com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen",
+        "com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen_"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 62 L 121 62 L 120 110 L 47 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 91 C 63 85 78 106 97 95 C 105 90 113 89 120 90 L 120 110 L 47 110 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 66 L 84 108 M 59 80 L 74 80 M 94 80 L 110 80 M 102 72 L 102 87",
+          "color": "jade",
+          "width": 4.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            101,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "moneymanager",
+      "name": "Money Manager",
+      "category": "金融",
+      "packageId": "com.realbyteapps.moneymanagerfree",
+      "components": [
+        "com.realbyteapps.moneymanagerfree/com.realbyte.money.ui.Intro",
+        "com.realbyteapps.moneymanagerfree/com.realbyte.money.ui.intro.Intro",
+        "com.realbyteapps.moneymanagerfree/com.realbyteapps.moneymanagerfree.MMFreeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "coral",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 60 L 115 60 L 115 112 L 51 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 92 C 68 82 85 107 113 92 L 114 111 L 52 111 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 103 L 65 91 M 82 103 L 82 82 M 100 103 L 100 72",
+          "color": "crimson",
+          "width": 6.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            85,
+            47,
+            14,
+            14
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "crossyroad",
+      "name": "Crossy Road",
+      "category": "游戏",
+      "packageId": "com.yodo1.crossyroad",
+      "components": [
+        "com.yodo1.crossyroad/com.google.firebase.MessagingUnityPlayerActivity",
+        "com.yodo1.crossyroad/com.hipsterwhale.hwutils.OverrideUnityActivity",
+        "com.yodo1.crossyroad/com.yodo1.android.sdk.view.Yodo1SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 115 L 45 94 L 122 94 L 122 115 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 104 L 68 104 M 83 104 L 94 104 M 106 104 L 115 104",
+          "color": "paper",
+          "width": 3.9
+        },
+        {
+          "type": "path",
+          "shape": "M 57 65 L 74 65 L 74 51 L 98 51 L 98 63 L 110 63 L 110 75 L 99 75 L 99 94 L 57 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            84,
+            58,
+            8,
+            8,
+            1
+          ],
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 63 L 112 63 L 112 76 L 98 76 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            77,
+            44,
+            12,
+            10,
+            1
+          ],
+          "color": "coral",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "monumentvalley",
+      "name": "纪念碑谷",
+      "category": "游戏",
+      "packageId": "com.ustwo.monumentvalley",
+      "components": [
+        "com.ustwo.monumentvalley/com.unity3d.player.UnityPlayerActivity",
+        "com.ustwo.monumentvalley/com.ustwo.deviceutil.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 108 L 58 89 L 80 89 L 80 62 L 99 46 L 118 66 L 118 111 L 91 122 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 80 62 L 98 75 L 118 66 L 99 46 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 75 L 118 66 L 118 111 L 92 122 L 92 99 L 98 92 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 113 C 58 106 72 117 81 118",
+          "color": "ice",
+          "width": 4.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            60,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "geometrydash",
+      "name": "Geometry Dash",
+      "category": "游戏",
+      "packageId": "com.robtopx.geometryjump",
+      "components": [
+        "com.robtopx.geometryjump/com.robtopx.geometryjump.GeometryJump"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "mint",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 66 L 101 51 L 119 66 L 117 107 L 66 120 L 49 104 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 88 L 67 99 L 117 84 L 117 107 L 66 120 L 49 104 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            65,
+            70,
+            40,
+            26,
+            3
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            71,
+            77,
+            8,
+            9
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            76,
+            8,
+            9
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "path",
+          "shape": "M 107 53 L 127 48 L 123 69 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    }
+  ]
+}

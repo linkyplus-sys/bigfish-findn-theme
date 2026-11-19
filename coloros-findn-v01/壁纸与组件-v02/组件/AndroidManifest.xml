@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.bigfish.findn.clock" android:versionCode="19" android:versionName="0.8.6">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34" />
+    <queries>
+        <package android:name="com.coloros.alarmclock" />
+        <package android:name="com.coloros.weather2" />
+    </queries>
+    <application android:allowBackup="false" android:label="大肥鱼时钟"
+        android:icon="@mipmap/bigfish_clock_launcher" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name=".NativeWeatherActivity" android:exported="false" />
+        <service android:name=".NativeWeatherReadJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true" />
+        <activity android:name=".PinActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ClockWidget$WideLight" android:label="浅海 · 全宽" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/wide_light" />
+        </receiver>
+        <receiver android:name=".ClockWidget$WideDark" android:label="深海 · 全宽" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/wide_dark" />
+        </receiver>
+        <receiver android:name=".ClockWidget$WideMotion" android:label="深海 · 动态全宽" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/wide_motion" />
+        </receiver>
+        <receiver android:name=".ClockWidget$SmallLight" android:label="浅海 · 2×2" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/small_light" />
+        </receiver>
+        <receiver android:name=".ClockWidget$SmallDark" android:label="深海 · 2×2" android:exported="false">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/small_dark" />
+        </receiver>
+    </application>
+</manifest>

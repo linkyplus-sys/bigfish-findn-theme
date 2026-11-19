@@ -1,0 +1,22 @@
+{
+  "name": "第一批常用应用",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    { "art": "wetype", "name": "微信输入法", "category": "日常应用", "components": ["com.tencent.wetype/com.tencent.wetype.plugin.hld.reactnative.activity.ImeMainSettingActivity"] },
+    { "art": "feishu", "name": "飞书", "category": "日常应用", "components": ["com.ss.android.lark/com.ss.android.lark.main.app.MainActivity"] },
+    { "art": "mailmaster", "name": "网易邮箱大师", "category": "日常应用", "components": ["com.netease.mail/com.netease.mail.biz.main.DefaultSplashActivity"] },
+    { "art": "meituanwaimai", "name": "美团外卖", "category": "生活服务", "components": ["com.sankuai.meituan.takeoutnew/com.sankuai.meituan.takeoutnew.ui.page.boot.WelcomeActivity"] },
+    { "art": "hellobike", "name": "哈啰", "category": "生活服务", "components": ["com.jingyao.easybike/com.hellobike.atlas.business.portal.MainActivityDefaultIcon", "com.jingyao.easybike/com.hellobike.atlas.business.portal.MainActivityHolidayTravelIcon", "com.jingyao.easybike/com.hellobike.atlas.business.portal.MainActivityRealDefaultIcon", "com.jingyao.easybike/com.hellobike.atlas.business.portal.PortalActivity"] },
+    { "art": "cainiao", "name": "菜鸟", "category": "生活服务", "components": ["com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity"] },
+    { "art": "unionpay", "name": "云闪付", "category": "金融", "components": ["com.unionpay/com.unionpay.activity.UPActivityMain"] },
+    { "art": "cmb", "name": "招商银行", "category": "金融", "components": ["cmb.pb/cmb.pb.app.mainframe.container.PBMainActivity", "cmb.pb/cmb.pb.app.mainframe.PBEntryActivity", "cmb.pb/cmb.pb.mainframe.PBEntryActivity", "cmb.pb/cmb.pb.ui.PBInitActivity"] },
+    { "art": "ccb", "name": "中国建设银行", "category": "金融", "components": ["com.chinamworld.main/com.ccb.start.MainActivity"] },
+    { "art": "genshin", "name": "原神", "category": "游戏", "components": ["com.miHoYo.Yuanshen/com.miHoYo.GetMobileInfo.MainActivity"] },
+    { "art": "honorofkings", "name": "王者荣耀", "category": "游戏", "components": ["com.tencent.tmgp.sgame/com.tencent.tmgp.sgame.SGameActivity"] },
+    { "art": "peaceelite", "name": "和平精英", "category": "游戏", "components": ["com.tencent.tmgp.pubgmhd/com.epicgames.ue4.SplashActivity"] },
+    { "art": "deepseek", "name": "DeepSeek", "category": "AI", "components": ["com.deepseek.chat/com.deepseek.chat.MainActivity", "com.deepseek.chat/com.deepseek.chat.MainActivityoctopus"] },
+    { "art": "doubao", "name": "豆包", "category": "AI", "components": ["com.larus.nova/com.larus.home.impl.alias.AliasActivity1", "com.larus.nova/com.larus.home.impl.alias.AliasActivity3"] },
+    { "art": "chatgpt", "name": "ChatGPT", "category": "AI", "components": ["com.openai.chatgpt/com.openai.chatgpt.MainActivity"] },
+    { "art": "yuanbao", "name": "腾讯元宝", "category": "AI", "components": ["com.tencent.hunyuan.app.chat/com.tencent.hunyuan.app.chat.biz.login.NewLoginActivity", "com.tencent.hunyuan.app.chat/com.tencent.hunyuan.app.chat.biz.login.v2.HYLoginMainActivity"] }
+  ]
+}

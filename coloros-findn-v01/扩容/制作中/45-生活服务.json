@@ -1,0 +1,875 @@
+{
+  "name": "800 款扩容 · 第三批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "gtgj",
+      "name": "高铁管家",
+      "category": "生活服务",
+      "packageId": "com.gtgj.view",
+      "tone": "cobalt",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 38 97 C 52 75 74 61 103 61 L 121 61 C 129 61 134 68 134 76 L 134 91 C 134 99 128 104 119 104 L 53 104 C 46 104 40 101 38 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 85 C 70 74 83 71 97 71 L 113 71 L 108 83 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 95 L 123 95",
+          "color": "azure",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 112 L 121 112",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.gtgj.view/com.gtgj.view.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "zhixing",
+      "name": "智行火车票",
+      "category": "生活服务",
+      "packageId": "com.yipiao",
+      "tone": "azure",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 48 108 C 60 91 72 87 90 88 C 114 90 119 72 115 63",
+          "color": "dark",
+          "width": 9
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 108 C 60 91 72 87 90 88 C 114 90 119 72 115 63",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            44,
+            103,
+            11,
+            11
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "path",
+          "shape": "M 98 63 L 113 53 L 129 65 L 117 64 L 117 73 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 119 C 64 108 74 104 86 104",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.yipiao?version=latest",
+      "components": [
+        "com.yipiao/com.app.main.entrance.MainActivity",
+        "com.yipiao/com.app.main.entrance.MainActivityDaCu",
+        "com.yipiao/com.app.main.entrance.MainActivityDefault",
+        "com.yipiao/com.app.main.entrance.MainActivityDragonBoat",
+        "com.yipiao/com.app.main.entrance.MainActivityMayDay",
+        "com.yipiao/com.app.main.entrance.MainActivityMidAutumn",
+        "com.yipiao/com.app.main.entrance.MainActivityNational",
+        "com.yipiao/com.app.main.entrance.MainActivityNewYears",
+        "com.yipiao/com.app.main.entrance.MainActivitySpring",
+        "com.yipiao/com.app.main.entrance.MainActivitySummer",
+        "com.yipiao/com.app.main.entrance.MainActivityV30",
+        "com.yipiao/com.app.main.entrance.MainActivityV40"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.yipiao?version=latest",
+        "version": "10.16.8",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "bmac",
+      "name": "北京一卡通",
+      "category": "生活服务",
+      "packageId": "cn.com.bmac.nfc",
+      "tone": "coral",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            54,
+            72,
+            55,
+            11
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 74 L 120 74 L 120 92 L 48 92 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 95 L 110 95",
+          "color": "crimson",
+          "width": 3
+        },
+        {
+          "type": "path",
+          "shape": "M 65 90 L 70 79 L 76 79 L 84 65 L 91 79 L 98 79 L 104 90 L 93 90 L 89 85 L 79 85 L 75 90 Z",
+          "color": "white",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            60,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "cn.com.bmac.nfc/cn.com.bmac.nfc.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "szmetro",
+      "name": "深圳地铁",
+      "category": "生活服务",
+      "packageId": "com.iss.shenzhenmetro",
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 82 L 68 60 L 93 60 L 102 70 L 87 86 L 75 86 L 65 97 L 83 97 L 105 74 L 121 74 L 99 101 L 76 110 L 56 110 L 47 100 L 59 87 L 73 87 L 85 72 L 73 72 L 62 82 Z",
+          "color": "white",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            94,
+            9,
+            9
+          ],
+          "color": "lime"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.iss.shenzhenmetro",
+      "components": [
+        "com.iss.shenzhenmetro/com.pingan.smt.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.iss.shenzhenmetro?version=latest",
+        "version": "3.3.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "gzmetro",
+      "name": "广州地铁",
+      "category": "生活服务",
+      "packageId": "com.infothinker.gzmetro",
+      "tone": "gold",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 88 L 80 60 C 83 58 86 58 88 61 L 124 90 L 111 90 L 84 72 L 57 90 Z",
+          "color": "white",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 94 L 112 94 L 119 102 L 49 102 Z",
+          "color": "dark",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 79 82 L 89 82 L 97 108 L 71 108 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 108 L 101 108",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.infothinker.gzmetro",
+      "components": [
+        "com.infothinker.gzmetro/com.infothinker.gzmetro.ActivityAgent"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.infothinker.gzmetro",
+        "version": "6.3.28",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "haier",
+      "name": "海尔智家",
+      "category": "生活服务",
+      "packageId": "com.haier.uhome.uplus",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 79 L 84 49 L 121 79 L 117 112 L 51 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 78 L 84 57 L 109 78 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 81 L 67 86 C 67 105 101 105 101 86 L 101 81",
+          "color": "cobalt",
+          "width": 8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            102,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.haier.uhome.uplus/com.haier.uhome.uplus.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "gree",
+      "name": "格力+",
+      "category": "生活服务",
+      "packageId": "com.gree.greeplus",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            54,
+            60,
+            60
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 81 79 C 72 76 65 63 72 59 C 79 54 90 62 90 74 L 85 79 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 90 81 C 99 71 110 76 108 85 C 106 94 94 98 88 89 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 81 88 C 82 100 75 108 67 101 C 60 94 69 82 77 82 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            80,
+            9,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 101 109 L 115 104",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.gree.greeplus/io.gree.activity.loading.LoadingInitActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "tuya",
+      "name": "涂鸦智能",
+      "category": "生活服务",
+      "packageId": "com.tuya.smart",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 68 99 C 68 88 55 82 55 72 C 55 57 68 49 84 49 C 100 49 113 57 113 72 C 113 82 100 88 100 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 66 70 C 74 61 87 57 102 63 L 102 70 L 91 70 L 91 92 L 78 92 L 78 70 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "round",
+          "box": [
+            70,
+            101,
+            28,
+            11,
+            4
+          ],
+          "color": "dark",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 110 L 94 110",
+          "color": "white",
+          "width": 3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.tuya.smart/com.smart.ThingSplashActivity",
+        "com.tuya.smart/com.smart.TuyaSplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "sto",
+      "name": "申通快递",
+      "category": "生活服务",
+      "packageId": "com.sto.express",
+      "tone": "orange",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 34 66.5 L 85.25 41.5 L 135.25 66.5 L 135.25 114 L 85.25 135.25 L 34 114 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 34 66.5 L 85.25 87.75 L 135.25 66.5 L 85.25 41.5 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 85.25 89 L 85.25 134",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 115.25 76.5 L 65.25 76.5 C 55.25 76.5 51.5 89 60.25 92.75 L 101.5 101.5 C 111.5 105.25 105.25 116.5 94 116.5 L 50.25 116.5",
+          "color": "white",
+          "width": 7
+        }
+      ],
+      "components": [],
+      "sourceKeys": []
+    },
+    {
+      "art": "jtexpress",
+      "name": "极兔速递",
+      "category": "生活服务",
+      "packageId": "com.jtexpress.jtapp",
+      "tone": "crimson",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51.5 74 C 46.5 61.5 44 45.25 47.75 35.25 C 50.25 29 57.75 31.5 62.75 39 L 80.25 67.75 L 90.25 66.5 L 107.75 39 C 114 30.25 120.25 32.75 121.5 41.5 C 124 52.75 116.5 65.25 111.5 74 L 136.5 85.25 L 132.75 120.25 L 84 141.5 L 36.5 120.25 L 31.5 85.25 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 31.5 85.25 L 84 104 L 136.5 85.25 L 84 66.5 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 104 L 84 139",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 101.5 L 61.5 105.25 M 107.75 107.75 L 120.25 101.5",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            76.5,
+            81.5,
+            15,
+            10
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [],
+      "sourceKeys": []
+    },
+    {
+      "art": "cathay",
+      "name": "国泰航空",
+      "category": "生活服务",
+      "packageId": "com.xs2theworld.cxmobile",
+      "tone": "teal",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 96 C 65 94 82 68 125 65 C 109 75 106 92 85 99 C 71 105 54 102 42 96 Z",
+          "color": "white",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 105 C 64 108 92 108 111 91 C 107 106 82 117 61 112 Z",
+          "color": "mint",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            52,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.xs2theworld.cxmobile/com.cathaypacific.mobile.activities.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "sqair",
+      "name": "Singapore Airlines",
+      "category": "生活服务",
+      "packageId": "com.amadeus.merci.client.ui",
+      "tone": "cobalt",
+      "form": "ticket",
+      "previewName": "新加坡航空",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 100 L 63 72 L 77 72 L 66 94 L 82 85 L 99 59 L 113 59 L 97 90 L 72 109 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 104 L 105 91 L 121 61 L 128 61 L 116 92 C 111 104 95 110 78 113 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 118 L 112 118",
+          "color": "azure",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.amadeus.merci.client.ui/com.singaporeair.splashscreen.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "airasia",
+      "name": "AirAsia MOVE",
+      "category": "生活服务",
+      "packageId": "com.airasia.mobile",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            51,
+            66,
+            66
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            59,
+            59,
+            50,
+            50
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 48 88 L 82 59 L 92 59 L 84 79 L 117 73 L 124 80 L 82 96 L 73 111 L 64 111 L 69 99 L 52 99 Z",
+          "color": "white",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            56,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.airasia.mobile/com.airasia.mobile.MainActivity2",
+        "com.airasia.mobile/com.airasia.mobile.MainActivityAliasCNY",
+        "com.airasia.mobile/com.airasia.mobile.MainActivityAliasDefault",
+        "com.airasia.mobile/com.airasia.mobile.MainActivityAliasRaya",
+        "com.airasia.mobile/com.airasia.mobile.MainActivitySongkran",
+        "com.airasia.mobile/com.airasia.mobile.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "deltaair",
+      "name": "Fly Delta",
+      "category": "生活服务",
+      "packageId": "com.delta.mobile.android",
+      "tone": "blue",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 53 L 123 108 L 84 97 L 45 108 Z",
+          "color": "white",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 53 L 107 87 L 84 81 L 61 87 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 86 L 117 101 L 84 97 L 51 101 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 114 L 101 114",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.delta.mobile.android/com.delta.mobile.android.SplashScreen"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "emirates",
+      "name": "Emirates",
+      "category": "生活服务",
+      "packageId": "com.emirates.ek.android",
+      "tone": "crimson",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 63 C 70 53 86 74 111 60 L 116 90 C 98 104 77 86 58 98 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 64 C 59 60 64 59 69 61 L 75 92 C 70 92 63 95 58 97 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 61 L 65 117",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 72 64 C 89 70 97 69 111 61 L 113 71 C 96 80 85 73 74 73 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 83 C 93 83 101 90 114 82",
+          "color": "ink",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.emirates.ek.android/com.emirates.startup.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "qatarair",
+      "name": "Qatar Airways",
+      "category": "生活服务",
+      "packageId": "com.m.qr",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 80 C 55 67 67 62 80 68 L 97 84 L 114 93 L 112 101 L 95 103 L 83 98 L 65 110 L 52 105 L 62 92 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 77 C 68 64 82 56 112 54 M 77 79 C 84 66 97 65 118 65",
+          "color": "gold",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 62 92 L 74 80 L 85 86 L 77 94 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            89,
+            7,
+            7
+          ],
+          "color": "ink"
+        }
+      ],
+      "components": [
+        "com.m.qr/com.m.qr.home.onboarding.ui.MainActivity",
+        "com.m.qr/com.m.qr.home.onboarding.ui.MainActivityLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "hue",
+      "name": "Philips Hue",
+      "category": "生活服务",
+      "packageId": "com.philips.lighting.hue2",
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 68 97 C 67 89 55 83 55 70 C 55 55 68 49 84 49 C 100 49 113 56 113 70 C 113 83 101 89 100 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 74 C 71 64 81 62 93 65 C 88 70 80 77 76 91 C 69 85 62 82 59 74 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 78 91 C 80 74 94 67 107 64 C 112 74 100 87 96 93 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "round",
+          "box": [
+            71,
+            99,
+            26,
+            10,
+            4
+          ],
+          "color": "dark",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 112 L 92 112",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "ikeasmart",
+      "name": "IKEA Home smart",
+      "category": "生活服务",
+      "packageId": "com.ikea.inter.homesmart.system2",
+      "tone": "blue",
+      "form": "tile",
+      "previewName": "IKEA 智能家居",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 79 L 84 49 L 123 79 L 116 111 L 52 111 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 80 L 84 62 L 107 80 L 103 104 L 65 104 Z",
+          "color": "blue",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 77 77 L 91 77 L 100 92 L 68 92 Z",
+          "color": "white",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 91 L 84 103 M 76 103 L 92 103",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.ikea.inter.homesmart.system2/com.ikea.system2.screens.StartActivity",
+        "com.ikea.inter.homesmart.system2/com.ikea.system2.start.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

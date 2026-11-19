@@ -1,0 +1,957 @@
+{
+  "name": "生活服务 · 800 款扩容第一批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "appchinaApk": "https://www.appchina.com/"
+  },
+  "apps": [
+    {
+      "art": "dewu",
+      "name": "得物",
+      "category": "生活服务",
+      "packageId": "com.shizhuang.duapp",
+      "components": [
+        "com.shizhuang.duapp/com.shizhuang.duapp.modules.home.ui.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "teal",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 95 C 50 83 70 89 81 77 L 96 56 L 112 61 L 108 84 C 116 87 127 94 124 103 C 121 111 111 114 101 113 L 58 113 C 50 112 45 107 47 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 102 C 65 98 80 112 99 105 C 110 101 116 98 124 100 C 123 110 114 114 101 113 L 58 113 C 50 112 46 108 48 102 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 77 L 105 78 M 78 83 L 100 85 M 68 90 L 89 91",
+          "color": "teal",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            118,
+            60,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "zhuanzhuan",
+      "name": "转转",
+      "category": "生活服务",
+      "packageId": "com.wuba.zhuanzhuan",
+      "components": [
+        "com.wuba.zhuanzhuan/com.wuba.zhuanzhuan.presentation.view.activity.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 59 66 C 81 43 117 58 119 78 M 105 74 L 119 81 L 126 67",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 109 102 C 91 123 55 111 50 90 M 43 99 L 49 87 L 63 94",
+          "color": "ice",
+          "width": 7
+        },
+        {
+          "type": "path",
+          "shape": "M 67 79 L 101 79 L 92 88 L 98 88 L 67 103 L 73 90 L 67 90 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            88,
+            7,
+            7
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "mistore",
+      "name": "小米商城",
+      "category": "生活服务",
+      "packageId": "com.xiaomi.shop",
+      "components": [
+        "com.xiaomi.shop/com.xiaomi.shop.activity.MainTabActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "orange",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 74 L 119 74 L 116 115 L 52 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 74 L 70 62 C 70 49 98 49 98 62 L 98 74",
+          "color": "ice",
+          "width": 5.3
+        },
+        {
+          "type": "path",
+          "shape": "M 60 107 L 60 83 L 84 83 C 92 83 97 90 97 99 L 97 108 L 90 108 L 90 96 C 90 91 88 90 85 90 L 68 90 L 68 107 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 75 94 L 81 94 L 81 107 L 75 107 Z M 104 83 L 110 83 L 110 108 L 104 108 Z",
+          "color": "orange",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "vmall",
+      "name": "华为商城",
+      "category": "生活服务",
+      "packageId": "com.vmall.client",
+      "components": [
+        "com.vmall.client/com.vmall.client.activity.VmallWapActivity",
+        "com.vmall.client/com.vmall.client.splash.fragment.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ],
+      "tone": "crimson",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 89 C 39 80 45 67 58 66 C 60 50 76 49 84 63 C 92 48 109 50 110 66 C 124 67 128 81 113 90 C 100 97 91 94 84 88 C 78 94 69 98 56 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 94 C 69 89 84 105 101 98 C 110 95 115 95 119 96 L 115 116 L 54 116 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 66 L 84 84 M 62 69 L 77 84 M 108 69 L 91 83",
+          "color": "crimson",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "xiaoxiang",
+      "name": "小象超市",
+      "category": "生活服务",
+      "packageId": "com.meituan.retail.v.android",
+      "packageSource": "https://d.apkpure.com/b/APK/com.meituan.retail.v.android?version=latest",
+      "components": [
+        "com.meituan.retail.v.android/com.meituan.retail.c.android.newhome.newmain.ActivityLauncher"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.meituan.retail.v.android?version=latest",
+        "version": "6.99.10",
+        "channel": "APKPure 分发"
+      },
+      "tone": "gold",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 92 C 48 73 65 64 82 64 C 99 64 115 76 117 90 L 122 92 L 122 101 C 122 114 112 119 101 114 C 94 111 90 106 89 102 C 76 110 58 111 50 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 89 C 53 76 67 69 79 74 C 89 78 92 94 86 100 C 72 108 56 100 54 89 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            77,
+            9,
+            9
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 110 95 C 111 103 117 105 121 101",
+          "color": "orange",
+          "width": 4.3
+        }
+      ]
+    },
+    {
+      "art": "dmall",
+      "name": "多点",
+      "category": "生活服务",
+      "packageId": "com.wm.dmall",
+      "packageSource": "https://www.appchina.com/app/com.wm.dmall",
+      "components": [
+        "com.wm.dmall/com.wm.dmall.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.wm.dmall",
+        "version": "7.0.6",
+        "channel": "应用汇分发"
+      },
+      "tone": "coral",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 69 L 82 69 C 106 69 121 83 117 100 C 114 111 102 117 84 117 L 47 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 83 L 83 83 C 95 83 104 89 101 98 C 99 105 88 107 79 107 L 61 107 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            89,
+            12,
+            12
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            87,
+            89,
+            10,
+            10
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 63 L 76 54 M 93 60 L 108 60",
+          "color": "white",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "rtfresh",
+      "name": "大润发优鲜",
+      "category": "生活服务",
+      "packageId": "com.rt.market.fresh",
+      "packageSource": "https://www.appchina.com/app/com.rt.market.fresh",
+      "components": [
+        "com.rt.market.fresh/com.rt.market.fresh.welcome.activity.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.rt.market.fresh",
+        "version": "2.4.2",
+        "channel": "应用汇分发"
+      },
+      "tone": "jade",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 78 L 121 78 L 114 117 L 56 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 94 C 68 84 83 105 100 98 C 109 94 117 93 119 94 L 114 117 L 56 117 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 77 C 77 58 91 48 109 49 C 111 67 98 78 83 77 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 77 L 102 56 M 70 92 L 84 101 L 98 89",
+          "color": "jade",
+          "width": 4.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            63,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "haidilao",
+      "name": "海底捞",
+      "category": "生活服务",
+      "packageId": "com.haidilao",
+      "packageSource": "https://www.appchina.com/app/com.haidilao",
+      "components": [
+        "com.haidilao/com.haidilao.SplashActivity",
+        "com.haidilao/com.haidilao.logo_black"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.haidilao",
+        "version": "9.11.2",
+        "channel": "应用汇分发"
+      },
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 82 L 120 82 L 113 104 C 110 113 102 117 93 117 L 75 117 C 65 117 57 112 55 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 42 93 L 53 93 M 116 93 L 127 93",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 53 93 C 66 88 77 106 94 101 C 107 97 112 92 117 92 L 113 105 C 110 113 102 117 93 117 L 75 117 C 64 117 58 112 55 105 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 74 C 63 66 77 62 73 52 M 86 76 C 81 68 94 63 90 50 M 101 74 C 97 68 107 62 103 54",
+          "color": "paper",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "t3",
+      "name": "T3 出行",
+      "category": "生活服务",
+      "packageId": "com.t3go.passenger",
+      "packageSource": "https://www.appchina.com/app/com.t3go.passenger",
+      "components": [
+        "com.t3go.passenger/com.t3go.passenger.AnniversaryActivity",
+        "com.t3go.passenger/com.t3go.passenger.DefaultActivity",
+        "com.t3go.passenger/com.t3go.passenger.HealthyActivity",
+        "com.t3go.passenger/com.t3go.passenger.SpringActivity",
+        "com.t3go.passenger/com.t3go.passenger.SpringActivity2"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.t3go.passenger",
+        "version": "4.6.4",
+        "channel": "应用汇分发"
+      },
+      "tone": "cobalt",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 64 L 83 64 L 83 74 L 69 74 L 69 110 L 57 110 L 57 74 L 44 74 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 89 62 L 111 62 C 121 62 126 73 119 81 L 114 85 C 124 88 125 102 116 108 C 111 111 99 111 89 109 L 89 99 L 105 100 C 114 100 114 91 105 90 L 95 90 L 95 81 L 104 81 C 112 81 113 73 105 73 L 89 73 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 118 C 66 114 76 121 90 120 C 103 119 111 114 122 115",
+          "color": "mint",
+          "width": 4.2
+        }
+      ]
+    },
+    {
+      "art": "caocao",
+      "name": "曹操出行",
+      "category": "生活服务",
+      "packageId": "cn.caocaokeji.user",
+      "packageSource": "https://www.appchina.com/app/cn.caocaokeji.user",
+      "components": [
+        "cn.caocaokeji.user/cn.caocaokeji.compat.BlackInfoLauncher",
+        "cn.caocaokeji.user/cn.caocaokeji.compat.SuperInfoLauncher",
+        "cn.caocaokeji.user/cn.caocaokeji.compat.load.LoadActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.caocaokeji.user",
+        "version": "6.6.3",
+        "channel": "应用汇分发"
+      },
+      "tone": "jade",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 88 L 57 70 C 59 66 64 63 70 63 L 99 63 C 106 63 110 66 114 72 L 122 87 L 123 108 L 46 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 83 L 66 72 L 101 72 L 110 83 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            54,
+            91,
+            15,
+            9,
+            4
+          ],
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            101,
+            91,
+            15,
+            9,
+            4
+          ],
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 80 55 C 86 46 97 46 104 49 C 100 56 88 58 80 55 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 117 C 69 110 83 122 102 118",
+          "color": "paper",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "didacar",
+      "name": "嘀嗒出行",
+      "category": "生活服务",
+      "packageId": "com.didapinche.booking",
+      "components": [
+        "com.didapinche.booking/com.didapinche.booking.home.activity.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "orange",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 62 48 C 84 48 107 54 111 68 C 115 81 104 93 92 105 L 85 116 L 73 105 C 61 96 51 83 52 70 C 53 59 56 53 62 48 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 78 C 72 70 93 94 108 74 C 107 88 95 101 85 114 C 72 104 63 93 59 78 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 81 L 70 81 L 76 69 L 84 91 L 91 75 L 103 75",
+          "color": "orange",
+          "width": 4.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            60,
+            10,
+            10
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "huaxiaozhu",
+      "name": "花小猪打车",
+      "category": "生活服务",
+      "packageId": "com.huaxiaozhu.rider",
+      "packageSource": "https://www.appchina.com/app/com.huaxiaozhu.rider",
+      "components": [
+        "com.huaxiaozhu.rider/com.huaxiaozhu.sdk.app.launch.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.huaxiaozhu.rider",
+        "version": "1.14.18",
+        "channel": "应用汇分发"
+      },
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 81 C 49 65 65 56 84 56 C 103 56 119 65 119 83 C 119 103 104 115 84 115 C 65 115 49 102 49 81 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 68 L 50 50 C 63 50 71 55 72 59 Z M 108 59 C 113 53 118 50 123 51 L 120 70 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            66,
+            84,
+            36,
+            20,
+            9
+          ],
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            90,
+            7,
+            7
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            87,
+            90,
+            7,
+            7
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            72,
+            7,
+            7
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            72,
+            7,
+            7
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "path",
+          "shape": "M 100 51 L 104 45 L 109 49 L 115 47 L 115 53 L 108 58 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "hangban",
+      "name": "航班管家",
+      "category": "生活服务",
+      "packageId": "com.flightmanager.view",
+      "packageSource": "https://app.mi.com/details?id=com.flightmanager.view",
+      "components": [
+        "com.flightmanager.view/com.flightmanager.view.Loading"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "azure",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 95 L 77 73 L 115 58 L 127 61 L 103 110 L 89 93 L 74 105 L 73 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 73 91 L 111 72 L 89 93 L 74 105 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 74 L 61 74 M 40 85 L 53 85 M 51 112 C 65 108 76 119 93 117",
+          "color": "ice",
+          "width": 4.7
+        },
+        {
+          "type": "round",
+          "box": [
+            103,
+            104,
+            17,
+            12,
+            5
+          ],
+          "color": "mint",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "hnair",
+      "name": "海南航空",
+      "category": "生活服务",
+      "packageId": "com.rytong.hnair",
+      "components": [
+        "com.rytong.hnair/com.hnair.airlines.ui.main.SplashActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 97 C 71 92 77 71 92 64 C 101 60 111 64 119 55 C 128 72 118 96 97 105 C 81 113 65 111 49 106 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 101 C 64 97 75 103 88 96 C 100 90 111 80 120 76 C 117 89 106 102 96 106 C 80 113 65 110 51 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 83 C 58 73 70 65 83 64",
+          "color": "gold",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            90,
+            45,
+            13,
+            13
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "juneyao",
+      "name": "吉祥航空",
+      "category": "生活服务",
+      "packageId": "org.zywx.wbpalmstar.widgetone.uex11296876",
+      "packageSource": "https://app.mi.com/details?id=org.zywx.wbpalmstar.widgetone.uex11296876",
+      "components": [
+        "org.zywx.wbpalmstar.widgetone.uex11296876/org.zywx.wbpalmstar.widgetone.uex11296876.module.main.view.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "plum",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 108 C 56 88 67 63 81 63 C 92 63 89 79 98 80 C 106 81 114 67 121 60 C 122 81 112 103 94 105 C 77 106 69 97 61 107 L 52 116 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 104 C 72 93 83 83 92 87 C 99 91 107 91 116 79 C 113 92 105 103 94 105 C 77 106 69 97 61 107 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            50,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "metrodadu",
+      "name": "Metro 大都会",
+      "category": "生活服务",
+      "packageId": "com.app.shanghai.metro",
+      "components": [
+        "com.app.shanghai.metro/com.alipay.mobile.quinox.LauncherActivity",
+        "com.app.shanghai.metro/com.app.shanghai.metro.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            53,
+            51,
+            62,
+            64,
+            12
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            61,
+            60,
+            46,
+            26,
+            5
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 77 C 75 71 92 83 106 73 L 106 84 L 62 84 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            92,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            92,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 114 L 59 122 M 101 114 L 109 122",
+          "color": "paper",
+          "width": 5.2
+        }
+      ]
+    },
+    {
+      "art": "octopus",
+      "name": "八达通",
+      "category": "生活服务",
+      "packageId": "com.octopuscards.nfc_reader",
+      "components": [
+        "com.octopuscards.nfc_reader/com.octopuscards.nfc_reader.ui.main.activities.MainA",
+        "com.octopuscards.nfc_reader/com.octopuscards.nfc_reader.ui.main.activities.MainActivityV5"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "coral",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 95 C 53 71 65 56 85 56 C 105 56 117 71 119 96 C 113 113 100 118 85 113 C 70 118 56 111 50 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 93 C 66 91 73 104 84 104 C 95 104 105 94 116 93 C 114 109 101 117 85 113 C 70 118 59 108 53 100 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            76,
+            11,
+            11
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            76,
+            11,
+            11
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 77 95 C 81 99 88 99 93 94",
+          "color": "crimson",
+          "width": 4.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 111 L 50 116 M 113 110 L 122 115",
+          "color": "sand",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "moji",
+      "name": "墨迹天气",
+      "category": "生活服务",
+      "packageId": "com.moji.mjweather",
+      "components": [
+        "com.moji.mjweather/com.moji.mjweather.CSplashScreen",
+        "com.moji.mjweather/com.moji.mjweather.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            83,
+            50,
+            29,
+            29
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "path",
+          "shape": "M 44 101 C 44 89 51 83 63 83 C 68 69 78 65 87 66 C 99 68 104 76 105 84 C 118 84 125 89 125 100 C 125 110 115 115 104 115 L 65 115 C 55 115 44 110 44 101 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 45 102 C 63 90 74 108 91 104 C 105 102 110 94 123 98 C 126 110 115 115 104 115 L 65 115 C 55 115 47 109 45 102 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 113 54 L 121 49 M 107 46 L 107 39",
+          "color": "sand",
+          "width": 4.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "游戏",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    {
+      "art": "hsr",
+      "name": "崩坏：星穹铁道",
+      "category": "游戏",
+      "components": [
+        "com.miHoYo.hkrpg/com.mihoyo.combosdk.ComboSDKActivity"
+      ]
+    },
+    {
+      "art": "zzz",
+      "name": "绝区零",
+      "category": "游戏",
+      "components": [
+        "com.miHoYo.Nap/com.mihoyo.combosdk.ComboSDKActivity"
+      ]
+    },
+    {
+      "art": "wuwa",
+      "name": "鸣潮",
+      "category": "游戏",
+      "components": [
+        "com.kurogame.mingchao/com.kurogame.mingchao.KrSdkSplashActivity"
+      ]
+    },
+    {
+      "art": "tftcn",
+      "name": "金铲铲之战",
+      "category": "游戏",
+      "components": [
+        "com.tencent.jkchess/com.tencent.gcloud.msdk.core.policy.ZGamePolicyActivity"
+      ]
+    },
+    {
+      "art": "deltaforce",
+      "name": "三角洲行动",
+      "category": "游戏",
+      "components": [
+        "com.tencent.tmgp.dfm/com.epicgames.ue4.SplashActivity"
+      ]
+    },
+    {
+      "art": "arknights",
+      "name": "明日方舟",
+      "category": "游戏",
+      "components": [
+        "com.hypergryph.arknights/com.u8.sdk.U8UnityContext"
+      ]
+    },
+    {
+      "art": "wildrift",
+      "name": "英雄联盟手游",
+      "category": "游戏",
+      "components": [
+        "com.tencent.lolm/com.tencent.lolm.lgame"
+      ]
+    }
+  ]
+}

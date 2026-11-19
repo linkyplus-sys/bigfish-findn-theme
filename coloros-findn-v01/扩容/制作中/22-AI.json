@@ -1,0 +1,498 @@
+{
+  "name": "AI · 500 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "zhipu",
+      "name": "智谱清言",
+      "category": "AI",
+      "packageId": "com.zhipuai.qingyan",
+      "packageSource": "https://app.mi.com/details?id=com.zhipuai.qingyan",
+      "components": [
+        "com.zhipuai.qingyan/com.zhipuai.qingyan.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 79 C 51 61 66 49 85 49 C 104 49 118 62 118 81 C 118 101 101 112 84 112 C 78 112 74 111 70 110 L 54 120 L 57 102 C 53 96 51 90 51 79 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 91 C 72 76 77 65 84 65 C 92 65 99 84 106 94",
+          "color": "cobalt",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 77 C 74 78 79 95 84 95 C 92 95 98 77 104 74",
+          "color": "azure",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            76,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "tiangong",
+      "name": "天工 AI",
+      "category": "AI",
+      "packageId": "com.singularity.tiangong",
+      "packageSource": "https://app.meizu.com/apps/public/detail?package_name=com.singularity.tiangong",
+      "components": [
+        "com.singularity.tiangong/com.singularity.tiangong.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            55,
+            60,
+            58
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "path",
+          "shape": "M 56 95 C 78 92 87 69 107 66 C 123 83 112 113 84 113 C 72 113 62 105 56 95 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 57 C 53 56 43 56 41 65 C 36 87 96 116 122 114 C 141 113 131 96 120 88",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 118 45 L 121 54 L 130 57 L 121 60 L 118 69 L 115 60 L 106 57 L 115 54 Z",
+          "color": "paper",
+          "width": 2
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.singularity.tiangong?version=latest",
+        "version": "5.2.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "wenzb",
+      "name": "问小白",
+      "category": "AI",
+      "packageId": "com.yuanshi.wenxiaobai",
+      "components": [
+        "com.yuanshi.wenxiaobai/com.yuanshi.wanyu.ui.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 79 C 47 59 64 49 84 49 C 104 49 121 60 121 81 C 121 99 106 111 84 111 C 79 111 75 110 70 108 L 54 119 L 57 102 C 50 96 47 88 47 79 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 52 93 C 71 85 87 107 115 93 C 111 105 99 111 84 111 C 79 111 75 110 70 108 L 54 119 L 57 102 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            72,
+            9,
+            12
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            72,
+            9,
+            12
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "path",
+          "shape": "M 76 86 C 80 83 90 83 93 86 C 91 93 78 93 76 86 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            89,
+            9,
+            5
+          ],
+          "color": "coral"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.yuanshi.wenxiaobai?version=latest",
+        "version": "3.0.6",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "hailuo",
+      "name": "海螺 AI",
+      "category": "AI",
+      "packageId": "ai.hailuo.video",
+      "packageSource": "https://play.google.com/store/apps/details?id=ai.hailuo.video",
+      "components": [
+        "ai.hailuo.video/com.xproducer.moss.app.MainSplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "teal",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 96 C 44 70 65 46 95 49 C 119 51 127 70 122 87 C 119 102 105 111 95 110 C 82 109 79 98 85 91 C 89 104 106 96 105 87 C 104 76 95 74 86 78 C 74 83 74 98 83 111 C 69 118 51 113 43 106 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 104 C 60 81 81 64 97 66 C 113 68 116 80 111 89",
+          "color": "teal",
+          "width": 4.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 96 C 60 96 60 104 68 108 M 56 84 C 60 85 64 88 67 92",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            118,
+            103,
+            7,
+            7
+          ],
+          "color": "ice"
+        }
+      ],
+      "packageCandidate": "com.hailuoai.video",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/ai.hailuo.video?version=latest",
+        "version": "2.25.1",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "admuse",
+      "name": "腾讯妙思",
+      "category": "AI",
+      "packageId": "com.tencent.admuse",
+      "packageSource": "https://app.mi.com/details?id=com.tencent.admuse",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "sunset",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 46 C 93 65 97 73 117 82 C 98 92 93 97 84 121 C 74 98 70 91 49 82 C 68 73 75 65 84 46 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 64 C 90 73 94 77 104 82 C 93 87 90 92 84 106 C 78 93 75 87 65 82 C 75 78 78 73 84 64 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 55 C 42 52 38 67 50 84 C 65 106 103 117 117 107 C 124 102 123 93 118 89",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            57,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "polybuzz",
+      "name": "PolyBuzz",
+      "category": "AI",
+      "packageId": "ai.socialapps.speakmaster",
+      "components": [
+        "ai.socialapps.speakmaster/com.snapquiz.app.InitActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 77 C 48 63 60 54 71 56 C 78 47 90 49 96 57 C 109 56 120 64 118 78 C 125 90 114 104 103 105 C 99 117 86 120 78 114 L 58 120 L 61 105 C 48 101 45 87 52 77 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 60 90 C 71 76 80 87 87 94 C 94 87 103 75 115 84 C 116 95 107 102 100 102 C 95 113 84 112 78 107 L 63 113 L 67 102 C 62 99 60 95 60 90 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            75,
+            10,
+            10
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            75,
+            10,
+            10
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            75,
+            10,
+            10
+          ],
+          "color": "iris"
+        }
+      ]
+    },
+    {
+      "art": "speechify",
+      "name": "Speechify",
+      "category": "AI",
+      "packageId": "com.cliffweitzman.speechify2",
+      "components": [
+        "com.cliffweitzman.speechify2/com.cliffweitzman.speechify2.screens.splash.SplashScreenActivity",
+        "com.cliffweitzman.speechify2/com.me.game.pmupdatesdk.MainActivity",
+        "com.cliffweitzman.speechify2/com.speechify.app.feature.app.component.AppActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 52 78 L 52 93 M 66 68 L 66 103 M 81 54 L 81 118 M 96 65 L 96 105 M 111 80 L 111 92",
+          "color": "paper",
+          "width": 8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 72 C 60 61 73 52 87 51 C 103 50 114 58 119 68 M 48 100 C 55 111 66 118 75 118 C 91 120 108 116 118 102",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            121,
+            75,
+            6,
+            6
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "transkriptor",
+      "name": "Transkriptor",
+      "category": "AI",
+      "packageId": "com.transkriptor.app",
+      "components": [
+        "com.transkriptor.app/com.transkriptor.app.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 48 L 96 48 L 111 64 L 111 114 C 111 118 108 121 104 121 L 61 121 C 57 121 54 118 54 114 L 54 53 C 54 50 56 48 59 48 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 95 48 L 111 64 L 95 64 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 84 L 70 84 L 75 77 L 82 96 L 89 72 L 95 87 L 105 87",
+          "color": "cobalt",
+          "width": 4.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 105 L 76 105 M 83 105 L 101 105",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            104,
+            14,
+            14
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "moises",
+      "name": "Moises",
+      "category": "AI",
+      "packageId": "ai.moises",
+      "components": [
+        "ai.moises/ai.moises.ui.splashscreen.SplashScreen"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 82 C 62 60 83 73 95 78 C 109 84 114 78 126 66 L 126 78 C 111 95 99 92 89 88 C 67 80 56 80 42 95 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 42 105 C 62 83 83 96 95 101 C 109 107 114 101 126 89 L 126 101 C 111 118 99 115 89 111 C 67 103 56 103 42 118 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 70 C 62 57 78 58 96 65 C 105 68 111 65 118 59",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "packageCandidate": "com.moises",
+      "packageSource": "https://play.google.com/store/apps/details?id=ai.moises"
+    },
+    {
+      "art": "elevenreader",
+      "name": "ElevenReader",
+      "category": "AI",
+      "packageId": "io.elevenlabs.readerapp",
+      "components": [
+        "io.elevenlabs.readerapp/io.elevenlabs.readerapp.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "onyx",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 56 C 61 52 76 55 84 68 C 92 55 107 52 124 56 L 124 106 C 106 103 94 107 84 119 C 74 107 62 103 44 106 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 44 97 C 61 94 77 98 84 110 C 91 98 108 94 124 97 L 124 106 C 106 103 94 107 84 119 C 74 107 62 103 44 106 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 70 L 84 106 M 55 68 C 62 68 68 71 73 75 M 55 80 C 61 80 68 83 73 87",
+          "color": "onyx",
+          "width": 3.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 97 80 L 97 88 M 104 74 L 104 92 M 111 79 L 111 87",
+          "color": "teal",
+          "width": 3.5
+        }
+      ]
+    }
+  ]
+}

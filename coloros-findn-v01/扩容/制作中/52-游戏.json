@@ -1,0 +1,760 @@
+{
+  "name": "800 款扩容 · 第四批 · 游戏",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "pikminbloom",
+      "name": "Pikmin Bloom",
+      "packageId": "com.nianticlabs.pikmin",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 77 81 C 76 74 81 62 85 54 L 90 55 C 90 65 86 72 88 81 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 85 62 C 86 48 98 45 109 48 C 108 61 99 66 85 62 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 86 C 60 72 74 72 84 77 C 94 72 108 75 110 88 C 110 104 98 111 84 112 C 70 112 57 103 58 86 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            82,
+            12,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            89,
+            82,
+            12,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            86,
+            6,
+            6
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            86,
+            6,
+            6
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 103 C 83 107 89 106 94 102",
+          "color": "ink",
+          "width": 3.6
+        }
+      ],
+      "components": [
+        "com.nianticlabs.pikmin/com.nianticproject.ichigo.IchigoUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "pokemonsleep",
+      "name": "Pokémon Sleep",
+      "packageId": "jp.pokemon.pokemonsleep",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 87 C 51 71 58 57 74 50 C 68 65 72 77 86 85 C 99 94 112 87 118 77 C 122 94 112 110 96 115 C 77 120 58 109 53 87 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            63,
+            80,
+            48,
+            31
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 64 90 L 65 79 L 76 84 C 86 82 94 83 98 86 L 107 81 L 109 92 Z",
+          "color": "blue",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 97 L 78 99 M 91 99 L 97 96 M 81 103 C 84 106 90 106 92 102",
+          "color": "ink",
+          "width": 3.5
+        },
+        {
+          "type": "path",
+          "shape": "M 102 51 L 106 58 L 114 61 L 106 64 L 102 71 L 99 64 L 91 61 L 99 58 Z",
+          "color": "ice",
+          "width": 0
+        }
+      ],
+      "components": [
+        "jp.pokemon.pokemonsleep/jp.pokemon.pokemonsleep.commonutility.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "pokemonmasters",
+      "name": "Pokémon Masters EX",
+      "packageId": "com.dena.a12026418",
+      "category": "游戏",
+      "tone": "teal",
+      "form": "orb",
+      "previewName": "Pokémon Masters",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            54,
+            60,
+            60
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 55 79 C 60 65 71 56 85 55 C 99 55 112 66 114 80 L 94 87 L 73 87 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 87 L 111 87",
+          "color": "ink",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            76,
+            22,
+            22
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            81,
+            12,
+            12
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "path",
+          "shape": "M 48 105 L 55 95 L 62 106 L 55 117 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 105 56 L 114 49 L 120 56 L 112 64 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.dena.a12026418/com.dena.kenya.Kenya"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "mhnow",
+      "name": "Monster Hunter Now",
+      "packageId": "com.nianticlabs.monsterhunter",
+      "category": "游戏",
+      "tone": "sand",
+      "form": "shield",
+      "previewName": "Monster Hunter Now",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 90 C 67 65 95 58 121 59 C 116 72 105 77 93 82 C 97 83 104 86 106 91 C 101 102 88 108 75 107 L 56 117 L 65 102 Z",
+          "color": "paper",
+          "width": 2.4
+        },
+        {
+          "type": "path",
+          "shape": "M 57 89 C 77 71 96 65 112 64 C 105 74 91 77 82 83 L 91 88 L 81 95 L 62 96 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 64 100 L 88 96 L 98 90 C 94 102 83 107 73 106 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 69 88 L 78 79 L 84 84 L 77 89 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 75 L 64 63 M 56 80 L 71 68",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.nianticlabs.monsterhunter/com.nianticproject.magellan.MagellanUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "solitairems",
+      "name": "Microsoft Solitaire Collection",
+      "packageId": "com.microsoft.microsoftsolitairecollection",
+      "category": "游戏",
+      "tone": "jade",
+      "form": "card",
+      "previewName": "微软纸牌",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 65 L 82 54 L 95 104 L 56 116 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 54 L 106 57 L 103 110 L 61 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 85 71 C 77 79 67 84 70 91 C 73 96 80 94 83 91 L 80 100 L 91 100 L 87 91 C 92 96 99 95 101 89 C 103 84 93 79 85 71 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            66,
+            13,
+            13
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 107 73 L 110 76 L 116 68",
+          "color": "teal",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.microsoft.microsoftsolitairecollection/com.microsoft.microsoftsolitairecollection.view.Splash",
+        "com.microsoft.microsoftsolitairecollection/com.smokingguninc.engine.framework.SgiLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "candycrushsoda",
+      "name": "Candy Crush Soda Saga",
+      "packageId": "com.king.candycrushsodasaga",
+      "category": "游戏",
+      "tone": "iris",
+      "form": "orb",
+      "previewName": "Candy Crush Soda",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 63 L 62 68 L 63 62 L 74 68 L 94 68 L 105 62 L 106 68 L 121 63 L 113 82 L 121 103 L 104 99 L 96 105 L 73 105 L 63 99 L 47 104 L 55 83 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            61,
+            62,
+            46,
+            49,
+            16
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 64 93 C 75 81 91 90 104 78 L 104 94 C 104 103 95 108 84 108 C 75 108 68 101 64 93 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            72,
+            12,
+            10
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            86,
+            7,
+            7
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            51,
+            10,
+            10
+          ],
+          "color": "azure"
+        }
+      ],
+      "components": [
+        "com.king.candycrushsodasaga/com.king.candycrushsodasaga.StritzActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "toonblast",
+      "name": "Toon Blast",
+      "packageId": "net.peakgames.toonblast",
+      "category": "游戏",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 68 L 84 52 L 121 68 L 119 105 L 84 120 L 49 105 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 69 L 84 84 L 121 69 L 84 53 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 84 L 121 69 L 119 105 L 84 119 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 85 L 49 69 L 50 105 L 84 119 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 64 78 L 69 87 L 79 92 L 69 93 L 66 104 L 60 94 L 53 90 L 60 88 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            66,
+            10,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 93 99 L 109 90",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "net.peakgames.toonblast/caravan.peakgames.net.caravanandroidtools.CaravanActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "twodots",
+      "name": "Two Dots",
+      "packageId": "com.weplaydots.twodotsandroid",
+      "category": "游戏",
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 64 73 C 71 64 90 65 96 74 C 104 84 97 99 105 103",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            65,
+            22,
+            22
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            92,
+            23,
+            23
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            70,
+            7,
+            7
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            96,
+            7,
+            7
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            100,
+            7,
+            7
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.weplaydots.twodotsandroid/com.weplaydots.twodots.TwoDotsActivity",
+        "com.weplaydots.twodotsandroid/es.socialpoint.sparta.base.SpartaActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "mv2",
+      "name": "Monument Valley 2",
+      "packageId": "com.ustwo.monumentvalley2",
+      "category": "游戏",
+      "tone": "coral",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 87 L 78 53 L 117 65 L 106 86 L 80 78 L 67 91 L 101 106 L 121 86 L 125 98 L 101 120 L 45 101 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 46 88 L 79 77 L 67 91 L 102 106 L 102 118 L 46 101 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 78 54 L 117 65 L 108 77 L 79 67 L 57 88 L 47 87 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 94 L 103 109 L 122 94",
+          "color": "white",
+          "width": 3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            89,
+            59,
+            8,
+            8
+          ],
+          "color": "ink"
+        }
+      ],
+      "components": [
+        "com.ustwo.monumentvalley2/com.unity3d.player.UnityPlayerActivity",
+        "com.ustwo.monumentvalley2/com.ustwo.androidplugins.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "vampsurvivors",
+      "name": "Vampire Survivors",
+      "packageId": "com.poncle.vampiresurvivors",
+      "category": "游戏",
+      "tone": "crimson",
+      "form": "shield",
+      "previewName": "Vampire Survivors",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 76 L 64 54 L 84 66 L 104 54 L 121 76 L 112 89 L 99 87 L 95 105 L 84 116 L 73 107 L 68 88 L 55 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 77 L 64 62 L 69 78 L 83 73 L 98 78 L 105 62 L 120 77 L 109 86 L 98 81 L 83 93 L 70 81 L 59 86 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 65 87 L 77 96 L 75 109 L 68 100 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 91 96 L 104 87 L 101 100 L 93 109 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            72,
+            9,
+            9
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.poncle.vampiresurvivors/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "civilization6",
+      "name": "Civilization VI",
+      "packageId": "com.aspyr.civvi",
+      "category": "游戏",
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 71 L 83 53 L 120 71 L 120 80 L 49 80 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 79 L 70 79 L 70 103 L 61 103 Z M 79 79 L 88 79 L 88 103 L 79 103 Z M 98 79 L 107 79 L 107 103 L 98 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 106 L 117 106 M 58 115 L 110 115",
+          "color": "white",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 75 69 L 83 60 L 93 69 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            54,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.aspyr.civvi/com.aspyr.civvi.BootstrapActivity",
+        "com.aspyr.civvi/eagle.simple.sdks.manage.FakeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "balatro",
+      "name": "Balatro",
+      "packageId": "com.playstack.balatro.android",
+      "category": "游戏",
+      "tone": "plum",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 63 L 82 53 L 99 101 L 64 113 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 68 58 L 109 57 L 117 108 L 75 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 75 89 L 79 68 L 91 77 L 100 65 L 110 86 L 100 101 L 88 105 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 78 84 L 89 78 L 93 93 L 80 95 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 96 79 L 105 73 L 111 85 L 101 94 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            86,
+            86,
+            7,
+            7
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            85,
+            7,
+            7
+          ],
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 99 C 96 101 101 98 103 94",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.playstack.balatro.android/com.byfen.archiver.MainActivity",
+        "com.playstack.balatro.android/org.love2d.android.PlatformActivity",
+        "com.playstack.balatro.android/org.uzuy.uzuy_emu.ui.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

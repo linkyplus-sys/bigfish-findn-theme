@@ -1,0 +1,707 @@
+{
+  "name": "游戏 · 500 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "neteaseApk": "https://moba.163.com/",
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "miStoreApk": "https://app.mi.com/"
+  },
+  "apps": [
+    {
+      "art": "yuanmeng",
+      "name": "元梦之星",
+      "category": "游戏",
+      "packageId": "com.tencent.letsgo",
+      "components": [
+        "com.tencent.letsgo/com.epicgames.ue4.GameActivityExt",
+        "com.tencent.letsgo/com.epicgames.ue4.GameActivityExtAlias1"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 43 C 89 43 93 53 99 66 L 121 71 C 132 74 127 81 112 94 L 115 116 C 116 127 107 124 84 112 C 62 126 51 126 53 116 L 56 94 C 43 82 37 74 47 71 L 69 66 C 76 50 79 43 84 43 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 52 111 C 61 103 75 106 88 110 C 100 111 107 105 113 105 L 115 116 C 116 127 107 124 84 112 C 62 126 51 126 53 116 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            78,
+            9,
+            12
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            78,
+            9,
+            12
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 98 C 82 101 87 101 90 97",
+          "color": "orange",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            53,
+            8,
+            8
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            42,
+            99,
+            7,
+            7
+          ],
+          "color": "ice"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.letsgo",
+        "version": "1.6.28.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "valorantm",
+      "name": "无畏契约：源能行动",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.codev",
+      "components": [
+        "com.tencent.tmgp.codev/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 54 L 62 59 L 90 90 L 81 115 L 42 74 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 115 L 101 72 L 124 50 L 119 77 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 102 99 L 124 89 L 115 108 L 91 119 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 104 L 58 114 L 68 117",
+          "color": "sand",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "qqdance",
+      "name": "QQ 炫舞",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.qqx5",
+      "components": [
+        "com.tencent.tmgp.qqx5/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 67 64 C 86 61 104 56 115 51 L 115 101 C 114 113 95 119 90 108 C 86 98 99 90 108 93 L 108 68 C 101 72 82 77 74 78 L 74 108 C 73 119 54 126 48 115 C 44 105 56 97 67 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 40 92 C 47 77 57 72 64 72 M 117 107 C 128 99 129 89 126 81",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            90,
+            53,
+            8,
+            8
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            40,
+            77,
+            5,
+            5
+          ],
+          "color": "ice"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.tmgp.qqx5?version=latest",
+        "version": "8.12.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "naruto",
+      "name": "火影忍者",
+      "category": "游戏",
+      "packageId": "com.tencent.KiHan",
+      "components": [
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity",
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute0",
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute1",
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute2",
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute3",
+        "com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute4"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 66 C 57 58 71 58 85 60 C 102 59 115 62 122 70 L 117 107 C 96 116 73 117 49 107 Z",
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 71 C 70 66 99 66 112 73 L 109 99 C 94 106 73 105 58 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 93 78 C 79 70 67 86 77 93 C 84 98 96 93 93 86 C 91 81 82 82 83 88 M 93 78 L 104 73",
+          "color": "cobalt",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 48 97 C 34 95 33 105 38 117 C 43 112 48 110 55 110 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 117 92 C 132 88 136 95 134 105 C 128 101 123 102 115 106 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 52 L 71 48 M 93 49 L 106 54",
+          "color": "sand",
+          "width": 5
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.KiHan?version=latest",
+        "version": "1.77.77.7",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "arenabreak",
+      "name": "暗区突围",
+      "category": "游戏",
+      "packageId": "com.tencent.mf.uam",
+      "components": [
+        "com.tencent.mf.uam/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 57 L 84 47 L 116 57 L 114 82 C 111 101 99 113 84 121 C 69 113 57 101 54 82 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 60 62 L 84 55 L 108 62 L 106 82 C 103 95 93 108 84 112 C 75 108 65 95 62 82 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 63 76 L 83 89 L 104 76 L 102 85 L 83 100 L 65 87 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 67 66 L 83 75 L 100 66 L 98 74 L 83 84 L 69 75 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 110 L 57 117 M 119 110 L 111 117",
+          "color": "ice",
+          "width": 3.5
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.mf.uam?version=latest",
+        "version": "1.0.165.165",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "naraka",
+      "name": "永劫无间",
+      "category": "游戏",
+      "packageId": "com.netease.l22",
+      "components": [
+        "com.netease.l22/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 100 C 59 72 86 53 120 50 C 116 64 105 74 92 80 C 83 84 78 95 78 105 C 69 100 58 97 48 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 62 88 C 80 74 97 70 112 62 C 104 75 89 77 80 95 C 74 91 68 88 62 88 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 47 104 C 75 102 85 124 111 107 C 102 123 66 132 47 104 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 64 L 70 55 L 74 65 M 104 94 L 117 88",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.netease.l22?version=latest",
+        "version": "1.0.677052",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "lifeafter",
+      "name": "明日之后",
+      "category": "游戏",
+      "packageId": "com.netease.mrzh",
+      "components": [
+        "com.netease.mrzh/com.netease.mrzh.LauncherAliasDefault",
+        "com.netease.mrzh/com.netease.mrzh.LauncherAliasIcon1",
+        "com.netease.mrzh/com.netease.mrzh.LauncherAliasIcon2",
+        "com.netease.mrzh/com.netease.mrzh.LauncherAliasIcon3",
+        "com.netease.mrzh/com.netease.mrzh.LauncherAliasIcon4",
+        "com.netease.mrzh/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "sand",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 47 L 111 58 L 120 80 L 105 108 L 84 121 L 62 108 L 48 81 L 57 58 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 55 L 106 63 L 112 81 L 99 102 L 84 112 L 68 102 L 56 81 L 63 63 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 81 L 72 69 L 82 83 L 95 66 L 112 81 L 99 102 L 84 112 L 68 102 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 68 102 L 79 87 L 88 89 L 97 81 L 106 90 L 99 102 L 84 112 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 85 L 73 85 M 96 65 L 103 65",
+          "color": "paper",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            76,
+            59,
+            8,
+            8
+          ],
+          "color": "paper"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.netease.mrzh?version=latest",
+        "version": "5.0.703",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "hpmm",
+      "name": "哈利波特：魔法觉醒",
+      "category": "游戏",
+      "packageId": "com.netease.harrypotter",
+      "components": [
+        "com.netease.harrypotter/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "iris",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 59 L 84 48 L 113 59 L 111 85 C 107 103 98 113 84 122 C 70 113 61 103 57 85 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 62 64 L 84 56 L 106 64 L 104 84 C 100 99 94 108 84 113 C 74 108 68 99 64 84 Z",
+          "color": "plum",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 100 L 94 73",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "path",
+          "shape": "M 100 63 L 102 70 L 109 72 L 102 74 L 100 81 L 98 74 L 91 72 L 98 70 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 66 L 77 72 M 96 96 L 98 99",
+          "color": "sand",
+          "width": 3.5
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.harrypotter",
+        "version": "1.20.220220",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "myxy",
+      "name": "梦幻西游",
+      "category": "游戏",
+      "packageId": "com.netease.my",
+      "components": [
+        "com.netease.my/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "gold",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 105 45 C 70 37 50 63 54 89 C 60 119 93 126 119 105 C 95 109 76 96 75 76 C 75 62 87 50 105 45 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 53 88 C 70 83 74 105 99 110 C 104 111 111 110 119 105 C 104 121 80 124 66 111 C 59 105 55 97 53 88 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 57 116 C 44 117 42 108 48 102 C 53 97 60 98 63 102 C 69 95 81 96 86 104 C 94 100 103 104 102 110 C 103 116 96 119 89 119 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            59,
+            9,
+            9
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            75,
+            5,
+            5
+          ],
+          "color": "paper"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.my",
+        "version": "1.457.0",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "onmyoji",
+      "name": "阴阳师",
+      "category": "游戏",
+      "packageId": "com.netease.onmyoji.gb",
+      "components": [
+        "com.netease.onmyoji.gb/com.netease.onmyoji.Launcher",
+        "com.netease.onmyoji.gb/com.netease.onmyoji.tag0"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            48,
+            69,
+            69
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 83 48 C 112 48 124 75 115 95 C 106 118 72 123 56 103 C 48 94 47 84 49 76 C 53 93 74 95 82 82 C 90 71 84 59 75 55 Z",
+          "color": "plum",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            88,
+            9,
+            9
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            69,
+            8,
+            8
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "path",
+          "shape": "M 106 93 L 126 89 L 131 119 L 111 124 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 114 101 L 122 99 M 116 106 L 123 104 M 117 111 L 123 110",
+          "color": "crimson",
+          "width": 2.6
+        }
+      ],
+      "packageCandidate": "com.netease.onmyoji",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.netease.onmyoji.gb",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.netease.onmyoji.gb?version=latest",
+        "version": "1.8.20",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "onmyojiarena",
+      "name": "决战！平安京",
+      "category": "游戏",
+      "packageId": "com.netease.moba.mi",
+      "components": [
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_default",
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_default_clone",
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_rihefang",
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_yaodaoji",
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_yimulian",
+        "com.netease.moba.mi/com.netease.moba.mi.unisdk.switchlaunchicon.alias_yuzaoqian"
+      ],
+      "sourceKeys": [
+        "neteaseApk"
+      ],
+      "tone": "teal",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 56 69 L 113 69 M 68 69 L 62 110 M 100 69 L 107 110 M 61 84 L 106 84",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "path",
+          "shape": "M 48 54 C 68 63 99 63 120 54 L 115 66 C 95 73 72 73 53 66 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 110 C 63 101 78 120 93 110 C 106 101 115 101 123 105",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 123 C 67 115 81 130 96 121 C 111 112 119 117 121 116",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            43,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageCandidate": "com.netease.moba",
+      "packageSource": "https://moba.163.com/",
+      "launcherEvidence": {
+        "page": "https://moba.163.com/",
+        "version": "1.300.0",
+        "channel": "小米"
+      }
+    },
+    {
+      "art": "sgs",
+      "name": "三国杀",
+      "category": "游戏",
+      "packageId": "com.bf.sgs.mi",
+      "packageCandidate": "com.bf.sgs.hdexp",
+      "packageSource": "https://app.mi.com/details?id=com.bf.sgs.mi",
+      "components": [
+        "com.bf.sgs.mi/pub.db.policylib.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.bf.sgs.mi",
+        "version": "4.6.1",
+        "channel": "小米应用商店渠道 APK"
+      },
+      "tone": "gold",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 58 C 73 62 94 59 110 54 L 110 104 C 101 115 73 115 57 109 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 59 L 57 107 M 110 55 L 110 104",
+          "color": "sand",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 71 L 96 68 M 74 83 L 93 82 M 68 98 L 98 95",
+          "color": "crimson",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 103 98 L 120 100 L 120 117 L 103 117 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 108 104 L 115 112 M 115 104 L 108 112",
+          "color": "sand",
+          "width": 2.5
+        }
+      ]
+    }
+  ]
+}

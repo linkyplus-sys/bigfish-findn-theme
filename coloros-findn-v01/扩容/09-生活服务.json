@@ -1,0 +1,1218 @@
+{
+  "name": "生活服务 · 250 款扩容",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "fliggy",
+      "name": "飞猪旅行",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "orb",
+      "components": [
+        "com.taobao.trip/com.alipay.mobile.quinox.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 76 C 39 63 38 54 44 48 C 50 42 61 46 69 54 C 77 50 91 50 99 54 C 106 45 117 42 124 48 C 130 54 128 63 125 76 C 137 87 135 111 121 122 C 104 137 62 137 46 121 C 34 109 34 88 43 76 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            58,
+            87,
+            52,
+            28,
+            14
+          ],
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            70,
+            94,
+            7,
+            12
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            94,
+            7,
+            12
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            69,
+            8,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            69,
+            8,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 22 96 L 38 90 M 23 108 L 38 103 M 130 90 L 146 96 M 130 103 L 145 108",
+          "color": "white",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "googlemaps",
+      "name": "Google 地图",
+      "category": "生活服务",
+      "tone": "teal",
+      "form": "bare",
+      "components": [
+        "com.google.android.apps.maps/com.google.android.maps.MapsActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 15 C 120 15 145 43 145 75 C 145 103 115 131 90 152 C 87 156 82 156 78 152 C 53 131 23 103 23 75 C 23 43 48 15 84 15 Z",
+          "color": "azure",
+          "width": 2.7
+        },
+        {
+          "type": "path",
+          "shape": "M 25 58 C 31 40 45 25 65 19 L 123 82 L 99 107 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 65 19 C 87 10 113 17 129 36 L 101 62 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 129 36 C 145 52 151 80 135 103 L 115 125 L 89 94 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            48,
+            57,
+            57
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            57,
+            37,
+            37
+          ],
+          "color": "azure"
+        }
+      ]
+    },
+    {
+      "art": "uber",
+      "name": "Uber",
+      "category": "生活服务",
+      "tone": "onyx",
+      "form": "tile",
+      "components": [
+        "com.ubercab/com.ubercab.UBUberActivity",
+        "com.ubercab/com.ubercab.activities.MapActivity",
+        "com.ubercab/com.ubercab.presidio.app.core.root.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            36,
+            47,
+            96,
+            74,
+            18
+          ],
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 57 L 47 89 C 47 106 56 112 71 112 L 89 112 C 104 112 113 103 113 89 L 113 57",
+          "color": "white",
+          "width": 12
+        },
+        {
+          "type": "stroke",
+          "shape": "M 34 130 L 134 130",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "grab",
+      "name": "Grab",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "ticket",
+      "components": [
+        "com.grabtaxi.passenger/com.grab.pax.newface.common.alias.DefaultLauncherAlias"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 108 L 46 95 L 53 72 C 56 64 62 61 71 61 L 97 61 C 106 61 112 65 115 72 L 122 95 L 116 108 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            43,
+            86,
+            82,
+            30,
+            12
+          ],
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 87 L 113 87 M 56 116 L 56 123 M 112 116 L 112 123",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            96,
+            11,
+            10
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            96,
+            11,
+            10
+          ],
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 49 C 67 41 100 41 120 49",
+          "color": "white",
+          "width": 3.4
+        }
+      ]
+    },
+    {
+      "art": "booking",
+      "name": "Booking.com",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "page",
+      "components": [
+        "com.booking/com.booking.activity.SplashActivity",
+        "com.booking/com.booking.activity.StartActivity",
+        "com.booking/com.booking.startup.HomeActivity",
+        "com.booking/com.booking.startup.HomeActivityDefaultIcon",
+        "com.booking/com.booking.startup.HomeActivityMonochromeIcon"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            46,
+            59,
+            76,
+            71,
+            15
+          ],
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "B.",
+          "size": 43,
+          "x": 84,
+          "y": 69,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 120 L 117 120",
+          "color": "blue",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "airbnb",
+      "name": "Airbnb",
+      "category": "生活服务",
+      "tone": "coral",
+      "form": "orb",
+      "components": [
+        "com.airbnb.android/com.airbnb.android.activities.HomeActivityAlias",
+        "com.airbnb.android/com.airbnb.android.activities.MainActivity",
+        "com.airbnb.android/com.airbnb.android.activities.SplashActivity",
+        "com.airbnb.android/com.airbnb.android.feat.chinahomescreen.activity.ChinaLauncherActivity",
+        "com.airbnb.android/com.airbnb.android.feat.homescreen.HomeActivity",
+        "com.airbnb.android/com.airbnb.android.feat.legacy.activities.HomeActivity",
+        "com.airbnb.android/com.airbnb.android.feat.splashscreen.SplashScreenActivity",
+        "com.airbnb.android/com.airbnb.android.feat.splashscreen.chinalauncher.ChinaLauncherActivity",
+        "com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 84 44 C 76 44 72 54 66 68 L 44 108 C 37 121 39 131 49 135 C 61 141 72 130 84 117 C 96 130 107 141 119 135 C 129 131 131 121 124 108 L 102 68 C 96 54 92 44 84 44 Z M 84 117 C 72 105 69 93 75 86 C 80 81 88 81 93 86 C 99 93 96 105 84 117",
+          "color": "dark",
+          "width": 13
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 44 C 76 44 72 54 66 68 L 44 108 C 37 121 39 131 49 135 C 61 141 72 130 84 117 C 96 130 107 141 119 135 C 129 131 131 121 124 108 L 102 68 C 96 54 92 44 84 44 Z M 84 117 C 72 105 69 93 75 86 C 80 81 88 81 93 86 C 99 93 96 105 84 117",
+          "color": "white",
+          "width": 7
+        }
+      ]
+    },
+    {
+      "art": "tripadvisor",
+      "name": "Tripadvisor",
+      "category": "生活服务",
+      "tone": "mint",
+      "form": "orb",
+      "components": [
+        "com.tripadvisor.tripadvisor/com.tripadvisor.android.lib.tamobile.activities.SplashScreenActivity",
+        "com.tripadvisor.tripadvisor/com.tripadvisor.android.ui.launcher.LauncherActivity",
+        "com.tripadvisor.tripadvisor/com.tripadvisor.tripadvisor.TripAdvisor",
+        "com.tripadvisor.tripadvisor/com.tripadvisor.tripadvisor.TripAdvisorTripAdvisorActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            31,
+            54,
+            52,
+            55
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            85,
+            54,
+            52,
+            55
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            41,
+            66,
+            31,
+            31
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            66,
+            31,
+            31
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            45,
+            70,
+            11,
+            11
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            70,
+            11,
+            11
+          ],
+          "color": "white"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 96 L 95 109 L 84 123 L 73 109 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 47 C 70 55 98 55 122 47",
+          "color": "paper",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "expedia",
+      "name": "Expedia",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "ticket",
+      "components": [
+        "com.expedia.bookings/com.expedia.bookings.activity.SearchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 67 L 69 73 L 106 48 C 116 41 125 42 127 48 C 129 54 123 60 115 65 L 94 78 L 119 102 L 107 109 L 77 91 L 60 103 L 57 115 L 49 121 L 45 105 L 32 99 L 39 93 L 54 93 L 66 82 L 40 77 Z",
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 124 C 69 128 99 128 119 120",
+          "color": "paper",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "agoda",
+      "name": "Agoda",
+      "category": "生活服务",
+      "tone": "onyx",
+      "form": "ticket",
+      "components": [
+        "com.agoda.mobile.consumer/com.agoda.mobile.consumer.screens.splash.AppLauncherActivity",
+        "com.agoda.mobile.consumer/com.agoda.mobile.consumer.screens.splash.alias.IconEventAppLauncherActivityAlias"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            36,
+            60,
+            27,
+            27
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            82,
+            28,
+            28
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            56,
+            28,
+            28
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            82,
+            28,
+            28
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            59,
+            27,
+            27
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 41 120 L 126 120",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "klook",
+      "name": "Klook",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "ticket",
+      "components": [
+        "com.klook/com.klooklib.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 52 50 L 52 113 M 55 87 L 91 51 M 68 75 L 99 114",
+          "color": "ink",
+          "width": 16
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 50 L 52 113 M 55 87 L 91 51 M 68 75 L 99 114",
+          "color": "white",
+          "width": 9
+        },
+        {
+          "type": "path",
+          "shape": "M 116 63 L 122 78 L 137 84 L 122 91 L 116 106 L 109 91 L 94 84 L 109 78 Z",
+          "color": "gold",
+          "width": 2
+        }
+      ]
+    },
+    {
+      "art": "amazonshopping",
+      "name": "Amazon 购物",
+      "category": "生活服务",
+      "tone": "sand",
+      "form": "bag",
+      "components": [
+        "com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            38,
+            63,
+            92,
+            61,
+            16
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "a",
+          "size": 51,
+          "x": 84,
+          "y": 60,
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 112 C 73 123 98 123 116 111 L 112 119 M 116 111 L 105 111",
+          "color": "orange",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "aliexpress",
+      "name": "AliExpress",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "bag",
+      "components": [
+        "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.SplashActivity",
+        "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.MainActivity",
+        "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.MainActivity",
+        "com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.SplashActivity",
+        "com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity",
+        "com.alibaba.aliexpresshd/com.aliexpress.module.home.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 34 119 C 48 93 64 77 84 66 C 104 77 120 93 134 119 L 116 119 C 106 100 96 90 84 85 C 72 90 62 100 52 119 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 107 L 104 107",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 51 L 93 60 L 84 69 L 75 60 Z",
+          "color": "gold",
+          "width": 2
+        }
+      ]
+    },
+    {
+      "art": "ebay",
+      "name": "eBay",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "bag",
+      "components": [
+        "com.ebay.mobile/com.ebay.mobile.activities.MainActivity",
+        "com.ebay.mobile/com.ebay.mobile.activities.eBay",
+        "com.ebay.mobile/com.ebay.mobile.activities.eBay$",
+        "com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            29,
+            68,
+            110,
+            56,
+            13
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "eBay",
+          "size": 29,
+          "x": 84,
+          "y": 78,
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 116 L 69 116",
+          "color": "crimson",
+          "width": 3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 116 L 89 116",
+          "color": "gold",
+          "width": 3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 116 L 109 116",
+          "color": "jade",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "alibaba1688",
+      "name": "1688",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "tile",
+      "components": [
+        "com.alibaba.wireless/com.alibaba.wireless.launch.LauncherActivity",
+        "com.alibaba.wireless/com.alibaba.wireless.v5.LauncherActivity",
+        "com.alibaba.wireless/com.alibaba.wireless.welcome.Welcome"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            31,
+            46,
+            106,
+            76,
+            18
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "1688",
+          "size": 40,
+          "x": 84,
+          "y": 60,
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 110 L 121 110",
+          "color": "orange",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "temu",
+      "name": "Temu",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "ticket",
+      "components": [
+        "com.einnovation.temu/com.baogong.splash.activity.MainFrameActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 35 67 L 132 67 L 132 121 L 35 121 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 73 L 44 116 M 122 73 L 122 116",
+          "color": "gold",
+          "width": 3
+        },
+        {
+          "type": "text",
+          "label": "TEMU",
+          "size": 27,
+          "x": 84,
+          "y": 78,
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 110 C 74 103 94 103 107 110",
+          "color": "orange",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "smzdm",
+      "name": "什么值得买",
+      "category": "生活服务",
+      "tone": "coral",
+      "form": "tag",
+      "components": [
+        "com.smzdm.client.android/com.smzdm.client.android.app.WelComeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            48,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "text",
+          "label": "值",
+          "size": 51,
+          "x": 84,
+          "y": 51,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 39 116 L 111 116",
+          "color": "gold",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "waze",
+      "name": "Waze",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "bare",
+      "components": [
+        "com.waze/com.waze.FreeMapAppActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 110 C 29 111 20 103 18 98 C 34 96 37 90 39 76 C 42 46 64 33 93 33 C 123 33 145 53 145 80 C 145 108 119 122 94 123 L 72 122 Z",
+          "color": "azure",
+          "width": 2.7
+        },
+        {
+          "type": "path",
+          "shape": "M 49 79 C 51 56 69 45 93 45 C 119 45 133 61 133 81 C 133 103 116 111 93 111 C 78 111 60 105 51 102 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            70,
+            66,
+            10,
+            11
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            66,
+            10,
+            11
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 82 87 C 88 95 98 95 104 87",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            45,
+            112,
+            21,
+            21
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            112,
+            21,
+            21
+          ],
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "art": "googlehome",
+      "name": "Google Home",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "bare",
+      "components": [
+        "com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 17 76 L 84 18 L 84 48 L 42 85 L 42 130 L 17 130 Z",
+          "color": "crimson",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 18 L 152 76 L 152 129 L 126 129 L 126 85 L 84 48 Z",
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 101 65 L 126 85 L 126 129 L 101 129 Z",
+          "color": "jade",
+          "width": 2.1
+        },
+        {
+          "type": "path",
+          "shape": "M 42 103 L 68 103 L 68 124 L 100 124 L 100 103 L 126 103 L 126 150 L 42 150 Z",
+          "color": "azure",
+          "width": 2.5
+        }
+      ]
+    },
+    {
+      "art": "huaweihealth",
+      "name": "华为运动健康",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "orb",
+      "components": [
+        "com.huawei.health/com.huawei.health.MainActivity",
+        "com.huawei.health/com.huawei.health.ui.SplashActivity",
+        "com.huawei.health/com.huawei.healthcloud.cardui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 71 C 45 57 55 49 69 49 C 75 49 80 54 84 60 C 88 54 93 49 99 49 C 113 49 123 57 123 71 C 123 88 103 108 84 122 C 65 108 45 88 45 71 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 86 L 68 86 L 75 74 L 85 101 L 93 84 L 116 84",
+          "color": "orange",
+          "width": 4.6
+        }
+      ]
+    },
+    {
+      "art": "smartthings",
+      "name": "SmartThings",
+      "category": "生活服务",
+      "tone": "iris",
+      "form": "orb",
+      "components": [
+        "com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.SCMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 84 45 L 119 64 L 119 104 L 84 124 L 49 104 L 49 64 Z M 49 64 L 119 104 M 119 64 L 49 104 M 84 45 L 84 124",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            35,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            54,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            94,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            74,
+            114,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            39,
+            94,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            39,
+            54,
+            20,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            75,
+            75,
+            18,
+            18
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "shopee",
+      "name": "Shopee",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "bag",
+      "components": [
+        "com.shopee.sg/com.shopee.app.ui.home.HomeActivity_"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 104 75 C 94 64 68 64 59 76 C 52 88 65 94 84 97 C 102 100 113 108 103 120 C 92 133 66 127 55 117",
+          "color": "ink",
+          "width": 18
+        },
+        {
+          "type": "stroke",
+          "shape": "M 104 75 C 94 64 68 64 59 76 C 52 88 65 94 84 97 C 102 100 113 108 103 120 C 92 133 66 127 55 117",
+          "color": "white",
+          "width": 11
+        }
+      ]
+    },
+    {
+      "art": "lazada",
+      "name": "Lazada",
+      "category": "生活服务",
+      "tone": "sunset",
+      "form": "bare",
+      "components": [
+        "com.lazada.android/com.lazada.activities.EnterActivity",
+        "com.lazada.android/pt.rocket.view.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 20 58 L 59 32 L 84 48 L 109 32 L 148 58 L 148 106 L 84 143 L 20 106 Z",
+          "color": "sunset",
+          "width": 2.8
+        },
+        {
+          "type": "path",
+          "shape": "M 20 58 L 59 32 L 84 48 L 109 32 L 148 58 L 84 96 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 96 L 148 58 L 148 106 L 84 143 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 32 68 L 80 96",
+          "color": "white",
+          "width": 3.4
+        }
+      ]
+    },
+    {
+      "art": "timetree",
+      "name": "TimeTree",
+      "category": "生活服务",
+      "tone": "mint",
+      "form": "page",
+      "components": [
+        "works.jubilee.timetree/works.jubilee.timetree.app.ui.SplashActivity",
+        "works.jubilee.timetree/works.jubilee.timetree.ui.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            45,
+            56,
+            76,
+            74,
+            11
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 68 L 118 68 M 57 58 L 57 48 M 106 58 L 106 48",
+          "color": "jade",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 62 106 L 83 75 L 105 106 L 91 106 L 91 118 L 77 118 L 77 106 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 120 L 96 120",
+          "color": "jade",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "mtr",
+      "name": "MTR Mobile",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "orb",
+      "components": [
+        "com.mtr.mtrmobile/com.mtr.mtrmobile.MTRMobileActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 103 L 56 52 C 64 42 104 42 112 52 L 112 103 C 110 119 58 119 56 103 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            64,
+            53,
+            40,
+            32,
+            7
+          ],
+          "color": "blue",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            92,
+            10,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            92,
+            10,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 68 119 L 58 129 M 100 119 L 111 129",
+          "color": "white",
+          "width": 4
+        }
+      ]
+    }
+  ]
+}

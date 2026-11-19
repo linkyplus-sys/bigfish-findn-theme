@@ -1,0 +1,22 @@
+{
+  "source": "原始非Q版立绘，重新提取上半身，保持原画配色与对比度",
+  "duration": 6,
+  "fps": 20,
+  "width": 512,
+  "height": 512,
+  "globalColorAdjustment": "none",
+  "eyeMethod": "open-eye master for every frame",
+  "blink": false,
+  "bodyRotationDegrees": 2.55,
+  "bodyShiftPixels": 7.5,
+  "headExtraRotationDegrees": 0.65,
+  "hairTravelPixels": 24,
+  "hairVerticalTravelPixels": 6,
+  "ahogeTipTravelPixels": 8,
+  "ahogeRootTravelPixels": 0,
+  "breathTravelPixels": 2.2,
+  "ahogeIsolationCheck": {
+    "protectedChangedPixels": 0,
+    "movingTipPixels": 1684
+  }
+}

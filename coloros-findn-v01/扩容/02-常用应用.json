@@ -1,0 +1,15 @@
+{
+  "name": "第二批常用应用",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    { "art": "wecom", "name": "企业微信", "category": "日常应用", "components": ["com.tencent.wework/com.tencent.wework.launch.LaunchSplashActivity", "com.tencent.wework/com.tencent.wework.launch.LaunchSplashEduActivity"] },
+    { "art": "dingtalk", "name": "钉钉", "category": "日常应用", "components": ["com.alibaba.android.rimet/com.alibaba.android.rimet.biz.LaunchHomeActivity", "com.alibaba.android.rimet/com.alibaba.android.rimet.biz.SplashActivity"] },
+    { "art": "dianping", "name": "大众点评", "category": "生活服务", "components": ["com.dianping.v1/com.dianping.v1.NovaMainActivity"] },
+    { "art": "kfc", "name": "肯德基", "category": "生活服务", "components": ["com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct"] },
+    { "art": "mcdonalds", "name": "麦当劳", "category": "生活服务", "components": ["com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity", "com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity.cny", "com.mcdonalds.gma.cn/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity"] },
+    { "art": "icbc", "name": "工商银行", "category": "金融", "components": ["com.icbc/com.icbc.activity.init.LoadingActivity", "com.icbc/com.icbc.activity.init.NewLoadingActivity"] },
+    { "art": "boc", "name": "中国银行", "category": "金融", "components": ["com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.system.splash.SplashActivity"] },
+    { "art": "miyoushe", "name": "米游社", "category": "游戏", "components": ["com.mihoyo.hyperion/com.mihoyo.hyperion.main.HyperionMainActivity", "com.mihoyo.hyperion/com.mihoyo.hyperion.splash.SplashActivity", "com.mihoyo.hyperion/com.mihoyo.hyperion.ui.SplashActivity"] },
+    { "art": "gemini", "name": "Gemini", "category": "AI", "components": ["com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity"] }
+  ]
+}

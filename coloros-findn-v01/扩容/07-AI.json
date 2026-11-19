@@ -1,0 +1,66 @@
+{
+  "name": "AI",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    {
+      "art": "kimi",
+      "name": "Kimi",
+      "category": "AI",
+      "components": [
+        "com.moonshot.kimichat/com.moonshot.kimichat.MainActivity"
+      ]
+    },
+    {
+      "art": "claude",
+      "name": "Claude",
+      "category": "AI",
+      "components": [
+        "com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity"
+      ]
+    },
+    {
+      "art": "nami",
+      "name": "纳米 AI",
+      "category": "AI",
+      "components": [
+        "com.qihoo.namiso/com.qihoo.aiso.splash.SplashActivity",
+        "com.qihoo.namiso/com.qihoo.aiso.splash.SplashActivityDefault"
+      ]
+    },
+    {
+      "art": "perplexity",
+      "name": "Perplexity",
+      "category": "AI",
+      "components": [
+        "ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity"
+      ]
+    },
+    {
+      "art": "copilot",
+      "name": "Copilot",
+      "category": "AI",
+      "components": [
+        "com.microsoft.copilot/com.microsoft.copilotn.MainActivity",
+        "com.microsoft.copilot/com.microsoft.copilotn.MainActivityDefault",
+        "com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity",
+        "com.microsoft.copilot/com.microsoft.shappire.app.main.ShappireMainActivity"
+      ]
+    },
+    {
+      "art": "kling",
+      "name": "可灵 AI",
+      "category": "AI",
+      "components": [
+        "com.kwai.kling/com.yxcorp.gifshow.kling.KLingHomeActivity"
+      ]
+    },
+    {
+      "art": "grok",
+      "name": "Grok",
+      "category": "AI",
+      "components": [
+        "ai.x.grok/ai.x.grok.main.GrokActivity"
+      ]
+    }
+  ]
+}

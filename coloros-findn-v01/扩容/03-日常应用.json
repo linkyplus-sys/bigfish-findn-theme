@@ -1,0 +1,106 @@
+{
+  "name": "日常应用",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    {
+      "art": "wemeet",
+      "name": "腾讯会议",
+      "category": "日常应用",
+      "components": [
+        "com.tencent.wemeet.app/com.tencent.wemeet.app.StartupActivity"
+      ]
+    },
+    {
+      "art": "qqmail",
+      "name": "QQ 邮箱",
+      "category": "日常应用",
+      "components": [
+        "com.tencent.androidqqmail/com.tencent.qqmail.LaucherActivity",
+        "com.tencent.androidqqmail/com.tencent.qqmail.launcher.desktop.LaucherActivity",
+        "com.tencent.androidqqmail/com.tencent.qqmail.launcher.desktop.LauncherActivity"
+      ]
+    },
+    {
+      "art": "sogouime",
+      "name": "搜狗输入法",
+      "category": "日常应用",
+      "components": [
+        "com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.SogouIMELauncher"
+      ]
+    },
+    {
+      "art": "iflyime",
+      "name": "讯飞输入法",
+      "category": "日常应用",
+      "components": [
+        "com.iflytek.inputmethod/com.iflytek.inputmethod.LauncherActivity"
+      ]
+    },
+    {
+      "art": "kuaishou",
+      "name": "快手",
+      "category": "日常应用",
+      "components": [
+        "com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity",
+        "com.smile.gifmaker/com.yxcorp.gifshow.MainActivity"
+      ]
+    },
+    {
+      "art": "retouch",
+      "name": "醒图",
+      "category": "日常应用",
+      "components": [
+        "com.xt.retouch/com.xt.retouch.uilauncher.LaunchActivity"
+      ]
+    },
+    {
+      "art": "meitu",
+      "name": "美图秀秀",
+      "category": "日常应用",
+      "components": [
+        "com.mt.mtxx.mtxx/com.mt.mtxx.mtxx.MainActivity",
+        "com.mt.mtxx.mtxx/com.mt.mtxx.mtxx.alias.MainActivity"
+      ]
+    },
+    {
+      "art": "fanqie",
+      "name": "番茄小说",
+      "category": "日常应用",
+      "components": [
+        "com.dragon.read/com.dragon.read.pages.splash.SplashActivity"
+      ]
+    },
+    {
+      "art": "edge",
+      "name": "Edge",
+      "category": "日常应用",
+      "components": [
+        "com.microsoft.emmx/com.microsoft.ruby.Main",
+        "com.microsoft.emmx/com.microsoft.ruby.Main1",
+        "com.microsoft.emmx/com.microsoft.ruby.Main2",
+        "com.microsoft.emmx/com.microsoft.ruby.Main3",
+        "com.microsoft.emmx/com.microsoft.ruby.Main4",
+        "com.microsoft.emmx/com.microsoft.ruby.Main5",
+        "com.microsoft.emmx/com.microsoft.ruby.Main6",
+        "com.microsoft.emmx/com.microsoft.ruby.Main7",
+        "com.microsoft.emmx/com.microsoft.ruby.Main8",
+        "com.microsoft.emmx/com.microsoft.ruby.Main9"
+      ]
+    },
+    {
+      "art": "firefox",
+      "name": "Firefox",
+      "category": "日常应用",
+      "components": [
+        "org.mozilla.firefox/org.mozilla.firefox.AlternativeApp",
+        "org.mozilla.firefox/org.mozilla.firefox.App",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidBlue",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidDark",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidGreen",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidLight",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidPurple",
+        "org.mozilla.firefox/org.mozilla.firefox.AppSolidRed"
+      ]
+    }
+  ]
+}

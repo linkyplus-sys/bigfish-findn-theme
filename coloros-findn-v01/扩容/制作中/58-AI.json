@@ -1,0 +1,370 @@
+{
+  "name": "800 款扩容 · 第五批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "seeknature",
+      "name": "Seek by iNaturalist",
+      "packageId": "org.inaturalist.seek",
+      "category": "AI",
+      "tone": "lime",
+      "form": "orb",
+      "previewName": "Seek",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            53,
+            53,
+            62,
+            62,
+            13
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 98 C 62 76 80 66 104 70 C 104 92 89 103 62 98 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 94 C 80 89 84 81 98 75",
+          "color": "white",
+          "width": 4.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 72 L 59 63 L 68 63 M 100 63 L 109 63 L 109 72 M 109 99 L 109 107 L 100 107",
+          "color": "dark",
+          "width": 3.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.inaturalist.seek/org.inaturalist.seek.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "picturethis",
+      "name": "PictureThis",
+      "packageId": "cn.danatech.xingseus",
+      "category": "AI",
+      "tone": "mint",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 89 C 74 96 65 87 66 78 C 67 71 75 68 79 70 C 77 62 84 56 91 57 C 98 59 99 66 99 70 C 107 67 115 73 114 81 C 113 90 105 95 97 89 L 90 109 L 82 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 91 C 71 90 64 96 63 103 C 76 109 84 103 89 95 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            75,
+            12,
+            12
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 76 L 52 62 L 65 62 M 106 62 L 119 62 L 119 76 M 119 95 L 119 109 L 106 109 M 65 109 L 52 109 L 52 95",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "cn.danatech.xingseus/com.glority.android.modules.launch.SplashActivity",
+        "cn.danatech.xingseus/com.glority.picturethis.app.kt.view.home.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "quizlet",
+      "name": "Quizlet",
+      "packageId": "com.quizlet.quizletandroid",
+      "category": "AI",
+      "tone": "iris",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            52,
+            57,
+            50,
+            46,
+            7
+          ],
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            66,
+            63,
+            51,
+            46,
+            7
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            71,
+            26,
+            25
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            82,
+            76,
+            16,
+            15
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 87 L 105 100",
+          "color": "dark",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            94,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.quizlet.quizletandroid/com.quizlet.quizletandroid.activities.RootActivity",
+        "com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "mimo",
+      "name": "Mimo",
+      "packageId": "com.getmimo",
+      "category": "AI",
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 91 L 62 63 L 75 63 L 87 81 L 99 62 L 114 62 L 120 106 L 105 106 L 101 83 L 87 101 L 72 82 L 63 104 L 49 104 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 81 L 88 77 L 103 98 L 96 103 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 111 L 109 111",
+          "color": "white",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            76,
+            55,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "com.getmimo/com.getmimo.ui.SplashActivity",
+        "com.getmimo/com.getmimo.ui.SplashActivity_bat",
+        "com.getmimo/com.getmimo.ui.SplashActivity_chemist",
+        "com.getmimo/com.getmimo.ui.SplashActivity_default",
+        "com.getmimo/com.getmimo.ui.SplashActivity_ninja",
+        "com.getmimo/com.getmimo.ui.SplashActivity_ukraine"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "khann",
+      "name": "Khan Academy",
+      "packageId": "org.khanacademy.android",
+      "category": "AI",
+      "tone": "teal",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 63 L 84 53 L 114 64 L 114 94 L 84 115 L 54 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 69 L 84 62 L 108 70 L 108 91 L 84 106 L 61 91 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 83 96 C 69 96 65 85 65 76 C 78 75 84 83 84 91 C 88 80 96 74 104 76 C 102 89 96 96 83 96 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 92 L 84 103",
+          "color": "white",
+          "width": 3.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            61,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "org.khanacademy.android/icon.black",
+        "org.khanacademy.android/icon.darker",
+        "org.khanacademy.android/icon.navy",
+        "org.khanacademy.android/icon.purple",
+        "org.khanacademy.android/icon.rainbow",
+        "org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "eusofting",
+      "name": "每日英语听力",
+      "packageId": "com.eusoft.ting.en",
+      "category": "AI",
+      "tone": "azure",
+      "form": "orb",
+      "previewName": "每日英语听力",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 52 84 C 52 61 66 52 84 52 C 103 52 116 64 116 84",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "round",
+          "box": [
+            49,
+            82,
+            16,
+            23,
+            6
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            103,
+            82,
+            16,
+            23,
+            6
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 68 89 L 74 89 L 79 75 L 86 104 L 93 78 L 99 89",
+          "color": "dark",
+          "width": 4.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 111 C 72 119 102 119 109 110",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.eusoft.ting.en",
+      "components": [
+        "com.eusoft.ting.en/com.eusoft.ting.ui.v2.TabActivityV2"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.eusoft.ting.en?version=latest",
+        "version": "25.8.26",
+        "channel": "APKPure 分发"
+      }
+    }
+  ]
+}

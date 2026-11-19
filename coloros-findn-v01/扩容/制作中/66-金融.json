@@ -1,0 +1,225 @@
+{
+  "name": "1,040 款扩容 · 第二批 · 金融",
+  "status": "图稿待入包",
+  "activitySources": {
+    "apkPureApk": "https://apkpure.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "wallstreetcn",
+      "name": "华尔街见闻",
+      "packageId": "com.wallstreetcn.news",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 93 L 63 66 L 73 66 L 83 79 L 96 63 L 109 63 L 119 95 L 105 95 L 99 79 L 83 101 L 67 80 L 60 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 109 L 68 101 L 83 108 L 100 98 L 118 105",
+          "color": "mint",
+          "width": 4.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            54,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.wallstreetcn.news",
+      "components": [
+        "com.wallstreetcn.news/com.wallstreetcn.news.ProxyMainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.wallstreetcn.news?version=latest",
+        "version": "6.46.8",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "santanderuk",
+      "name": "Santander Mobile Banking",
+      "packageId": "uk.co.santander.santanderUK",
+      "category": "金融",
+      "tone": "crimson",
+      "form": "card",
+      "previewName": "Santander",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 95 C 53 81 72 76 84 82 C 96 76 115 81 120 95 C 115 109 101 112 84 112 C 67 112 53 108 48 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 51 C 75 61 88 65 86 77 C 84 85 78 89 74 91 C 77 83 69 76 71 69 C 72 62 78 57 78 51 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 93 62 C 92 68 100 73 98 80 C 96 86 92 88 86 91 C 91 83 85 79 88 73 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 98 C 74 103 94 104 108 98",
+          "color": "crimson",
+          "width": 4
+        }
+      ],
+      "components": [
+        "uk.co.santander.santanderUK/es.bancosantander.apps.mobile.android.activities.PublicActivity",
+        "uk.co.santander.santanderUK/uk.co.santander.mobile.activities.SplashActivity",
+        "uk.co.santander.santanderUK/uk.co.santander.santanderuk.logon.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "paypalbusiness",
+      "name": "PayPal Business",
+      "packageId": "com.paypal.merchant.client",
+      "category": "金融",
+      "tone": "blue",
+      "form": "wallet",
+      "previewName": "PayPal Business",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 58 L 86 58 C 103 58 111 67 108 77 C 104 91 91 96 75 95 L 69 110 L 49 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 68 L 103 68 C 119 68 125 81 119 91 C 113 103 101 105 89 105 L 86 116 L 70 116 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 68 66 L 88 66 C 96 66 99 71 96 76 C 92 82 81 84 65 84 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 102 82 L 110 82 M 102 91 L 114 91",
+          "color": "white",
+          "width": 3.4
+        }
+      ],
+      "components": [
+        "com.paypal.merchant.client/com.paypal.merchant.client.features.startup.StartUpActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "freetrade",
+      "name": "Freetrade",
+      "packageId": "io.freetrade.android",
+      "category": "金融",
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 100 L 85 59 L 120 59 L 120 70 L 94 70 L 59 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 92 L 100 81 L 118 91 L 103 107 L 74 111 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 99 75 L 99 96 M 89 86 L 109 86",
+          "color": "white",
+          "width": 4.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 114 L 107 114",
+          "color": "mint",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "io.freetrade.android/in.icon.Default"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "marketwatch",
+      "name": "MarketWatch",
+      "packageId": "com.marketwatch",
+      "category": "金融",
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 65 L 59 65 L 69 86 L 81 66 L 90 66 L 101 87 L 111 65 L 124 65 L 107 105 L 96 105 L 85 86 L 75 105 L 64 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 108 L 68 100 L 84 105 L 97 96 L 119 96 L 119 104 L 101 104 L 84 114 L 68 109 L 56 116 Z",
+          "color": "mint",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            114,
+            55,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.marketwatch/com.marketwatch.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    }
+  ]
+}

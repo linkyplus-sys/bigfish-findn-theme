@@ -1,0 +1,617 @@
+{
+  "name": "生活服务 · 500 款扩容第三批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "airchina",
+      "name": "中国国航",
+      "category": "生活服务",
+      "packageId": "com.rytong.airchina",
+      "components": [
+        "com.rytong.airchina/com.rytong.airchina.unility.splash.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 100 C 59 85 68 77 84 77 C 93 77 100 84 109 81 C 106 73 98 70 93 67 C 95 55 106 53 117 52 C 111 60 108 65 113 72 C 130 95 107 118 86 110 C 77 107 75 102 65 102 C 57 102 52 104 47 107 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 45 92 C 59 69 69 65 84 65 L 90 70 C 70 69 60 83 45 92 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 58 71 C 67 58 76 59 90 58 L 93 61 C 77 62 69 67 58 71 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 114 C 80 111 92 124 112 114",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "ceair",
+      "name": "东方航空",
+      "category": "生活服务",
+      "packageId": "com.rytong.ceair",
+      "components": [
+        "com.rytong.ceair/com.rytong.ceair.main.ColdLaunchActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "blue",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 93 C 62 83 79 69 104 61 C 104 67 105 73 109 76 C 118 76 125 70 128 64 C 131 81 116 94 97 95 C 82 95 72 101 60 108 L 49 108 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 44 105 C 58 105 72 98 83 92 C 91 88 99 87 107 88 L 97 95 C 82 96 72 103 60 110 L 45 110 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 49 87 C 58 72 70 65 84 62 L 90 66 C 73 69 62 79 49 87 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            53,
+            9,
+            9
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "csair",
+      "name": "南方航空",
+      "category": "生活服务",
+      "packageId": "com.csair.mbp",
+      "components": [
+        "com.csair.mbp/com.csair.mbp.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "azure",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 67 C 74 57 82 45 88 44 C 96 49 96 61 91 69 C 99 62 114 64 117 72 C 118 80 110 86 99 86 C 111 91 110 104 101 107 C 95 110 88 103 85 96 C 80 106 67 109 62 104 C 57 97 62 90 71 85 C 58 85 49 78 53 72 C 58 63 72 63 83 67 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            74,
+            15,
+            15
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 42 112 C 55 101 67 111 81 114 C 95 117 112 106 127 108 L 127 117 C 112 114 98 125 81 122 C 67 119 54 111 42 119 Z",
+          "color": "ice",
+          "width": 2
+        }
+      ]
+    },
+    {
+      "art": "springair",
+      "name": "春秋航空",
+      "category": "生活服务",
+      "packageId": "com.china3s.android",
+      "packageCandidate": "com.china3s.sanfei",
+      "packageSource": "https://app.mi.com/details?id=com.china3s.android",
+      "components": [
+        "com.china3s.android/com.china3s.android.home.view.Main"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.china3s.android?version=latest",
+        "version": "8.0.9",
+        "channel": "APKPure 分发"
+      },
+      "tone": "jade",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 84 C 45 66 66 55 84 66 L 83 77 C 69 69 57 72 57 81 C 57 88 72 95 84 86 L 84 99 C 69 109 45 102 45 84 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 103 64 C 115 64 122 70 122 81 L 122 103 L 110 103 L 110 84 C 110 75 99 76 97 84 L 97 104 L 85 104 L 85 70 L 97 69 L 97 74 C 98 69 100 66 103 64 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 97 61 C 104 48 118 47 127 52 C 119 62 110 64 97 61 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 116 C 63 112 72 112 82 116 C 95 120 106 115 116 112",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "zhuxiaobang",
+      "name": "住小帮",
+      "category": "生活服务",
+      "packageId": "com.toutiao.homedecoration",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 77 L 84 44 L 124 77 L 114 85 L 114 112 L 54 112 L 54 85 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 53 95 C 69 88 87 111 114 96 L 114 112 L 54 112 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            66,
+            77,
+            35,
+            26,
+            7
+          ],
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            70,
+            80,
+            27,
+            13,
+            4
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 96 L 102 96 M 70 102 L 70 107 M 98 102 L 98 107",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            58,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "lianjia",
+      "name": "链家",
+      "category": "生活服务",
+      "packageId": "com.homelink.android",
+      "components": [
+        "com.homelink.android/com.homelink.android.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 77 L 83 47 L 121 77 L 116 86 L 108 81 L 108 110 L 59 110 L 59 81 L 50 88 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 59 97 C 76 86 90 105 108 95 L 108 110 L 59 110 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 74 110 L 74 85 C 74 72 93 72 93 85 L 93 110 Z",
+          "color": "jade",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 110 C 55 109 61 112 66 114 M 106 115 C 113 111 120 111 124 110",
+          "color": "ice",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            86,
+            93,
+            5,
+            5
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "kehome",
+      "name": "贝壳找房",
+      "category": "生活服务",
+      "packageId": "com.lianjia.beike",
+      "components": [
+        "com.lianjia.beike/com.lianjia.activity.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "blue",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 100 C 46 81 59 66 72 60 C 79 53 90 53 98 60 C 112 64 125 81 124 99 C 124 111 109 114 84 114 C 58 114 46 111 46 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 51 100 C 65 97 77 104 85 108 C 94 104 108 96 119 100 L 116 109 C 101 116 66 116 54 109 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 72 C 68 83 75 95 84 105 M 84 64 L 84 89 M 103 71 C 101 83 95 91 90 96",
+          "color": "cobalt",
+          "width": 4.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 117 C 65 111 75 124 86 123 C 97 122 108 113 120 116",
+          "color": "mint",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "anjuke",
+      "name": "安居客",
+      "category": "生活服务",
+      "packageId": "com.anjuke.android.app",
+      "components": [
+        "com.anjuke.android.app/com.anjuke.android.app.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "lime",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 82 L 84 49 L 122 82 L 112 89 L 111 112 L 56 112 L 55 89 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 57 98 C 73 92 81 113 110 99 L 110 112 L 57 112 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 73 99 L 84 70 L 96 99 L 88 99 L 84 90 L 80 99 Z",
+          "color": "jade",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 89 L 95 89",
+          "color": "jade",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            55,
+            8,
+            8
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "bussteward",
+      "name": "巴士管家",
+      "category": "生活服务",
+      "packageId": "com.zh.carbyticket",
+      "components": [
+        "com.zh.carbyticket/com.bst.app.main.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "azure",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 49 L 109 49 C 119 49 124 57 124 67 L 124 101 C 124 111 119 115 109 115 L 59 115 C 49 115 44 110 44 101 L 44 67 C 44 57 50 49 59 49 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            53,
+            61,
+            62,
+            29,
+            6
+          ],
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 79 C 75 68 86 85 113 77 L 113 85 C 112 88 110 89 108 89 L 60 89 C 57 89 55 87 55 85 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            51,
+            104,
+            14,
+            16,
+            4
+          ],
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            102,
+            104,
+            14,
+            16,
+            4
+          ],
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            94,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            94,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 99 L 92 99",
+          "color": "azure",
+          "width": 5
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.zh.carbyticket?version=latest",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.zh.carbyticket?version=latest",
+        "version": "9.4.1",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "maoyanticket",
+      "name": "猫眼",
+      "category": "生活服务",
+      "packageId": "com.sankuai.movie",
+      "components": [
+        "com.sankuai.movie/com.sankuai.movie.welcome.Welcome"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "coral",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 83 C 52 72 60 68 66 67 L 64 52 C 76 54 82 59 86 66 L 103 65 C 108 58 116 57 121 56 L 118 70 C 126 74 129 82 129 87 C 111 115 66 115 46 89 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 51 86 C 64 76 76 74 85 74 C 101 73 114 78 124 86 C 113 98 98 103 86 103 C 74 103 59 98 51 86 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 77 87 C 77 77 87 73 92 80 C 96 86 91 95 85 97 C 80 96 77 92 77 87 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            79,
+            6,
+            6
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 116 L 98 116",
+          "color": "sand",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "taopiaopiao",
+      "name": "淘票票",
+      "category": "生活服务",
+      "packageId": "com.taobao.movie.android",
+      "components": [
+        "com.taobao.movie.android/com.taobao.movie.android.app.home.activity.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "iris",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 54 L 106 48 L 116 69 C 108 71 109 80 121 78 L 125 98 L 104 108 L 52 111 L 45 91 C 57 91 57 81 46 80 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 49 93 C 65 88 81 107 101 100 C 113 96 116 90 122 90 L 125 98 L 104 108 L 52 111 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 82 60 L 87 72 L 101 74 L 91 83 L 92 97 L 80 91 L 67 97 L 70 84 L 60 75 L 74 72 Z",
+          "color": "iris",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 107 106 L 111 114 L 88 121 L 60 120",
+          "color": "coral",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "xiachufang",
+      "name": "下厨房",
+      "category": "生活服务",
+      "packageId": "com.xiachufang",
+      "components": [
+        "com.xiachufang/com.xiachufang.startpage.ui.StartPageActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 83 C 54 78 70 76 84 76 C 98 76 114 78 121 83 C 116 105 103 116 84 117 C 65 116 51 105 47 83 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 48 86 C 65 89 101 90 120 84 C 116 104 104 117 84 117 C 64 117 52 104 48 86 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 55 95 C 69 87 81 107 111 94 C 104 109 96 113 84 113 C 72 113 60 108 55 95 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 74 C 66 69 69 65 73 61 C 76 57 76 53 73 48 M 89 73 C 84 68 88 65 91 60 C 94 56 94 51 91 47",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 81 L 122 61",
+          "color": "ice",
+          "width": 5
+        }
+      ]
+    }
+  ]
+}

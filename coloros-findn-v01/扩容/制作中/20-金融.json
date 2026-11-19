@@ -1,0 +1,589 @@
+{
+  "name": "金融 · 500 款扩容第二批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "appchinaApk": "https://www.appchina.com/"
+  },
+  "apps": [
+    {
+      "art": "webank",
+      "name": "微众银行",
+      "category": "金融",
+      "packageId": "com.webank.wemoney",
+      "components": [
+        "com.webank.wemoney/com.webank.wemoney.EmptyActivity",
+        "com.webank.wemoney/com.webank.wemoney.LauncherActivity",
+        "com.webank.wemoney/com.webank.wemoney.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "azure",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            47,
+            60,
+            73,
+            48,
+            11
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 49 84 C 64 72 76 93 91 86 C 101 82 111 73 121 80 L 121 101 L 51 105 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 82 L 68 94 L 77 82 L 86 94 L 96 81",
+          "color": "dark",
+          "width": 5.5
+        },
+        {
+          "type": "round",
+          "box": [
+            106,
+            82,
+            20,
+            13,
+            6
+          ],
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            86,
+            5,
+            5
+          ],
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 56 L 101 51",
+          "color": "mint",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "lufax",
+      "name": "陆金所",
+      "category": "金融",
+      "packageId": "com.lufax.android",
+      "components": [
+        "com.lufax.android/com.lufax.android.activity.LufaxLauncherActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "orange",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            50,
+            66,
+            67
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "path",
+          "shape": "M 53 88 C 73 77 88 101 113 78 C 115 106 101 117 83 117 C 65 117 55 106 53 88 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 62 L 102 83 L 84 104 L 66 83 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 73 L 93 83 L 84 93 L 75 83 Z",
+          "color": "orange",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 74 C 53 51 73 43 94 47",
+          "color": "white",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "cms",
+      "name": "招商证券",
+      "category": "金融",
+      "packageId": "com.cmschina.stock",
+      "components": [
+        "com.cmschina.stock/com.cmschina.stock.InitActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "blue",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 56 L 84 46 L 116 56 L 116 83 C 112 105 98 118 84 123 C 70 118 56 105 52 83 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 59 62 L 84 54 L 109 62 L 109 82 C 105 102 94 110 84 116 C 73 110 63 102 59 82 Z",
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 96 C 73 97 77 84 85 84 C 94 84 94 75 104 70",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "path",
+          "shape": "M 94 69 L 106 67 L 105 80 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 106 L 83 107 L 95 99",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.cmschina.stock?version=latest",
+        "version": "10.04",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "gtja",
+      "name": "国泰海通君弘",
+      "category": "金融",
+      "packageId": "com.gtja.JunHong",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "cobalt",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 78 50 L 90 50 L 92 66 L 76 66 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 78 69 L 90 69 L 96 106 L 72 106 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 78 80 L 91 76 L 93 87 L 76 92 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 68 L 53 63 M 101 68 L 115 63",
+          "color": "paper",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 106 C 68 101 75 103 83 109 C 93 116 102 112 111 105",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 118 C 68 111 75 116 84 121 C 94 127 104 123 116 115",
+          "color": "azure",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "pazq",
+      "name": "平安证券",
+      "category": "金融",
+      "packageId": "com.pingan.stock",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 104 C 57 106 70 100 82 93 C 95 84 111 77 125 79 L 125 110 L 46 110 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            55,
+            77,
+            14,
+            25,
+            3
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            77,
+            63,
+            14,
+            39,
+            3
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            99,
+            48,
+            15,
+            54,
+            3
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 97 C 72 100 91 72 116 67",
+          "color": "coral",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 108 63 L 117 66 L 113 76",
+          "color": "coral",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "antfortune",
+      "name": "蚂蚁财富",
+      "category": "金融",
+      "packageId": "com.antfortune.wealth",
+      "components": [
+        "com.antfortune.wealth/com.alipay.mobile.quinox.LauncherActivity.alias.LauncherDefault",
+        "com.antfortune.wealth/com.alipay.mobile.quinox.LauncherActivity.alias.LauncherNewYear"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "blue",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 93 C 55 70 67 59 84 59 C 102 59 115 74 116 90 C 112 106 99 115 83 115 C 69 115 57 105 54 93 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 54 95 C 75 106 89 90 116 91 C 113 106 99 115 83 115 C 69 115 57 105 54 95 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 65 C 68 54 58 51 53 53 M 98 64 C 102 54 110 50 116 53",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            78,
+            7,
+            7
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            78,
+            7,
+            7
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            75,
+            86,
+            18,
+            18
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 80 95 L 88 95",
+          "color": "paper",
+          "width": 2.5
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.antfortune.wealth",
+        "version": "10.22.0.8000",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "xueqiu",
+      "name": "雪球",
+      "category": "金融",
+      "packageId": "com.xueqiu.android",
+      "components": [
+        "com.xueqiu.android/com.xueqiu.android.view.WelcomeActivityAlias"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            53,
+            58,
+            58
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 56 87 C 71 77 89 99 111 73 C 118 95 103 111 84 111 C 70 111 60 103 56 87 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 83 C 32 98 52 117 77 121 C 105 125 130 113 121 95",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 68 73 L 80 82 L 95 68",
+          "color": "azure",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            63,
+            7,
+            7
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            108,
+            8,
+            8
+          ],
+          "color": "paper"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.xueqiu.android",
+        "version": "15.2",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "futu",
+      "name": "富途牛牛",
+      "category": "金融",
+      "packageId": "cn.futu.trader",
+      "components": [
+        "cn.futu.trader/cn.futu.trader.launch.activity.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 68 66 C 54 66 47 55 44 49 C 41 69 49 82 62 84 C 64 101 70 113 84 119 C 98 113 104 101 106 84 C 119 82 127 69 124 49 C 121 55 114 66 100 66 C 92 59 76 59 68 66 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 62 84 C 72 78 77 93 84 97 C 92 93 96 80 106 84 C 104 101 98 113 84 119 C 70 113 64 101 62 84 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 82 L 75 85 L 83 80 L 92 81 L 99 74",
+          "color": "orange",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            101,
+            5,
+            5
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            86,
+            101,
+            5,
+            5
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageCandidate": "cn.futu.android",
+      "packageSource": "https://play.google.com/store/apps/details?id=cn.futu.trader",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.futu.trader?version=latest",
+        "version": "16.39.27508",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "citics",
+      "name": "中信证券信 e 投",
+      "category": "金融",
+      "packageId": "com.citics.finance",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "crimson",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 47 L 118 82 L 84 119 L 50 82 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 55 L 110 82 L 84 111 L 58 82 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 84 L 94 84 C 94 72 76 69 73 81 C 68 96 87 100 96 93",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 104 80 L 109 74 L 115 76",
+          "color": "coral",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            57,
+            6,
+            6
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "csci",
+      "name": "中信建投蜻蜓点金",
+      "category": "金融",
+      "packageId": "com.csc108.android",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 81 76 C 58 50 44 57 46 68 C 49 79 66 82 81 84 C 56 86 51 98 60 101 C 70 105 79 94 84 89 C 89 94 98 105 108 101 C 117 98 112 86 87 84 C 102 82 119 79 122 68 C 124 57 110 50 87 76 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 73 L 84 108",
+          "color": "orange",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            66,
+            10,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 114 L 68 114 M 100 114 L 121 114",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    }
+  ]
+}

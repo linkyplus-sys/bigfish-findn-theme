@@ -1,0 +1,646 @@
+{
+  "name": "生活服务 · 500 款扩容",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "yybApk": "https://sj.qq.com/",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "sfexpress",
+      "name": "顺丰速运",
+      "category": "生活服务",
+      "packageId": "com.sf.activity",
+      "packageSource": "https://app.mi.com/details?id=com.sf.activity",
+      "components": [
+        "com.sf.activity/com.sf.activity.CustomActivity",
+        "com.sf.activity/com.sf.activity.DefaultActivity"
+      ],
+      "sourceKeys": [
+        "yybApk"
+      ],
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            31,
+            31,
+            106,
+            106
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 116 47 C 102 32 68 29 47 49 C 40 55 36 62 35 70 M 51 119 C 66 135 101 136 121 115 C 126 110 130 102 132 94",
+          "color": "coral",
+          "width": 5
+        },
+        {
+          "type": "text",
+          "label": "SF",
+          "size": 42,
+          "x": 84,
+          "y": 60,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 39 91 L 51 88 M 115 80 L 132 76",
+          "color": "ice",
+          "width": 3
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://sj.qq.com/appdetail/com.sf.activity",
+        "version": "9.97.0"
+      }
+    },
+    {
+      "art": "huolala",
+      "name": "货拉拉",
+      "category": "生活服务",
+      "packageId": "com.lalamove.huolala.client",
+      "packageSource": "https://app.mi.com/details?id=com.lalamove.huolala.client",
+      "components": [
+        "com.lalamove.huolala.client/com.lalamove.huolala.main.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "orange",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 20 47 L 96 47 C 103 47 108 52 108 59 L 108 70 L 128 70 C 133 70 138 73 142 79 L 154 98 L 154 121 L 16 121 L 16 55 C 16 50 17 48 20 47 Z",
+          "color": "orange",
+          "width": 2.8
+        },
+        {
+          "type": "path",
+          "shape": "M 110 76 L 128 76 C 132 76 137 81 139 86 L 146 98 L 110 98 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            31,
+            104,
+            31,
+            31
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            104,
+            31,
+            31
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            38,
+            111,
+            17,
+            17
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            111,
+            17,
+            17
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 35 69 L 83 69 M 41 86 L 73 86",
+          "color": "paper",
+          "width": 5
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.lalamove.huolala.client",
+        "version": "7.3.89",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "tctour",
+      "name": "同程旅行",
+      "category": "生活服务",
+      "packageId": "com.tongcheng.android",
+      "components": [
+        "com.tongcheng.android/com.tongcheng.android.LoadingActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "teal",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 35 78 C 47 57 66 54 81 63 C 97 74 117 74 134 57 C 134 72 127 87 111 94 C 102 98 94 98 84 96 C 70 110 52 116 36 111 C 48 103 55 92 58 82 Z",
+          "color": "paper",
+          "width": 2.4
+        },
+        {
+          "type": "path",
+          "shape": "M 69 85 L 84 74 L 97 78 L 88 89 L 82 103 Z",
+          "color": "gold",
+          "width": 1.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 121 C 77 112 92 124 120 118",
+          "color": "white",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "tuniu",
+      "name": "途牛",
+      "category": "生活服务",
+      "packageId": "com.tuniu.app.ui",
+      "components": [
+        "com.tuniu.app.ui/com.tuniu.app.ui.homepage.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "jade",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 74 C 38 70 34 61 36 53 C 46 54 55 58 60 65 C 72 58 96 58 108 65 C 113 58 122 54 132 53 C 134 61 130 70 120 74 C 129 84 130 103 119 112 C 108 122 60 122 49 112 C 38 103 39 84 48 74 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            59,
+            92,
+            50,
+            22,
+            10
+          ],
+          "color": "lime",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            63,
+            78,
+            8,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            78,
+            8,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            71,
+            99,
+            5,
+            6
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            99,
+            5,
+            6
+          ],
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "art": "medicare",
+      "name": "国家医保服务平台",
+      "category": "生活服务",
+      "packageId": "cn.hsa.app",
+      "packageSource": "https://app.mi.com/details?id=cn.hsa.app",
+      "components": [
+        "cn.hsa.app/cn.hsa.app.login.ui.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "blue",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 48 C 92 39 108 41 114 49 C 124 62 109 75 84 92 C 59 75 44 62 54 49 C 60 41 76 39 84 48 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 52 L 84 71 M 75 61 L 93 61",
+          "color": "azure",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 40 89 C 53 94 64 103 72 108 C 76 111 80 108 84 106 C 88 108 92 111 96 108 C 104 103 115 94 128 89 L 123 109 C 109 126 97 134 84 137 C 71 134 59 126 45 109 Z",
+          "color": "ice",
+          "width": 2
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.hsa.app",
+        "version": "1.3.50.2200",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "kuaidi100",
+      "name": "快递100",
+      "category": "生活服务",
+      "packageId": "com.Kingdee.Express",
+      "packageSource": "https://app.mi.com/details?id=com.Kingdee.Express",
+      "components": [
+        "com.Kingdee.Express/com.Kingdee.Express.activity.SplashWithBaiduAllianceActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "gold",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 20 L 149 49 L 149 116 L 84 148 L 19 116 L 19 49 Z",
+          "color": "gold",
+          "width": 2.6
+        },
+        {
+          "type": "path",
+          "shape": "M 19 49 L 84 79 L 149 49 L 84 20 Z",
+          "color": "sand",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 33 L 119 63 L 119 75 L 106 82 L 106 69 L 44 39 Z",
+          "color": "paper",
+          "width": 1.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 79 L 84 145",
+          "color": "ink",
+          "width": 2.5
+        },
+        {
+          "type": "round",
+          "box": [
+            47,
+            86,
+            73,
+            38,
+            11
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "100",
+          "size": 29,
+          "x": 84,
+          "y": 87,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "art": "tapo",
+      "name": "Tapo",
+      "category": "生活服务",
+      "packageId": "com.tplink.iot",
+      "components": [
+        "com.tplink.iot/com.tplink.iot.view.welcome.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 72 L 84 46 L 119 72 L 119 117 L 49 117 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 78 C 71 73 77 71 84 71 C 91 71 97 73 102 78 M 72 87 C 76 83 80 82 84 82 C 88 82 92 83 96 87",
+          "color": "teal",
+          "width": 4.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            94,
+            10,
+            10
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            115,
+            47,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageCandidate": "com.tplink.tapo",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.tplink.iot"
+    },
+    {
+      "art": "alexasmart",
+      "name": "Amazon Alexa",
+      "category": "生活服务",
+      "packageId": "com.amazon.dee.app",
+      "components": [
+        "com.amazon.dee.app/com.amazon.dee.app.Launcher",
+        "com.amazon.dee.app/com.amazon.dee.app.icon_alias.ClassicIconAlias"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 67 113 C 53 105 49 95 49 81 C 49 60 64 46 84 46 C 105 46 119 60 119 80 C 119 98 102 108 84 108 C 77 108 72 111 67 113 Z",
+          "color": "ink",
+          "width": 11
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 112 C 53 104 49 94 49 81 C 49 60 64 46 84 46 C 105 46 119 60 119 80 C 119 98 102 108 84 108 C 77 108 72 110 67 112 Z",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 82 C 80 76 89 76 97 82",
+          "color": "white",
+          "width": 3.1
+        }
+      ]
+    },
+    {
+      "art": "openrice",
+      "name": "OpenRice",
+      "category": "生活服务",
+      "packageId": "com.openrice.android",
+      "components": [
+        "com.openrice.android/com.openrice.android.ui.activity.splashscreen.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 40 81 L 128 81 C 122 112 105 129 84 129 C 63 129 46 112 40 81 Z",
+          "color": "crimson",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 43 80 C 48 73 57 72 63 70 C 66 60 78 56 85 59 C 97 54 107 60 110 68 C 120 70 124 74 127 80 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 84 L 123 84 M 67 126 L 101 126",
+          "color": "paper",
+          "width": 3.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 92 60 L 124 38 M 99 66 L 130 46",
+          "color": "gold",
+          "width": 4.2
+        }
+      ]
+    },
+    {
+      "art": "hkexpress",
+      "name": "HK Express",
+      "category": "生活服务",
+      "packageId": "com.hkexpress.android",
+      "components": [
+        "com.hkexpress.android/com.hkexpress.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 36 87 L 65 78 L 83 50 L 95 52 L 92 77 L 121 65 C 132 61 136 69 130 77 L 103 92 L 112 110 L 101 116 L 85 101 L 60 115 L 51 108 L 61 95 L 41 98 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 124 L 116 124",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            43,
+            57,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.hkexpress.android?version=latest",
+        "version": "4.29.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "moovit",
+      "name": "Moovit",
+      "category": "生活服务",
+      "packageId": "com.tranzmate",
+      "components": [
+        "com.tranzmate/com.moovit.app.home.HomeActivity",
+        "com.tranzmate/com.moovit.home.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            46,
+            72,
+            67,
+            17
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            57,
+            55,
+            54,
+            35,
+            9
+          ],
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 80 C 68 74 74 74 80 80 M 89 80 C 95 74 100 74 105 80",
+          "color": "white",
+          "width": 3.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            59,
+            97,
+            10,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            97,
+            10,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 109 L 56 122 M 106 109 L 112 122",
+          "color": "ink",
+          "width": 5.5
+        }
+      ]
+    },
+    {
+      "art": "komoot",
+      "name": "Komoot",
+      "category": "生活服务",
+      "packageId": "de.komoot.android",
+      "components": [
+        "de.komoot.android/de.komoot.android.ui.RootActivity",
+        "de.komoot.android/de.komoot.android.ui.RootActivityClassic",
+        "de.komoot.android/de.komoot.android.ui.RootActivityDefault",
+        "de.komoot.android/de.komoot.android.ui.RootActivityInverted"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 36 108 L 70 55 L 84 76 L 99 46 L 132 108 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 86 75 L 99 46 L 114 74 L 104 68 L 99 76 Z",
+          "color": "ice",
+          "width": 1.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 121 C 59 111 72 111 84 117 C 96 124 108 123 123 116",
+          "color": "gold",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            56,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ]
+    }
+  ]
+}

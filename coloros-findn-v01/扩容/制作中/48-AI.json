@@ -1,0 +1,190 @@
+{
+  "name": "800 款扩容 · 第三批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "leonardo",
+      "name": "Leonardo.Ai",
+      "category": "AI",
+      "packageId": "ai.leonardo.leonardo",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 106 C 53 94 65 91 70 85 L 76 88 C 78 103 65 113 51 106 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 88 L 101 56 C 105 52 111 51 114 56 C 117 60 113 66 110 68 L 79 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 70 88 L 77 81 L 85 89 L 79 96 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 104 87 L 109 94 L 117 98 L 109 102 L 104 110 L 100 103 L 92 98 L 100 95 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            65,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "ai.leonardo.leonardo/ai.leonardo.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "chai",
+      "name": "Chai",
+      "category": "AI",
+      "packageId": "com.Beauchamp.Messenger.external",
+      "tone": "coral",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 68 L 99 68 L 99 91 C 99 103 90 111 76 111 C 63 111 52 103 52 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 100 76 L 108 76 C 123 76 118 94 103 94",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 85 C 71 81 81 89 93 85",
+          "color": "coral",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 61 C 59 56 70 52 65 47 M 84 62 C 77 56 88 53 83 47",
+          "color": "gold",
+          "width": 3.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 118 L 95 118",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.Beauchamp.Messenger.external/com.Beauchamp.Messenger.external.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "mathway",
+      "name": "Mathway",
+      "category": "AI",
+      "packageId": "com.bagatrix.mathway.android",
+      "tone": "blue",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 87 L 62 81 L 71 98 L 84 60 L 120 60 L 120 67 L 90 67 L 76 107 L 68 107 L 58 91 L 52 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 93 82 L 109 82 M 101 74 L 101 90",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 92 100 L 113 100",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.bagatrix.mathway.android/com.bagatrix.mathway.android.SplashActivity",
+        "com.bagatrix.mathway.android/com.chegg.feature.mathway.ui.splash.SplashActivity",
+        "com.bagatrix.mathway.android/crc64ebc1ae1f158a1f85.SplashActivity",
+        "com.bagatrix.mathway.android/mathway.SplashActivity",
+        "com.bagatrix.mathway.android/md54cfc43e6ef8d0d3ecf07aed855f5c0eb.SplashActivity",
+        "com.bagatrix.mathway.android/md579d9a19e4b7285c81947942d274096a8.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "symbolab",
+      "name": "Symbolab",
+      "category": "AI",
+      "packageId": "com.devsense.symbolab",
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 57 L 114 57 L 112 72 L 105 72 L 103 66 L 70 66 L 89 83 L 89 88 L 69 105 L 104 105 L 107 98 L 114 98 L 114 115 L 55 115 L 55 107 L 80 86 L 55 65 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 94 83 L 111 83 M 94 90 L 111 90",
+          "color": "gold",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            51,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.devsense.symbolab/com.symbolab.symbolablibrary.ui.activities.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

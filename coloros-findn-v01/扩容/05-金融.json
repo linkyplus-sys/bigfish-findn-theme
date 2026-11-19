@@ -1,0 +1,71 @@
+{
+  "name": "金融",
+  "activitySource": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+  "apps": [
+    {
+      "art": "abc",
+      "name": "农业银行",
+      "category": "金融",
+      "components": [
+        "com.android.bankabc/com.alipay.mobile.quinox.LauncherActivity",
+        "com.android.bankabc/com.android.bankabc.LauncherActivity"
+      ]
+    },
+    {
+      "art": "bocom",
+      "name": "交通银行",
+      "category": "金融",
+      "components": [
+        "com.bankcomm.Bankcomm/com.bankcomm.module.biz.home.MainActivity"
+      ]
+    },
+    {
+      "art": "psbc",
+      "name": "邮储银行",
+      "category": "金融",
+      "components": [
+        "com.yitong.mbank.psbc/com.yitong.mbank.psbc.module.app.view.activity.LauncherActivity"
+      ]
+    },
+    {
+      "art": "pab",
+      "name": "平安口袋银行",
+      "category": "金融",
+      "components": [
+        "com.pingan.paces.ccms/com.pingan.pocketbank.splash.PALoadingActivity"
+      ]
+    },
+    {
+      "art": "cmbcredit",
+      "name": "掌上生活",
+      "category": "金融",
+      "components": [
+        "com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbActivity.SplashActivity"
+      ]
+    },
+    {
+      "art": "jdfinance",
+      "name": "京东金融",
+      "category": "金融",
+      "components": [
+        "com.jd.jrapp/com.jd.jrapp.bm.mainbox.main.MainActivity"
+      ]
+    },
+    {
+      "art": "citic",
+      "name": "中信银行",
+      "category": "金融",
+      "components": [
+        "com.ecitic.bank.mobile/com.ecitic.bank.mobile.ui.SplashActivity"
+      ]
+    },
+    {
+      "art": "ceb",
+      "name": "光大银行",
+      "category": "金融",
+      "components": [
+        "com.cebbank.mobile.cemb/com.cebbank.mobile.cemb.ui.activity.SplashActivity"
+      ]
+    }
+  ]
+}

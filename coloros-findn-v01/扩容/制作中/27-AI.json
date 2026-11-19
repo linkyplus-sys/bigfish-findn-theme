@@ -1,0 +1,553 @@
+{
+  "name": "AI · 500 款扩容第三批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "tencentima",
+      "name": "ima",
+      "category": "AI",
+      "packageId": "com.tencent.ima",
+      "components": [
+        "com.tencent.ima/com.tencent.ima.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "blue",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 55 L 98 55 L 113 70 L 113 111 C 113 116 109 119 104 119 L 62 119 C 57 119 53 116 53 111 L 53 61 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 97 55 L 113 70 L 97 70 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 54 104 C 67 98 77 114 90 108 C 99 104 105 101 113 101 L 113 111 C 113 116 109 119 104 119 L 62 119 C 57 119 54 116 54 111 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 81 68 C 86 81 91 85 102 87 C 91 91 87 95 81 106 C 76 94 72 91 61 87 C 72 84 76 80 81 68 Z",
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            90,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.tencent.ima?version=latest",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.ima?version=latest",
+        "version": "2.6.19.0687",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "adobe_firefly",
+      "name": "Adobe Firefly",
+      "category": "AI",
+      "packageId": "com.adobe.firefly",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.adobe.firefly",
+      "components": [
+        "com.adobe.firefly/com.adobe.firefly.home.FFHomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 60 C 71 46 55 44 49 52 C 42 60 52 76 71 84 C 50 86 48 100 55 106 C 62 113 77 103 84 94 C 91 103 106 113 113 106 C 120 100 118 86 97 84 C 116 76 126 60 119 52 C 113 44 97 46 84 60 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 60 C 88 68 91 73 91 87 C 91 102 89 106 84 112 C 79 106 76 101 76 87 C 76 74 79 67 83 60 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 75 97 L 93 97 C 92 106 90 111 84 116 C 78 111 76 106 75 97 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 68 63 L 74 70 M 101 63 L 94 70",
+          "color": "coral",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            114,
+            9,
+            9
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            47,
+            113,
+            6,
+            6
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "pixverse",
+      "name": "PixVerse",
+      "category": "AI",
+      "packageId": "com.pixverseai.pixverse",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.pixverseai.pixverse",
+      "components": [
+        "com.pixverseai.pixverse/com.pixverseai.pixverse.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 52 L 72 52 L 86 74 L 100 52 L 122 52 L 95 87 L 119 116 L 96 116 L 85 98 L 72 116 L 50 116 L 74 86 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 48 105 C 67 97 71 84 90 81 C 99 79 106 81 118 92 L 114 101 C 104 92 96 90 89 92 C 72 97 68 108 48 114 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            62,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "vidu",
+      "name": "Vidu",
+      "category": "AI",
+      "packageId": "com.vidu.oversea",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.vidu.oversea",
+      "components": [
+        "com.vidu.oversea/com.vidu.onboarding.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 61 L 65 61 L 83 95 L 102 61 L 122 61 L 90 115 L 76 115 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 65 61 L 83 95 L 74 109 L 53 72 L 55 61 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 95 L 102 61 L 112 61 L 86 107 L 78 112 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 108 91 L 124 101 L 108 111 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            109,
+            8,
+            8
+          ],
+          "color": "white"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.vidu.oversea?version=latest",
+        "version": "4.2.5",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "viggle",
+      "name": "Viggle AI",
+      "category": "AI",
+      "packageId": "com.warpengine.viggle",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.warpengine.viggle",
+      "components": [
+        "com.warpengine.viggle/com.warpengine.viggle.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "mint",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            46,
+            18,
+            18
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "path",
+          "shape": "M 60 62 C 72 72 80 77 89 72 L 109 59 L 117 67 L 97 82 L 98 92 L 117 101 L 112 112 L 92 104 L 81 97 L 65 119 L 54 111 L 74 85 L 53 70 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 72 73 C 80 76 84 75 89 72 L 109 59 L 114 64 L 95 78 C 86 83 80 86 72 81 Z",
+          "color": "teal",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 79 C 50 85 56 88 62 89 M 109 80 C 114 79 120 77 124 72",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 117 L 107 119",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "msdesigner",
+      "name": "Microsoft Designer",
+      "category": "AI",
+      "packageId": "com.microsoft.designer",
+      "components": [
+        "com.microsoft.designer/com.microsoft.designer.app.home.view.launch.DesignerLoginActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 83 C 54 79 62 68 72 59 C 79 52 87 52 94 58 L 117 78 C 124 84 124 96 115 101 L 99 112 C 90 118 81 117 74 110 L 48 91 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 66 75 C 76 64 84 61 91 65 L 105 78 L 89 82 C 79 86 72 92 66 94 L 53 87 Z",
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 71 98 C 87 94 93 82 105 82 L 114 89 C 116 91 115 95 112 97 L 97 106 C 89 111 82 110 77 106 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 113 45 L 116 54 L 125 57 L 116 60 L 113 69 L 110 60 L 101 57 L 110 54 Z",
+          "color": "mint",
+          "width": 2
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.microsoft.designer?version=latest",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.microsoft.designer?version=latest",
+        "version": "1.2629403.8001.beta",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "elsaspeak",
+      "name": "ELSA Speak",
+      "category": "AI",
+      "packageId": "us.nobarriers.elsa",
+      "packageSource": "https://play.google.com/store/apps/details?id=us.nobarriers.elsa",
+      "components": [
+        "us.nobarriers.elsa/us.nobarriers.elsa.MainActivity",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.AppIconLauncherActivity",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.AppIconLauncherActivityAlias1",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.AppIconLauncherELSABirthday",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.AppIconLauncherHalloween",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.LauncherActivity",
+        "us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.LauncherV2Screen"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 73 C 58 66 67 63 76 63 L 111 63 L 111 74 L 75 74 C 68 74 64 78 64 83 L 64 92 C 64 99 69 102 76 102 L 113 102 L 113 113 L 75 113 C 61 113 53 105 53 92 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 88 L 73 88 L 78 81 L 83 96 L 90 80 L 96 89 L 108 89",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            54,
+            8,
+            8
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            119,
+            87,
+            8,
+            8
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "praktika",
+      "name": "Praktika",
+      "category": "AI",
+      "packageId": "ai.praktika.android",
+      "packageSource": "https://play.google.com/store/apps/details?id=ai.praktika.android",
+      "components": [
+        "ai.praktika.android/ai.praktika.android.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "cobalt",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 72 C 50 62 57 56 67 56 L 101 56 C 112 56 120 63 120 73 L 120 93 C 120 103 112 111 101 111 L 79 111 L 61 121 L 64 109 C 55 107 50 101 50 93 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 53 92 C 71 86 92 107 117 92 L 117 96 C 116 104 111 110 101 110 L 79 110 L 62 119 L 64 109 C 56 107 53 102 53 95 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            71,
+            13,
+            13
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            71,
+            13,
+            13
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 90 C 80 97 91 97 96 90",
+          "color": "cobalt",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 110 52 L 114 58 L 121 60 L 114 63 L 111 69 L 108 63 L 102 61 L 108 58 Z",
+          "color": "gold",
+          "width": 2
+        }
+      ]
+    },
+    {
+      "art": "gauth",
+      "name": "Gauth",
+      "category": "AI",
+      "packageId": "com.education.android.h.intelligence",
+      "components": [
+        "com.education.android.h.intelligence/com.ss.android.business.flutter.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "iris",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 58 L 116 58 L 116 103 C 117 109 112 113 106 113 L 56 113 C 51 113 47 109 47 103 L 47 63 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 48 96 C 61 87 80 112 102 96 C 108 91 111 91 116 93 L 116 103 C 117 109 112 113 106 113 L 56 113 C 51 113 48 109 48 103 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 89 L 67 89 L 72 96 L 80 73 L 107 73",
+          "color": "dark",
+          "width": 6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 86 91 L 101 91 M 86 99 L 101 99",
+          "color": "plum",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            67,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.education.android.h.intelligence?version=latest",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.education.android.h.intelligence?version=latest",
+        "version": "2.12.3",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "questionai",
+      "name": "Question.AI",
+      "category": "AI",
+      "packageId": "com.qianfan.aihomework",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.qianfan.aihomework",
+      "components": [
+        "com.qianfan.aihomework/com.qianfan.aihomework.ui.MainActivity",
+        "com.qianfan.aihomework/com.qianfan.aihomework.ui.init.InitActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 54 C 105 54 118 66 118 83 C 118 98 106 109 91 112 L 62 121 L 66 109 C 54 105 48 97 48 83 C 48 66 62 54 84 54 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 76 C 76 66 96 65 98 77 C 100 88 84 86 84 94",
+          "color": "dark",
+          "width": 6.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            99,
+            8,
+            8
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 103 C 58 102 64 100 70 102 M 101 104 C 108 100 113 97 117 90",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 117 56 L 120 64 L 127 67 L 120 70 L 117 78 L 114 70 L 107 67 L 114 64 Z",
+          "color": "gold",
+          "width": 2
+        }
+      ]
+    }
+  ]
+}

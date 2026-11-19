@@ -1,0 +1,481 @@
+{
+  "name": "800 款扩容 · 第三批 · 金融",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "sinafinance",
+      "name": "新浪财经",
+      "category": "金融",
+      "packageId": "cn.com.sina.finance",
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 83 C 63 62 99 58 123 80 C 108 103 70 110 43 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            69,
+            31,
+            30
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            77,
+            77,
+            13,
+            13
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 101 59 C 107 60 111 63 113 68 M 105 52 C 114 54 120 58 124 66",
+          "color": "gold",
+          "width": 3.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 110 L 66 101 L 74 108 L 92 102 L 106 107 L 120 97",
+          "color": "gold",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/cn.com.sina.finance",
+      "components": [
+        "cn.com.sina.finance/cn.com.sina.finance.start.ui.LoadingActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.com.sina.finance",
+        "version": "10.16.0.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "tigerbrokers",
+      "name": "老虎证券",
+      "category": "金融",
+      "packageId": "com.tigerbrokers.stock",
+      "tone": "gold",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 62 L 68 66 L 84 57 L 100 66 L 118 62 L 114 93 L 84 114 L 54 93 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 65 L 71 78 L 65 85 L 53 81 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 113 65 L 97 78 L 103 85 L 115 81 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 70 93 L 84 84 L 98 93 L 92 102 L 84 109 L 76 102 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 78 96 L 90 96 L 84 101 Z",
+          "color": "ink",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 88 L 73 89 M 95 89 L 104 88 M 84 65 L 84 76",
+          "color": "ink",
+          "width": 4.5
+        }
+      ],
+      "components": [
+        "com.tigerbrokers.stock/com.tigerbrokers.stock.ui.MainActivity2",
+        "com.tigerbrokers.stock/com.tigerbrokers.stock.ui.StartupActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "longbridge",
+      "name": "长桥证券",
+      "category": "金融",
+      "packageId": "global.longbridge.app.android",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 96 C 58 73 67 62 84 62 C 101 62 110 73 123 96 L 109 96 C 99 78 93 74 84 74 C 75 74 69 78 59 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 100 L 120 100",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 91 L 73 84 L 84 91 L 101 79 L 113 79",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            75,
+            8,
+            8
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 108 L 103 108",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=global.longbridge.app.android",
+      "components": [
+        "global.longbridge.app.android/global.longbridge.android.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/global.longbridge.app.android?version=latest",
+        "version": "5.5.1",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "etrade",
+      "name": "E*TRADE",
+      "category": "金融",
+      "packageId": "com.etrade.mobilepro.activity",
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 70 L 86 70 L 98 82 L 58 82 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 70 87 L 110 87 L 123 99 L 83 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 98 61 L 107 68 L 117 64 L 115 75 L 123 82 L 111 83 L 106 94 L 101 84 L 91 82 L 99 74 Z",
+          "color": "mint",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            96,
+            9,
+            9
+          ],
+          "color": "azure"
+        }
+      ],
+      "components": [
+        "com.etrade.mobilepro.activity/com.etrade.mobilepro.activity.MobileProMain",
+        "com.etrade.mobilepro.activity/com.etrade.mobilepro.launcher.AppLauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "huabao",
+      "name": "华宝智投",
+      "category": "金融",
+      "packageId": "com.hwabao.hbstockwarning",
+      "tone": "coral",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 75 L 68 61 L 101 61 L 114 75 L 84 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 75 L 114 75 L 84 109 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 68 61 L 84 109 L 101 61 L 93 61 L 84 88 L 76 61 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 90 L 77 84 L 86 89 L 103 74",
+          "color": "white",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            61,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.hwabao.hbstockwarning",
+      "components": [
+        "com.hwabao.hbstockwarning/com.hwabao.hbstockwarning.splash.HBSplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.hwabao.hbstockwarning?version=latest",
+        "version": "7.0.30",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "ynab",
+      "name": "YNAB",
+      "category": "金融",
+      "packageId": "com.youneedabudget.evergreen.app",
+      "tone": "plum",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            52,
+            59,
+            63,
+            47,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            58,
+            67,
+            51,
+            32,
+            6
+          ],
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 58 97 L 58 84 L 83 91 L 109 84 L 109 97 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 71 L 83 89 L 109 71",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 94 48 L 108 48 L 108 72 L 101 67 L 94 72 Z",
+          "color": "mint",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            85,
+            10,
+            10
+          ],
+          "color": "ice"
+        }
+      ],
+      "components": [
+        "com.youneedabudget.evergreen.app/ynab.app.start.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "tipranks",
+      "name": "TipRanks",
+      "category": "金融",
+      "packageId": "com.tipranks.android",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            57,
+            87,
+            11,
+            22,
+            4
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            75,
+            78,
+            11,
+            31,
+            4
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            93,
+            59,
+            11,
+            50,
+            4
+          ],
+          "color": "white",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 105 57 L 118 57 L 118 67 L 110 63 L 105 63 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 83 L 71 70 L 80 74 L 96 57",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 115 L 113 115",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.tipranks.android?version=latest",
+      "components": [
+        "com.tipranks.android/com.tipranks.android.ui.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tipranks.android?version=latest",
+        "version": "3.48.0prod",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "empower",
+      "name": "Empower Dashboard",
+      "category": "金融",
+      "packageId": "com.personalcapital.pcapandroid",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 63 L 117 63 L 111 75 L 51 75 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 82 L 104 82 L 98 94 L 51 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 101 L 91 101 L 85 113 L 51 113 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 92 110 L 111 92 L 117 93",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            86,
+            10,
+            10
+          ],
+          "color": "teal"
+        }
+      ],
+      "components": [
+        "com.personalcapital.pcapandroid/com.personalcapital.pcapandroid.ui.login.SplashActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    }
+  ]
+}

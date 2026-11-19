@@ -1,0 +1,555 @@
+{
+  "name": "1,040 款扩容 · 第二批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "ecook",
+      "name": "网上厨房",
+      "packageId": "cn.ecook",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 84 L 94 84 C 94 100 84 109 72 110 C 58 110 50 101 47 84 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 94 87 L 122 75 L 126 82 L 95 97 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 79 C 61 68 83 68 97 79",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 65 C 56 58 64 56 63 49 M 77 65 C 73 58 81 55 80 49",
+          "color": "white",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            96,
+            58,
+            9,
+            9
+          ],
+          "color": "jade"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=cn.ecook",
+      "components": [
+        "cn.ecook/cn.ecook.ui.activities.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.ecook",
+        "version": "16.9.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "todayweather",
+      "name": "Today Weather",
+      "packageId": "mobi.lockdown.weather",
+      "category": "生活服务",
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            52,
+            61,
+            61
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 65 58 C 62 73 71 84 89 87 C 98 88 107 84 113 77 C 115 98 101 112 84 112 C 65 112 53 101 54 83 C 55 71 59 64 65 58 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 65 93 C 79 85 100 92 114 86 L 111 97 C 101 107 78 107 62 102 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            90,
+            60,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            65,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "mobi.lockdown.weather/mobi.lockdown.weather.activity.MainActivity",
+        "mobi.lockdown.weather/mobi.lockdown.weather.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "tasty",
+      "name": "Tasty",
+      "packageId": "com.buzzfeed.tasty",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            50,
+            53,
+            68,
+            62,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 104 L 58 66 L 110 66 L 110 104 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 63 66 L 76 57 L 95 57 L 106 66 L 106 74 L 63 74 Z",
+          "color": "white",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 88 L 104 88 M 84 88 L 84 103",
+          "color": "dark",
+          "width": 5.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            69,
+            8,
+            8
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            68,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.buzzfeed.tasty/com.buzzfeed.tasty.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "delta"
+      ]
+    },
+    {
+      "art": "careem",
+      "name": "Careem",
+      "packageId": "com.careem.acma",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 112 68 C 101 54 78 54 63 63 C 52 70 50 85 55 96 C 63 114 89 120 109 101 L 99 92 C 86 101 73 99 67 92 C 63 85 65 76 72 71 C 83 65 95 66 103 76 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 73 92 C 81 89 91 93 98 90 L 106 99 C 99 105 83 111 73 106 Z",
+          "color": "mint",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            100,
+            61,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.careem.acma/com.careem.acma.activity.SplashActivity",
+        "com.careem.acma/com.careem.acma.splash.SplashActivity",
+        "com.careem.acma/com.careem.superapp.OnboardingActivityDefaultIcon",
+        "com.careem.acma/com.careem.superapp.OnboardingActivityOldIcon",
+        "com.careem.acma/com.careem.superapp.OnboardingActivityRebrandingIcon",
+        "com.careem.acma/com.careem.superapp.OnboardingActivitySecondaryIcon",
+        "com.careem.acma/com.careem.superapp.core.onboarding.activity.OnboardingActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "limebike",
+      "name": "Lime",
+      "packageId": "com.limebike",
+      "category": "生活服务",
+      "tone": "lime",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            54,
+            62,
+            62
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            61,
+            48,
+            48
+          ],
+          "color": "lime"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 61 L 84 109 M 61 84 L 107 84 M 67 67 L 101 102 M 67 101 L 101 68",
+          "color": "dark",
+          "width": 3.1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            78,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 91 55 C 103 47 113 50 120 56 C 111 64 101 66 91 55 Z",
+          "color": "jade",
+          "width": 1.8
+        }
+      ],
+      "components": [
+        "com.limebike/com.limebike.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "tgtg",
+      "name": "Too Good To Go",
+      "packageId": "com.app.tgtg",
+      "category": "生活服务",
+      "tone": "teal",
+      "form": "bag",
+      "previewName": "Too Good To Go",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 76 L 117 76 L 111 111 L 54 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 85 C 67 75 84 74 93 81 C 102 89 103 102 97 108 L 62 108 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 69 L 75 54 L 86 63 L 80 81 L 64 83 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 95 68 C 98 54 109 53 122 57 C 117 68 107 77 95 73 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 98 C 86 101 94 96 97 91",
+          "color": "white",
+          "width": 4.6
+        }
+      ],
+      "components": [
+        "com.app.tgtg/com.app.tgtg.activities.ActivitySplash",
+        "com.app.tgtg/com.app.tgtg.activities.SplashActivity",
+        "com.app.tgtg/com.app.tgtg.activities.login.SplashActivity",
+        "com.app.tgtg/com.app.tgtg.feature.login.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "yuka",
+      "name": "Yuka",
+      "packageId": "io.yuka.android",
+      "category": "生活服务",
+      "tone": "lime",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 69 69 C 70 60 93 60 101 66 C 115 83 94 108 85 120 C 74 110 61 98 62 81 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 80 68 C 67 65 60 55 64 51 C 71 48 80 53 84 62 C 90 52 95 47 103 48 C 112 54 101 65 95 69 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 74 77 L 96 77 L 94 96 L 74 96 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 86 L 83 91 L 92 81",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 105 L 90 105",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "io.yuka.android/io.yuka.android.Main.RootActivity",
+        "io.yuka.android/io.yuka.android.main.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "geocaching",
+      "name": "Geocaching",
+      "packageId": "com.groundspeak.geocaching.intro",
+      "category": "生活服务",
+      "tone": "lime",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 62 L 84 50 L 117 62 L 117 102 L 84 117 L 51 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 83 L 67 83 L 67 74 L 77 74 M 94 74 L 102 74 L 102 82 L 112 82 M 57 96 L 67 96 L 67 105 L 76 105 M 94 105 L 102 105 L 102 96 L 112 96",
+          "color": "jade",
+          "width": 4.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 72 L 97 85 L 84 99 L 71 85 Z",
+          "color": "dark",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            80,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.groundspeak.geocaching.intro/com.groundspeak.geocaching.intro.ActivityPrime",
+        "com.groundspeak.geocaching.intro/com.groundspeak.geocaching.intro.activities.BrandedLaunchActivity",
+        "com.groundspeak.geocaching.intro/com.groundspeak.geocaching.intro.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "dingxiangdoctor",
+      "name": "丁香医生",
+      "packageId": "cn.dxy.android.aspirin",
+      "category": "生活服务",
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            51,
+            55,
+            66,
+            57,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 79 68 L 90 68 L 90 79 L 101 79 L 101 90 L 90 90 L 90 101 L 79 101 L 79 90 L 68 90 L 68 79 L 79 79 Z",
+          "color": "dark",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 86 67 C 89 56 101 54 110 59 C 109 68 100 75 88 73 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 108 L 108 108",
+          "color": "azure",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=cn.dxy.android.aspirin",
+      "components": [
+        "cn.dxy.android.aspirin/cn.dxy.android.aspirin.startup.StartupActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.dxy.android.aspirin?version=latest",
+        "version": "11.36.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "yuedong",
+      "name": "悦动圈",
+      "packageId": "com.yuedong.sport",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 104 C 56 96 65 91 72 79 C 80 65 88 60 102 65 L 118 67 L 113 80 L 98 81 L 87 88 L 89 110 L 73 110 L 72 96 L 61 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            49,
+            14,
+            14
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 78 L 66 76 M 45 88 L 57 86 M 53 115 L 103 115",
+          "color": "white",
+          "width": 4.3
+        },
+        {
+          "type": "path",
+          "shape": "M 83 87 L 95 83 L 110 88 L 105 97 L 90 93 Z",
+          "color": "crimson",
+          "width": 0
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.yuedong.sport",
+      "components": [
+        "com.yuedong.sport/com.yuedong.sport.launcher_default",
+        "com.yuedong.sport/com.yuedong.sport.launcher_reward",
+        "com.yuedong.sport/com.yuedong.sport.main.WelcomeActivity_"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.yuedong.sport?version=latest",
+        "version": "5.17.1.7.9",
+        "channel": "APKPure 分发"
+      }
+    }
+  ]
+}

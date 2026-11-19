@@ -1,0 +1,734 @@
+{
+  "name": "游戏 · 500 款扩容第三批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "miStoreApk": "https://app.mi.com/"
+  },
+  "apps": [
+    {
+      "art": "honkai2",
+      "name": "崩坏学园 2",
+      "category": "游戏",
+      "packageId": "com.miHoYo.game2144.mi",
+      "components": [
+        "com.miHoYo.game2144.mi/com.mihoyo.combosdk.ComboSDKActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "tone": "coral",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 80 L 55 58 C 56 50 63 49 68 54 L 80 65 C 90 63 97 65 101 67 L 111 55 C 117 50 124 52 124 60 L 121 83 C 125 91 122 103 114 108 C 99 117 69 117 58 107 C 50 100 49 89 54 80 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 55 97 C 70 89 94 110 119 97 C 114 112 105 114 84 114 C 70 114 58 109 55 97 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 60 L 72 68 L 59 75 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 116 59 L 103 69 L 117 74 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            68,
+            80,
+            10,
+            13
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            80,
+            10,
+            13
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 80 97 C 82 100 88 100 90 97",
+          "color": "crimson",
+          "width": 3.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            95,
+            10,
+            5
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.miHoYo.game2144.mi",
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.miHoYo.game2144.mi",
+        "version": "13.4.8",
+        "channel": "小米应用商店渠道 APK"
+      }
+    },
+    {
+      "art": "gfl2",
+      "name": "少女前线 2：追放",
+      "category": "游戏",
+      "packageId": "com.Sunborn.SnqxExilium.Glo",
+      "components": [
+        "com.Sunborn.SnqxExilium.Glo/com.Sunborn.SnqxExilium.Glo.ExiliumMainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "onyx",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 78 L 77 56 L 115 51 L 122 58 L 91 78 L 68 107 L 52 113 L 61 93 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 69 108 L 101 75 L 124 63 L 114 92 L 107 93 L 97 108 L 91 109 L 84 120 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 61 92 L 95 64 L 109 62 L 83 83 L 74 99 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 114 L 70 119 M 102 116 L 117 103",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.Sunborn.SnqxExilium.Glo",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.Sunborn.SnqxExilium.Glo?version=latest",
+        "version": "3.0",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "pgr",
+      "name": "战双帕弥什",
+      "category": "游戏",
+      "packageId": "com.kurogame.gplay.punishing.grayraven.en",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en",
+      "components": [
+        "com.kurogame.gplay.punishing.grayraven.en/com.haru.herousdk.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 45 L 115 65 L 120 78 L 112 108 L 85 122 L 55 110 L 48 80 L 53 66 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 56 L 107 70 L 111 80 L 104 101 L 85 112 L 63 103 L 57 81 L 62 72 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 64 78 L 82 67 L 84 82 L 103 75 L 103 88 L 82 101 L 79 87 L 66 92 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 103 L 76 110",
+          "color": "ice",
+          "width": 3.5
+        }
+      ],
+      "packageCandidate": "com.kurogame.haru.mi",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.kurogame.gplay.punishing.grayraven.en?version=latest",
+        "version": "4.9.1.1792678636",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "ash_echoes",
+      "name": "白荆回廊",
+      "category": "游戏",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 44 L 99 69 L 122 83 L 99 97 L 83 122 L 69 97 L 46 83 L 69 70 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 83 52 L 89 76 L 112 83 L 89 89 L 83 113 L 77 89 L 54 83 L 77 76 Z",
+          "color": "iris",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 59 C 69 54 105 66 121 88 C 130 100 123 112 112 110",
+          "color": "mint",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            54,
+            7,
+            7
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            109,
+            8,
+            8
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "reverse1999",
+      "name": "重返未来：1999",
+      "category": "游戏",
+      "packageId": "com.shenlan.m.reverse1999",
+      "components": [
+        "com.shenlan.m.reverse1999/com.ssgame.mobile.gamesdk.frame.AppStartUpActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 60 65 L 69 55 L 99 55 L 108 65 L 108 107 L 99 116 L 69 116 L 60 107 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 66 67 L 73 61 L 95 61 L 102 67 L 102 105 L 95 111 L 73 111 L 66 105 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 73 69 L 95 69 L 94 79 L 87 85 L 94 91 L 95 102 L 73 102 L 74 91 L 81 85 L 74 79 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 74 97 L 84 90 L 95 97 L 95 102 L 73 102 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 74 C 43 93 58 114 69 119 M 116 91 C 117 110 106 117 102 119",
+          "color": "ice",
+          "width": 4.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            51,
+            9,
+            9
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.shenlan.m.reverse1999?version=latest",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.shenlan.m.reverse1999?version=latest",
+        "version": "1.2.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "path_to_nowhere",
+      "name": "无期迷途",
+      "category": "游戏",
+      "packageId": "com.zy.wqmt.cn",
+      "components": [
+        "com.zy.wqmt.cn/com.papegames.gamelib_unity.BaseUnityImplActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "plum",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 108 L 54 67 L 66 53 L 101 53 L 114 67 L 114 108 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 62 106 L 62 72 C 62 66 67 62 73 62 L 95 62 C 101 62 106 68 106 74 L 106 106 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 72 L 71 104 M 84 69 L 84 104 M 97 72 L 97 104",
+          "color": "sand",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 53 100 C 71 89 75 108 93 102 C 103 99 111 97 115 98 L 115 106 C 107 111 97 114 86 113 C 72 112 63 105 53 110 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            53,
+            12,
+            8
+          ],
+          "color": "ice"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.zy.wqmt.cn?version=latest",
+        "version": "1.8.1.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "azur_lane",
+      "name": "碧蓝航线",
+      "category": "游戏",
+      "packageId": "com.bilibili.azurlane",
+      "components": [
+        "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 94 C 60 94 67 89 78 85 C 88 82 107 87 127 81 L 111 104 C 98 114 75 115 59 107 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 46 98 C 63 99 70 97 81 94 C 91 91 105 94 119 91 L 111 104 C 98 114 75 115 59 107 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 72 88 L 75 72 L 91 72 L 96 87 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 82 71 L 82 51",
+          "color": "paper",
+          "width": 4.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 51 L 110 57 L 84 62 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 115 C 63 111 74 120 87 120 C 103 120 111 112 120 112",
+          "color": "mint",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "torchlight",
+      "name": "火炬之光：无限",
+      "category": "游戏",
+      "packageId": "com.xd.TLglobal",
+      "components": [
+        "com.xd.TLglobal/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 66 120 L 86 84 L 97 90 L 77 124 Z",
+          "color": "sand",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 85 91 C 74 78 78 66 83 59 C 84 67 89 67 91 62 C 96 54 99 47 98 42 C 114 51 126 69 117 82 C 111 93 98 98 85 91 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 89 91 C 83 82 91 79 95 75 C 100 70 102 66 101 60 C 115 67 114 85 104 91 C 99 94 95 94 89 91 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 113 C 57 100 63 98 70 99 M 106 103 L 109 113",
+          "color": "ice",
+          "width": 4.4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.xd.TLglobal?version=latest",
+        "version": "17.0.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "soul_knight",
+      "name": "元气骑士",
+      "category": "游戏",
+      "packageId": "com.ChillyRoom.DungeonShooter",
+      "components": [
+        "com.ChillyRoom.DungeonShooter/com.android.support.UpdateActivity",
+        "com.ChillyRoom.DungeonShooter/com.chillyroomsdk.googleplay.MainActivity",
+        "com.ChillyRoom.DungeonShooter/com.chillyroomsdk.sdkbridge.BasePlayerActivity",
+        "com.ChillyRoom.DungeonShooter/com.chillyroomsdk.sdkbridge.privacy.BasePrivacyActivity",
+        "com.ChillyRoom.DungeonShooter/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 57 67 L 66 67 L 66 57 L 102 57 L 102 66 L 112 66 L 112 98 L 105 98 L 105 110 L 63 110 L 63 100 L 56 100 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 56 87 L 70 83 L 93 88 L 112 85 L 112 98 L 105 98 L 105 110 L 63 110 L 63 100 L 56 100 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            62,
+            72,
+            44,
+            21,
+            4
+          ],
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            68,
+            77,
+            9,
+            8,
+            2
+          ],
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            92,
+            77,
+            8,
+            8,
+            2
+          ],
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 79 49 L 89 49 L 89 63 L 79 63 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 103 L 92 103",
+          "color": "cobalt",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "night_full_moon",
+      "name": "月圆之夜",
+      "category": "游戏",
+      "packageId": "com.yyzy.mi",
+      "components": [
+        "com.yyzy.mi/com.ztgame.yyzy.AdapterNotchWithChannel"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.yyzy.mi",
+        "version": "1.6.30.5",
+        "channel": "小米应用商店渠道 APK"
+      },
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            46,
+            63,
+            63
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "path",
+          "shape": "M 54 88 C 62 84 71 87 83 92 C 93 96 105 90 113 88 C 109 102 98 109 83 109 C 69 109 59 101 54 88 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 58 102 L 68 82 L 81 103 L 84 94 L 100 119 L 48 119 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 75 119 L 89 103 L 98 110 L 108 88 L 125 119 Z",
+          "color": "plum",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 107 117 L 108 108 L 112 108 L 112 117 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 66 L 50 66 M 114 53 L 120 53",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.yyzy.mi"
+    },
+    {
+      "art": "carrot4",
+      "name": "保卫萝卜 4",
+      "category": "游戏",
+      "packageId": "com.feiyu.luobo4.mi",
+      "packageSource": "https://app.mi.com/details?id=com.feiyu.luobo4.mi",
+      "components": [
+        "com.feiyu.luobo4.mi/com.u8.sdk.permission.U8PermissionActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.feiyu.luobo4.mi",
+        "version": "1.4.1",
+        "channel": "小米应用商店渠道 APK"
+      },
+      "tone": "lime",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 69 63 C 55 56 57 44 63 43 C 71 43 80 48 85 56 C 88 44 105 44 110 48 C 110 56 104 63 94 65 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 63 71 C 71 63 103 64 108 75 C 114 91 99 113 85 123 C 73 119 50 90 63 71 Z",
+          "color": "orange",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 64 93 C 76 87 91 109 103 93 C 100 106 92 117 85 123 C 78 120 67 106 64 93 Z",
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            70,
+            79,
+            9,
+            10
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            79,
+            9,
+            10
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 80 92 C 83 95 88 95 91 92",
+          "color": "paper",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            62,
+            8,
+            8
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "endfield",
+      "name": "明日方舟：终末地",
+      "category": "游戏",
+      "packageId": "com.gryphline.endfield.gp",
+      "components": [
+        "com.gryphline.endfield.gp/com.u8.sdk.U8UnityContext"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "onyx",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 45 L 122 65 L 122 103 L 84 123 L 46 103 L 46 65 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 55 L 113 71 L 113 98 L 84 114 L 55 98 L 55 71 Z",
+          "color": "onyx",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 65 77 L 83 67 L 102 77 L 102 84 L 84 75 L 66 85 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 65 91 L 83 81 L 102 91 L 102 99 L 83 105 L 65 99 Z",
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 65 91 L 84 95 L 102 91 L 102 99 L 83 105 L 65 99 Z",
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            59,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.gryphline.endfield.gp?version=latest",
+        "version": "1.6.4",
+        "channel": "国际版 · APKPure 分发"
+      }
+    }
+  ]
+}

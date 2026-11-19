@@ -1,0 +1,207 @@
+{
+  "name": "800 款扩容 · 第四批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "wolframalpha",
+      "name": "WolframAlpha",
+      "packageId": "com.wolfram.android.alpha",
+      "category": "AI",
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 48 L 96 69 L 120 69 L 106 88 L 113 112 L 89 105 L 70 119 L 65 96 L 44 84 L 66 73 L 72 52 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 58 L 90 77 L 109 77 L 94 89 L 101 103 L 85 97 L 73 108 L 74 91 L 56 84 L 75 77 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            78,
+            12,
+            12
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 69 L 84 99 M 69 85 L 99 85",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.wolfram.android.alpha/com.wolfram.android.alpha.activity.SplashScreenActivity",
+        "com.wolfram.android.alpha/com.wolfram.android.alpha.activity.WolframAlpha",
+        "com.wolfram.android.alpha/com.wolfram.android.alpha.activity.WolframAlphaActivity",
+        "com.wolfram.android.alpha/com.wolfram.android.alphalibrary.activity.SplashScreenActivity",
+        "com.wolfram.android.alpha/com.wolfram.android.alphalibrary.activity.WolframAlphaActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "loora",
+      "name": "Loora",
+      "packageId": "com.loora.app",
+      "category": "AI",
+      "tone": "teal",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 96 C 56 90 58 83 58 68 C 58 62 64 57 71 57 C 77 59 78 66 75 72 C 71 80 67 89 70 95 C 74 100 86 97 94 86 L 104 70 L 118 74 C 111 91 100 112 79 113 C 63 113 57 105 48 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            54,
+            11,
+            11
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 116 83 L 123 81 M 108 101 L 114 108",
+          "color": "ice",
+          "width": 3.5
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.loora.app",
+      "components": [
+        "com.loora.app/com.loora.app.MainActivityDefault",
+        "com.loora.app/com.loora.presentation.ui.screens.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "merlinbird",
+      "name": "Merlin Bird ID",
+      "packageId": "com.labs.merlinbirdid.app",
+      "category": "AI",
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 100 C 61 96 65 86 73 72 C 79 62 92 58 106 64 L 117 73 L 109 78 C 112 92 100 104 82 107 C 69 110 54 106 47 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 99 C 66 96 72 88 80 78 C 91 71 100 82 98 92 C 88 103 67 107 54 99 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            68,
+            8,
+            8
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 108 74 L 124 79 L 110 83 Z",
+          "color": "gold",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 111 L 106 111",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.labs.merlinbirdid.app/com.labs.merlinbirdid.app.SplashScreenActivity",
+        "com.labs.merlinbirdid.app/edu.cornell.birds.merlin.onboarding.OnBoardingActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "plantnet",
+      "name": "Pl@ntNet",
+      "packageId": "org.plantnet",
+      "category": "AI",
+      "tone": "teal",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 81 102 C 57 105 47 91 48 69 C 68 65 83 82 81 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 82 97 C 75 67 91 52 116 53 C 115 80 105 96 82 97 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 81 116 C 88 98 93 77 102 65 M 83 104 L 64 84",
+          "color": "teal",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 92 L 62 80 L 74 80 M 96 68 L 107 68 L 107 81",
+          "color": "white",
+          "width": 3.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            96,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "components": [
+        "org.plantnet/com.zoontek.rnbootsplash.RNBootSplashActivity",
+        "org.plantnet/org.plantnet.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

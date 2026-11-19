@@ -1,0 +1,662 @@
+{
+  "name": "金融 · 250 款扩容",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "paypal",
+      "name": "PayPal",
+      "category": "金融",
+      "tone": "azure",
+      "form": "bare",
+      "components": [
+        "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.GridLauncherActivity",
+        "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.HubActivity",
+        "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.IntroActivity",
+        "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 42 L 114 42 C 137 42 149 58 145 79 C 141 100 125 108 102 108 L 83 108 L 75 144 L 46 144 Z",
+          "color": "azure",
+          "width": 2.7
+        },
+        {
+          "type": "path",
+          "shape": "M 36 25 L 100 25 C 123 25 135 39 130 59 C 125 78 110 89 88 89 L 66 89 L 57 129 L 24 129 Z",
+          "color": "cobalt",
+          "width": 2.7
+        },
+        {
+          "type": "path",
+          "shape": "M 66 49 L 94 49 C 104 49 107 56 102 63 C 99 67 92 69 83 69 L 62 69 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 39 L 55 36 L 83 36",
+          "color": "ice",
+          "width": 3.4
+        }
+      ]
+    },
+    {
+      "art": "wise",
+      "name": "Wise",
+      "category": "金融",
+      "tone": "lime",
+      "form": "tag",
+      "components": [
+        "com.transferwise.android/com.transferwise.android.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 38 47 L 110 47 C 116 47 119 50 116 55 L 99 72 L 124 78 C 129 79 132 83 128 88 L 72 123 L 52 123 L 78 94 L 50 95 L 73 73 L 42 73 Z",
+          "color": "ink",
+          "width": 2.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 27 116 C 35 117 43 117 50 114",
+          "color": "paper",
+          "width": 3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            130,
+            42,
+            11,
+            11
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "revolut",
+      "name": "Revolut",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "card",
+      "components": [
+        "com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            34,
+            49,
+            100,
+            69,
+            14
+          ],
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 108 L 63 63 L 87 63 C 102 63 106 72 101 81 C 97 87 89 89 77 89 L 64 89 M 80 89 L 105 108",
+          "color": "white",
+          "width": 7.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 20 47 L 43 47 M 126 117 L 145 117",
+          "color": "ice",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "robinhood",
+      "name": "Robinhood",
+      "category": "金融",
+      "tone": "mint",
+      "form": "orb",
+      "components": [
+        "com.robinhood.android/com.robinhood.android.activity.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 94 36 C 111 30 126 36 135 48 C 138 64 132 79 119 86 L 104 92 L 112 100 L 94 106 L 80 104 C 71 114 63 120 54 125 C 47 130 41 126 45 120 C 61 104 73 83 80 61 C 83 51 86 41 94 36 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 118 C 76 103 98 79 122 57",
+          "color": "jade",
+          "width": 4.2
+        }
+      ]
+    },
+    {
+      "art": "coinbase",
+      "name": "Coinbase",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "coin",
+      "components": [
+        "com.coinbase.android/com.coinbase.android.LaunchActivity",
+        "com.coinbase.android/com.coinbase.android.MainActivity",
+        "com.coinbase.android/com.coinbase.android.signin.IntroActivity",
+        "com.coinbase.android/com.coinbase.retailnativeruntime.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            44,
+            44,
+            80,
+            80
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "round",
+          "box": [
+            66,
+            66,
+            36,
+            36,
+            9
+          ],
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 77 C 48 63 57 54 67 50",
+          "color": "white",
+          "width": 3.6
+        }
+      ]
+    },
+    {
+      "art": "binance",
+      "name": "Binance",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "diamond",
+      "components": [
+        "com.binance.dev/com.binance.dev.SplashActivity",
+        "com.binance.dev/com.binance.dev.activities.main.MainActivity",
+        "com.binance.dev/com.binance.dev.activities.splash.SplashActivity",
+        "com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity",
+        "com.binance.dev/com.binance.launcher.activities.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 37 L 111 64 L 98 77 L 84 63 L 70 77 L 57 64 Z M 84 131 L 57 104 L 70 91 L 84 105 L 98 91 L 111 104 Z M 42 84 L 54 72 L 66 84 L 54 96 Z M 126 84 L 114 72 L 102 84 L 114 96 Z M 84 73 L 95 84 L 84 95 L 73 84 Z",
+          "color": "gold",
+          "width": 2.1
+        }
+      ]
+    },
+    {
+      "art": "okx",
+      "name": "OKX",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "tile",
+      "components": [
+        "com.okinc.okex.gp/com.okinc.core.ok_app.homepage.ui.welcome.WelcomeActivity",
+        "com.okinc.okex.gp/com.okinc.okex.ui.WelcomeActivity",
+        "com.okinc.okex.gp/com.okinc.okex.welcome.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            42,
+            44,
+            25,
+            25,
+            5
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            101,
+            44,
+            25,
+            25,
+            5
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            72,
+            74,
+            25,
+            25,
+            5
+          ],
+          "color": "ice",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            42,
+            103,
+            25,
+            25,
+            5
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            101,
+            103,
+            25,
+            25,
+            5
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 51 L 59 51 M 109 109 L 120 109",
+          "color": "white",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "kraken",
+      "name": "Kraken",
+      "category": "金融",
+      "tone": "iris",
+      "form": "coin",
+      "components": [
+        "com.kraken.invest.app/com.kraken.invest.app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 34 97 C 34 67 55 46 84 46 C 113 46 134 67 134 97 L 134 119 L 119 119 L 119 104 C 119 96 107 96 107 104 L 107 119 L 91 119 L 91 104 C 91 96 77 96 77 104 L 77 119 L 61 119 L 61 104 C 61 96 49 96 49 104 L 49 119 L 34 119 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 69 C 61 59 72 55 84 55",
+          "color": "white",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "venmo",
+      "name": "Venmo",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "card",
+      "components": [
+        "com.venmo/com.venmo.AppExperienceLauncherActivity",
+        "com.venmo/com.venmo.TabCentralActivity",
+        "com.venmo/com.venmo.android.platform.AppExperienceLauncherActivity",
+        "com.venmo/com.venmo.tabcentral.TabCentralActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 56 L 66 53 L 79 103 C 91 85 99 67 98 54 L 117 54 C 122 77 103 110 88 117 L 64 117 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            121,
+            104,
+            13,
+            13
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 24 44 L 45 44",
+          "color": "white",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "tradingview",
+      "name": "TradingView",
+      "category": "金融",
+      "tone": "onyx",
+      "form": "tile",
+      "components": [
+        "com.tradingview.tradingviewapp/com.tradingview.tradingviewapp.root.view.RootActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 43 111 L 65 84 L 83 92 L 117 49 M 103 50 L 119 47 L 122 64",
+          "color": "white",
+          "width": 7.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 129 L 122 129",
+          "color": "ice",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            76,
+            15,
+            15
+          ],
+          "color": "teal"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            38,
+            17,
+            17
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "yahoofinance",
+      "name": "Yahoo Finance",
+      "category": "金融",
+      "tone": "iris",
+      "form": "tile",
+      "components": [
+        "com.yahoo.mobile.client.android.finance/com.yahoo.mobile.client.android.finance.activity.Main",
+        "com.yahoo.mobile.client.android.finance/com.yahoo.mobile.client.android.finance.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 99 L 61 99 L 61 124 L 44 124 Z M 76 83 L 93 83 L 93 124 L 76 124 Z M 109 58 L 126 58 L 126 124 L 109 124 Z",
+          "color": "paper",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 84 L 69 70 L 86 73 L 119 49",
+          "color": "gold",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "bloomberg",
+      "name": "Bloomberg",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "page",
+      "components": [
+        "com.bloomberg.android.plus/com.bloomberg.android.plus.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            56,
+            78,
+            78,
+            15
+          ],
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "B",
+          "size": 51,
+          "x": 84,
+          "y": 61,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 129 L 118 129",
+          "color": "ice",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "googlewallet",
+      "name": "Google 钱包",
+      "category": "金融",
+      "tone": "teal",
+      "form": "bare",
+      "components": [
+        "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.GooglePayActivity",
+        "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity",
+        "com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity",
+        "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity",
+        "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.growth.migration.OldLauncherActivity",
+        "com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.home.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            21,
+            33,
+            125,
+            96,
+            20
+          ],
+          "color": "azure",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 22 64 C 24 50 34 44 49 44 L 91 44 L 91 78 L 22 78 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 91 44 L 124 44 C 137 44 144 52 145 65 L 145 89 L 91 89 Z",
+          "color": "gold",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 22 89 L 145 89 L 145 121 C 145 134 137 142 123 142 L 44 142 C 30 142 22 134 22 121 Z",
+          "color": "jade",
+          "width": 2.4
+        },
+        {
+          "type": "round",
+          "box": [
+            95,
+            108,
+            40,
+            23,
+            9
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            115,
+            8,
+            8
+          ],
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "art": "samsungwallet",
+      "name": "三星钱包",
+      "category": "金融",
+      "tone": "cobalt",
+      "form": "wallet",
+      "components": [
+        "com.samsung.android.spay/com.samsung.android.spay.InitActivity",
+        "com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 119 L 59 70 L 76 70 L 84 104 L 96 73 L 113 73 L 122 123 L 105 123 L 103 97 L 92 123 L 78 123 L 71 95 L 66 123 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            121,
+            66,
+            12,
+            12
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "hsbchk",
+      "name": "HSBC HK",
+      "category": "金融",
+      "tone": "crimson",
+      "form": "hex",
+      "components": [
+        "hk.com.hsbc.hsbchkmobilebanking/com.hsbc.mobilebanking.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 36 84 L 59 54 L 84 84 L 59 114 Z M 132 84 L 109 54 L 84 84 L 109 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 54 L 109 54 L 84 84 Z M 59 114 L 109 114 L 84 84 Z",
+          "color": "crimson",
+          "width": 1.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 83 L 58 65 M 110 66 L 123 83",
+          "color": "white",
+          "width": 3.2
+        }
+      ]
+    },
+    {
+      "art": "hangseng",
+      "name": "恒生银行",
+      "category": "金融",
+      "tone": "jade",
+      "form": "coin",
+      "components": [
+        "com.hangseng.rbmobile/com.hangseng.rbmobile.activity.HSLaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 49 58 L 49 113 M 49 84 L 116 84 M 116 58 L 116 113",
+          "color": "dark",
+          "width": 17
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 58 L 49 113 M 49 84 L 116 84 M 116 58 L 116 113",
+          "color": "white",
+          "width": 10
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 114 L 95 114",
+          "color": "gold",
+          "width": 4.1
+        }
+      ]
+    }
+  ]
+}

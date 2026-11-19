@@ -1,0 +1,881 @@
+{
+  "name": "游戏 · 800 款扩容第一批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "wherewinds",
+      "name": "燕云十六声",
+      "category": "游戏",
+      "packageId": "com.netease.yysls",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.netease.yysls",
+      "components": [
+        "com.netease.yysls/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "onyx",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 101 C 57 93 64 68 84 65 C 101 62 104 73 122 69 C 114 85 102 93 86 92 C 71 91 67 108 45 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 57 100 C 66 93 71 84 80 80 C 93 74 99 81 114 76 C 102 94 92 90 84 92 C 74 95 68 104 57 100 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 55 119 C 72 112 86 126 111 111",
+          "color": "mint",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            51,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "jx3",
+      "name": "剑网 3 无界",
+      "category": "游戏",
+      "packageId": "com.seasun.jx3",
+      "packageSource": "https://www.taptap.cn/app/382756?os=android",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "teal",
+      "form": "hex",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 83 L 67 46 L 75 52 L 70 76 L 84 69 L 98 76 L 92 53 L 100 46 L 116 83 L 86 118 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 86 C 73 80 83 95 102 88 L 113 84 L 85 117 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 76 L 94 92 L 84 104 L 74 92 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 102 L 55 110 L 65 117 M 119 102 L 112 110",
+          "color": "mint",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "moonblade",
+      "name": "天涯明月刀手游",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.wuxia",
+      "packageSource": "https://www.appchina.com/app/com.tencent.tmgp.wuxia",
+      "components": [
+        "com.tencent.tmgp.wuxia/com.tencent.tmgp.wuxia.ApolloWuxia"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.wuxia",
+        "version": "0.0.285",
+        "channel": "应用汇分发"
+      },
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 106 48 C 80 43 58 54 51 78 C 43 107 65 123 87 120 C 107 117 118 106 123 96 C 104 103 80 95 76 82 C 70 67 89 52 106 48 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 94 C 65 89 73 96 81 101 C 91 108 104 106 117 102 C 111 112 100 118 87 120 C 70 122 59 111 55 94 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 87 82 L 113 63 L 118 69 L 98 90 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            83,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "yimeng",
+      "name": "一梦江湖",
+      "category": "游戏",
+      "packageId": "com.netease.wyclx",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 96 C 52 78 61 78 68 54 C 80 66 85 80 93 84 C 100 79 103 72 106 66 C 114 76 120 83 126 96 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 97 L 69 74 L 77 89 L 89 96 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 103 C 62 97 73 109 89 111 C 103 112 111 103 122 102 L 122 112 C 112 113 102 122 87 121 C 70 120 63 112 47 114 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            46,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "kartrider",
+      "name": "跑跑卡丁车官方竞速版",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.WePop",
+      "packageSource": "https://www.appchina.com/app/com.tencent.tmgp.WePop",
+      "components": [
+        "com.tencent.tmgp.WePop/com.tencent.tmgp.WePop.PermissionActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.WePop",
+        "version": "1.47.2",
+        "channel": "应用汇分发"
+      },
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 89 L 54 66 L 71 66 L 82 79 L 111 78 L 122 91 L 121 105 L 46 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 91 L 76 85 L 109 85 L 120 91 L 118 104 L 47 104 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            97,
+            21,
+            21
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            97,
+            21,
+            21
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            103,
+            9,
+            9
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            103,
+            9,
+            9
+          ],
+          "color": "white"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 69 L 101 48 L 108 52 L 97 71 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 58 L 64 58",
+          "color": "mint",
+          "width": 4.7
+        }
+      ]
+    },
+    {
+      "art": "knivesout",
+      "name": "荒野行动",
+      "category": "游戏",
+      "packageId": "com.netease.hyxd",
+      "packageSource": "https://www.appchina.com/app/com.netease.hyxd",
+      "components": [
+        "com.netease.hyxd/com.netease.ntunisdk.external.protocol.ProtocolLauncher"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.hyxd",
+        "version": "1.271.479300",
+        "channel": "应用汇分发"
+      },
+      "tone": "sand",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 103 C 52 78 65 56 84 56 C 103 56 116 78 116 103 L 101 115 L 66 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 86 C 69 77 99 78 113 87 L 115 98 C 101 91 69 90 54 98 Z",
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 98 C 70 93 73 111 88 106 C 100 101 107 99 115 101 L 115 105 L 101 115 L 66 115 L 53 105 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 62 L 94 62",
+          "color": "gold",
+          "width": 4.8
+        }
+      ]
+    },
+    {
+      "art": "nfsassemble",
+      "name": "极品飞车：集结",
+      "category": "游戏",
+      "packageId": "com.tencent.nfsonline",
+      "packageSource": "https://app.mi.com/details?id=com.tencent.nfsonline",
+      "components": [
+        "com.tencent.nfsonline/com.epicgames.ue4.GameActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.nfsonline",
+        "version": "1.10.78.3021857",
+        "channel": "应用汇分发"
+      },
+      "tone": "coral",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 41 101 L 65 65 L 81 65 L 62 101 Z M 71 101 L 95 65 L 111 65 L 92 101 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 102 101 L 121 70 L 131 77 L 115 101 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 43 111 C 59 110 74 121 88 118 C 101 115 112 109 122 111",
+          "color": "sand",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            50,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "themis",
+      "name": "未定事件簿",
+      "category": "游戏",
+      "packageId": "com.miHoYo.tot.cht",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.miHoYo.tot.cht",
+      "components": [
+        "com.miHoYo.tot.cht/com.miHoYo.wd.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "packageCandidate": "com.miHoYo.wd",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.miHoYo.tot.cht?version=latest",
+        "version": "6.2.0",
+        "channel": "港澳台版 · APKPure 分发"
+      },
+      "tone": "azure",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 93 L 118 93 L 118 112 L 49 112 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 96 C 70 102 88 75 118 96 L 117 111 L 49 111 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 52 L 83 98 M 58 65 L 108 65",
+          "color": "cobalt",
+          "width": 5.5
+        },
+        {
+          "type": "path",
+          "shape": "M 59 66 L 49 89 L 70 89 Z M 108 66 L 97 89 L 119 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 68 102 L 99 102",
+          "color": "cobalt",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            48,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "infinitylife",
+      "name": "以闪亮之名",
+      "category": "游戏",
+      "packageId": "com.zulong.yslzm",
+      "packageSource": "https://www.appchina.com/app/com.zulong.yslzm",
+      "components": [
+        "com.zulong.yslzm/com.epicgames.ue4.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.zulong.yslzm",
+        "version": "2.5.4",
+        "channel": "应用汇分发"
+      },
+      "tone": "iris",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 65 64 L 77 71 L 91 71 L 103 64 L 104 83 L 117 109 C 104 117 63 117 51 109 L 64 83 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 106 C 71 100 76 112 92 109 C 101 107 109 103 114 103 L 117 109 C 104 117 63 117 51 109 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 85 C 79 89 88 90 99 85",
+          "color": "plum",
+          "width": 4.4
+        },
+        {
+          "type": "path",
+          "shape": "M 84 46 L 88 55 L 96 58 L 88 61 L 84 71 L 81 61 L 72 58 L 81 55 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "shiningnikki",
+      "name": "闪耀暖暖",
+      "category": "游戏",
+      "packageId": "com.papegames.nn4.tw",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.papegames.nn4.tw",
+      "components": [
+        "com.papegames.nn4.tw/com.nikki.nn4lib.NN4PlayerActivity",
+        "com.papegames.nn4.tw/com.paper.x3.Icon01",
+        "com.papegames.nn4.tw/com.paper.x3.Icon02",
+        "com.papegames.nn4.tw/com.paper.x3.Icon03",
+        "com.papegames.nn4.tw/com.paper.x3.Icon04",
+        "com.papegames.nn4.tw/com.paper.x3.Icon05",
+        "com.papegames.nn4.tw/com.paper.x3.Icon06",
+        "com.papegames.nn4.tw/com.paper.x3.Icon07",
+        "com.papegames.nn4.tw/com.paper.x3.Icon08",
+        "com.papegames.nn4.tw/com.paper.x3.Icon09",
+        "com.papegames.nn4.tw/com.paper.x3.Icon10",
+        "com.papegames.nn4.tw/com.paper.x3.Icon11",
+        "com.papegames.nn4.tw/com.paper.x3.Icon12",
+        "com.papegames.nn4.tw/com.paper.x3.Icon13",
+        "com.papegames.nn4.tw/com.paper.x3.Icon14",
+        "com.papegames.nn4.tw/com.paper.x3.Icon15",
+        "com.papegames.nn4.tw/com.paper.x3.Icon16",
+        "com.papegames.nn4.tw/com.paper.x3.Icon17",
+        "com.papegames.nn4.tw/com.paper.x3.Icon18",
+        "com.papegames.nn4.tw/com.paper.x3.Icon19",
+        "com.papegames.nn4.tw/com.paper.x3.Icon20",
+        "com.papegames.nn4.tw/com.paper.x3.Icon21",
+        "com.papegames.nn4.tw/com.paper.x3.Icon22",
+        "com.papegames.nn4.tw/com.paper.x3.Icon23",
+        "com.papegames.nn4.tw/com.paper.x3.Icon24",
+        "com.papegames.nn4.tw/com.paper.x3.Icon25",
+        "com.papegames.nn4.tw/com.paper.x3.Icon26",
+        "com.papegames.nn4.tw/com.paper.x3.Icon27",
+        "com.papegames.nn4.tw/com.paper.x3.Icon28",
+        "com.papegames.nn4.tw/com.paper.x3.Icon29",
+        "com.papegames.nn4.tw/com.paper.x3.Icon30",
+        "com.papegames.nn4.tw/com.paper.x3.Icon31",
+        "com.papegames.nn4.tw/com.paper.x3.Icon32",
+        "com.papegames.nn4.tw/com.paper.x3.Icon33",
+        "com.papegames.nn4.tw/com.paper.x3.Icon34",
+        "com.papegames.nn4.tw/com.paper.x3.Icon35",
+        "com.papegames.nn4.tw/com.paper.x3.Icon36",
+        "com.papegames.nn4.tw/com.paper.x3.Icon37",
+        "com.papegames.nn4.tw/com.paper.x3.Icon38",
+        "com.papegames.nn4.tw/com.paper.x3.Icon39",
+        "com.papegames.nn4.tw/com.paper.x3.Icon40",
+        "com.papegames.nn4.tw/com.paper.x3.Icon41",
+        "com.papegames.nn4.tw/com.paper.x3.Icon42",
+        "com.papegames.nn4.tw/com.paper.x3.Icon43",
+        "com.papegames.nn4.tw/com.paper.x3.Icon44",
+        "com.papegames.nn4.tw/com.paper.x3.Icon45"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "packageCandidate": "com.papegames.nn4",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.papegames.nn4.tw?version=latest",
+        "version": "5.0.2551199",
+        "channel": "港澳台版 · APKPure 分发"
+      },
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 71 L 63 53 L 105 53 L 119 71 L 85 116 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 72 L 84 83 L 118 72 L 85 116 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 67 55 L 84 82 L 100 55 L 105 54 L 119 71 L 84 83 L 49 71 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 118 49 L 121 55 L 128 58 L 121 61 L 118 68 L 115 61 L 108 58 L 115 55 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 108 C 56 115 60 118 67 118",
+          "color": "paper",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "lightnight",
+      "name": "光与夜之恋",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.lv",
+      "packageSource": "https://www.appchina.com/app/com.tencent.tmgp.lv",
+      "components": [
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity0_0",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_1",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_10",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_11",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_12",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_13",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_14",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_15",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_16",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_17",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_18",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_19",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_2",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_20",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_21",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_22",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_23",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_24",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_25",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_26",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_27",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_28",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_29",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_3",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_30",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_31",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_32",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_33",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_34",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_35",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_36",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_37",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_38",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_39",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_4",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_5",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_6",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_7",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_8",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity1_9",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_1",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_10",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_11",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_12",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_13",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_14",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_15",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_16",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_17",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_18",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_19",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_2",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_20",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_21",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_22",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_23",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_24",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_25",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_26",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_27",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_28",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_29",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_3",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_30",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_31",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_32",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_33",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_34",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_35",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_36",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_37",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_38",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_39",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_4",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_5",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_6",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_7",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_8",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity2_9",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_1",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_10",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_11",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_12",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_13",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_14",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_15",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_16",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_17",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_18",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_19",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_2",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_20",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_21",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_22",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_23",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_24",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_25",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_26",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_27",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_28",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_29",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_3",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_30",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_31",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_32",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_33",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_34",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_35",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_36",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_37",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_38",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_39",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_4",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_5",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_6",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_7",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_8",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity3_9",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_1",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_10",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_11",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_12",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_13",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_14",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_15",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_16",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_17",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_18",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_19",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_2",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_20",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_21",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_22",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_23",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_24",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_25",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_26",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_27",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_28",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_29",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_3",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_30",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_31",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_32",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_33",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_34",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_35",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_36",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_37",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_38",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_39",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_4",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_5",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_6",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_7",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_8",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity4_9",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_1",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_10",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_11",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_12",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_13",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_14",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_15",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_16",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_17",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_18",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_19",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_2",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_20",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_21",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_22",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_23",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_24",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_25",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_26",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_27",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_28",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_29",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_3",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_30",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_31",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_32",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_33",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_34",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_35",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_36",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_37",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_38",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_39",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_4",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_5",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_6",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_7",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_8",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity5_9",
+        "com.tencent.tmgp.lv/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivityDefault"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.lv",
+        "version": "1.8.0811",
+        "channel": "应用汇分发"
+      },
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 65 C 63 53 77 60 84 70 C 93 59 107 55 118 65 C 131 79 115 105 84 118 C 53 105 37 79 50 65 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 90 C 59 82 75 90 84 100 C 94 90 109 83 120 84 C 114 99 100 110 84 118 C 66 110 54 100 48 90 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 65 L 89 80 L 103 84 L 89 88 L 84 105 L 79 88 L 65 84 L 79 80 Z",
+          "color": "plum",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "limbus",
+      "name": "Limbus Company",
+      "category": "游戏",
+      "packageId": "com.ProjectMoon.LimbusCompany",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.ProjectMoon.LimbusCompany",
+      "components": [
+        "com.ProjectMoon.LimbusCompany/com.ProjectMoon.LimbusCompany.LimbusCompanyActivity",
+        "com.ProjectMoon.LimbusCompany/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "onyx",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 100 L 53 65 L 67 53 L 102 53 L 116 65 L 116 101 L 105 112 L 64 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            61,
+            64,
+            46,
+            26,
+            6
+          ],
+          "color": "onyx",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 81 C 72 75 89 88 107 78 L 107 89 L 62 89 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            95,
+            10,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            95,
+            10,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 114 L 63 124 M 100 114 L 108 124 M 72 101 L 96 101",
+          "color": "sand",
+          "width": 4.3
+        }
+      ]
+    }
+  ]
+}

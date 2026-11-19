@@ -1,0 +1,235 @@
+{
+  "name": "1,040 款扩容 · 第二批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "lingodeer",
+      "name": "LingoDeer",
+      "packageId": "com.lingodeer",
+      "category": "AI",
+      "tone": "mint",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 79 C 61 65 75 62 84 68 C 97 62 107 65 114 78 C 119 98 105 113 84 113 C 63 113 51 98 55 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 73 L 60 64 L 57 51 M 65 67 L 69 54 M 101 73 L 109 64 L 111 51 M 107 67 L 102 54",
+          "color": "dark",
+          "width": 4.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            66,
+            81,
+            9,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            81,
+            9,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "path",
+          "shape": "M 79 91 L 91 91 L 85 97 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 74 102 C 80 106 91 106 96 101",
+          "color": "dark",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.lingodeer/com.lingo.lingoskill.ui.base.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "memrise",
+      "name": "Memrise",
+      "packageId": "com.memrise.android.memrisecompanion",
+      "category": "AI",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 98 L 60 61 L 73 61 L 84 77 L 95 61 L 109 61 L 120 107 L 106 107 L 101 83 L 84 105 L 67 83 L 61 107 L 48 107 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 74 63 L 83 58 L 91 64 L 84 74 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            57,
+            9,
+            9
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 112 L 103 112",
+          "color": "dark",
+          "width": 4
+        }
+      ],
+      "components": [
+        "com.memrise.android.memrisecompanion/com.memrise.android.memrisecompanion.ui.activity.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "anki",
+      "name": "AnkiDroid",
+      "packageId": "com.ichi2.anki",
+      "category": "AI",
+      "tone": "blue",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            48,
+            57,
+            65,
+            51,
+            7
+          ],
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            61,
+            62,
+            59,
+            52,
+            7
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 91 67 L 96 81 L 111 83 L 100 92 L 103 106 L 91 99 L 78 106 L 81 92 L 70 83 L 85 81 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            65,
+            8,
+            8
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 101 L 62 101",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.ichi2.anki/com.ichi2.anki.DeckPicker",
+        "com.ichi2.anki/com.ichi2.anki.IntentHandler",
+        "com.ichi2.anki/com.ichi2.anki.StudyOptions"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "ted",
+      "name": "TED",
+      "packageId": "com.ted.android",
+      "category": "AI",
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 59 L 120 59 L 116 100 L 93 100 L 82 113 L 78 100 L 48 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 75 L 76 75 M 66 75 L 66 91 M 82 75 L 94 75 M 82 82 L 92 82 M 82 90 L 94 90 M 102 75 L 107 75 C 117 75 117 90 107 90 L 102 90 L 102 75",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            57,
+            8,
+            8
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 114 L 76 114",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.ted.android/com.ted.android.MainActivity",
+        "com.ted.android/com.ted.android.view.activity.SplashScreenActivity",
+        "com.ted.android/com.ted.android.view.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ]
+    }
+  ]
+}

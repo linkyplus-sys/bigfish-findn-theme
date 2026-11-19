@@ -1,0 +1,953 @@
+{
+  "name": "800 款扩容 · 第五批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "apkPureApk": "https://apkpure.com/",
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "ziroom",
+      "name": "自如",
+      "packageId": "com.ziroom.ziroomcustomer",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 76 L 71 56 L 97 76 L 91 84 L 71 70 L 51 84 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            75,
+            36,
+            36
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            83,
+            17,
+            17
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 87 L 122 87 L 122 97 L 115 97 L 115 106 L 106 106 L 106 98 L 98 98 L 98 104 L 89 104 L 89 97 L 84 97 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 88 92 L 118 92",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            62,
+            10,
+            10
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.ziroom.ziroomcustomer",
+      "components": [
+        "com.ziroom.ziroomcustomer/com.ziroom.ziroomcustomer.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.ziroom.ziroomcustomer?version=latest",
+        "version": "7.20.4",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "mtime",
+      "name": "时光网",
+      "packageId": "com.mtime",
+      "category": "生活服务",
+      "tone": "blue",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 94 L 61 67 L 116 67 L 123 84 L 111 108 L 48 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 86 L 119 86 L 111 107 L 50 107 Z",
+          "color": "blue",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 67 L 116 67 L 123 82 L 53 82 Z",
+          "color": "ice",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 68 L 59 81 M 87 68 L 79 81 M 108 68 L 100 81",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 78 89 L 98 96 L 78 105 Z",
+          "color": "white",
+          "width": 0
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.mtime",
+      "components": [
+        "com.mtime/com.mtime.bussiness.splash.SplashNewActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.mtime",
+        "version": "10.2.5",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "shihuo",
+      "name": "识货",
+      "packageId": "com.hupu.shihuo",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 91 C 59 88 63 71 76 69 C 81 76 87 83 98 84 L 118 83 L 124 94 C 123 104 115 108 103 108 L 57 108 C 47 107 42 102 46 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 99 C 65 101 80 102 103 102 C 111 101 118 97 122 93",
+          "color": "coral",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 78 L 79 81 M 76 85 L 85 88",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "path",
+          "shape": "M 100 62 L 108 52 L 113 62 L 124 66 L 114 70 L 109 79 L 105 70 L 96 68 Z",
+          "color": "gold",
+          "width": 1
+        }
+      ],
+      "components": [
+        "com.hupu.shihuo/com.hupu.shihuo.view.activity.WelcomeActivity",
+        "com.hupu.shihuo/com.shizhi.shihuoapp.module.main.ui.welcome.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ]
+    },
+    {
+      "art": "qijia",
+      "name": "齐家网",
+      "packageId": "com.qijia.o2o",
+      "category": "生活服务",
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 78 L 84 51 L 121 78 L 111 81 L 111 111 L 57 111 L 57 81 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 79 L 84 63 L 107 79 L 107 103 L 61 103 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 69 80 L 97 80 L 97 89 L 87 89 L 87 106 L 77 106 L 77 89 L 69 89 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            58,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.qijia.o2o",
+      "components": [
+        "com.qijia.o2o/com.jia.zixun.ui.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.qijia.o2o",
+        "version": "5.7.6",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "dangdang",
+      "name": "当当",
+      "packageId": "com.dangdang.buy2",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 66 C 64 60 77 68 84 76 C 93 68 106 60 123 66 L 120 103 C 105 100 94 104 84 112 C 74 104 62 101 48 104 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 89 73 L 102 67 L 102 98 L 96 94 L 89 100 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 79 L 84 108 M 57 78 L 73 84 M 57 89 L 73 94",
+          "color": "dark",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            86,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.dangdang.buy2",
+      "components": [
+        "com.dangdang.buy2/com.dangdang.buy2.StartupActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.dangdang.buy2",
+        "version": "16.11.0",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "weidianbuyer",
+      "name": "微店",
+      "packageId": "com.koudai.weidian.buyer",
+      "category": "生活服务",
+      "tone": "coral",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 77 L 57 56 L 111 56 L 121 77 L 116 110 L 52 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 77 L 121 77 C 117 88 110 92 102 84 C 96 92 89 92 84 84 C 75 92 70 91 65 84 C 57 91 49 87 47 77 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 58 L 70 58 L 66 77 L 53 77 Z M 82 58 L 91 58 L 93 77 L 79 77 Z M 104 58 L 110 58 L 119 77 L 106 77 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "round",
+          "box": [
+            63,
+            93,
+            26,
+            12,
+            4
+          ],
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "round",
+          "box": [
+            96,
+            92,
+            10,
+            18,
+            3
+          ],
+          "color": "plum",
+          "width": 0
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.koudai.weidian.buyer",
+      "components": [
+        "com.koudai.weidian.buyer/com.koudai.weidian.buyer.activity.WDInitActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.koudai.weidian.buyer",
+        "version": "7.9.65",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "xcar",
+      "name": "爱卡汽车",
+      "packageId": "com.xcar.activity",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 86 L 59 79 L 65 62 L 101 62 L 110 79 L 121 86 L 117 106 L 51 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 71 69 L 96 69 L 102 79 L 65 79 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 99 L 73 88 M 62 88 L 73 99 M 96 99 L 107 88 M 96 88 L 107 99",
+          "color": "azure",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 98 L 92 98",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            102,
+            10,
+            10
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            102,
+            10,
+            10
+          ],
+          "color": "ink"
+        }
+      ],
+      "packageSource": "https://app.xcar.com.cn/",
+      "components": [
+        "com.xcar.activity/com.xcar.activity.ui.navigation.EntryActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.xcar.activity?version=latest",
+        "version": "11.1.4",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "booheefit",
+      "name": "薄荷健康",
+      "packageId": "com.boohee.food",
+      "category": "生活服务",
+      "tone": "mint",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 94 C 50 73 62 59 84 61 C 94 68 98 83 84 97 C 72 108 58 111 51 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 97 C 81 76 96 62 119 62 C 119 87 106 105 84 97 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 91 C 73 82 77 76 82 72 M 91 93 C 102 86 108 77 113 70",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 83 106 L 91 111 L 102 103 L 99 98 Z",
+          "color": "jade",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.boohee.food/com.boohee.food.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ]
+    },
+    {
+      "art": "nowcasting",
+      "name": "彩云天气",
+      "packageId": "com.nowcasting.activity",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            52,
+            37,
+            38
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "path",
+          "shape": "M 49 91 C 49 79 57 74 68 76 C 73 64 85 61 96 70 C 108 66 118 74 120 85 C 124 97 117 107 105 107 L 64 107 C 52 107 48 101 49 91 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 94 C 67 84 91 101 118 87 C 122 100 110 107 104 107 L 64 107 C 55 107 51 102 52 94 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 111 C 76 107 89 119 106 113",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.nowcasting.activity?version=latest",
+      "components": [
+        "com.nowcasting.activity/com.nowcasting.activity.SplashActivity",
+        "com.nowcasting.activity/com.nowcasting.container.logo.LogoReplaceActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.nowcasting.activity?version=latest",
+        "version": "7.43.1",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "foreca",
+      "name": "Foreca Weather",
+      "packageId": "com.foreca.android.weather",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 90 C 54 81 65 79 73 83 C 80 67 93 64 103 75 C 114 73 120 82 121 91 C 118 103 108 103 101 103 L 63 103 C 53 103 47 100 49 90 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 65 105 L 76 87 L 90 85 L 84 101 L 97 101 L 75 119 L 80 106 Z",
+          "color": "gold",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            57,
+            19,
+            19
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 55 L 57 50 M 66 54 L 73 49 M 77 62 L 84 64",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.foreca.android.weather/com.foreca.android.weather.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "ventusky",
+      "name": "Ventusky",
+      "packageId": "cz.ackee.ventusky",
+      "category": "生活服务",
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 51 76 C 62 56 103 51 117 66 C 128 80 105 85 88 82 C 67 77 61 89 68 97 C 80 108 106 100 116 93",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 91 C 45 108 84 119 101 109",
+          "color": "mint",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            59,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "cz.ackee.ventusky/cz.ackee.ventusky.screens.MainActivity",
+        "cz.ackee.ventusky/cz.ackee.ventusky.screens.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "ups",
+      "name": "UPS",
+      "packageId": "com.ups.mobile.android",
+      "category": "生活服务",
+      "tone": "sand",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 64 L 83 54 L 117 64 L 112 95 L 84 115 L 56 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 73 L 84 62 L 107 73 L 107 93 L 84 105 L 61 93 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 61 73 L 84 83 L 107 73 L 84 62 Z",
+          "color": "sand",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 83 L 84 105 M 68 77 L 86 69",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 98 L 83 110 L 105 96",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "components": [
+        "com.ups.mobile.android/com.ups.mobile.android.MainActivity",
+        "com.ups.mobile.android/com.ups.mobile.android.beta.MainActivity",
+        "com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "fedex",
+      "name": "FedEx",
+      "packageId": "com.fedex.ida.android",
+      "category": "生活服务",
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 77 L 92 77 L 91 63 L 125 85 L 91 108 L 92 94 L 43 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 64 L 79 64 L 79 73 L 47 73 Z",
+          "color": "iris",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 46 98 L 77 98 L 77 106 L 46 106 Z",
+          "color": "orange",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 86 85 L 109 85",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            63,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.fedex.ida.android/com.fedex.ida.android.views.core.FedExHOME"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "dhl",
+      "name": "DHL Express Mobile",
+      "packageId": "com.dhl.exp.dhlmobile",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "tile",
+      "previewName": "DHL Express",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 65 L 95 65 L 120 82 L 120 103 L 48 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 97 68 L 115 82 L 96 82 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 89 L 119 89",
+          "color": "crimson",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            60,
+            96,
+            15,
+            15
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            96,
+            15,
+            15
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 63 L 57 63 M 43 74 L 54 74",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.dhl.exp.dhlmobile/com.dhl.exp.dhlmobile.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "track17",
+      "name": "17TRACK",
+      "packageId": "yqtrack.app",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "tile",
+      "previewName": "17TRACK",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 76 L 60 59 L 102 59 L 124 77 L 118 111 L 47 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 72 L 116 72 L 116 100 L 53 100 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 93 L 73 85 L 87 92 L 106 78",
+          "color": "cobalt",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            89,
+            8,
+            8
+          ],
+          "color": "white"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            74,
+            9,
+            9
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 105 L 84 105",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "yqtrack.app/yqtrack.app.MainActivity",
+        "yqtrack.app/yqtrack.app.ui.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "lyft",
+      "name": "Lyft",
+      "packageId": "me.lyft.android",
+      "category": "生活服务",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 94 C 55 92 58 85 63 73 C 67 62 79 62 86 67 C 92 69 96 77 103 75 L 121 68 L 118 83 C 110 93 98 104 85 107 C 67 110 56 106 45 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 99 C 70 101 88 95 102 82",
+          "color": "crimson",
+          "width": 5.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            72,
+            10,
+            9
+          ],
+          "color": "dark"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            56,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "me.lyft.android/me.lyft.android.ui.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "alltrails",
+      "name": "AllTrails",
+      "packageId": "com.alltrails.alltrails",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 100 L 69 66 L 84 88 L 101 59 L 123 101 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 67 L 76 78 L 69 76 L 62 79 Z M 101 60 L 110 76 L 101 73 L 94 76 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 109 C 66 88 87 111 117 91",
+          "color": "mint",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            53,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.alltrails.alltrails/com.alltrails.alltrails.StartActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "cookpad",
+      "name": "Cookpad",
+      "packageId": "com.mufumbo.android.recipe.search",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 60 87 C 48 86 47 69 58 63 C 64 60 71 61 75 63 C 79 50 91 49 98 61 C 109 58 118 62 120 71 C 123 79 117 87 108 87 L 105 109 L 64 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 66 96 L 105 96 L 105 105 L 66 105 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 74 L 76 83 M 96 74 L 92 82 M 77 91 C 82 96 87 96 93 90",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            57,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.mufumbo.android.recipe.search/com.cookpad.android.app.gateway.GatewayActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

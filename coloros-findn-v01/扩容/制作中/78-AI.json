@@ -1,0 +1,162 @@
+{
+  "name": "1,040 款扩容 · 第四批 · AI",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "shanbayreader",
+      "name": "扇贝阅读",
+      "packageId": "com.shanbay.news",
+      "category": "AI",
+      "tone": "jade",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 64 C 63 59 75 62 84 71 C 94 62 106 60 120 65 L 118 104 C 103 101 93 106 84 114 C 74 105 61 103 50 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 75 L 84 110",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 88 77 C 109 67 121 81 108 97 C 99 99 92 96 88 77 Z",
+          "color": "jade",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 95 92 L 95 78 M 100 94 L 103 80 M 105 93 L 111 84",
+          "color": "white",
+          "width": 3.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 81 L 73 85 M 57 91 L 70 94",
+          "color": "dark",
+          "width": 3.5
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.shanbay.news",
+      "components": [
+        "com.shanbay.news/com.shanbay.core.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.shanbay.news",
+        "version": "4.5.1500",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "hujdict",
+      "name": "沪江小D",
+      "packageId": "com.hujiang.dict",
+      "category": "AI",
+      "tone": "mint",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 64 L 80 64 L 85 72 L 120 72 L 116 108 L 48 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 80 L 80 80 M 69 72 L 69 87 M 58 88 C 62 98 76 97 81 88",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 88 95 L 102 73 L 114 95 L 109 100 L 101 87 L 93 100 Z",
+          "color": "teal",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            107,
+            62,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageSource": "https://d.apkpure.com/b/APK/com.hujiang.dict?version=latest",
+      "components": [
+        "com.hujiang.dict/com.hujiang.dict.ui.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.hujiang.dict?version=latest",
+        "version": "3.9.20",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "brilliant",
+      "name": "Brilliant",
+      "packageId": "org.brilliant.android",
+      "category": "AI",
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 50 L 116 64 L 119 90 L 102 111 L 73 114 L 51 98 L 49 71 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 65 L 106 82 L 90 104 L 68 95 L 61 76 Z",
+          "color": "onyx",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 71 L 84 65 L 116 64 M 61 76 L 90 104 L 102 111 M 84 65 L 90 104 M 68 95 L 106 82",
+          "color": "mint",
+          "width": 3.9
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            80,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "org.brilliant.android/org.brilliant.android.ui.common.BrActivity",
+        "org.brilliant.android/org.brilliant.android.ui.common.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

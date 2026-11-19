@@ -1,0 +1,861 @@
+{
+  "name": "游戏 · 500 款扩容第四批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/",
+    "miStoreApk": "https://app.mi.com/"
+  },
+  "apps": [
+    {
+      "art": "komori",
+      "name": "小森生活",
+      "category": "游戏",
+      "packageId": "com.tencent.forest",
+      "components": [
+        "com.tencent.forest/com.tencent.komorilife.TXPolicyActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "mint",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 90 L 83 58 L 114 90 L 109 112 L 57 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 113 L 61 85 L 83 66 L 105 85 L 105 113 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 72 C 47 53 64 47 78 50 C 76 67 64 75 50 72 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 106 C 69 100 81 117 104 104 L 110 113 C 97 125 72 125 56 114 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 76 114 L 76 93 L 90 93 L 90 114 Z",
+          "color": "teal",
+          "width": 1.8
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.forest?version=latest",
+        "version": "1.16.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "molemanor",
+      "name": "摩尔庄园",
+      "category": "游戏",
+      "packageId": "com.taomee.molenew.mi",
+      "components": [
+        "com.taomee.molenew.mi/com.taomee.u8unitybridge.activity.TaomeeActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 54 71 C 55 60 68 54 84 54 C 101 54 112 61 115 73 C 127 76 131 90 121 99 C 112 114 97 119 84 119 C 69 119 55 112 48 101 C 39 93 42 76 54 71 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 97 C 64 91 79 110 98 107 C 111 105 113 99 122 98 C 113 114 100 119 84 119 C 69 119 56 110 51 97 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            82,
+            22,
+            16
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            64,
+            75,
+            7,
+            9
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            98,
+            75,
+            7,
+            9
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 105 C 81 108 87 108 91 105",
+          "color": "crimson",
+          "width": 3.2
+        }
+      ],
+      "packageCandidate": "com.leiting.mole",
+      "packageSource": "https://app.mi.com/details?id=com.taomee.molenew.mi",
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.taomee.molenew.mi",
+        "version": "2.9.24091002S",
+        "channel": "小米应用商店渠道 APK"
+      }
+    },
+    {
+      "art": "aobi",
+      "name": "奥比岛：梦想国度",
+      "category": "游戏",
+      "packageId": "com.baitian.aobi.czs.mi",
+      "components": [
+        "com.baitian.aobi.czs.mi/com.leiting.sdk.activity.PrivacyActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "tone": "gold",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            50,
+            26,
+            25
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            50,
+            26,
+            25
+          ],
+          "color": "sand"
+        },
+        {
+          "type": "path",
+          "shape": "M 49 86 C 49 65 65 55 84 55 C 103 55 119 65 119 86 C 119 107 104 119 84 119 C 64 119 49 107 49 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 97 C 60 92 73 103 84 103 C 97 103 107 93 119 98 C 114 111 101 119 84 119 C 65 119 54 109 49 97 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 83 L 87 90 L 95 91 L 90 97 L 91 105 L 84 101 L 77 105 L 78 97 L 73 91 L 81 90 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            63,
+            80,
+            8,
+            10
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            80,
+            8,
+            10
+          ],
+          "color": "onyx"
+        }
+      ],
+      "packageCandidate": "com.leiting.aobi",
+      "packageSource": "https://app.mi.com/details?id=com.baitian.aobi.czs.mi",
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.baitian.aobi.czs.mi",
+        "version": "3.0.26091801S",
+        "channel": "小米应用商店渠道 APK"
+      }
+    },
+    {
+      "art": "sausageman",
+      "name": "香肠派对",
+      "category": "游戏",
+      "packageId": "com.sofunny.Sausage",
+      "components": [
+        "com.sofunny.Sausage/com.funny.FunActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 66 66 C 66 48 96 45 106 58 C 115 73 109 103 94 116 C 78 130 52 115 57 101 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 92 C 75 78 97 93 108 78 C 107 93 103 108 94 116 C 78 130 52 115 57 101 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 60 72 C 62 55 90 51 105 62 L 112 76 C 96 83 76 83 60 79 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 88 L 93 88",
+          "color": "onyx",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            88,
+            102,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.sofunny.Sausage?version=latest",
+        "version": "14.35",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "snakes",
+      "name": "贪吃蛇大作战",
+      "category": "游戏",
+      "packageId": "com.wepie.snake",
+      "components": [
+        "com.wepie.snake/com.wepie.snake.activity.StartActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 57 112 C 39 97 61 85 76 91 C 101 102 113 92 109 83 C 105 75 87 75 83 67 C 77 54 92 48 108 52",
+          "color": "paper",
+          "width": 13
+        },
+        {
+          "type": "path",
+          "shape": "M 100 45 C 115 43 126 48 126 54 C 126 61 114 67 101 65 C 93 64 94 48 100 45 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            50,
+            8,
+            7
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            45,
+            67,
+            12,
+            12
+          ],
+          "color": "coral"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.wepie.snake?version=latest",
+        "version": "1.5.2",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "bigtwogame",
+      "name": "球球大作战",
+      "category": "游戏",
+      "packageId": "com.ztgame.bob.mi",
+      "packageSource": "https://app.mi.com/details?id=com.ztgame.bob.mi",
+      "components": [
+        "com.ztgame.bob.mi/com.ztgame.bob.policy.PolicyActivity"
+      ],
+      "sourceKeys": [
+        "miStoreApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.ztgame.bob.mi",
+        "version": "19.7.4",
+        "channel": "小米应用商店渠道 APK"
+      },
+      "tone": "blue",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            54,
+            62,
+            62
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 51 88 C 63 78 78 98 93 91 C 102 87 107 83 112 83 C 113 101 103 116 80 116 C 66 116 54 107 51 88 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            62,
+            66,
+            8,
+            8
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            95,
+            73,
+            36,
+            36
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            79,
+            7,
+            7
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 117 C 54 124 70 128 81 126",
+          "color": "white",
+          "width": 4.3
+        }
+      ]
+    },
+    {
+      "art": "hlddz",
+      "name": "欢乐斗地主",
+      "category": "游戏",
+      "packageId": "com.qqgame.hlddz",
+      "components": [
+        "com.qqgame.hlddz/com.qqgame.hlddz.MainAliasDefault",
+        "com.qqgame.hlddz/com.qqgame.hlddz.MainAliasFestival"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 56 L 96 49 L 105 106 L 55 115 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 53 L 115 58 L 110 118 L 56 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 85 68 C 88 77 98 76 100 86 C 101 94 92 99 86 94 L 91 104 L 76 104 L 81 94 C 74 100 65 95 67 86 C 70 76 81 76 85 68 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 88 115 C 101 111 111 118 124 109",
+          "color": "ice",
+          "width": 4
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.qqgame.hlddz",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.qqgame.hlddz?version=latest",
+        "version": "8.053.016",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "hlmj",
+      "name": "欢乐麻将",
+      "category": "游戏",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 53 L 111 50 L 117 104 L 108 118 L 55 118 L 50 105 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 55 L 109 52 L 113 100 L 58 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 73 L 103 73 M 76 65 L 76 83 M 91 63 L 91 82 M 68 92 C 81 95 92 86 104 90",
+          "color": "jade",
+          "width": 4.7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            104,
+            7,
+            7
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "pvz2cn",
+      "name": "植物大战僵尸 2",
+      "category": "游戏",
+      "packageId": "com.ea.game.pvz2_row",
+      "components": [
+        "com.ea.game.pvz2_row/com.popcap.PvZ2.PvZ2GameActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "lime",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 84 114 L 84 88",
+          "color": "jade",
+          "width": 7
+        },
+        {
+          "type": "path",
+          "shape": "M 67 105 C 59 97 53 99 47 100 C 48 111 62 117 76 114 Z M 92 105 C 105 93 118 97 125 100 C 121 113 102 120 89 114 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 53 C 102 53 108 56 109 68 C 119 66 127 72 125 84 C 124 93 113 96 104 92 C 97 101 79 101 67 93 C 52 82 62 53 83 53 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            75,
+            64,
+            11,
+            14
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            73,
+            9,
+            13
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            48,
+            49,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageCandidate": "com.popcap.pvz2cthd",
+      "packageSource": "https://play.google.com/store/apps/details?id=com.ea.game.pvz2_row",
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.ea.game.pvz2_row?version=latest",
+        "version": "13.6.1",
+        "channel": "国际版 · APKPure 分发"
+      }
+    },
+    {
+      "art": "portia",
+      "name": "波西亚时光",
+      "category": "游戏",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "blue",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 73 51 L 95 51 L 99 63 L 111 61 L 120 81 L 110 89 L 113 102 L 94 114 L 84 108 L 74 116 L 55 105 L 58 91 L 47 84 L 55 64 L 69 64 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 92 L 83 73 L 106 92 L 102 106 L 67 106 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 105 L 78 94 L 89 94 L 89 105 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 118 C 59 114 70 121 84 121 C 99 121 104 115 116 115",
+          "color": "mint",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "terraria",
+      "name": "泰拉瑞亚",
+      "category": "游戏",
+      "packageId": "com.and.games505.TerrariaPaid",
+      "components": [
+        "com.and.games505.TerrariaPaid/com.codeglue.terraria.Terraria",
+        "com.and.games505.TerrariaPaid/com.d.a",
+        "com.and.games505.TerrariaPaid/com.me.game.pm_tools.MainActivity",
+        "com.and.games505.TerrariaPaid/com.me.game.pmupdatesdk.MainActivity",
+        "com.and.games505.TerrariaPaid/com.unity3d.player.UnityPlayerActivity",
+        "com.and.games505.TerrariaPaid/com.zhizhuang.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 87 L 123 87 L 123 111 L 114 120 L 52 120 L 45 111 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 45 86 L 62 86 L 62 81 L 83 81 L 83 89 L 101 89 L 101 82 L 123 82 L 123 98 L 45 98 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 74 88 L 74 63 L 65 63 L 65 54 L 84 44 L 103 54 L 103 65 L 92 65 L 92 88 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 73 L 88 73 L 88 89 L 78 89 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            64,
+            104,
+            13,
+            7,
+            2
+          ],
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            92,
+            111,
+            13,
+            5,
+            2
+          ],
+          "color": "cobalt",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "stardew",
+      "name": "星露谷物语",
+      "category": "游戏",
+      "packageId": "com.chucklefish.stardewvalley",
+      "components": [
+        "com.chucklefish.stardewvalley/com.chucklefish.stardewvalley.MainActivity",
+        "com.chucklefish.stardewvalley/crc64e8b22d3833b21ea5.MainActivity",
+        "com.chucklefish.stardewvalley/md5dee79b5aa46d0ac87adbcd4b193daa49.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 104 C 59 90 70 95 80 101 C 96 110 105 95 125 99 L 124 118 L 44 118 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 88 L 83 62 L 108 88 L 106 111 L 61 111 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 89 L 83 60 L 114 89 L 106 94 L 83 70 L 60 94 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 77 110 L 77 92 L 89 92 L 89 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            49,
+            14,
+            14
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 124 L 66 124 M 103 124 L 118 124",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "deadcells",
+      "name": "重生细胞",
+      "category": "游戏",
+      "packageId": "com.playdigious.deadcells.mobile",
+      "components": [
+        "com.playdigious.deadcells.mobile/com.an1.unpackdata.MainActivity",
+        "com.playdigious.deadcells.mobile/com.playdigious.deadcells.mobile.DeadCellsLoader",
+        "com.playdigious.deadcells.mobile/com.playdigious.deadcells.mobile.DeadCellsLoading"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "plum",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 79 59 C 64 51 69 45 78 44 C 87 45 93 48 99 43 C 111 54 104 66 99 71 C 112 78 110 98 96 103 L 95 120 L 71 120 L 72 104 C 58 93 63 77 73 69 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 84 C 71 81 87 86 102 76 C 109 87 107 101 96 104 L 95 120 L 71 120 L 72 104 C 67 100 63 95 63 84 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 73 C 66 72 74 64 86 63 C 97 61 108 69 121 65",
+          "color": "coral",
+          "width": 6.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            77,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "minimetro",
+      "name": "迷你地铁",
+      "category": "游戏",
+      "packageId": "nz.co.codepoint.minimetro",
+      "components": [
+        "nz.co.codepoint.minimetro/com.ads.ad.SplashAdActivity",
+        "nz.co.codepoint.minimetro/com.aiwu.Splash",
+        "nz.co.codepoint.minimetro/com.dbgj.stasdk.activity.StaWelcomeActivity",
+        "nz.co.codepoint.minimetro/com.dinopoloclub.minimetro.nbo.LicensedActivity",
+        "nz.co.codepoint.minimetro/com.game.nc.PreActivity",
+        "nz.co.codepoint.minimetro/com.qihoo.util.StartActivity",
+        "nz.co.codepoint.minimetro/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "paper",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 50 55 L 80 55 L 118 93 L 118 116",
+          "color": "coral",
+          "width": 6.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 110 L 75 84 L 97 84 L 121 58",
+          "color": "cobalt",
+          "width": 6.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 58 L 62 74 L 82 94 L 82 121",
+          "color": "jade",
+          "width": 6.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            44,
+            49,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "round",
+          "box": [
+            62,
+            94,
+            12,
+            12,
+            2
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            75,
+            13,
+            13
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            112,
+            93,
+            12,
+            12
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 73 109 L 83 102 L 92 113 Z",
+          "color": "paper",
+          "width": 1.8
+        }
+      ]
+    }
+  ]
+}

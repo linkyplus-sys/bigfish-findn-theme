@@ -1,0 +1,476 @@
+{
+  "name": "金融 · 500 款扩容",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "ths",
+      "name": "同花顺",
+      "category": "金融",
+      "packageId": "com.hexin.plat.android",
+      "packageSource": "https://app.mi.com/details?id=com.hexin.plat.android",
+      "components": [
+        "com.hexin.plat.android/com.hexin.plat.android.AndroidLogoActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            39,
+            43,
+            90,
+            93,
+            18
+          ],
+          "color": "coral",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 110 L 66 89 L 83 100 L 117 60 M 102 62 L 117 59 L 118 74",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 125 L 111 125",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            85,
+            15,
+            14
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            51,
+            17,
+            16
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "eastmoney",
+      "name": "东方财富",
+      "category": "金融",
+      "packageId": "com.eastmoney.android.berlin",
+      "packageSource": "https://app.mi.com/details?id=com.eastmoney.android.berlin",
+      "components": [
+        "com.eastmoney.android.berlin/com.eastmoney.android.berlin.activity.MainActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "orange",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            60,
+            78,
+            70,
+            13
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 54 111 L 66 111 L 66 120 L 54 120 Z M 78 96 L 90 96 L 90 120 L 78 120 Z M 102 82 L 114 82 L 114 120 L 102 120 Z",
+          "color": "crimson",
+          "width": 1.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 95 L 80 76 L 110 68",
+          "color": "orange",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            47,
+            41,
+            14,
+            14
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "picc",
+      "name": "中国人保",
+      "category": "金融",
+      "packageId": "com.cloudpower.netsale.activity",
+      "packageSource": "https://app.mi.com/details?id=com.cloudpower.netsale.activity",
+      "components": [
+        "com.cloudpower.netsale.activity/com.picc.aasipods.module.launch.view.AppLaunchActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 67 C 53 57 67 61 80 65 C 92 62 106 55 119 60 C 125 62 128 66 128 72 C 112 88 101 105 84 119 C 65 106 51 90 42 67 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 84 80 C 80 70 73 67 65 72 C 57 78 62 90 73 98 L 84 107 C 94 100 109 90 109 79 C 109 70 95 69 84 80 Z",
+          "color": "crimson",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 66 128 L 102 128",
+          "color": "gold",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "pingancar",
+      "name": "平安好车主",
+      "category": "金融",
+      "packageId": "com.pingan.carowner",
+      "packageSource": "https://app.mi.com/details?id=com.pingan.carowner",
+      "components": [
+        "com.pingan.carowner/com.pingan.carowner.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "orange",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 105 L 47 89 L 57 81 L 64 64 L 103 64 L 111 81 L 121 89 L 121 105 L 113 105 L 113 114 L 102 114 L 102 105 L 66 105 L 66 114 L 55 114 L 55 105 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 66 81 L 71 69 L 96 69 L 102 81 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            55,
+            88,
+            10,
+            10
+          ],
+          "color": "orange"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            88,
+            10,
+            10
+          ],
+          "color": "orange"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 61 121 L 108 121",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.pingan.carowner",
+        "version": "6.08.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "cib",
+      "name": "兴业银行",
+      "category": "金融",
+      "packageId": "com.cib.cibmb",
+      "components": [
+        "com.cib.cibmb/com.newland.app.ui.firstpage.FirstPageActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "blue",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 105 C 48 94 55 80 62 66 C 68 53 73 48 84 45 L 84 62 C 74 67 70 79 67 88 L 76 88 L 76 105 Z M 125 105 C 120 94 113 80 106 66 C 100 53 95 48 84 45 L 84 62 C 94 67 98 79 101 88 L 92 88 L 92 105 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 118 L 115 118",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            76,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.cib.cibmb",
+        "version": "8.0.6",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "spdb",
+      "name": "浦发银行",
+      "category": "金融",
+      "packageId": "cn.com.spdb.mobilebank.per",
+      "packageSource": "https://app.mi.com/details?id=cn.com.spdb.mobilebank.per",
+      "components": [
+        "cn.com.spdb.mobilebank.per/cn.com.spdb.mobilebank.per.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "blue",
+      "form": "coin",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 41 95 C 54 75 64 65 83 64 C 103 64 112 73 128 71 C 120 93 107 105 84 104 C 66 104 57 96 41 95 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 41 95 C 59 91 70 78 84 72 C 105 63 114 72 128 71 C 119 82 111 92 99 92 C 76 92 69 104 41 105 Z",
+          "color": "mint",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 120 L 109 120",
+          "color": "white",
+          "width": 3.2
+        }
+      ]
+    },
+    {
+      "art": "mybank",
+      "name": "网商银行",
+      "category": "金融",
+      "packageId": "com.mybank.android.phone",
+      "components": [
+        "com.mybank.android.phone/com.alipay.mobile.quinox.LauncherActivity",
+        "com.mybank.android.phone/com.mybank.android.phone.MainActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ],
+      "tone": "teal",
+      "form": "wallet",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 118 L 51 68 L 84 51 L 117 68 L 117 118 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 60 99 C 67 92 76 91 84 97 C 93 91 101 92 108 99 L 108 111 L 60 111 Z",
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 79 L 97 79 M 70 85 L 99 85",
+          "color": "teal",
+          "width": 3.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            121,
+            72,
+            11,
+            11
+          ],
+          "color": "gold"
+        }
+      ],
+      "packageCandidate": "com.mybank.android",
+      "packageSource": "https://app.mi.com/details?id=com.mybank.android.phone"
+    },
+    {
+      "art": "webull",
+      "name": "微牛",
+      "category": "金融",
+      "packageId": "org.dayup.stocks",
+      "components": [
+        "org.dayup.stocks/org.dayup.stocks.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 87 C 51 85 58 80 62 71 L 64 54 L 72 70 C 78 68 90 68 96 70 L 104 54 L 106 71 C 110 80 117 85 126 87 C 119 104 106 117 84 121 C 62 117 49 104 42 87 Z",
+          "color": "paper",
+          "width": 2.4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 97 L 72 93 L 83 99 L 106 83",
+          "color": "blue",
+          "width": 5.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 109 83 L 109 91",
+          "color": "blue",
+          "width": 3
+        }
+      ],
+      "packageCandidate": "com.webull.trade",
+      "packageSource": "https://play.google.com/store/apps/details?id=org.dayup.stocks"
+    },
+    {
+      "art": "monzo",
+      "name": "Monzo",
+      "category": "金融",
+      "packageId": "co.uk.getmondo",
+      "components": [
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity",
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Black_Culture",
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Investor",
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Upgrade_Hot_Coral",
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonBlue",
+        "co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_YoungNeonYellow"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "sunset",
+      "form": "card",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 111 L 46 58 L 62 52 L 84 74 L 105 52 L 122 58 L 122 111 L 105 119 L 105 79 L 84 102 L 63 79 L 63 119 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 46 58 L 62 52 L 62 79 L 46 90 Z",
+          "color": "gold",
+          "width": 1.7
+        },
+        {
+          "type": "path",
+          "shape": "M 106 53 L 122 58 L 122 90 L 106 79 Z",
+          "color": "teal",
+          "width": 1.7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 119 L 94 119",
+          "color": "white",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "n26",
+      "name": "N26",
+      "category": "金融",
+      "packageId": "de.number26.android",
+      "components": [
+        "de.number26.android/com.n26.home.presentation.HomeActivity",
+        "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.BlackActivityLauncher",
+        "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.PrideActivityLauncher",
+        "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.RavenActivityLauncher",
+        "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.TealActivityLauncher",
+        "de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.WheatActivityLauncher",
+        "de.number26.android/de.number26.machete.android.ui.landing.LandingActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "teal",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            32,
+            54,
+            104,
+            67,
+            14
+          ],
+          "color": "ink",
+          "width": 2
+        },
+        {
+          "type": "text",
+          "label": "N26",
+          "size": 34,
+          "x": 84,
+          "y": 64,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 41 110 L 125 110",
+          "color": "ice",
+          "width": 3.2
+        }
+      ]
+    }
+  ]
+}

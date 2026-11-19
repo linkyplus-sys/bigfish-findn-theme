@@ -1,0 +1,928 @@
+{
+  "name": "日常应用 · 800 款扩容第一批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "toutiao",
+      "name": "今日头条",
+      "category": "日常应用",
+      "packageId": "com.ss.android.article.news",
+      "components": [
+        "com.ss.android.article.news/com.ss.android.article.news.activity.MainActivity",
+        "com.ss.android.article.news/com.ss.android.article.news.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ],
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 52 L 110 52 L 119 63 L 119 110 C 119 116 114 119 108 119 L 60 119 C 52 119 49 115 49 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 93 C 67 89 89 113 118 94 L 118 110 C 118 116 113 118 107 118 L 60 118 C 53 118 50 114 50 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            57,
+            62,
+            53,
+            14,
+            4
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 86 L 101 86 M 62 96 L 87 96",
+          "color": "dark",
+          "width": 4.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            99,
+            94,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "douban",
+      "name": "豆瓣",
+      "category": "日常应用",
+      "packageId": "com.douban.frodo",
+      "components": [
+        "com.douban.frodo/com.douban.frodo.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 86 47 C 105 50 123 70 119 91 C 115 113 98 122 78 120 C 58 118 45 103 48 89 C 51 74 68 75 69 63 C 71 51 77 46 86 47 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 94 C 65 90 81 108 97 99 C 105 94 112 89 118 90 C 114 112 99 120 78 120 C 64 118 53 108 51 94 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 61 L 94 61 M 69 80 L 99 80 M 77 90 L 77 101 M 91 90 L 91 101 M 69 108 L 100 108",
+          "color": "jade",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "hupu",
+      "name": "虎扑",
+      "category": "日常应用",
+      "packageId": "com.hupu.games",
+      "components": [
+        "com.hupu.games/com.hupu.games.activity.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "crimson",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 99 C 62 80 75 76 93 77 L 113 58 L 121 64 L 117 82 C 109 99 100 107 84 110 L 57 119 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 104 C 72 99 74 88 90 88 C 99 89 105 93 111 90 C 106 101 98 107 84 110 L 57 119 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 93 L 77 86 L 73 98 Z M 88 91 L 104 90 L 97 100 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 79 62 L 98 64",
+          "color": "sand",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "jike",
+      "name": "即刻",
+      "category": "日常应用",
+      "packageId": "com.ruguoapp.jike",
+      "packageSource": "https://www.appchina.com/app/com.ruguoapp.jike",
+      "components": [
+        "com.ruguoapp.jike/com.ruguoapp.jike.cat",
+        "com.ruguoapp.jike/com.ruguoapp.jike.christmascookie",
+        "com.ruguoapp.jike/com.ruguoapp.jike.firework",
+        "com.ruguoapp.jike/com.ruguoapp.jike.jellow",
+        "com.ruguoapp.jike/com.ruguoapp.jike.jikeyellow",
+        "com.ruguoapp.jike/com.ruguoapp.jike.neon",
+        "com.ruguoapp.jike/com.ruguoapp.jike.pink",
+        "com.ruguoapp.jike/com.ruguoapp.jike.punk5333",
+        "com.ruguoapp.jike/com.ruguoapp.jike.punk9773",
+        "com.ruguoapp.jike/com.ruguoapp.jike.rainbow",
+        "com.ruguoapp.jike/com.ruguoapp.jike.scarf",
+        "com.ruguoapp.jike/com.ruguoapp.jike.skeuomorphism",
+        "com.ruguoapp.jike/com.ruguoapp.jike.standard",
+        "com.ruguoapp.jike/com.ruguoapp.jike.winter"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.ruguoapp.jike",
+        "version": "7.56.16",
+        "channel": "应用汇分发"
+      },
+      "tone": "gold",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 57 59 L 111 59 L 111 68 L 93 68 L 93 99 C 93 117 68 123 56 110 L 64 101 C 71 110 81 107 81 98 L 81 68 L 57 68 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 87 54 L 96 43 L 105 45 L 100 57 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 88 C 58 84 65 87 70 91 M 95 110 C 107 108 116 102 121 95",
+          "color": "ice",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "maimai",
+      "name": "脉脉",
+      "category": "日常应用",
+      "packageId": "com.taou.maimai",
+      "components": [
+        "com.taou.maimai/com.taou.maimai.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "cobalt",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 45 82 C 47 66 63 60 75 67 C 80 70 84 75 84 79 C 88 69 95 65 103 65 C 117 65 125 75 123 86 C 121 100 105 110 85 113 C 65 111 47 103 45 89 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 52 89 C 62 82 76 90 84 98 C 92 90 109 82 119 89 C 115 100 100 110 85 112 C 69 110 56 104 52 97 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            74,
+            15,
+            15
+          ],
+          "color": "cobalt"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            94,
+            74,
+            15,
+            15
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 109 L 57 117",
+          "color": "paper",
+          "width": 5
+        }
+      ]
+    },
+    {
+      "art": "lofter",
+      "name": "LOFTER",
+      "category": "日常应用",
+      "packageId": "com.lofter.android",
+      "components": [
+        "com.lofter.android/com.lofter.android.activity.SplashActivity",
+        "com.lofter.android/com.lofter.android.global.home.TabHomeActivity",
+        "com.lofter.android/com.lofter.android.global.splash.HomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 52 L 71 52 L 71 103 C 85 109 96 98 113 99 L 113 114 L 55 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 71 103 C 85 109 96 98 113 99 L 113 114 L 71 114 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 101 55 L 105 65 L 116 68 L 105 72 L 101 82 L 97 72 L 86 68 L 97 65 Z",
+          "color": "sand",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "xiaoyuzhou",
+      "name": "小宇宙",
+      "category": "日常应用",
+      "packageId": "app.podcast.cosmos",
+      "components": [
+        "app.podcast.cosmos/app.podcast.cosmos.default",
+        "app.podcast.cosmos/io.iftech.android.podcast.app.home.main.view.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            54,
+            55,
+            55
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 57 86 C 74 79 87 105 110 78 C 115 91 107 109 84 109 C 71 109 59 100 57 86 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 62 C 51 60 42 63 43 73 C 45 88 94 120 119 112 C 132 107 124 97 117 91",
+          "color": "mint",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            59,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            48,
+            99,
+            7,
+            7
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "qingtingfm",
+      "name": "蜻蜓 FM",
+      "category": "日常应用",
+      "packageId": "fm.qingting.qtradio",
+      "components": [
+        "fm.qingting.qtradio/fm.qingting.qtradio.QTRadioActivity",
+        "fm.qingting.qtradio/fm.qingting.qtradio.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "smartisan"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 72 C 69 55 49 56 47 65 C 45 78 64 87 78 88 C 58 87 56 103 64 104 C 73 106 82 96 84 91 C 87 97 94 107 104 104 C 112 102 111 88 89 88 C 104 87 123 78 121 65 C 119 57 100 54 85 72 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 69 L 84 113",
+          "color": "crimson",
+          "width": 5.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            60,
+            12,
+            12
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 114 C 65 108 75 122 90 120 C 103 118 113 110 121 112",
+          "color": "ice",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "lizhifm",
+      "name": "荔枝",
+      "category": "日常应用",
+      "packageId": "com.yibasan.lizhifm",
+      "components": [
+        "com.yibasan.lizhifm/com.yibasan.lizhifm.activities.EntryPointActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            57,
+            62,
+            62
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 54 89 C 72 77 90 103 113 84 C 115 104 103 118 84 118 C 66 118 54 106 54 89 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 81 57 C 81 48 90 42 103 47 C 99 58 92 61 81 57 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 76 L 67 91 M 78 72 L 78 96 M 89 68 L 89 100 M 100 78 L 100 91",
+          "color": "paper",
+          "width": 4.8
+        }
+      ]
+    },
+    {
+      "art": "yangshipin",
+      "name": "央视频",
+      "category": "日常应用",
+      "packageId": "com.cctv.yangshipin.app.androidp",
+      "components": [
+        "com.cctv.yangshipin.app.androidp/com.tencent.videolite.android.ui.SplashActivity",
+        "com.cctv.yangshipin.app.androidp/com.tv.MainTVActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 75 C 62 57 108 57 123 74 L 122 99 C 120 109 111 114 101 114 L 62 114 C 53 113 45 107 45 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 72 71 L 101 87 L 72 104 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 72 94 L 100 87 L 72 104 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 57 L 69 49 M 106 57 L 99 49",
+          "color": "ice",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            68,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "cctvnews",
+      "name": "央视新闻",
+      "category": "日常应用",
+      "packageId": "cn.cntvnews",
+      "packageSource": "https://www.appchina.com/app/cn.cntvnews",
+      "components": [
+        "cn.cntvnews/com.torch.open.homeimpl.SplashActivity",
+        "cn.cntvnews/com.torch.open.shell.EntryActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/cn.cntvnews",
+        "version": "10.14.0",
+        "channel": "应用汇分发"
+      },
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 53 L 109 53 L 117 66 L 117 115 L 52 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 55 62 L 84 62 L 84 89 L 55 89 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 81 C 64 74 74 79 84 72 L 84 86 L 58 86 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 91 69 L 107 69 M 90 79 L 107 79 M 59 100 L 106 100 M 60 109 L 92 109",
+          "color": "dark",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            66,
+            7,
+            7
+          ],
+          "color": "sand"
+        }
+      ]
+    },
+    {
+      "art": "qqsports",
+      "name": "腾讯体育",
+      "category": "日常应用",
+      "packageId": "com.tencent.qqsports",
+      "components": [
+        "com.tencent.qqsports/com.tencent.qqsports.ui.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "cobalt",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            51,
+            51,
+            66,
+            66
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 64 59 C 74 72 94 74 110 76 M 59 109 C 74 95 97 93 112 91 M 83 54 C 73 69 76 97 88 115",
+          "color": "cobalt",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 46 102 C 58 94 65 102 78 101 C 94 100 108 92 122 94 L 121 101 C 107 100 96 109 79 110 C 59 111 57 103 46 110 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "camscanner",
+      "name": "扫描全能王",
+      "category": "日常应用",
+      "packageId": "com.intsig.camscanner",
+      "components": [
+        "com.intsig.camscanner/com.intsig.camscanner.MainMenuActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.PremiumMainActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.PremiumWelcomeActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.PrestigeMainActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.WelcomeActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.launcher.WelcomeDefaultActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.launcher.WelcomePremiumActivity",
+        "com.intsig.camscanner/com.intsig.camscanner.mainmenu.mainactivity.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 47 74 L 47 62 L 61 62 M 107 62 L 121 62 L 121 75 M 47 97 L 47 110 L 62 110 M 107 110 L 121 110 L 121 97",
+          "color": "paper",
+          "width": 6.2
+        },
+        {
+          "type": "path",
+          "shape": "M 64 56 L 95 56 L 106 66 L 106 108 L 64 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 94 56 L 106 66 L 94 66 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 88 L 110 88",
+          "color": "teal",
+          "width": 5.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 74 L 96 74 M 71 98 L 93 98",
+          "color": "dark",
+          "width": 3.7
+        }
+      ]
+    },
+    {
+      "art": "xmind",
+      "name": "Xmind",
+      "category": "日常应用",
+      "packageId": "net.xmind.doughnut",
+      "components": [
+        "net.xmind.doughnut/net.xmind.doughnut.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 108 L 68 82 L 48 57 L 64 57 L 80 72 L 96 56 L 119 56 L 95 83 L 118 109 L 99 109 L 81 93 L 64 110 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 84 C 86 74 97 74 105 70 L 95 83 L 112 103 C 98 101 93 92 85 91 L 64 110 L 49 108 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            54,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "youdaonote",
+      "name": "有道云笔记",
+      "category": "日常应用",
+      "packageId": "com.youdao.note",
+      "components": [
+        "com.youdao.note/com.youdao.note.activity2.SplashActivity",
+        "com.youdao.note/com.youdao.note.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "smartisan"
+      ],
+      "tone": "azure",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 48 L 101 48 L 114 62 L 114 118 L 53 118 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 66 L 96 66 M 65 76 L 88 76",
+          "color": "cobalt",
+          "width": 4.2
+        },
+        {
+          "type": "path",
+          "shape": "M 59 105 C 78 84 112 86 124 63 C 129 84 105 106 91 109 C 81 112 70 107 59 115 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 104 L 113 79",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 102 49 L 113 62 L 102 62 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "mubu",
+      "name": "幕布",
+      "category": "日常应用",
+      "packageId": "com.mubu.app",
+      "packageSource": "https://d.apkpure.com/b/APK/com.mubu.app?version=latest",
+      "components": [
+        "com.mubu.app/com.mubu.app.splash.MubuSplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.mubu.app?version=latest",
+        "version": "2.90.0",
+        "channel": "APKPure 分发"
+      },
+      "tone": "plum",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            51,
+            54,
+            66,
+            60,
+            7
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 67 L 62 99 M 62 76 L 72 76 M 62 98 L 81 98",
+          "color": "plum",
+          "width": 4
+        },
+        {
+          "type": "round",
+          "box": [
+            75,
+            69,
+            30,
+            11,
+            4
+          ],
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            82,
+            91,
+            26,
+            11,
+            4
+          ],
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            63,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "googlemeet",
+      "name": "Google Meet",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.tachyon",
+      "components": [
+        "com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity",
+        "com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ],
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            46,
+            63,
+            66,
+            49,
+            8
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 111 75 L 126 65 L 126 111 L 111 102 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 93 C 67 87 88 108 111 93 L 111 104 C 111 108 108 111 104 111 L 54 111 C 50 111 47 108 47 104 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 75 L 47 69 C 47 66 50 63 53 63 L 61 63 L 61 75 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 67 81 L 86 81",
+          "color": "jade",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "lebo",
+      "name": "乐播投屏",
+      "category": "日常应用",
+      "packageId": "com.hpplay.happycast",
+      "packageSource": "https://www.appchina.com/app/com.hpplay.happycast",
+      "components": [
+        "com.hpplay.happycast/com.hpplay.happycast.activitys.SplashActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.hpplay.happycast",
+        "version": "6.0.50",
+        "channel": "应用汇分发"
+      },
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            53,
+            80,
+            55,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            51,
+            60,
+            66,
+            40,
+            4
+          ],
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 72 67 L 97 81 L 72 95 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 114 L 98 114",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 103 C 66 100 72 109 74 116 M 51 113 C 61 112 63 117 64 120",
+          "color": "mint",
+          "width": 4.5
+        }
+      ]
+    }
+  ]
+}

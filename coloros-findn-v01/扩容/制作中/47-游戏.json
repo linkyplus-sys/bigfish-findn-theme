@@ -1,0 +1,727 @@
+{
+  "name": "800 款扩容 · 第三批 · 游戏",
+  "status": "图稿待入包",
+  "activitySources": {
+    "appchinaApk": "https://www.appchina.com/",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "publisherApk": "发行方公开 APK 的 Android 清单",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "dnfm",
+      "name": "地下城与勇士：起源",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.dnf",
+      "tone": "crimson",
+      "form": "shield",
+      "previewName": "DNF：起源",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 63 51 L 105 51 L 120 66 L 99 105 L 84 118 L 69 105 L 48 66 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 67 L 74 69 L 84 60 L 94 69 L 114 67 L 101 87 L 93 83 L 93 104 L 84 113 L 75 104 L 75 83 L 67 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 71 L 93 83 L 83 99 L 76 83 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 68 L 74 76 M 109 68 L 94 76",
+          "color": "ink",
+          "width": 3.5
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.tencent.tmgp.dnf",
+      "components": [
+        "com.tencent.tmgp.dnf/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.dnf",
+        "version": "130.5.8.0",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "maplestory",
+      "name": "冒险岛：枫之传说",
+      "category": "游戏",
+      "packageId": "com.tencent.tmgp.maplem",
+      "tone": "orange",
+      "form": "orb",
+      "previewName": "冒险岛：枫之传说",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 83 47 L 94 68 L 106 63 L 105 78 L 123 77 L 113 92 L 121 98 L 92 107 L 85 121 L 79 108 L 49 101 L 57 92 L 46 78 L 64 78 L 62 63 L 75 69 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 48 L 83 108 L 53 100 L 68 91 L 52 80 L 73 82 L 65 65 L 76 72 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 82 113 L 84 78 M 82 98 L 65 91 M 86 98 L 106 88",
+          "color": "white",
+          "width": 3.5
+        }
+      ],
+      "packageSource": "https://www.appchina.com/app/com.tencent.tmgp.maplem",
+      "components": [
+        "com.tencent.tmgp.maplem/com.nexon.maplem.module.MapleUnityActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.tencent.tmgp.maplem",
+        "version": "2.390.3852",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "afkjourney",
+      "name": "剑与远征：启程",
+      "category": "游戏",
+      "packageId": "com.farlightgames.igame.gp",
+      "tone": "gold",
+      "form": "diamond",
+      "previewName": "剑与远征：启程",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 55 53 C 63 59 73 61 84 67 C 95 61 105 59 113 53 L 122 100 C 103 101 95 109 84 115 C 73 109 65 101 46 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 69 C 67 75 74 65 84 78 C 94 65 101 75 111 69",
+          "color": "orange",
+          "width": 3.5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 76 L 90 88 L 104 93 L 90 98 L 84 109 L 78 98 L 64 93 L 78 88 Z",
+          "color": "gold",
+          "width": 1
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            89,
+            8,
+            8
+          ],
+          "color": "ink"
+        }
+      ],
+      "components": [
+        "com.farlightgames.igame.gp/com.farlightgames.igame.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "afkarena",
+      "name": "剑与远征",
+      "category": "游戏",
+      "packageId": "com.lilithgame.hgame.gp",
+      "tone": "plum",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 64 L 82 73 L 116 62 L 111 96 L 84 112 L 58 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 65 L 70 84 L 83 64 L 96 83 L 109 66 L 105 93 L 84 105 L 63 95 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 74 L 91 84 L 83 96 L 76 84 Z",
+          "color": "plum",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 72 108 L 84 117 L 96 108",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            53,
+            8,
+            8
+          ],
+          "color": "iris"
+        }
+      ],
+      "components": [
+        "com.lilithgame.hgame.gp/sh.lilithgame.hgame.AppActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "carrot3",
+      "name": "保卫萝卜 3",
+      "category": "游戏",
+      "packageId": "com.feiyu.carrot3.mi",
+      "tone": "lime",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 79 68 C 63 63 58 47 67 47 C 75 47 85 54 88 65 C 91 55 97 44 104 47 C 115 52 104 67 96 71 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 78 C 59 63 107 62 112 77 C 113 94 98 115 88 123 C 76 114 58 96 58 78 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 79 C 66 68 88 68 98 72 C 87 77 78 92 70 103 C 64 95 61 88 62 79 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 86 L 78 87 M 94 87 L 102 86",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 99 C 81 105 89 104 94 99",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 104 99 L 110 101",
+          "color": "white",
+          "width": 3
+        }
+      ],
+      "packageSource": "https://app.mi.com/details?id=com.feiyu.carrot3.mi",
+      "components": [
+        "com.feiyu.carrot3.mi/com.u8.sdk.permission.U8PermissionActivity"
+      ],
+      "sourceKeys": [
+        "publisherApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://app.mi.com/details?id=com.feiyu.carrot3.mi",
+        "version": "6.3.3",
+        "channel": "发行方 APK"
+      }
+    },
+    {
+      "art": "royalmatch",
+      "name": "Royal Match",
+      "category": "游戏",
+      "packageId": "com.dreamgames.royalmatch",
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            49,
+            52,
+            70,
+            63,
+            13
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            55,
+            58,
+            58,
+            51,
+            10
+          ],
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 59 72 L 74 82 L 84 66 L 96 81 L 109 72 L 103 99 L 65 99 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            65,
+            98,
+            38,
+            6,
+            2
+          ],
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            84,
+            8,
+            8
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            81,
+            62,
+            6,
+            6
+          ],
+          "color": "white"
+        }
+      ],
+      "components": [
+        "com.dreamgames.royalmatch/com.dreamgames.library.DreamUnityPlayerActivity",
+        "com.dreamgames.royalmatch/com.dreamgames.library.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "gardenscapes",
+      "name": "梦幻花园",
+      "category": "游戏",
+      "packageId": "com.playrix.gardenscapes",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 94 C 54 105 66 109 84 109 C 101 109 114 105 120 94 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 109 L 90 109 L 97 116 L 70 116 Z",
+          "color": "white",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 94 L 84 59 M 54 88 C 59 72 76 71 84 86 C 92 71 109 72 114 88",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 84 69 C 70 69 60 61 59 52 C 75 53 82 57 84 69 C 88 58 97 53 110 54 C 107 62 99 69 84 69 Z",
+          "color": "lime",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            46,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.playrix.gardenscapes/com.playrix.gardenscapes.GoogleActivity",
+        "com.playrix.gardenscapes/com.playrix.gardenscapes.LoadActivityStore",
+        "com.playrix.gardenscapes/com.playrix.gardenscapes.StoreActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "homescapes",
+      "name": "梦幻家园",
+      "category": "游戏",
+      "packageId": "com.playrix.homescapes",
+      "tone": "coral",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 77 L 84 49 L 121 77 L 111 78 L 111 111 L 57 111 L 57 78 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 77 L 84 49 L 120 77 L 113 81 L 84 62 L 56 81 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 67 96 C 67 91 74 90 77 96 L 93 96 C 95 89 102 91 103 97 L 103 108 L 67 108 Z",
+          "color": "coral",
+          "width": 1
+        },
+        {
+          "type": "round",
+          "box": [
+            76,
+            76,
+            16,
+            14,
+            4
+          ],
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 71 108 L 71 114 M 98 108 L 98 114",
+          "color": "dark",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.playrix.homescapes/com.playrix.homescapes.GoogleActivity",
+        "com.playrix.homescapes/com.playrix.homescapes.GoogleGameActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "township",
+      "name": "梦想城镇",
+      "category": "游戏",
+      "packageId": "com.playrix.township",
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 99 L 73 77 L 89 87 L 113 77 L 124 94 L 94 119 L 68 118 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 80 L 75 65 L 97 80 L 94 98 L 57 98 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 80 L 75 61 L 100 80 L 92 85 L 75 74 L 58 85 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 96 64 L 106 53 L 116 64 L 116 86 L 96 86 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 95 64 L 106 51 L 117 64 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 108 L 102 93 L 115 95",
+          "color": "white",
+          "width": 5
+        },
+        {
+          "type": "round",
+          "box": [
+            70,
+            83,
+            12,
+            15,
+            2
+          ],
+          "color": "azure",
+          "width": 0
+        }
+      ],
+      "components": [
+        "com.playrix.township/com.playrix.township.Launcher"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ]
+    },
+    {
+      "art": "cookierun",
+      "name": "Cookie Run: Kingdom",
+      "category": "游戏",
+      "packageId": "com.devsisters.ck",
+      "tone": "gold",
+      "form": "orb",
+      "previewName": "Cookie Run",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 59 67 L 63 53 L 75 58 L 84 47 L 94 58 L 105 53 L 109 67 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 72 C 62 62 73 59 84 59 C 104 59 109 67 108 81 L 108 90 L 119 98 C 123 104 118 110 111 107 L 100 103 L 105 115 C 107 120 101 125 95 123 L 84 114 L 73 123 C 67 125 61 120 63 115 L 68 103 L 57 107 C 50 110 45 103 50 98 L 62 90 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 69 L 105 69",
+          "color": "white",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 82 L 77 82 M 92 82 L 96 82 M 80 92 C 82 95 87 95 89 92",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            100,
+            8,
+            8
+          ],
+          "color": "coral"
+        }
+      ],
+      "components": [
+        "com.devsisters.ck/com.devsisters.plugin.OvenUnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "skyforcer",
+      "name": "Sky Force Reloaded",
+      "category": "游戏",
+      "packageId": "pl.idreams.SkyForceReloaded2016",
+      "tone": "onyx",
+      "form": "diamond",
+      "previewName": "Sky Force",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 94 L 67 73 L 76 76 L 84 48 L 92 76 L 101 73 L 120 94 L 115 105 L 94 99 L 84 112 L 74 99 L 53 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 79 66 L 84 51 L 90 67 L 90 96 L 84 106 L 78 96 Z",
+          "color": "azure",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 52 94 L 71 83 L 75 92 L 54 100 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 116 94 L 97 83 L 93 92 L 114 100 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 112 L 84 120 M 73 108 L 70 114 M 95 108 L 98 114",
+          "color": "gold",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "pl.idreams.SkyForceReloaded2016/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "dreamblast",
+      "name": "Angry Birds Dream Blast",
+      "category": "游戏",
+      "packageId": "com.rovio.dream",
+      "tone": "iris",
+      "form": "orb",
+      "previewName": "Dream Blast",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            45,
+            50,
+            25,
+            25
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            54,
+            22,
+            22
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            88,
+            23,
+            23
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            100,
+            18,
+            18
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            58,
+            63,
+            53,
+            48
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 73 68 L 80 57 L 90 67 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 88 C 74 80 95 80 101 88 C 98 100 91 105 85 105 C 77 104 71 98 69 88 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 76 86 L 86 82 L 98 89 L 86 96 Z",
+          "color": "gold",
+          "width": 1
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 79 L 78 82 M 99 79 L 93 82",
+          "color": "ink",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            50,
+            55,
+            7,
+            7
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            110,
+            58,
+            6,
+            6
+          ],
+          "color": "ice"
+        }
+      ],
+      "packageSource": "https://play.google.com/store/apps/details?id=com.rovio.dream",
+      "components": [
+        "com.rovio.dream/com.unity3d.player.UnityPlayerActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.rovio.dream?version=latest",
+        "version": "2.12.1",
+        "channel": "APKPure 分发"
+      }
+    }
+  ]
+}

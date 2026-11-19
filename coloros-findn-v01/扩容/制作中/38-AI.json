@@ -1,0 +1,212 @@
+{
+  "name": "AI · 800 款扩容第一批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "baiduwenku",
+      "name": "百度文库",
+      "category": "AI",
+      "packageId": "com.baidu.wenku",
+      "components": [
+        "com.baidu.wenku/com.baidu.wenku.splash.view.activity.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "jade",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 64 C 64 57 77 62 84 73 C 92 63 104 59 121 64 L 121 108 C 104 104 94 108 84 118 C 73 108 61 104 47 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 93 C 62 88 74 94 84 103 C 95 94 106 88 120 92 L 120 108 C 104 104 94 108 84 118 C 73 108 61 104 48 108 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 77 L 84 111 M 56 75 L 71 79 M 56 86 L 75 91",
+          "color": "jade",
+          "width": 4.2
+        },
+        {
+          "type": "path",
+          "shape": "M 108 66 L 111 75 L 120 78 L 111 81 L 108 91 L 105 81 L 96 78 L 105 75 Z",
+          "color": "gold",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "zuoyebang",
+      "name": "作业帮",
+      "category": "AI",
+      "packageId": "com.baidu.homework",
+      "components": [
+        "com.baidu.homework/com.baidu.homework.AliasActivityCampaign",
+        "com.baidu.homework/com.baidu.homework.AliasActivityDefault",
+        "com.baidu.homework/com.baidu.homework.AliasActivityPoem",
+        "com.baidu.homework/com.baidu.homework.activity.init.InitActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "smartisan"
+      ],
+      "tone": "azure",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 72 L 60 72 L 60 58 L 108 58 L 108 72 L 122 72 L 122 108 L 108 108 L 108 119 L 60 119 L 60 108 L 46 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 92 C 68 83 85 107 104 94 L 119 89 L 119 105 L 106 105 L 106 117 L 62 117 L 62 106 L 49 106 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 85 L 76 100 L 105 73",
+          "color": "cobalt",
+          "width": 7
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            54,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "xingye",
+      "name": "星野",
+      "category": "AI",
+      "packageId": "com.xingye.app",
+      "packageSource": "https://d.apkpure.com/b/APK/com.xingye.app?version=latest",
+      "components": [
+        "com.xingye.app/com.weaver.app.ui.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.xingye.app?version=latest",
+        "version": "2.54.004",
+        "channel": "APKPure 分发"
+      },
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 47 L 94 69 L 118 72 L 101 90 L 104 113 L 84 103 L 63 113 L 67 90 L 49 72 L 74 69 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 93 C 74 86 84 105 105 93 L 104 113 L 84 103 L 63 113 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 103 C 34 92 43 61 65 59 M 101 118 C 116 115 126 104 124 91",
+          "color": "mint",
+          "width": 4.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            50,
+            10,
+            10
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "maoxiang",
+      "name": "猫箱",
+      "category": "AI",
+      "packageId": "com.parallel.odyssey",
+      "packageSource": "https://app.mi.com/details?id=com.parallel.odyssey",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "plum",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 76 L 54 54 C 65 54 71 59 76 65 C 82 63 89 63 95 65 C 103 57 109 54 116 55 L 118 79 C 130 96 116 112 97 113 L 76 113 L 59 122 L 61 109 C 50 103 45 91 53 76 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 97 C 70 89 82 112 117 97 C 115 107 104 112 94 113 L 76 113 L 59 122 L 61 109 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            82,
+            9,
+            11
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            82,
+            9,
+            11
+          ],
+          "color": "plum"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 80 98 C 82 101 88 101 90 98",
+          "color": "crimson",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            108,
+            94,
+            9,
+            5
+          ],
+          "color": "coral"
+        }
+      ]
+    }
+  ]
+}

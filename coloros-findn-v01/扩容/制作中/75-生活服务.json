@@ -1,0 +1,426 @@
+{
+  "name": "1,040 款扩容 · 第四批 · 生活服务",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "airfrance",
+      "name": "Air France",
+      "packageId": "com.airfrance.android.dinamoprd",
+      "category": "生活服务",
+      "tone": "cobalt",
+      "form": "ticket",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 108 L 68 62 L 92 62 L 68 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 78 108 L 102 62 L 121 62 L 98 108 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 115 L 113 115",
+          "color": "ice",
+          "width": 4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            53,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.airfrance.android.dinamoprd/com.airfrance.android.totoro.homepage.activity.MainActivity",
+        "com.airfrance.android.dinamoprd/com.airfrance.android.totoro.ui.activity.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "bolt",
+      "name": "Bolt",
+      "packageId": "ee.mtakso.client",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 88 45 L 56 89 L 78 89 L 70 118 L 114 70 L 90 70 L 101 45 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 72 L 90 70 L 114 70 L 94 91 L 79 96 L 86 82 L 69 82 Z",
+          "color": "lime",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 99 L 57 99 M 51 109 L 65 108",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "components": [
+        "ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "gojek",
+      "name": "Gojek",
+      "packageId": "com.gojek.app",
+      "category": "生活服务",
+      "tone": "jade",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            49,
+            49,
+            70,
+            70
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            57,
+            57,
+            54,
+            54
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            72,
+            72,
+            24,
+            24
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 76 102 L 84 112 L 91 102 L 84 95 Z",
+          "color": "paper",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            56,
+            8,
+            8
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "com.gojek.app/com.gojek.app.Splash",
+        "com.gojek.app/com.gojek.app.home.GojekHomeActivityAlias",
+        "com.gojek.app/com.gojek.home.GojekSplash",
+        "com.gojek.app/com.gojek.home.splash.GojekSplash",
+        "com.gojek.app/com.gojek.home.splash.GojekSplashActivity",
+        "com.gojek.app/com.gojek.home.splash.GojekSplashActivityPlusIconAlias",
+        "com.gojek.app/com.gojek.home.splash.GojekSplashActivitySolvIconAlias"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "freenow",
+      "name": "FREENOW",
+      "packageId": "taxi.android.client",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 50 61 L 110 61 L 115 73 L 72 73 L 69 84 L 104 84 L 101 96 L 66 96 L 62 111 L 50 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 86 100 L 103 100 L 116 109 L 104 117 L 94 108 L 87 108 Z",
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            54,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "components": [
+        "taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity",
+        "taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "happycow",
+      "name": "HappyCow",
+      "packageId": "com.hcceg.veg.compassionfree",
+      "category": "生活服务",
+      "tone": "plum",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 75 L 48 66 L 60 60 L 72 70 C 79 66 89 66 96 70 L 107 60 L 120 66 L 110 76 L 110 92 C 106 105 97 112 84 112 C 71 112 60 105 58 92 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            67,
+            80,
+            9,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            92,
+            80,
+            9,
+            9
+          ],
+          "color": "ink"
+        },
+        {
+          "type": "round",
+          "box": [
+            72,
+            93,
+            25,
+            12,
+            6
+          ],
+          "color": "coral",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 83 65 C 81 53 93 49 105 51 C 102 62 93 67 83 65 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 78 99 L 81 99 M 89 99 L 92 99",
+          "color": "dark",
+          "width": 2.8
+        }
+      ],
+      "components": [
+        "com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "paprikarecipes",
+      "name": "Paprika Recipe Manager 3",
+      "packageId": "com.hindsightlabs.paprika.android.v3",
+      "category": "生活服务",
+      "tone": "crimson",
+      "form": "page",
+      "previewName": "Paprika",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 69 C 63 62 74 64 84 72 C 96 64 107 62 120 69 L 118 105 C 103 102 94 105 84 113 C 74 105 64 102 50 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 76 L 84 109",
+          "color": "dark",
+          "width": 3.8
+        },
+        {
+          "type": "path",
+          "shape": "M 90 87 C 92 77 111 77 113 85 C 116 94 104 101 91 103 C 99 97 91 94 90 87 Z",
+          "color": "crimson",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 104 80 L 107 75",
+          "color": "jade",
+          "width": 4
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 84 L 74 87 M 58 93 L 72 97",
+          "color": "dark",
+          "width": 3.5
+        }
+      ],
+      "components": [
+        "com.hindsightlabs.paprika.android.v3/crc643325d1bb1b05bab5.PaprikaActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta"
+      ]
+    },
+    {
+      "art": "carrefour",
+      "name": "Carrefour",
+      "packageId": "com.carrefour.fid.android",
+      "category": "生活服务",
+      "tone": "blue",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 84 L 69 63 L 79 74 L 67 84 L 79 94 L 69 105 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 120 84 L 99 63 L 88 74 L 99 84 L 88 94 L 99 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            80,
+            80,
+            9,
+            9
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 112 L 110 112",
+          "color": "white",
+          "width": 3.6
+        }
+      ],
+      "components": [
+        "com.carrefour.fid.android/com.carrefour.fid.android.presentation.ui.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    },
+    {
+      "art": "lidlplus",
+      "name": "Lidl Plus",
+      "packageId": "com.lidl.eci.lidlplus",
+      "category": "生活服务",
+      "tone": "gold",
+      "form": "card",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            52,
+            54,
+            64,
+            60,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 62 L 112 62 L 112 101 L 56 101 Z",
+          "color": "gold",
+          "width": 0
+        },
+        {
+          "type": "path",
+          "shape": "M 84 63 L 105 82 L 84 102 L 63 82 Z",
+          "color": "cobalt",
+          "width": 0
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 73 L 84 92 M 74 83 L 94 83",
+          "color": "white",
+          "width": 5.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            104,
+            59,
+            8,
+            8
+          ],
+          "color": "crimson"
+        }
+      ],
+      "components": [
+        "com.lidl.eci.lidlplus/es.lidlplus.i18n.StandardLauncher",
+        "com.lidl.eci.lidlplus/es.lidlplus.i18n.splash.presentation.view.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "delta",
+        "lawnicons"
+      ]
+    }
+  ]
+}

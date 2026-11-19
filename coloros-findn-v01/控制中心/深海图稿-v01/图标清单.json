@@ -1,0 +1,597 @@
+{
+  "model": "PEUM00",
+  "firmware": "PEUM00_14.0.0.2701(CN01)",
+  "updated": "2026-11-18",
+  "artworkCount": 83,
+  "items": [
+    {
+      "id": "wifi",
+      "label": "WLAN",
+      "spec": "wifi",
+      "category": "installed",
+      "svg": "矢量图标/wifi.svg"
+    },
+    {
+      "id": "bluetooth",
+      "label": "蓝牙",
+      "spec": "bt",
+      "category": "installed",
+      "svg": "矢量图标/bluetooth.svg"
+    },
+    {
+      "id": "cell",
+      "label": "移动数据",
+      "spec": "cell",
+      "category": "installed",
+      "svg": "矢量图标/cell.svg"
+    },
+    {
+      "id": "ring",
+      "label": "静音",
+      "spec": "ringermode",
+      "category": "installed",
+      "svg": "矢量图标/ring.svg",
+      "on": "矢量图标/ring-on.svg"
+    },
+    {
+      "id": "flashlight",
+      "label": "手电筒",
+      "spec": "flashlight",
+      "category": "installed",
+      "svg": "矢量图标/flashlight.svg",
+      "on": "矢量图标/flashlight-on.svg"
+    },
+    {
+      "id": "location",
+      "label": "定位服务",
+      "spec": "location",
+      "category": "installed",
+      "svg": "矢量图标/location.svg"
+    },
+    {
+      "id": "airplane",
+      "label": "飞行模式",
+      "spec": "airplane",
+      "category": "installed",
+      "svg": "矢量图标/airplane.svg"
+    },
+    {
+      "id": "rotation",
+      "label": "自动旋转",
+      "spec": "rotation",
+      "category": "installed",
+      "svg": "矢量图标/rotation.svg"
+    },
+    {
+      "id": "windows",
+      "label": "连接至 Windows",
+      "spec": "custom(com.microsoft.appmanager/.quicksettings.WindowsLinkTileService)",
+      "category": "installed",
+      "svg": "矢量图标/windows.svg"
+    },
+    {
+      "id": "synergy",
+      "label": "跨屏互联",
+      "spec": "custom(com.oplus.linker/.synergy.service.SynergyTileService)",
+      "category": "installed",
+      "svg": "矢量图标/synergy.svg"
+    },
+    {
+      "id": "vibration",
+      "label": "振动",
+      "spec": "vibration",
+      "category": "installed",
+      "svg": "矢量图标/vibration.svg"
+    },
+    {
+      "id": "eye-protect",
+      "label": "护眼模式",
+      "spec": "custom(com.oplus.eyeprotect/.services.EyeProtectTileService)",
+      "category": "installed",
+      "svg": "矢量图标/eye-protect.svg"
+    },
+    {
+      "id": "battery",
+      "label": "省电模式",
+      "spec": "battery",
+      "category": "installed",
+      "svg": "矢量图标/battery.svg"
+    },
+    {
+      "id": "dark-mode",
+      "label": "暗色模式",
+      "spec": "darkmode",
+      "category": "installed",
+      "svg": "矢量图标/dark-mode.svg"
+    },
+    {
+      "id": "screenshot",
+      "label": "截屏",
+      "spec": "screenshot",
+      "category": "installed",
+      "svg": "矢量图标/screenshot.svg"
+    },
+    {
+      "id": "screen-record",
+      "label": "屏幕录制",
+      "spec": "custom(com.oplus.screenrecorder/.floatwindow.services.QuickPanelService)",
+      "category": "installed",
+      "svg": "矢量图标/screen-record.svg",
+      "on": "矢量图标/screen-record-on.svg"
+    },
+    {
+      "id": "hotspot",
+      "label": "个人热点",
+      "spec": "hotspot",
+      "category": "installed",
+      "svg": "矢量图标/hotspot.svg"
+    },
+    {
+      "id": "dnd",
+      "label": "免打扰",
+      "spec": "dnd",
+      "category": "installed",
+      "svg": "矢量图标/dnd.svg"
+    },
+    {
+      "id": "oshare",
+      "label": "OPPO 互传",
+      "spec": "custom(com.coloros.oshare/.OshareTileService)",
+      "category": "installed",
+      "svg": "矢量图标/oshare.svg"
+    },
+    {
+      "id": "cast",
+      "label": "手机投屏",
+      "spec": "custom(com.oplus.linker/.synergy.service.TVTileService)",
+      "category": "installed",
+      "svg": "矢量图标/cast.svg"
+    },
+    {
+      "id": "nfc",
+      "label": "NFC",
+      "spec": "nfc",
+      "category": "installed",
+      "svg": "矢量图标/nfc.svg"
+    },
+    {
+      "id": "share-screen",
+      "label": "屏幕共享",
+      "spec": "custom(com.coloros.sharescreen/.service.ShareScreenTileService)",
+      "category": "installed",
+      "svg": "矢量图标/share-screen.svg"
+    },
+    {
+      "id": "reverse-charge",
+      "label": "无线反向充电",
+      "spec": "custom(com.oplus.battery/com.oplus.powermanager.wirelesscharg.WirelessReverseControService)",
+      "category": "installed",
+      "svg": "矢量图标/reverse-charge.svg"
+    },
+    {
+      "id": "wallet",
+      "label": "钱包",
+      "spec": "wallet",
+      "category": "firmware",
+      "svg": "矢量图标/wallet.svg"
+    },
+    {
+      "id": "temperature",
+      "label": "环境色自适应",
+      "spec": "autoscreentemperature",
+      "category": "firmware",
+      "svg": "矢量图标/temperature.svg"
+    },
+    {
+      "id": "nearby",
+      "label": "附近分享",
+      "spec": "custom(com.google.android.gms/.nearby.sharing.SharingTileService)",
+      "category": "firmware",
+      "svg": "矢量图标/nearby.svg"
+    },
+    {
+      "id": "scanner",
+      "label": "扫码",
+      "spec": "qr_code_scanner",
+      "category": "firmware",
+      "svg": "矢量图标/scanner.svg"
+    },
+    {
+      "id": "system-space",
+      "label": "系统分身",
+      "spec": "multisystem",
+      "category": "firmware",
+      "svg": "矢量图标/system-space.svg"
+    },
+    {
+      "id": "super-saver",
+      "label": "超级省电",
+      "spec": "superpowersave",
+      "category": "firmware",
+      "svg": "矢量图标/super-saver.svg"
+    },
+    {
+      "id": "black-screen",
+      "label": "息屏显示开关",
+      "spec": "blackscreen",
+      "category": "firmware",
+      "svg": "矢量图标/black-screen.svg"
+    },
+    {
+      "id": "calculator",
+      "label": "计算器",
+      "spec": "calculator",
+      "category": "firmware",
+      "svg": "矢量图标/calculator.svg"
+    },
+    {
+      "id": "clear",
+      "label": "清理内存",
+      "spec": "clear",
+      "category": "firmware",
+      "svg": "矢量图标/clear.svg"
+    },
+    {
+      "id": "one-hand",
+      "label": "单手模式",
+      "spec": "smallscreen",
+      "category": "firmware",
+      "svg": "矢量图标/one-hand.svg"
+    },
+    {
+      "id": "lock",
+      "label": "一键锁屏",
+      "spec": "lockscreen",
+      "category": "firmware",
+      "svg": "矢量图标/lock.svg"
+    },
+    {
+      "id": "accessibility",
+      "label": "无障碍助手",
+      "spec": "custom(com.coloros.accessibilityassistant/.AccessibilityAssistantTitleService)",
+      "category": "firmware",
+      "svg": "矢量图标/accessibility.svg"
+    },
+    {
+      "id": "no-notifications",
+      "label": "静音通知",
+      "spec": "nodisturb",
+      "category": "firmware",
+      "svg": "矢量图标/no-notifications.svg"
+    },
+    {
+      "id": "envelope",
+      "label": "红包助手",
+      "spec": "envelope",
+      "category": "firmware",
+      "svg": "矢量图标/envelope.svg"
+    },
+    {
+      "id": "google-now",
+      "label": "Google 资讯",
+      "spec": "googlenow",
+      "category": "firmware",
+      "svg": "矢量图标/google-now.svg"
+    },
+    {
+      "id": "work",
+      "label": "工作资料",
+      "spec": "work",
+      "category": "firmware",
+      "svg": "矢量图标/work.svg"
+    },
+    {
+      "id": "alipay",
+      "label": "支付宝付款",
+      "spec": "alipay",
+      "category": "firmware",
+      "svg": "矢量图标/alipay.svg"
+    },
+    {
+      "id": "wechat-pay",
+      "label": "微信付款",
+      "spec": "weixinpay",
+      "category": "firmware",
+      "svg": "矢量图标/wechat-pay.svg"
+    },
+    {
+      "id": "wechat-scan",
+      "label": "微信扫一扫",
+      "spec": "weixinscan",
+      "category": "firmware",
+      "svg": "矢量图标/wechat-scan.svg"
+    },
+    {
+      "id": "alipay-scan",
+      "label": "支付宝扫一扫",
+      "spec": "aliscan",
+      "category": "firmware",
+      "svg": "矢量图标/alipay-scan.svg"
+    },
+    {
+      "id": "camera-access",
+      "label": "相机访问",
+      "spec": "cameratoggle",
+      "category": "firmware",
+      "svg": "矢量图标/camera-access.svg"
+    },
+    {
+      "id": "mic-access",
+      "label": "麦克风访问",
+      "spec": "mictoggle",
+      "category": "firmware",
+      "svg": "矢量图标/mic-access.svg"
+    },
+    {
+      "id": "video-engine",
+      "label": "视频画质增强",
+      "spec": "lris",
+      "category": "firmware",
+      "svg": "矢量图标/video-engine.svg"
+    },
+    {
+      "id": "visual-enhancer",
+      "label": "超清视效",
+      "spec": "osie",
+      "category": "firmware",
+      "svg": "矢量图标/visual-enhancer.svg"
+    },
+    {
+      "id": "keyboard",
+      "label": "输入法",
+      "spec": "inputmethod",
+      "category": "firmware",
+      "svg": "矢量图标/keyboard.svg"
+    },
+    {
+      "id": "device-controls",
+      "label": "设备控制",
+      "spec": "controls",
+      "category": "firmware",
+      "svg": "矢量图标/device-controls.svg"
+    },
+    {
+      "id": "app-lock",
+      "label": "应用锁",
+      "spec": "custom(com.oplus.safecenter/.privacy.control.AppLockSwitchTileService)",
+      "category": "firmware",
+      "svg": "矢量图标/app-lock.svg"
+    },
+    {
+      "id": "data-recharge",
+      "label": "流量充值",
+      "spec": "custom(com.finshell.wallet/com.nearme.wallet.FlowRechargeTileService)",
+      "category": "firmware",
+      "svg": "矢量图标/data-recharge.svg"
+    },
+    {
+      "id": "scenario",
+      "label": "情景模式",
+      "spec": "custom(com.coloros.scenemode/.entrance.SceneTileService)",
+      "category": "firmware",
+      "svg": "矢量图标/scenario.svg"
+    },
+    {
+      "id": "assistant",
+      "label": "语音助手",
+      "spec": "custom(com.heytap.speechassist/.service.SpeechTileService)",
+      "category": "firmware",
+      "svg": "矢量图标/assistant.svg"
+    },
+    {
+      "id": "dolby",
+      "label": "杜比全景声",
+      "spec": "custom(com.android.settings/com.oplus.partners.dolby.DolbyTileService)",
+      "category": "services",
+      "svg": "矢量图标/dolby.svg"
+    },
+    {
+      "id": "children",
+      "label": "儿童空间",
+      "spec": "custom(com.coloros.childrenspace/.view.ChildrenTileService)",
+      "category": "services",
+      "svg": "矢量图标/children.svg"
+    },
+    {
+      "id": "float",
+      "label": "智能侧边栏",
+      "spec": "custom(com.coloros.floatassistant/.FloatAssistantTileService)",
+      "category": "services",
+      "svg": "矢量图标/float.svg"
+    },
+    {
+      "id": "optimize",
+      "label": "系统优化",
+      "spec": "custom(com.coloros.phonemanager/com.oplus.phonemanager.quicksettings.SystemOptTileService)",
+      "category": "services",
+      "svg": "矢量图标/optimize.svg"
+    },
+    {
+      "id": "virus-scan",
+      "label": "病毒扫描",
+      "spec": "custom(com.coloros.phonemanager/com.oplus.phonemanager.quicksettings.VirusScanTileService)",
+      "category": "services",
+      "svg": "矢量图标/virus-scan.svg"
+    },
+    {
+      "id": "browser-search",
+      "label": "浏览器搜索",
+      "spec": "custom(com.heytap.browser/.search.LaunchSearchTile)",
+      "category": "services",
+      "svg": "矢量图标/browser-search.svg"
+    },
+    {
+      "id": "drive",
+      "label": "驾驶模式",
+      "spec": "custom(com.oplus.ocar/.smartdrive.core.DriveModeTileService)",
+      "category": "services",
+      "svg": "矢量图标/drive.svg"
+    },
+    {
+      "id": "baidu-search",
+      "label": "百度搜索",
+      "spec": "custom(com.baidu.searchbox/.quicksettings.SearchTileService)",
+      "category": "services",
+      "svg": "矢量图标/baidu-search.svg"
+    },
+    {
+      "id": "favorites",
+      "label": "收藏空间",
+      "spec": "custom(com.coloros.favorite/.app.service.QuickService)",
+      "category": "services",
+      "svg": "矢量图标/favorites.svg"
+    },
+    {
+      "id": "breath",
+      "label": "呼吸模式",
+      "spec": "custom(com.oneplus.brickmode/.service.BreathModeTileService)",
+      "category": "services",
+      "svg": "矢量图标/breath.svg"
+    },
+    {
+      "id": "video-open",
+      "label": "腾讯视频",
+      "spec": "custom(com.tencent.qqlive/.tile.TileOpenAppService)",
+      "category": "services",
+      "svg": "矢量图标/video-open.svg"
+    },
+    {
+      "id": "video-nba",
+      "label": "NBA",
+      "spec": "custom(com.tencent.qqlive/.tile.TileNBAService)",
+      "category": "services",
+      "svg": "矢量图标/video-nba.svg"
+    },
+    {
+      "id": "video-history",
+      "label": "播放历史",
+      "spec": "custom(com.tencent.qqlive/.tile.TileHistoryService)",
+      "category": "services",
+      "svg": "矢量图标/video-history.svg"
+    },
+    {
+      "id": "video-follow",
+      "label": "影视关注",
+      "spec": "custom(com.tencent.qqlive/.tile.TileAttentService)",
+      "category": "services",
+      "svg": "矢量图标/video-follow.svg"
+    },
+    {
+      "id": "brightness",
+      "label": "亮度",
+      "spec": "panel:brightness",
+      "category": "controls",
+      "svg": "矢量图标/brightness.svg"
+    },
+    {
+      "id": "auto-brightness",
+      "label": "自动亮度",
+      "spec": "panel:auto-brightness",
+      "category": "controls",
+      "svg": "矢量图标/auto-brightness.svg"
+    },
+    {
+      "id": "volume",
+      "label": "音量",
+      "spec": "panel:volume",
+      "category": "controls",
+      "svg": "矢量图标/volume.svg"
+    },
+    {
+      "id": "volume-off",
+      "label": "媒体静音",
+      "spec": "panel:volume-off",
+      "category": "controls",
+      "svg": "矢量图标/volume-off.svg"
+    },
+    {
+      "id": "settings",
+      "label": "设置",
+      "spec": "panel:settings",
+      "category": "controls",
+      "svg": "矢量图标/settings.svg"
+    },
+    {
+      "id": "more",
+      "label": "更多",
+      "spec": "panel:more",
+      "category": "controls",
+      "svg": "矢量图标/more.svg"
+    },
+    {
+      "id": "expand",
+      "label": "展开",
+      "spec": "panel:expand",
+      "category": "controls",
+      "svg": "矢量图标/expand.svg"
+    },
+    {
+      "id": "add",
+      "label": "添加",
+      "spec": "panel:add",
+      "category": "controls",
+      "svg": "矢量图标/add.svg"
+    },
+    {
+      "id": "remove",
+      "label": "移除",
+      "spec": "panel:remove",
+      "category": "controls",
+      "svg": "矢量图标/remove.svg"
+    },
+    {
+      "id": "done",
+      "label": "完成",
+      "spec": "panel:done",
+      "category": "controls",
+      "svg": "矢量图标/done.svg"
+    },
+    {
+      "id": "edit",
+      "label": "编辑",
+      "spec": "panel:edit",
+      "category": "controls",
+      "svg": "矢量图标/edit.svg"
+    },
+    {
+      "id": "media-output",
+      "label": "媒体输出",
+      "spec": "panel:media-output",
+      "category": "controls",
+      "svg": "矢量图标/media-output.svg"
+    },
+    {
+      "id": "previous",
+      "label": "上一首",
+      "spec": "panel:previous",
+      "category": "controls",
+      "svg": "矢量图标/previous.svg"
+    },
+    {
+      "id": "play",
+      "label": "播放",
+      "spec": "panel:play",
+      "category": "controls",
+      "svg": "矢量图标/play.svg"
+    },
+    {
+      "id": "pause",
+      "label": "暂停",
+      "spec": "panel:pause",
+      "category": "controls",
+      "svg": "矢量图标/pause.svg"
+    },
+    {
+      "id": "next",
+      "label": "下一首",
+      "spec": "panel:next",
+      "category": "controls",
+      "svg": "矢量图标/next.svg"
+    }
+  ],
+  "aliases": {
+    "custom(com.android.settings/com.oplus.settings.feature.display.video.InputMethodTile)": "keyboard",
+    "custom(com.android.settings/com.oplus.settings.feature.display.darkmode.DarkModeTileService)": "dark-mode",
+    "custom(com.android.settings/com.oplus.settings.feature.display.video.Iris5TileService)": "video-engine"
+  }
+}

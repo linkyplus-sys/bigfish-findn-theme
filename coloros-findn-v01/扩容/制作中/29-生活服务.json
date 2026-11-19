@@ -1,0 +1,811 @@
+{
+  "name": "生活服务 · 500 款扩容第四批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "ikea",
+      "name": "宜家 IKEA",
+      "category": "生活服务",
+      "packageId": "com.ingka.ikea.app",
+      "components": [
+        "com.ingka.ikea.app/com.ingka.ikea.app.SplashActivity",
+        "com.ingka.ikea.app/com.ingka.ikea.app.splash.FirstEntryActivity",
+        "com.ingka.ikea.app/com.ingka.ikea.app.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "blue",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 73 L 84 49 L 125 73 L 118 81 L 118 115 L 50 115 L 50 81 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 86 C 67 78 87 103 117 88 L 117 114 L 51 114 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "IKEA",
+          "size": 19,
+          "x": 84,
+          "y": 89,
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            55,
+            8,
+            8
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "uniqlo",
+      "name": "优衣库",
+      "category": "生活服务",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            49,
+            49,
+            70,
+            70,
+            9
+          ],
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "round",
+          "box": [
+            54,
+            54,
+            60,
+            60,
+            6
+          ],
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "text",
+          "label": "UNI",
+          "size": 18,
+          "x": 84,
+          "y": 62,
+          "color": "white"
+        },
+        {
+          "type": "text",
+          "label": "QLO",
+          "size": 18,
+          "x": 84,
+          "y": 85,
+          "color": "white"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 120 C 61 114 78 126 95 120 C 105 116 115 113 124 116",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "nike",
+      "name": "Nike",
+      "category": "生活服务",
+      "packageId": "com.nike.omega",
+      "components": [
+        "com.nike.omega/com.nike.mynike.ui.MainActivity",
+        "com.nike.omega/com.nike.mynike.ui.SplashScreenActivity",
+        "com.nike.omega/com.nike.omega.MainActivityDefault"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 41 87 C 52 72 59 69 68 66 C 59 76 57 86 63 91 C 69 96 80 93 91 88 L 134 69 L 110 95 C 90 111 64 121 48 109 C 39 103 37 94 41 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 43 100 C 57 105 71 101 83 98 C 100 93 106 88 121 81 L 110 95 C 88 112 63 121 48 109 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 125 C 82 126 97 115 111 112",
+          "color": "azure",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "decathlon",
+      "name": "迪卡侬",
+      "category": "生活服务",
+      "packageId": "com.decathlon.app",
+      "components": [
+        "com.decathlon.app/com.decathlon.app.BLUE",
+        "com.decathlon.app/com.decathlon.app.activities.main.ShoppingAppActivity",
+        "com.decathlon.app/com.decathlon.app.splash.ActivitySplash",
+        "com.decathlon.app/com.decathlon.app.splash.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 103 C 63 82 81 72 97 63 C 106 58 118 52 124 57 C 134 65 125 88 108 102 C 89 118 63 118 46 103 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 102 C 76 94 82 83 100 75 C 109 71 118 65 122 62 C 125 73 117 85 103 94 C 90 102 74 108 58 102 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 117 C 59 113 68 120 84 121 C 102 123 112 115 123 111",
+          "color": "mint",
+          "width": 4.6
+        }
+      ]
+    },
+    {
+      "art": "shein",
+      "name": "SHEIN",
+      "category": "生活服务",
+      "packageId": "com.zzkko",
+      "components": [
+        "com.zzkko/com.shein.user_service.welcome.WelcomeActivity",
+        "com.zzkko/com.shein.welcome.WelcomeActivity",
+        "com.zzkko/com.zzkko.bussiness.login.ui.WelcomeActivity",
+        "com.zzkko/com.zzkko.bussiness.welcome.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "onyx",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 64 78 L 64 65 C 64 52 76 46 84 46 C 96 46 105 53 105 66 L 105 78",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 48 69 L 120 69 L 116 117 L 52 117 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 103 C 75 109 100 110 101 98 C 101 89 91 88 83 86 C 77 85 78 81 84 80 C 90 79 95 81 97 84 L 102 79 C 94 71 72 72 70 83 C 67 93 80 95 87 96 C 95 98 94 102 86 103 C 81 104 76 102 73 99 Z",
+          "color": "onyx",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "keepfitness",
+      "name": "Keep",
+      "category": "生活服务",
+      "packageId": "com.gotokeep.keep",
+      "components": [
+        "com.gotokeep.keep/com.gotokeep.keep.splash.SplashActivity",
+        "com.gotokeep.keep/com.gotokeep.keep.splash.alias.SplashAlias4Activity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "teal",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 53 108 L 53 58 L 64 51 L 64 84 L 91 53 L 111 53 L 84 82 L 114 109 L 95 117 L 70 93 L 65 98 L 65 111 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 54 91 L 65 86 L 65 111 L 53 108 Z M 83 98 L 95 112 L 114 109 L 95 117 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 104 68 L 118 68 M 108 77 L 127 77",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "strava",
+      "name": "Strava",
+      "category": "生活服务",
+      "packageId": "com.strava",
+      "components": [
+        "com.strava/com.strava.SplashActivity",
+        "com.strava/com.strava.SplashActivityBlackIcon",
+        "com.strava/com.strava.SplashActivityCyclingIcon",
+        "com.strava/com.strava.SplashActivityGravelIcon",
+        "com.strava/com.strava.SplashActivityLocalLegendIcon",
+        "com.strava/com.strava.SplashActivityRoadIcon",
+        "com.strava/com.strava.SplashActivityRunningIcon",
+        "com.strava/com.strava.SplashActivityTealIcon"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "orange",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 47 99 L 76 50 L 105 99 L 89 99 L 76 77 L 63 99 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 97 L 100 124 L 118 96 L 107 96 L 100 108 L 94 97 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 114 C 61 108 73 115 84 117 M 108 63 L 118 63",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "carinc",
+      "name": "神州租车",
+      "category": "生活服务",
+      "packageId": "com.szzc",
+      "packageSource": "https://app.mi.com/details?id=com.szzc",
+      "components": [
+        "com.szzc/com.szzc.activity.index.ActivitySplash"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "coral",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 80 L 62 63 C 64 59 67 56 74 56 L 95 56 C 101 56 104 60 107 64 L 117 80 L 122 83 L 122 104 C 122 111 118 115 113 115 L 54 115 C 48 115 45 111 45 106 L 45 85 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 79 L 67 67 L 98 67 L 107 79 Z",
+          "color": "crimson",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            86,
+            13,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            101,
+            86,
+            13,
+            10
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 76 96 L 90 96 M 62 106 L 106 105",
+          "color": "orange",
+          "width": 3.7
+        }
+      ]
+    },
+    {
+      "art": "ehi",
+      "name": "一嗨租车",
+      "category": "生活服务",
+      "packageId": "com.ehai",
+      "packageSource": "https://app.mi.com/details?id=com.ehai",
+      "components": [
+        "com.ehai/com.ehai.view.oldview.activity.LoadingActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "blue",
+      "form": "tag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 79 C 61 77 72 71 81 64 C 95 53 109 55 114 66 C 119 77 113 87 101 93 C 112 100 119 98 129 92 C 126 108 112 118 97 113 C 84 110 67 99 58 104 C 49 108 42 103 42 95 C 41 87 43 82 48 79 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 50 90 C 62 92 79 90 94 78 C 103 72 107 70 114 68 C 116 80 112 88 101 93 C 86 105 64 101 50 100 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            69,
+            84,
+            7,
+            7
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            84,
+            80,
+            7,
+            7
+          ],
+          "color": "blue"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.ehai?version=latest",
+        "version": "7.4.50",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "metrocn",
+      "name": "麦德龙",
+      "category": "生活服务",
+      "packageId": "com.dm.metro",
+      "packageSource": "https://app.mi.com/details?id=com.dm.metro",
+      "components": [
+        "com.dm.metro/com.wm.dmall.LaunchActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "cobalt",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 77 L 58 65 L 109 65 L 120 77 L 118 114 L 51 114 Z",
+          "color": "gold",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 58 87 L 74 79 L 84 88 L 94 79 L 109 87 L 109 105 L 100 105 L 100 94 L 84 102 L 68 94 L 68 105 L 58 105 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 69 65 L 69 58 C 69 42 99 42 99 58 L 99 65",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 49 119 L 116 119",
+          "color": "mint",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.dm.metro?version=latest",
+        "version": "6.9.1",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "yonghui",
+      "name": "永辉生活",
+      "category": "生活服务",
+      "packageId": "cn.yonghui.hyd",
+      "components": [
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias1",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias10",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias11",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias12",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias13",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias14",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias15",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias16",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias17",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias18",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias19",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias2",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias20",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias21",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias3",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias4",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias5",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias6",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias7",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias8",
+        "cn.yonghui.hyd/cn.yonghui.hyd.Alias9",
+        "cn.yonghui.hyd/cn.yonghui.hyd.AliasVip",
+        "cn.yonghui.hyd/cn.yonghui.hyd.DefaultAlias"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "jade",
+      "form": "bag",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 44 78 L 124 78 L 118 115 C 105 123 65 125 51 115 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 48 99 C 61 92 82 107 96 103 C 107 99 114 96 121 99 L 118 115 C 105 123 65 125 51 115 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 71 78 C 66 57 80 47 98 50 C 101 69 87 81 72 80 Z",
+          "color": "jade",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 75 75 L 91 57 M 70 103 L 81 111 L 99 91",
+          "color": "jade",
+          "width": 4.2
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/cn.yonghui.hyd?version=latest",
+        "version": "11.12.5.38",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "yto",
+      "name": "圆通速递",
+      "category": "生活服务",
+      "packageId": "",
+      "components": [],
+      "sourceKeys": [],
+      "tone": "plum",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 19 C 115 19 142 43 148 74 C 152 101 136 127 111 140 C 82 154 47 141 30 114 C 10 83 21 45 49 29 C 60 22 72 19 84 19 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 55 L 64 53 L 83 75 L 102 53 L 122 53 L 94 87 L 94 112 L 76 112 L 76 88 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 39 98 C 43 121 62 132 84 132 C 112 132 131 113 132 92",
+          "color": "ice",
+          "width": 4.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            40,
+            10,
+            10
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "yunda",
+      "name": "韵达快递",
+      "category": "生活服务",
+      "packageId": "com.yunda.app",
+      "packageSource": "https://app.mi.com/details?id=com.yunda.app",
+      "components": [
+        "com.yunda.app/com.yunda.app.ui.StartActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 29 66 L 83 43 L 139 62 L 139 110 L 85 134 L 29 112 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 29 66 L 83 43 L 139 62 L 84 88 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 88 L 139 62 L 139 110 L 85 134 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 44 81 L 62 80 L 54 96 L 72 99 L 49 120 L 52 101 L 36 100 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 97 105 L 124 94 M 98 115 L 118 106",
+          "color": "white",
+          "width": 3.6
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.yunda.app?version=latest",
+        "version": "9.0.9",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "deppon",
+      "name": "德邦快递",
+      "category": "生活服务",
+      "packageId": "com.deppon.dpapp",
+      "packageSource": "https://app.mi.com/details?id=com.deppon.dpapp",
+      "components": [
+        "com.deppon.dpapp/com.deppon.dpapp.MainActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "cobalt",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 27 84 L 43 56 C 46 50 50 48 56 48 L 105 48 C 116 48 122 55 122 65 L 122 79 L 140 91 L 140 111 L 28 111 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 29 85 L 44 59 C 48 53 53 52 60 52 L 105 52 C 115 52 119 57 119 65 L 119 95 C 93 82 65 106 29 99 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 44 83 L 55 64 L 83 64 L 83 83 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 96 69 L 115 69 M 96 78 L 115 78",
+          "color": "cobalt",
+          "width": 3.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            46,
+            99,
+            21,
+            21
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            105,
+            99,
+            21,
+            21
+          ],
+          "color": "onyx"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            52,
+            105,
+            9,
+            9
+          ],
+          "color": "ice"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            111,
+            105,
+            9,
+            9
+          ],
+          "color": "ice"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.deppon.dpapp?version=latest",
+        "version": "4.0.6.4",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "uurun",
+      "name": "UU 跑腿",
+      "category": "生活服务",
+      "packageId": "com.slkj.paotui.customer",
+      "packageSource": "https://app.mi.com/details?id=com.slkj.paotui.customer",
+      "components": [
+        "com.slkj.paotui.customer/com.finals.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 65 L 72 65 L 72 83 C 72 88 76 91 80 91 C 84 91 87 88 87 83 L 87 65 L 101 65 L 101 87 C 101 99 92 107 80 107 C 68 107 58 99 58 87 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 89 88 C 96 87 103 85 116 78 C 114 88 111 92 105 94 C 108 96 111 96 118 94 C 114 104 104 108 91 105 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 107 L 44 112 M 65 116 L 56 122",
+          "color": "sand",
+          "width": 4.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            109,
+            56,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.slkj.paotui.customer?version=latest",
+        "version": "8.5.0.0",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "dada",
+      "name": "京东秒送（达达）",
+      "category": "生活服务",
+      "packageId": "com.dada.mobile.shop.android",
+      "packageSource": "https://app.mi.com/details?id=com.dada.mobile.shop.android",
+      "components": [
+        "com.dada.mobile.shop.android/com.dada.mobile.shop.android.commonbiz.temp.ui.common.welcome.WelcomeActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 58 L 107 58 L 121 72 L 121 102 L 105 116 L 52 116 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 59 105 L 59 70 L 79 70 C 103 70 111 102 81 105 Z",
+          "color": "blue",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 71 95 L 71 79 L 81 79 C 94 79 94 95 81 95 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 44 82 L 67 82 L 60 90 L 44 90 Z M 40 94 L 58 94 L 52 102 L 40 102 Z",
+          "color": "mint",
+          "width": 1.8
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.dada.mobile.shop.android?version=latest",
+        "version": "9.27.3",
+        "channel": "APKPure 分发"
+      }
+    }
+  ]
+}

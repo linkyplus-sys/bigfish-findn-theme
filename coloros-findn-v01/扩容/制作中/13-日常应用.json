@@ -1,0 +1,868 @@
+{
+  "name": "日常应用 · 500 款扩容",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "yybApk": "https://sj.qq.com/",
+    "smartisan": "https://github.com/frowhy/SmartisanIconpack-app/blob/master/smartisan/assets/appfilter.xml",
+    "appchinaApk": "https://www.appchina.com/",
+    "apkPureApk": "https://apkpure.com/"
+  },
+  "apps": [
+    {
+      "art": "tencentdocs",
+      "name": "腾讯文档",
+      "category": "日常应用",
+      "packageId": "com.tencent.docs",
+      "packageSource": "https://app.mi.com/details?id=com.tencent.docs",
+      "components": [
+        "com.tencent.docs/com.tencent.docs.DocsFlutterActivity",
+        "com.tencent.docs/com.tencent.docs.SvipThemeActivity"
+      ],
+      "sourceKeys": [
+        "yybApk"
+      ],
+      "tone": "blue",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            43,
+            55,
+            79,
+            74,
+            12
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 72 L 98 72 M 56 85 L 109 85",
+          "color": "cobalt",
+          "width": 4.9
+        },
+        {
+          "type": "round",
+          "box": [
+            56,
+            97,
+            53,
+            19,
+            4
+          ],
+          "color": "mint",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 98 L 73 114 M 91 98 L 91 114",
+          "color": "teal",
+          "width": 2.6
+        },
+        {
+          "type": "path",
+          "shape": "M 120 58 L 138 61 L 122 95 L 112 99 L 113 89 Z",
+          "color": "gold",
+          "width": 2
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://sj.qq.com/appdetail/com.tencent.docs",
+        "version": "3.13.0"
+      }
+    },
+    {
+      "art": "wechatlisten",
+      "name": "微信听书",
+      "category": "日常应用",
+      "packageId": "com.tencent.wehear",
+      "packageSource": "https://app.mi.com/details?id=com.tencent.wehear",
+      "components": [
+        "com.tencent.wehear/com.tencent.wehear.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "apkPureApk"
+      ],
+      "tone": "jade",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 47 82 C 47 59 64 44 84 44 C 104 44 121 59 121 82",
+          "color": "ink",
+          "width": 11
+        },
+        {
+          "type": "stroke",
+          "shape": "M 47 81 C 47 59 64 44 84 44 C 104 44 121 59 121 81",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "round",
+          "box": [
+            40,
+            73,
+            16,
+            29,
+            7
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "round",
+          "box": [
+            112,
+            73,
+            16,
+            29,
+            7
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 65 91 L 72 91 L 78 81 L 85 100 L 92 80 L 99 91 L 104 91",
+          "color": "white",
+          "width": 3.4
+        },
+        {
+          "type": "path",
+          "shape": "M 84 105 C 92 102 100 103 105 108 C 99 116 90 117 84 114 C 78 117 69 116 63 108 C 68 103 76 102 84 105 Z",
+          "color": "ice",
+          "width": 1.3
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://d.apkpure.com/b/APK/com.tencent.wehear?version=latest",
+        "version": "1.0.50",
+        "channel": "APKPure 分发"
+      }
+    },
+    {
+      "art": "neteasenews",
+      "name": "网易新闻",
+      "category": "日常应用",
+      "packageId": "com.netease.newsreader.activity",
+      "components": [
+        "com.netease.newsreader.activity/com.netease.nr.biz.ad.newAd.AdActivity"
+      ],
+      "sourceKeys": [
+        "appchinaApk"
+      ],
+      "tone": "crimson",
+      "form": "page",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 46 56 L 95 56",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "round",
+          "box": [
+            44,
+            70,
+            79,
+            57,
+            12
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 58 86 L 70 83 L 98 102 L 98 82 L 110 82 L 110 110 L 98 113 L 70 95 L 70 111 L 58 111 Z",
+          "color": "crimson",
+          "width": 1.6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 134 L 112 134",
+          "color": "white",
+          "width": 4
+        }
+      ],
+      "launcherEvidence": {
+        "page": "https://www.appchina.com/app/com.netease.newsreader.activity",
+        "version": "118.1",
+        "channel": "应用汇分发"
+      }
+    },
+    {
+      "art": "tencentnews",
+      "name": "腾讯新闻",
+      "category": "日常应用",
+      "packageId": "com.tencent.news",
+      "components": [
+        "com.tencent.news/com.tencent.news.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "smartisan"
+      ],
+      "tone": "cobalt",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            43,
+            56,
+            80,
+            73,
+            12
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "path",
+          "shape": "M 43 87 L 61 70 L 79 82 L 95 68 L 123 93 L 123 114 L 43 114 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            59,
+            65,
+            11,
+            11
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 54 121 L 111 121 M 53 44 L 95 44",
+          "color": "ice",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "ucbrowser",
+      "name": "UC 浏览器",
+      "category": "日常应用",
+      "packageId": "com.UCMobile",
+      "components": [
+        "com.UCMobile/com.UCMobile.main.Activity6thLaunch",
+        "com.UCMobile/com.UCMobile.main.NormalUULaunch",
+        "com.UCMobile/com.UCMobile.main.UCMobile"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 39 99 C 29 83 31 58 43 48 C 56 36 72 42 78 50 C 83 60 79 71 70 75 C 66 77 57 77 53 72 C 49 66 54 59 61 62 C 52 51 44 61 45 71 C 46 88 63 93 79 88 L 102 81 C 100 73 100 64 106 60 C 110 58 115 63 117 70 C 125 72 132 78 134 84 C 139 96 128 104 116 106 L 102 108 C 93 123 67 132 51 123 C 43 119 40 110 39 99 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "path",
+          "shape": "M 80 101 C 93 98 102 93 107 86 C 114 95 107 109 98 115 C 91 118 86 114 86 109 Z",
+          "color": "gold",
+          "width": 1.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            118,
+            78,
+            6,
+            6
+          ],
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "art": "mxplayer",
+      "name": "MX Player",
+      "category": "日常应用",
+      "packageId": "com.mxtech.videoplayer.ad",
+      "components": [
+        "com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ActivityMediaList",
+        "com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityMediaList",
+        "com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityWelcomeMX",
+        "com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "cobalt",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            42,
+            42,
+            84,
+            84
+          ],
+          "color": "azure"
+        },
+        {
+          "type": "path",
+          "shape": "M 69 57 C 65 56 61 60 61 64 L 61 105 C 61 111 66 113 71 109 L 116 87 C 121 85 120 81 116 79 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 70 63 L 106 80",
+          "color": "white",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "adobeacrobat",
+      "name": "Adobe Acrobat",
+      "category": "日常应用",
+      "packageId": "com.adobe.reader",
+      "components": [
+        "com.adobe.reader/com.adobe.reader.AdobeReader"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "coral",
+      "form": "page",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            44,
+            54,
+            79,
+            76,
+            15
+          ],
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 59 106 C 69 97 74 79 78 63 C 81 55 85 55 87 62 C 91 76 85 91 82 98 C 94 101 107 107 111 112 C 115 117 107 119 101 116 C 80 108 69 93 68 92 C 65 89 61 87 57 90 C 53 94 54 101 59 106 Z",
+          "color": "crimson",
+          "width": 5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 136 L 111 136",
+          "color": "white",
+          "width": 3.5
+        }
+      ]
+    },
+    {
+      "art": "gboard",
+      "name": "Gboard",
+      "category": "日常应用",
+      "packageId": "com.google.android.inputmethod.latin",
+      "components": [
+        "com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity",
+        "com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity",
+        "com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "blue",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "round",
+          "box": [
+            16,
+            42,
+            136,
+            90,
+            21
+          ],
+          "color": "paper",
+          "width": 2.7
+        },
+        {
+          "type": "round",
+          "box": [
+            27,
+            52,
+            35,
+            34,
+            8
+          ],
+          "color": "cobalt",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 52 62 C 42 57 34 63 34 69 C 34 80 48 80 53 75 L 53 70 L 46 70",
+          "color": "white",
+          "width": 2.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            57,
+            10,
+            10
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            57,
+            10,
+            10
+          ],
+          "color": "gold"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            57,
+            10,
+            10
+          ],
+          "color": "jade"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            34,
+            94,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            53,
+            94,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            73,
+            94,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            94,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            113,
+            94,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 53 117 L 115 117",
+          "color": "blue",
+          "width": 4.8
+        }
+      ]
+    },
+    {
+      "art": "samsunginternet",
+      "name": "三星浏览器",
+      "category": "日常应用",
+      "packageId": "com.sec.android.app.sbrowser",
+      "components": [
+        "com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "iris",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            42,
+            42,
+            84,
+            84
+          ],
+          "color": "iris"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 30 101 C 23 97 37 81 65 70 C 94 58 129 59 139 68 C 147 75 133 87 115 95 C 88 108 47 114 30 101 Z",
+          "color": "ice",
+          "width": 6.5
+        },
+        {
+          "type": "stroke",
+          "shape": "M 51 70 C 60 58 74 53 86 54",
+          "color": "white",
+          "width": 3.2
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            123,
+            56,
+            10,
+            10
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "plex",
+      "name": "Plex",
+      "category": "日常应用",
+      "packageId": "com.plexapp.android",
+      "components": [
+        "com.plexapp.android/com.plexapp.android.MainActivityDVRKing",
+        "com.plexapp.android/com.plexapp.android.MainActivityDefault",
+        "com.plexapp.android/com.plexapp.android.MainActivityIconDark",
+        "com.plexapp.android/com.plexapp.android.MainActivityNeon",
+        "com.plexapp.android/com.plexapp.android.MainActivityPurPlex",
+        "com.plexapp.android/com.plexapp.android.MainActivityShadowDark",
+        "com.plexapp.android/com.plexapp.android.MainActivityStars",
+        "com.plexapp.android/com.plexapp.android.MainActivityTranscoder",
+        "com.plexapp.android/com.plexapp.plex.activities.SplashActivity",
+        "com.plexapp.android/tv.plex.app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 46 37 L 73 37 L 118 83 L 73 132 L 46 132 L 90 83 Z",
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "type": "path",
+          "shape": "M 91 47 L 111 47 L 145 83 L 111 118 L 91 118 L 125 83 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 44 L 69 44 L 108 83",
+          "color": "white",
+          "width": 2.8
+        }
+      ]
+    },
+    {
+      "art": "googlemessages",
+      "name": "Google 信息",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.messaging",
+      "components": [
+        "com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity",
+        "com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "azure",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 42 70 C 42 56 59 47 84 47 C 109 47 126 56 126 70 L 126 87 C 126 100 111 108 84 108 L 72 107 L 57 118 L 61 103 C 49 99 42 94 42 83 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            61,
+            73,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            79,
+            73,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            97,
+            73,
+            10,
+            10
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "path",
+          "shape": "M 84 97 C 95 92 110 94 116 101 C 107 108 93 109 84 105 Z",
+          "color": "ice",
+          "width": 1.4
+        }
+      ]
+    },
+    {
+      "art": "reddit",
+      "name": "Reddit",
+      "category": "日常应用",
+      "packageId": "com.reddit.frontpage",
+      "components": [
+        "com.reddit.frontpage/com.reddit.frontpage.StartActivity",
+        "com.reddit.frontpage/launcher.classic",
+        "com.reddit.frontpage/launcher.default",
+        "com.reddit.frontpage/launcher.neon",
+        "com.reddit.frontpage/launcher.retro",
+        "com.reddit.frontpage/launcher.vaporwave",
+        "com.reddit.frontpage/launcher.vitruvian"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "orange",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            44,
+            63,
+            21,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            103,
+            63,
+            21,
+            20
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "path",
+          "shape": "M 49 79 C 49 63 65 54 84 54 C 103 54 119 63 119 79 C 119 97 102 108 84 108 C 66 108 49 97 49 79 Z",
+          "color": "paper",
+          "width": 2
+        },
+        {
+          "type": "stroke",
+          "shape": "M 85 55 L 91 40 L 109 44",
+          "color": "white",
+          "width": 3.6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            42,
+            11,
+            11
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            65,
+            74,
+            12,
+            12
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            91,
+            74,
+            12,
+            12
+          ],
+          "color": "coral"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 94 C 80 100 89 100 96 94",
+          "color": "crimson",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "art": "pinterest",
+      "name": "Pinterest",
+      "category": "日常应用",
+      "packageId": "com.pinterest",
+      "components": [
+        "com.pinterest/com.pinterest.LauncherActivity",
+        "com.pinterest/com.pinterest.activity.ExperimentPinterestActivity",
+        "com.pinterest/com.pinterest.activity.PinterestActivity",
+        "com.pinterest/com.pinterest.classic.activity.PinterestActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 56 109 C 41 95 43 70 59 55 C 76 39 101 42 115 57 C 130 73 123 101 106 107 C 97 110 88 107 83 101 M 77 125 L 90 71 C 92 63 96 61 100 63 C 104 66 102 74 99 80",
+          "color": "ink",
+          "width": 12
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 107 C 41 93 43 68 59 53 C 76 37 101 40 115 55 C 130 71 123 99 106 105 C 97 108 88 105 83 99 M 77 123 L 90 69 C 92 61 96 59 100 61 C 104 64 102 72 99 78",
+          "color": "white",
+          "width": 7
+        }
+      ]
+    },
+    {
+      "art": "threads",
+      "name": "Threads",
+      "category": "日常应用",
+      "packageId": "com.instagram.barcelona",
+      "components": [
+        "com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "onyx",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 113 57 C 100 43 73 43 59 55 C 46 65 47 89 57 104 C 70 123 101 126 115 111 C 126 99 123 85 109 79 C 95 73 74 75 70 88 C 66 100 82 106 93 97 C 104 88 96 66 87 65 C 78 63 72 65 68 69",
+          "color": "white",
+          "width": 7.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            114,
+            48,
+            11,
+            11
+          ],
+          "color": "ice"
+        }
+      ]
+    },
+    {
+      "art": "mega",
+      "name": "MEGA",
+      "category": "日常应用",
+      "packageId": "mega.privacy.android.app",
+      "components": [
+        "mega.privacy.android.app/mega.privacy.android.app.LauncherActivity",
+        "mega.privacy.android.app/mega.privacy.android.app.appstate.MegaActivity",
+        "mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivity",
+        "mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivityLollipop",
+        "mega.privacy.android.app/mega.privacy.android.app.main.ManagerActivity"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 43 111 L 43 58 L 60 58 L 84 83 L 108 58 L 125 58 L 125 111 L 109 111 L 109 81 L 84 104 L 59 81 L 59 111 Z",
+          "color": "paper",
+          "width": 2.3
+        },
+        {
+          "type": "stroke",
+          "shape": "M 62 122 L 106 122",
+          "color": "gold",
+          "width": 4.5
+        }
+      ]
+    },
+    {
+      "art": "dropbox",
+      "name": "Dropbox",
+      "category": "日常应用",
+      "packageId": "com.dropbox.android",
+      "components": [
+        "com.dropbox.android/com.dropbox.android.FileBrowser",
+        "com.dropbox.android/com.dropbox.android.activity.DbxMainActivity",
+        "com.dropbox.android/com.dropbox.android.activity.DropboxBrowser"
+      ],
+      "sourceKeys": [
+        "arcticons"
+      ],
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 51 35 L 84 55 L 51 77 L 24 57 Z M 117 35 L 144 57 L 117 77 L 84 55 Z M 51 78 L 84 98 L 51 121 L 24 100 Z M 117 78 L 144 100 L 117 121 L 84 98 Z",
+          "color": "paper",
+          "width": 2.2
+        },
+        {
+          "type": "path",
+          "shape": "M 59 119 L 84 104 L 109 119 L 84 134 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    }
+  ]
+}

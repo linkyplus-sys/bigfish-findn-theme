@@ -1,0 +1,917 @@
+{
+  "name": "日常应用 · 500 款扩容第四批",
+  "status": "图稿待入包",
+  "activitySources": {
+    "arcticons": "https://github.com/Arcticons-Team/Arcticons/blob/main/app/src/main/assets/appfilter.xml",
+    "lawnicons": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/assets/appfilter.xml",
+    "delta": "https://github.com/Delta-Icons/android/blob/master/app/src/main/assets/appfilter.xml"
+  },
+  "apps": [
+    {
+      "art": "applemusic",
+      "name": "Apple Music",
+      "category": "日常应用",
+      "packageId": "com.apple.android.music",
+      "packageSource": "https://app.mi.com/details?id=com.apple.android.music",
+      "components": [
+        "com.apple.android.music/com.apple.android.music.common.MainActivity",
+        "com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity",
+        "com.apple.android.music/com.google.android.apps.youtube.music.activities.MusicActivity",
+        "com.apple.android.music/com.piyush.music.activities.main.MainActivity",
+        "com.apple.android.music/com.soundcloud.android.launcher.LauncherActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "crimson",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 70 59 L 111 49 L 111 103 C 111 116 86 125 83 110 C 80 100 93 92 103 94 L 103 66 L 78 72 L 78 108 C 78 120 53 128 49 114 C 46 103 60 95 70 97 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 44 83 C 49 77 56 74 62 75 M 111 76 C 119 80 125 78 129 74",
+          "color": "ice",
+          "width": 4.4
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            54,
+            56,
+            9,
+            9
+          ],
+          "color": "coral"
+        }
+      ]
+    },
+    {
+      "art": "tidal",
+      "name": "TIDAL",
+      "category": "日常应用",
+      "packageId": "com.aspiro.tidal",
+      "components": [
+        "com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 71 L 65 54 L 82 71 L 65 88 Z M 83 71 L 100 54 L 117 71 L 100 88 Z M 66 88 L 83 71 L 100 88 L 83 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 83 71 L 100 88 L 83 105 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 112 C 64 109 75 121 89 116 C 100 113 111 108 121 110",
+          "color": "azure",
+          "width": 4.8
+        }
+      ]
+    },
+    {
+      "art": "soundcloud",
+      "name": "SoundCloud",
+      "category": "日常应用",
+      "packageId": "com.soundcloud.android",
+      "components": [
+        "com.soundcloud.android/com.soundcloud.android.activity.Dashboard",
+        "com.soundcloud.android/com.soundcloud.android.activity.Launch",
+        "com.soundcloud.android/com.soundcloud.android.activity.Main",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivity",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityBlackIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityChromeIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityHotPinkIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityLeopardIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivityOgIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivitySilverIconAlias",
+        "com.soundcloud.android/com.soundcloud.android.main.LauncherActivity",
+        "com.soundcloud.android/com.soundcloud.android.main.MainActivity",
+        "com.soundcloud.android/com.soundcloud.android.morphe_original_1"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "orange",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 32 92 C 40 82 50 80 59 82 C 65 61 83 53 102 58 C 116 62 123 72 125 84 C 145 83 149 112 127 117 L 48 117 C 36 117 28 106 32 92 Z",
+          "color": "orange",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 61 C 102 57 122 68 124 85 C 145 85 143 111 125 114 L 83 114 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 43 94 L 43 107 M 53 90 L 53 110 M 64 79 L 64 110 M 75 72 L 75 111",
+          "color": "white",
+          "width": 4.8
+        }
+      ]
+    },
+    {
+      "art": "ytmusic",
+      "name": "YouTube Music",
+      "category": "日常应用",
+      "packageId": "com.google.android.apps.youtube.music",
+      "components": [
+        "com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "crimson",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "ellipse",
+          "box": [
+            47,
+            47,
+            74,
+            74
+          ],
+          "color": "paper"
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "color": "crimson"
+        },
+        {
+          "type": "path",
+          "shape": "M 75 67 L 103 84 L 75 102 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 75 92 L 98 82 L 103 84 L 75 102 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 48 107 C 62 119 82 127 109 115",
+          "color": "sand",
+          "width": 4.4
+        }
+      ]
+    },
+    {
+      "art": "pocketcasts",
+      "name": "Pocket Casts",
+      "category": "日常应用",
+      "packageId": "au.com.shiftyjelly.pocketcasts",
+      "components": [
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivityDefault",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_0",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_1",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_10",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_11",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_12",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_13",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_14",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_16",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_18",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_2",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_3",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_4",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_5",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_6",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_7",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_8",
+        "au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity_9"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "coral",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 48 108 C 36 80 49 52 77 46 C 104 40 128 56 131 79",
+          "color": "paper",
+          "width": 7
+        },
+        {
+          "type": "stroke",
+          "shape": "M 60 101 C 53 83 62 66 80 61 C 96 57 111 68 113 82",
+          "color": "ice",
+          "width": 6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 73 96 C 68 86 74 77 84 76 C 91 75 96 80 98 84",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 82 86 L 113 106 L 82 123 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            114,
+            97,
+            9,
+            9
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "antennapod",
+      "name": "AntennaPod",
+      "category": "日常应用",
+      "packageId": "de.danoeh.antennapod",
+      "components": [
+        "de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity",
+        "de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "azure",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 63 103 L 83 80 L 104 103 L 97 112 L 70 112 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 83 79 L 83 119",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            75,
+            66,
+            16,
+            16
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 65 C 58 73 58 85 64 91 M 103 65 C 109 73 110 84 104 92 M 53 55 C 42 70 42 90 54 104 M 113 55 C 124 70 125 90 113 104",
+          "color": "white",
+          "width": 4.6
+        }
+      ]
+    },
+    {
+      "art": "bluesky",
+      "name": "Bluesky",
+      "category": "日常应用",
+      "packageId": "xyz.blueskyweb.app",
+      "components": [
+        "xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "azure",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 84 80 C 68 60 49 46 35 43 C 23 40 22 55 28 72 C 32 84 44 95 57 98 C 43 100 40 110 48 120 C 59 133 77 123 84 106 C 91 123 109 133 120 120 C 128 110 125 100 111 98 C 124 95 136 84 140 72 C 146 55 145 40 133 43 C 119 46 100 60 84 80 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 32 72 C 51 79 63 93 84 97 C 104 93 117 79 136 72 C 127 91 115 96 106 98 C 116 106 117 119 103 120 C 95 120 89 111 84 105 C 77 113 73 120 63 120 C 49 120 52 104 61 98 C 50 96 39 88 32 72 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 81 L 84 98",
+          "color": "cobalt",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "mastodon",
+      "name": "Mastodon",
+      "category": "日常应用",
+      "packageId": "org.joinmastodon.android",
+      "components": [
+        "org.joinmastodon.android/org.joinmastodon.android.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 66 C 48 56 60 51 83 51 C 106 51 119 57 119 67 L 118 92 C 116 106 103 112 85 112 L 67 111 L 57 121 L 57 104 C 50 99 48 92 48 81 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 63 91 L 63 76 C 63 66 82 65 83 77 L 83 91 M 83 77 C 85 65 104 67 104 77 L 104 91",
+          "color": "plum",
+          "width": 6
+        },
+        {
+          "type": "path",
+          "shape": "M 54 97 C 76 92 95 110 114 96 L 110 105 C 102 111 93 112 85 112 L 67 111 L 57 121 L 57 104 Z",
+          "color": "ice",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "twitch",
+      "name": "Twitch",
+      "category": "日常应用",
+      "packageId": "tv.twitch.android.app",
+      "components": [
+        "tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity",
+        "tv.twitch.android.app/tv.twitch.android.apps.LandingActivity",
+        "tv.twitch.android.app/tv.twitch.android.apps.SplashScreenActivity",
+        "tv.twitch.android.app/tv.twitch.android.apps.TVLandingActivity",
+        "tv.twitch.android.app/tv.twitch.android.apps.TwitchActivity",
+        "tv.twitch.android.app/tv.twitch.starshot64.app.StarshotActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "iris",
+      "form": "chat",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 58 52 L 119 52 L 119 94 L 99 112 L 83 112 L 71 123 L 71 111 L 52 111 L 52 68 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 61 60 L 112 60 L 112 90 L 95 104 L 76 104 L 71 110 L 71 102 L 61 102 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 81 72 L 81 88 M 96 70 L 96 85",
+          "color": "paper",
+          "width": 6
+        },
+        {
+          "type": "stroke",
+          "shape": "M 58 121 C 69 116 84 121 94 120",
+          "color": "mint",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "crunchyroll",
+      "name": "Crunchyroll",
+      "category": "日常应用",
+      "packageId": "com.crunchyroll.crunchyroid",
+      "components": [
+        "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activities.SplashActivity",
+        "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activity.SplashActivity",
+        "com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.ui.views.activities.SplashActivity",
+        "com.crunchyroll.crunchyroid/com.crunchyroll.neo.android.activity.DelegatingActivity",
+        "com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "orange",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 121 70 C 107 53 82 52 65 68 C 47 85 59 112 84 116 C 97 118 108 112 114 103 C 102 111 82 109 76 95 C 71 83 84 69 97 70 C 109 70 118 77 120 86 C 123 82 123 75 121 70 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 100 C 76 98 84 107 96 108 C 104 109 111 105 115 100 C 107 116 84 123 70 111 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            93,
+            81,
+            12,
+            12
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "disneyplus",
+      "name": "Disney+",
+      "category": "日常应用",
+      "packageId": "com.disney.disneyplus",
+      "components": [
+        "com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "cobalt",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "stroke",
+          "shape": "M 46 76 C 62 49 101 44 125 65",
+          "color": "ice",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 58 75 C 64 62 86 66 97 78 C 109 91 100 108 80 108 L 62 108 L 62 74 L 72 73 L 72 99 C 91 102 96 91 88 82 C 84 77 71 72 58 77 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 110 79 L 110 97 M 100 88 L 120 88",
+          "color": "paper",
+          "width": 5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            116,
+            48,
+            8,
+            8
+          ],
+          "color": "mint"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 45 116 C 63 111 76 120 94 117",
+          "color": "azure",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "primevideo",
+      "name": "Prime Video",
+      "category": "日常应用",
+      "packageId": "com.amazon.avod.thirdpartyclient",
+      "components": [
+        "com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity",
+        "com.amazon.avod.thirdpartyclient/com.data.check.HaipeeKnk",
+        "com.amazon.avod.thirdpartyclient/com.razpay.apk.HaipeeKnk"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "azure",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 69 51 L 110 74 L 69 98 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 69 86 L 105 72 L 110 74 L 69 98 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 103 C 62 124 94 127 121 105 M 108 104 L 123 103 L 124 116",
+          "color": "paper",
+          "width": 6
+        }
+      ]
+    },
+    {
+      "art": "hbomax",
+      "name": "HBO Max",
+      "category": "日常应用",
+      "packageId": "com.wbd.stream",
+      "components": [
+        "com.wbd.stream/com.wbd.fuse.appcore.FuseActivity",
+        "com.wbd.stream/com.wbd.stream.MainActivity",
+        "com.wbd.stream/com.wbd.stream.VPLActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "onyx",
+      "form": "tile",
+      "layers": [
+        {
+          "type": "text",
+          "label": "MAX",
+          "size": 23,
+          "x": 84,
+          "y": 70,
+          "color": "paper"
+        },
+        {
+          "type": "stroke",
+          "shape": "M 46 103 C 64 111 76 119 91 115 C 107 111 115 100 123 97",
+          "color": "azure",
+          "width": 5
+        },
+        {
+          "type": "path",
+          "shape": "M 117 93 L 126 97 L 121 106 Z",
+          "color": "mint",
+          "width": 1.8
+        }
+      ]
+    },
+    {
+      "art": "kodi",
+      "name": "Kodi",
+      "category": "日常应用",
+      "packageId": "org.xbmc.kodi",
+      "components": [
+        "org.xbmc.kodi/org.xbmc.kodi.Main",
+        "org.xbmc.kodi/org.xbmc.kodi.Splash"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "blue",
+      "form": "diamond",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 56 60 L 72 51 L 72 76 L 99 53 L 112 65 L 88 84 L 112 106 L 98 119 L 72 92 L 72 117 L 56 109 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 56 95 L 72 85 L 72 117 L 56 109 Z M 92 88 L 112 106 L 98 119 L 84 103 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            106,
+            57,
+            8,
+            8
+          ],
+          "color": "mint"
+        }
+      ]
+    },
+    {
+      "art": "bookfusion",
+      "name": "BookFusion",
+      "category": "日常应用",
+      "packageId": "com.bookfusion.android.reader",
+      "components": [
+        "com.bookfusion.android.reader/com.bookfusion.android.reader.activities.SplashActivity",
+        "com.bookfusion.android.reader/com.bookfusion.android.reader.activities.SplashActivity_"
+      ],
+      "sourceKeys": [
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "gold",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 66 C 64 58 77 62 84 73 C 91 62 105 58 120 66 L 120 105 C 106 101 95 105 84 116 C 73 105 62 101 48 105 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 49 94 C 64 89 76 95 84 104 C 92 95 105 90 119 94 L 119 104 C 106 101 95 105 84 116 C 73 105 62 101 49 104 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 84 77 L 84 111",
+          "color": "orange",
+          "width": 4
+        },
+        {
+          "type": "path",
+          "shape": "M 92 67 L 105 63 L 105 87 L 98 83 L 92 90 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 57 77 C 64 75 71 77 76 82",
+          "color": "cobalt",
+          "width": 3.8
+        }
+      ]
+    },
+    {
+      "art": "koreader",
+      "name": "KOReader",
+      "category": "日常应用",
+      "packageId": "org.koreader.launcher",
+      "components": [
+        "org.koreader.launcher/org.koreader.launcher.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "teal",
+      "form": "page",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 49 70 C 57 63 74 62 84 72 C 94 62 109 63 119 70 L 119 108 C 104 102 92 108 84 115 C 76 108 64 102 49 108 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 51 102 C 68 86 75 90 84 96 C 94 86 107 88 117 101 L 117 107 C 104 102 92 108 84 115 C 76 108 64 102 51 107 Z",
+          "color": "teal",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 56 79 L 75 79 M 93 79 L 112 79",
+          "color": "jade",
+          "width": 3.5
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            78,
+            51,
+            13,
+            13
+          ],
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "art": "protonmail",
+      "name": "Proton Mail",
+      "category": "日常应用",
+      "packageId": "ch.protonmail.android",
+      "components": [
+        "ch.protonmail.android/ch.protonmail.android",
+        "ch.protonmail.android/ch.protonmail.android.MainActivity",
+        "ch.protonmail.android/ch.protonmail.android.RoutingActivity",
+        "ch.protonmail.android/ch.protonmail.android.RoutingCalculator",
+        "ch.protonmail.android/ch.protonmail.android.RoutingNotes",
+        "ch.protonmail.android/ch.protonmail.android.RoutingWeather",
+        "ch.protonmail.android/ch.protonmail.android.activities.SplashActivity",
+        "ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity",
+        "ch.protonmail.android/ch.protonmail.android.mailbox.presentation.ui.MailboxActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "plum",
+      "form": "bare",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 28 58 C 28 49 35 48 42 53 L 83 82 L 125 54 C 133 49 140 54 140 63 L 140 106 C 140 115 134 121 125 121 L 43 121 C 34 121 28 115 28 106 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 29 64 L 74 96 C 79 100 87 100 92 96 L 140 64 L 140 106 C 140 115 134 121 125 121 L 43 121 C 34 121 29 115 29 106 Z",
+          "color": "plum",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 47 65 L 83 90 L 122 65 L 122 76 L 91 97 C 87 100 80 100 76 97 L 47 76 Z",
+          "color": "ice",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 42 108 L 51 108",
+          "color": "mint",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "bitwarden",
+      "name": "Bitwarden",
+      "category": "日常应用",
+      "packageId": "com.x8bit.bitwarden",
+      "components": [
+        "com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity",
+        "com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity",
+        "com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "blue",
+      "form": "shield",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 52 58 L 84 49 L 116 58 L 113 88 C 109 106 96 115 84 121 C 72 115 59 106 55 88 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 84 59 L 106 65 L 104 86 C 100 100 93 109 84 113 Z",
+          "color": "azure",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 62 66 L 84 60 L 84 85 L 65 85 Z",
+          "color": "cobalt",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 50 116 C 64 111 74 124 86 123 C 98 122 109 114 117 115",
+          "color": "ice",
+          "width": 4
+        }
+      ]
+    },
+    {
+      "art": "firefoxfocus",
+      "name": "Firefox Focus",
+      "category": "日常应用",
+      "packageId": "org.mozilla.focus",
+      "components": [
+        "org.mozilla.focus/org.mozilla.focus.activity.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "plum",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 80 52 C 64 49 50 64 47 78 C 42 102 62 121 84 121 C 104 121 121 107 122 89 C 112 100 100 109 85 103 C 72 98 72 84 84 77 C 89 74 95 75 99 76 C 97 65 91 57 80 52 Z",
+          "color": "coral",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 53 89 C 67 88 72 103 85 107 C 100 112 114 101 121 93 C 116 110 101 121 84 121 C 67 121 55 109 53 89 Z",
+          "color": "iris",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 88 55 L 100 46 L 108 63 L 97 65 Z",
+          "color": "sand",
+          "width": 1.8
+        },
+        {
+          "type": "ellipse",
+          "box": [
+            102,
+            79,
+            9,
+            9
+          ],
+          "color": "paper"
+        }
+      ]
+    },
+    {
+      "art": "localsend",
+      "name": "LocalSend",
+      "category": "日常应用",
+      "packageId": "org.localsend.localsend_app",
+      "components": [
+        "org.localsend.localsend_app/org.localsend.localsend_app.MainActivity"
+      ],
+      "sourceKeys": [
+        "arcticons",
+        "lawnicons",
+        "delta"
+      ],
+      "tone": "teal",
+      "form": "orb",
+      "layers": [
+        {
+          "type": "path",
+          "shape": "M 48 67 C 43 64 47 56 53 58 L 120 76 C 127 78 128 85 121 89 L 78 113 C 73 116 69 114 67 107 L 62 93 Z",
+          "color": "paper",
+          "width": 1.8
+        },
+        {
+          "type": "path",
+          "shape": "M 63 93 L 105 79 L 76 104 L 72 111 L 67 106 Z",
+          "color": "mint",
+          "width": 1.8
+        },
+        {
+          "type": "stroke",
+          "shape": "M 42 105 C 51 120 71 126 91 120 C 111 114 122 103 125 97",
+          "color": "ice",
+          "width": 4.4
+        }
+      ]
+    }
+  ]
+}
