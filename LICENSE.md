@@ -13,7 +13,7 @@
 以下路径中的项目原创美术与合成音效适用 CC BY-NC 4.0。
 
 - `icon-rework-v06/dark`、`icon-rework-v06/light` 和 `coloros-findn-v01/补充图标` 的浅海、深海图标中，由本项目原创绘制的部分。
-- `coloros-findn-v01/深海桌面-v04` 的两张桌面原图、`coloros-findn-v01/角色立绘` 的蓝鲸娘立绘、`coloros-findn-v01/AOD原画重制-v04/交付` 中由该立绘制作的动画及静帧。
+- `coloros-findn-v01/深海桌面-v04` 的两张桌面原图、`coloros-findn-v01/角色立绘` 的蓝鲸娘立绘、`coloros-findn-v01/AOD原画重制-v06` 中由该立绘制作的动画及静帧。
 - `coloros-findn-v01/控制中心/深海图稿-v01/矢量图标` 中由本项目绘制的部分，以及 `coloros-findn-v01/输入法深海-v01/深海玻璃按键音-试听.wav` 中的原创合成音效。
 
 ## 署名

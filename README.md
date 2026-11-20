@@ -10,7 +10,7 @@
 | 时钟组件 | v0.8.6，含深海动态全宽、静态全宽和 2×2，可读取原生天气。[时钟组件](<coloros-findn-v01/壁纸与组件-v02/README.md>) |
 | 锁屏视频 | 外屏 1440 × 2560、内屏 1440 × 1344，均为静音 MP4。[锁屏视频与构建](<coloros-findn-v01/锁屏视频-v01/README.md>) |
 | 壁纸 | 深海蓝釉 v04，包含内外屏桌面 PNG。[壁纸](<coloros-findn-v01/深海桌面-v04/README.md>) |
-| AOD | 蓝鲸娘 v04，包含手机 GIF、静帧和制作源码。[AOD](<coloros-findn-v01/AOD原画重制-v04/README.md>) |
+| AOD | 蓝鲸娘 v06，右手完整随躯干摆动。含手机 GIF、静帧和制作源码。[AOD](<coloros-findn-v01/AOD原画重制-v06/README.md>) |
 | 输入法 | 百度输入法定制版 V2.2 玻璃键帽、浪纹和原创按键音的本机复现流程。[输入法](<coloros-findn-v01/输入法深海-v01/README.md>) |
 | 控制中心图标 | 深海 SVG 图稿，以及适用已验收 Find N 固件的 Root 覆盖模块源码。[图稿](<coloros-findn-v01/控制中心/深海图稿-v01/README.md>) · [覆盖包](<coloros-findn-v01/控制中心/覆盖包-v01/README.md>) |
 

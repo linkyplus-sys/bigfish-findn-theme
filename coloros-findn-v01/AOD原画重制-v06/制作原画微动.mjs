@@ -2,18 +2,20 @@ import { spawn, execFile } from 'node:child_process';
 import { once } from 'node:events';
 import { promisify } from 'node:util';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const run = promisify(execFile);
 const root = dirname(fileURLToPath(import.meta.url));
-const ffmpeg = process.argv[2];
+const [ffmpeg, artworkPath, outputPath] = process.argv.slice(2);
 if (!ffmpeg) throw new Error('Pass the ffmpeg executable path as the first argument');
 const width = 512, height = 512, fps = 20, duration = 6;
+const artworkSize = 1254;
 const scale = 0.88, bodyPivotY = 410;
 const bodyRotationDegrees = 2.55, bodyShiftPixels = 7.5;
 const hairTravelPixels = 24, hairVerticalTravelPixels = 6;
-const out = join(root, '交付');
+const releaseRoot = outputPath ? resolve(outputPath) : root;
+const out = join(releaseRoot, '交付');
 await mkdir(out, { recursive: true });
 const clamp = v => Math.max(0, Math.min(1, v));
 const smooth = (a, b, v) => { const n = clamp((v - a) / (b - a)); return n*n*(3-2*n); };
@@ -24,7 +26,8 @@ async function pixels(file) {
   if (stdout.length !== width*height*4) throw new Error('Invalid image size: '+file);
   return stdout;
 }
-const master = await pixels(join(root, '素材', '原画配色-睁眼.png'));
+const masterPath = artworkPath ? resolve(artworkPath) : join(root, '素材', '右手补全-睁眼.png');
+const master = await pixels(masterPath);
 
 // Conservative boundary ABOVE the headband. Everything at/below this line
 // stays rigid relative to the head. The left shaft/root is also pinned.
@@ -39,21 +42,44 @@ function crownBoundary(x) {
   return 0;
 }
 function ahogeWeight(x,y) {
-  const px=x/width*1254, py=y/height*1254;
+  const px=x/width*artworkSize, py=y/height*artworkSize;
   const boundary=crownBoundary(px);
   return smooth(610,750,px)*(1-smooth(boundary-28,boundary,py));
 }
 
-const weights = new Float32Array(width*height*4);
-for(let y=0;y<height;y++) for(let x=0;x<width;x++) {
-  const i=(y*width+x)*4, nx=x/width, ny=y/height;
-  // Extend the deformation field through transparent pixels. A chroma/alpha
-  // gated inverse warp would clip moving silhouettes and leave torn edges.
-  const side=smooth(0.13,0.27,Math.abs(nx-0.51));
-  const lower=smooth(0.30,0.72,ny);
-  weights[i]=side*lower;
-  weights[i+2]=1-smooth(0.40,0.48,ny); // head and fins rotate together, preserving face geometry.
-  weights[i+3]=smooth(0.43,0.58,ny)*(1-smooth(0.72,0.84,ny))*(1-smooth(0.18,0.29,Math.abs(nx-0.50)));
+// Conservative outer edges of the sleeves, arms, and dress in the 1254 px master.
+const bodyOutline = [
+  [0, 472, 874], [560, 472, 874], [670, 420, 890], [740, 373, 908],
+  [850, 352, 913], [900, 385, 887], [980, 348, 902], [1060, 318, 871],
+  [1135, 318, 846], [1180, 328, 813], [1254, 365, 803],
+];
+const hairWeights = new Float32Array(width*height);
+const headWeights = new Float32Array(height);
+const hairClearance = (hairTravelPixels + hairVerticalTravelPixels) * artworkSize / width;
+let protectedBodySamples = 0;
+let outlineSegment = 1;
+for (let y=0; y<height; y++) {
+  const artworkY=y/height*artworkSize;
+  while (artworkY>bodyOutline[outlineSegment][0]) outlineSegment++;
+  const [y0,left0,right0]=bodyOutline[outlineSegment-1];
+  const [y1,left1,right1]=bodyOutline[outlineSegment];
+  const fraction=(artworkY-y0)/(y1-y0);
+  const left=left0+(left1-left0)*fraction;
+  const right=right0+(right1-right0)*fraction;
+  headWeights[y]=1-smooth(0.40,0.48,y/height);
+  const looseHair=smooth(530,880,artworkY);
+  for (let x=0; x<width; x++) {
+    const artworkX=x/width*artworkSize;
+    const distanceFromBody=Math.max(left-artworkX,artworkX-right);
+    const hair=smooth(hairClearance,hairClearance+140,distanceFromBody)*looseHair;
+    // The clearance keeps inverse hair sampling from crossing into either arm.
+    // The field extends through transparent pixels so moving hair isn't clipped.
+    hairWeights[y*width+x]=hair;
+    if (artworkY>=640 && distanceFromBody<=0) {
+      if (hair || headWeights[y] || ahogeWeight(x,y)) throw new Error('Nonrigid motion inside the body outline');
+      protectedBodySamples++;
+    }
+  }
 }
 
 function bilinear(image,x,y,target,at) {
@@ -85,8 +111,8 @@ function frameAt(t,{isolatedAhoge=false,tipOverride}={}) {
     const u=(x-256-shiftX)/scale,v=(y-bodyPivotY-shiftY)/scale;
     let sx=c*u+s*v+256, sy=-s*u+c*v+bodyPivotY;
     const wx=Math.max(0,Math.min(width-1,Math.round(sx))),wy=Math.max(0,Math.min(height-1,Math.round(sy)));
-    const k=(wy*width+wx)*4;
-    const head=weights[k+2], angle=headAngle*head;
+    const hair=hairWeights[wy*width+wx];
+    const angle=headAngle*headWeights[wy];
     const hc=Math.cos(angle),hs=Math.sin(angle),hx=sx-257,hy=sy-231;
     sx=hc*hx+hs*hy+257; sy=-hs*hx+hc*hy+231;
     // Independent secondary motion follows the torso with a deliberate delay.
@@ -94,9 +120,8 @@ function frameAt(t,{isolatedAhoge=false,tipOverride}={}) {
     // This prevents a changing global pose from sliding the mask over the crown.
     const tip=ahogeWeight(sx,sy);
     const hairX=sx<width/2 ? hairXLeft : hairXRight;
-    sx-=weights[k]*hairTravelPixels*hairX+tip*8.0*ahogeWave;
-    sy-=weights[k]*hairY+tip*2.0*ahogeWave;
-    if(!isolatedAhoge) sy-=weights[k+3]*2.2*Math.sin(phase*2);
+    sx-=hair*hairTravelPixels*hairX+tip*8.0*ahogeWave;
+    sy-=hair*hairY+tip*2.0*ahogeWave;
     bilinear(master,sx,sy,output,index);
   }
   return output;
@@ -132,11 +157,12 @@ for(let y=0;y<height;y++) for(let x=0;x<width;x++) {
   }
 }
 if(protectedChanges || !tipChanges) throw new Error(`Ahoge isolation failed: protected=${protectedChanges}, tip=${tipChanges}`);
-await writeFile(join(root,'动效规范.json'),JSON.stringify({
-  source:'原始非Q版立绘，重新提取上半身，保持原画配色与对比度',duration,fps,width,height,
+await writeFile(join(releaseRoot,'动效规范.json'),JSON.stringify({
+  source:'素材/右手补全-睁眼.png',duration,fps,width,height,
   globalColorAdjustment:'none',eyeMethod:'open-eye master for every frame',blink:false,
   bodyRotationDegrees,bodyShiftPixels,headExtraRotationDegrees:0.65,
-  hairTravelPixels,hairVerticalTravelPixels,ahogeTipTravelPixels:8,ahogeRootTravelPixels:0,breathTravelPixels:2.2,
+  hairTravelPixels,hairVerticalTravelPixels,ahogeTipTravelPixels:8,ahogeRootTravelPixels:0,
+  armMotion:'rigid with torso',protectedBodySamples,
   ahogeIsolationCheck:{protectedChangedPixels:protectedChanges,movingTipPixels:tipChanges},
 },null,2)+'\n');
 console.log('done');
